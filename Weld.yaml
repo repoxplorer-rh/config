@@ -1,0 +1,69 @@
+project-templates:
+  Weld:
+    branches:
+    - master
+    gitweb: https://github.com/weld/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/weld/%(name)s
+projects:
+  Weld:
+    description: 'Weld is the reference implementation of CDI: Contexts and Dependency
+      Injection for the Java EE Platform'
+    repos:
+      api:
+        branches:
+        - master
+        template: Weld
+      as7-weld-subsystem:
+        branches:
+        - master
+        template: Weld
+      build:
+        branches:
+        - master
+        template: Weld
+      command-context-example:
+        branches:
+        - master
+        template: Weld
+      core:
+        branches:
+        - master
+        template: Weld
+      dist:
+        branches:
+        - master
+        template: Weld
+      extensions:
+        branches:
+        - master
+        template: Weld
+      parent:
+        branches:
+        - master
+        template: Weld
+      weld-core-benchmarks:
+        branches:
+        - master
+        template: Weld
+      weld-junit:
+        branches:
+        - master
+        template: Weld
+      weld-logging-tools:
+        branches:
+        - master
+        template: Weld
+      weld-probe-client-adapter:
+        branches:
+        - master
+        template: Weld
+      weld-vertx:
+        branches:
+        - master
+        template: Weld
+      weld.github.io:
+        branches:
+        - master
+        template: Weld

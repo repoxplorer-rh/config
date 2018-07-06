@@ -1,0 +1,56 @@
+project-templates:
+  Rhiot:
+    branches:
+    - master
+    gitweb: https://github.com/rhiot/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/rhiot/%(name)s
+projects:
+  Rhiot:
+    description: Messaging platform for the Internet Of Things
+    repos:
+      cloudlet-ui-device:
+        branches:
+        - master
+        template: Rhiot
+      cloudlet-ui-geofencing:
+        branches:
+        - master
+        template: Rhiot
+      demo:
+        branches:
+        - master
+        template: Rhiot
+      gitbook:
+        branches:
+        - master
+        template: Rhiot
+      hono-weather-demo:
+        branches:
+        - master
+        template: Rhiot
+      iot-spec:
+        branches:
+        - master
+        template: Rhiot
+      kura-demo:
+        branches:
+        - master
+        template: Rhiot
+      quickstarts:
+        branches:
+        - master
+        template: Rhiot
+      rhiot:
+        branches:
+        - master
+        template: Rhiot
+      rhiot.github.io:
+        branches:
+        - master
+        template: Rhiot
+      sensor-camera:
+        branches:
+        - master
+        template: Rhiot

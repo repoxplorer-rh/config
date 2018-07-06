@@ -1,0 +1,141 @@
+project-templates:
+  Windup:
+    branches:
+    - master
+    gitweb: https://github.com/windup/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/windup/%(name)s
+projects:
+  Windup:
+    description: An assembly of open source tools that enables large-scale application
+      migrations and modernizations
+    repos:
+      JBossMAT:
+        branches:
+        - master
+        template: Windup
+      che-plugin-rhamt:
+        branches:
+        - master
+        template: Windup
+      class-body-stripper:
+        branches:
+        - master
+        template: Windup
+      migration-sample-app:
+        branches:
+        - master
+        template: Windup
+      migration-website-design:
+        branches:
+        - master
+        template: Windup
+      nexus-repository-indexer:
+        branches:
+        - master
+        template: Windup
+      os-tools:
+        branches:
+        - master
+        template: Windup
+      site-windup.jboss.org:
+        branches:
+        - master
+        template: Windup
+      soa-migration:
+        branches:
+        - master
+        template: Windup
+      windup:
+        branches:
+        - master
+        template: Windup
+      windup-ci:
+        branches:
+        - master
+        template: Windup
+      windup-distribution:
+        branches:
+        - master
+        template: Windup
+      windup-documentation:
+        branches:
+        - master
+        template: Windup
+      windup-eclipse-plugin:
+        branches:
+        - master
+        template: Windup
+      windup-fernflower:
+        branches:
+        - master
+        template: Windup
+      windup-forge-addon:
+        branches:
+        - master
+        template: Windup
+      windup-java-ee-tests:
+        branches:
+        - master
+        template: Windup
+      windup-keycloak-tool:
+        branches:
+        - master
+        template: Windup
+      windup-keycloak-websocket-auth:
+        branches:
+        - master
+        template: Windup
+      windup-legacy:
+        branches:
+        - master
+        template: Windup
+      windup-maven-plugin:
+        branches:
+        - master
+        template: Windup
+      windup-openshift:
+        branches:
+        - master
+        template: Windup
+      windup-procyon:
+        branches:
+        - master
+        template: Windup
+      windup-quickstarts:
+        branches:
+        - master
+        template: Windup
+      windup-rulesets:
+        branches:
+        - master
+        template: Windup
+      windup-rulesets-server:
+        branches:
+        - master
+        template: Windup
+      windup-sample-apps:
+        branches:
+        - master
+        template: Windup
+      windup-ui:
+        branches:
+        - master
+        template: Windup
+      windup-umbrella:
+        branches:
+        - master
+        template: Windup
+      windup-web:
+        branches:
+        - master
+        template: Windup
+      windup-web-distribution:
+        branches:
+        - master
+        template: Windup
+      windup-web-keycloak-theme:
+        branches:
+        - master
+        template: Windup

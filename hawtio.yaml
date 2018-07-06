@@ -1,0 +1,157 @@
+project-templates:
+  hawtio:
+    branches:
+    - master
+    gitweb: https://github.com/hawtio/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/hawtio/%(name)s
+projects:
+  hawtio:
+    description: Lightweight and modular HTML5 web console with lots of plugins for
+      managing your Java stuff
+    repos:
+      hawtio:
+        branches:
+        - master
+        template: hawtio
+      hawtio-camel-wiki:
+        branches:
+        - master
+        template: hawtio
+      hawtio-camel-wiki-config:
+        branches:
+        - master
+        template: hawtio
+      hawtio-config:
+        branches:
+        - master
+        template: hawtio
+      hawtio-core:
+        branches:
+        - master
+        template: hawtio
+      hawtio-core-dts:
+        branches:
+        - master
+        template: hawtio
+      hawtio-core-navigation:
+        branches:
+        - master
+        template: hawtio
+      hawtio-core-perspective:
+        branches:
+        - master
+        template: hawtio
+      hawtio-dashboard:
+        branches:
+        - master
+        template: hawtio
+      hawtio-extension-service:
+        branches:
+        - master
+        template: hawtio
+      hawtio-forge:
+        branches:
+        - master
+        template: hawtio
+      hawtio-forms:
+        branches:
+        - master
+        template: hawtio
+      hawtio-git:
+        branches:
+        - master
+        template: hawtio
+      hawtio-help:
+        branches:
+        - master
+        template: hawtio
+      hawtio-integration:
+        branches:
+        - master
+        template: hawtio
+      hawtio-java:
+        branches:
+        - master
+        template: hawtio
+      hawtio-jmx:
+        branches:
+        - master
+        template: hawtio
+      hawtio-kube3d:
+        branches:
+        - master
+        template: hawtio
+      hawtio-kubernetes:
+        branches:
+        - master
+        template: hawtio
+      hawtio-kubernetes-api:
+        branches:
+        - master
+        template: hawtio
+      hawtio-log:
+        branches:
+        - master
+        template: hawtio
+      hawtio-node-backend:
+        branches:
+        - master
+        template: hawtio
+      hawtio-oauth:
+        branches:
+        - master
+        template: hawtio
+      hawtio-online:
+        branches:
+        - master
+        template: hawtio
+      hawtio-pipeline-view:
+        branches:
+        - master
+        template: hawtio
+      hawtio-preferences:
+        branches:
+        - master
+        template: hawtio
+      hawtio-profiles:
+        branches:
+        - master
+        template: hawtio
+      hawtio-template-cache:
+        branches:
+        - master
+        template: hawtio
+      hawtio-ui:
+        branches:
+        - master
+        template: hawtio
+      hawtio-utilities:
+        branches:
+        - master
+        template: hawtio
+      hawtio-weld:
+        branches:
+        - master
+        template: hawtio
+      openshift-jvm:
+        branches:
+        - master
+        template: hawtio
+      slush-hawtio-javascript:
+        branches:
+        - master
+        template: hawtio
+      slush-hawtio-typescript:
+        branches:
+        - master
+        template: hawtio
+      web-components:
+        branches:
+        - master
+        template: hawtio
+      website:
+        branches:
+        - master
+        template: hawtio

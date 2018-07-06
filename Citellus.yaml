@@ -1,0 +1,13 @@
+project-templates:
+  Citellus:
+    branches:
+    - master
+    gitweb: https://github.com/zerodayz/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/zerodayz/%(name)s
+projects:
+  Citellus:
+    description: Framework to validate configuration and log files with bash, python,
+      ruby and others
+    repos: {}

@@ -1,0 +1,16 @@
+project-templates:
+  buildah:
+    branches:
+    - master
+    gitweb: https://github.com/projectatomic/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/projectatomic/%(name)s
+projects:
+  buildah:
+    description: A tool for building OCI container images
+    repos:
+      buildah:
+        branches:
+        - master
+        template: buildah

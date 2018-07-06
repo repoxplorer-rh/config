@@ -1,0 +1,76 @@
+project-templates:
+  Tendrl:
+    branches:
+    - master
+    gitweb: https://github.com/Tendrl/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/Tendrl/%(name)s
+projects:
+  Tendrl:
+    description: Unified Storage Manager
+    repos:
+      api:
+        branches:
+        - master
+        template: Tendrl
+      commons:
+        branches:
+        - master
+        template: Tendrl
+      documentation:
+        branches:
+        - master
+        template: Tendrl
+      gluster-integration:
+        branches:
+        - master
+        template: Tendrl
+      monitoring-integration:
+        branches:
+        - master
+        template: Tendrl
+      node-agent:
+        branches:
+        - master
+        template: Tendrl
+      notifier:
+        branches:
+        - master
+        template: Tendrl
+      python-gdeploy:
+        branches:
+        - master
+        template: Tendrl
+      specifications:
+        branches:
+        - master
+        template: Tendrl
+      tendrl-ansible:
+        branches:
+        - master
+        template: Tendrl
+      tendrl-ci:
+        branches:
+        - master
+        template: Tendrl
+      tendrl-selinux:
+        branches:
+        - master
+        template: Tendrl
+      tendrl.github.io:
+        branches:
+        - master
+        template: Tendrl
+      tendrl2:
+        branches:
+        - master
+        template: Tendrl
+      tendrl2-vagrant:
+        branches:
+        - master
+        template: Tendrl
+      ui:
+        branches:
+        - master
+        template: Tendrl

@@ -1,0 +1,137 @@
+project-templates:
+  Lightblue Platform:
+    branches:
+    - master
+    gitweb: https://github.com/lightblue-platform/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/lightblue-platform/%(name)s
+projects:
+  Lightblue Platform:
+    description: Cloud focused data services with dynamic querying, versioned schemas,
+      and robust security.
+    repos:
+      go-client:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-applications:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-audit-hook:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-bom:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-camel:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-client:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-client-test:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-core:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-dockerfiles:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-docs-developer:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-docs-overview:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-docs-specs:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-docs-user:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-esb-hook:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-healthcheck:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-integration-tests:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-java-generator:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-ldap:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-maven-plugin:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-metadata-manager:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-migrator:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-mongo:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-puppet:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-rdbms:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-rest:
+        branches:
+        - master
+        template: Lightblue Platform
+      lightblue-tests:
+        branches:
+        - master
+        template: Lightblue Platform
+      openshift-lightblue-all:
+        branches:
+        - master
+        template: Lightblue Platform
+      openshift-lightblue-cart:
+        branches:
+        - master
+        template: Lightblue Platform
+      shakespeares-monkey:
+        branches:
+        - master
+        template: Lightblue Platform
+      turbine-rpm:
+        branches:
+        - master
+        template: Lightblue Platform

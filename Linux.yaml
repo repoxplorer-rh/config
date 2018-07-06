@@ -1,0 +1,17 @@
+project-templates:
+  Linux:
+    branches:
+    - master
+    gitweb: https://github.com/torvalds/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/torvalds/%(name)s
+projects:
+  Linux:
+    description: "A (free) operating system (just a hobby, won\u2019t be big and professional\
+      \ like gnu)"
+    repos:
+      linux:
+        branches:
+        - master
+        template: Linux

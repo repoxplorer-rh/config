@@ -1,0 +1,16 @@
+project-templates:
+  dbus-broker:
+    branches:
+    - master
+    gitweb: https://github.com/bus1/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/bus1/%(name)s
+projects:
+  dbus-broker:
+    description: Linux D-Bus Message Broker
+    repos:
+      dbus-broker:
+        branches:
+        - master
+        template: dbus-broker

@@ -1,0 +1,16 @@
+project-templates:
+  Linchpin:
+    branches:
+    - master
+    gitweb: https://github.com/CentOS-PaaS-SiG/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/CentOS-PaaS-SiG/%(name)s
+projects:
+  Linchpin:
+    description: Ansible-based cloud orchestration for CI
+    repos:
+      linchpin:
+        branches:
+        - develop
+        template: Linchpin

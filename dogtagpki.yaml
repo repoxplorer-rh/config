@@ -1,0 +1,68 @@
+project-templates:
+  dogtagpki:
+    branches:
+    - master
+    gitweb: https://github.com/dogtagpki/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/dogtagpki/%(name)s
+projects:
+  dogtagpki:
+    description: PKI component of FreeIPA
+    repos:
+      coolkey:
+        branches:
+        - master
+        template: dogtagpki
+      dogtag-freeipa-ci-containers:
+        branches:
+        - master
+        template: dogtagpki
+      esc:
+        branches:
+        - master
+        template: dogtagpki
+      jss:
+        branches:
+        - master
+        template: dogtagpki
+      ldap-sdks:
+        branches:
+        - master
+        template: dogtagpki
+      legacy-pki:
+        branches:
+        - master
+        template: dogtagpki
+      nuxwdog:
+        branches:
+        - master
+        template: dogtagpki
+      pki:
+        branches:
+        - master
+        template: dogtagpki
+      pki-ci:
+        branches:
+        - master
+        template: dogtagpki
+      pki-ci-containers:
+        branches:
+        - master
+        template: dogtagpki
+      pki-jenkins-bot:
+        branches:
+        - master
+        template: dogtagpki
+      pki-verification-ci:
+        branches:
+        - master
+        template: dogtagpki
+      pki-wiki:
+        branches:
+        - master
+        template: dogtagpki
+      tomcatjss:
+        branches:
+        - master
+        template: dogtagpki

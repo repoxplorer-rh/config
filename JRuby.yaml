@@ -1,0 +1,204 @@
+project-templates:
+  JRuby:
+    branches:
+    - master
+    gitweb: https://github.com/jruby/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/jruby/%(name)s
+projects:
+  JRuby:
+    description: Ruby programming language on the JVM
+    repos:
+      activerecord-jdbc-adapter:
+        branches:
+        - master
+        template: JRuby
+      appengine:
+        branches:
+        - master
+        template: JRuby
+      blog.jruby.org:
+        branches:
+        - gh-pages
+        template: JRuby
+      bytelist:
+        branches:
+        - master
+        template: JRuby
+      collateral:
+        branches:
+        - master
+        template: JRuby
+      dbm:
+        branches:
+        - master
+        template: JRuby
+      dirgra:
+        branches:
+        - master
+        template: JRuby
+      gitosis-admin:
+        branches:
+        - master
+        template: JRuby
+      heroku-buildpack-jruby:
+        branches:
+        - master
+        template: JRuby
+      image_voodoo:
+        branches:
+        - master
+        template: JRuby
+      java_inline:
+        branches:
+        - master
+        template: JRuby
+      jay:
+        branches:
+        - master
+        template: JRuby
+      jay-yydebug:
+        branches:
+        - master
+        template: JRuby
+      jcodings:
+        branches:
+        - master
+        template: JRuby
+      joda-timezones:
+        branches:
+        - master
+        template: JRuby
+      joni:
+        branches:
+        - master
+        template: JRuby
+      jruby:
+        branches:
+        - master
+        template: JRuby
+      jruby-cdc:
+        branches:
+        - master
+        template: JRuby
+      jruby-cext:
+        branches:
+        - master
+        template: JRuby
+      jruby-dashboard:
+        branches:
+        - master
+        template: JRuby
+      jruby-debug:
+        branches:
+        - master
+        template: JRuby
+      jruby-demos:
+        branches:
+        - master
+        template: JRuby
+      jruby-examples:
+        branches:
+        - master
+        template: JRuby
+      jruby-graal:
+        branches:
+        - master
+        template: JRuby
+      jruby-launcher:
+        branches:
+        - master
+        template: JRuby
+      jruby-ldap:
+        branches:
+        - master
+        template: JRuby
+      jruby-lint:
+        branches:
+        - master
+        template: JRuby
+      jruby-mac-installer:
+        branches:
+        - master
+        template: JRuby
+      jruby-mains:
+        branches:
+        - master
+        template: JRuby
+      jruby-openssl:
+        branches:
+        - master
+        template: JRuby
+      jruby-ossl:
+        branches:
+        - master
+        template: JRuby
+      jruby-parser:
+        branches:
+        - master
+        template: JRuby
+      jruby-rack:
+        branches:
+        - master
+        template: JRuby
+      jruby-rails-templates:
+        branches:
+        - master
+        template: JRuby
+      jruby-readline:
+        branches:
+        - master
+        template: JRuby
+      jruby-visualizer:
+        branches:
+        - master
+        template: JRuby
+      jruby-workshop:
+        branches:
+        - master
+        template: JRuby
+      jruby.github.io:
+        branches:
+        - master
+        template: JRuby
+      jrubyconf.com:
+        branches:
+        - master
+        template: JRuby
+      jrubyfx:
+        branches:
+        - master
+        template: JRuby
+      jrubyhub:
+        branches:
+        - master
+        template: JRuby
+      maven_gem:
+        branches:
+        - master
+        template: JRuby
+      perfer:
+        branches:
+        - master
+        template: JRuby
+      rake-ant:
+        branches:
+        - master
+        template: JRuby
+      rubybench:
+        branches:
+        - master
+        template: JRuby
+      using_jruby:
+        branches:
+        - master
+        template: JRuby
+      warbler:
+        branches:
+        - master
+        template: JRuby
+      yecht:
+        branches:
+        - master
+        template: JRuby

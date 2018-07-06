@@ -1,0 +1,77 @@
+project-templates:
+  CentOS CI:
+    branches:
+    - master
+    gitweb: https://github.com/CentOS-PaaS-SIG/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/CentOS-PaaS-SIG/%(name)s
+projects:
+  CentOS CI:
+    description: CI/CD solutions running in containerized pipelines inside OpenShift
+      in CentOS CI
+    repos:
+      centos-release-openshift-origin:
+        branches:
+        - master
+        template: CentOS CI
+      centos-release-paas-common:
+        branches:
+        - master
+        template: CentOS CI
+      charts:
+        branches:
+        - master
+        template: CentOS CI
+      ci-build-monitor:
+        branches:
+        - master
+        template: CentOS CI
+      ci-pipeline:
+        branches:
+        - master
+        template: CentOS CI
+      ci-pipeline-library:
+        branches:
+        - master
+        template: CentOS CI
+      ci-pipeline-ui:
+        branches:
+        - master
+        template: CentOS CI
+      contra-env-sample-project:
+        branches:
+        - master
+        template: CentOS CI
+      contra-env-setup:
+        branches:
+        - master
+        template: CentOS CI
+      contra-pipeline:
+        branches:
+        - master
+        template: CentOS CI
+      cvengine:
+        branches:
+        - master
+        template: CentOS CI
+      duffy-ansible-module:
+        branches:
+        - master
+        template: CentOS CI
+      linchpin:
+        branches:
+        - develop
+        template: CentOS CI
+      multiarch-openshift-ci:
+        branches:
+        - master
+        template: CentOS CI
+      paas-sig-ci:
+        branches:
+        - master
+        template: CentOS CI
+      upstream-fedora-pipeline:
+        branches:
+        - master
+        template: CentOS CI

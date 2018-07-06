@@ -1,0 +1,16 @@
+project-templates:
+  Minishift:
+    branches:
+    - master
+    gitweb: https://github.com/minishift/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/minishift/%(name)s
+projects:
+  Minishift:
+    description: Run Openshift Locally
+    repos:
+      minishift:
+        branches:
+        - master
+        template: Minishift

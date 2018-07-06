@@ -1,0 +1,36 @@
+project-templates:
+  libguestfs:
+    branches:
+    - master
+    gitweb: https://github.com/libguestfs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/libguestfs/%(name)s
+projects:
+  libguestfs:
+    description: A set of tools for accessing and modifying virtual machine disk images
+    repos:
+      febootstrap:
+        branches:
+        - master
+        template: libguestfs
+      hivex:
+        branches:
+        - master
+        template: libguestfs
+      libguestfs:
+        branches:
+        - master
+        template: libguestfs
+      nbdkit:
+        branches:
+        - master
+        template: libguestfs
+      supermin:
+        branches:
+        - master
+        template: libguestfs
+      virt-similarity:
+        branches:
+        - master
+        template: libguestfs

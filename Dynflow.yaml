@@ -1,0 +1,20 @@
+project-templates:
+  Dynflow:
+    branches:
+    - master
+    gitweb: https://github.com/Dynflow/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/Dynflow/%(name)s
+projects:
+  Dynflow:
+    description: DYNamic workFLOW orchestration engine
+    repos:
+      dynflow:
+        branches:
+        - master
+        template: Dynflow
+      dynflow.github.io:
+        branches:
+        - master
+        template: Dynflow

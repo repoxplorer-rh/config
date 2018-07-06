@@ -1,0 +1,160 @@
+project-templates:
+  Katello Project:
+    branches:
+    - master
+    gitweb: https://github.com/Katello/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/Katello/%(name)s
+projects:
+  Katello Project:
+    description: 'Integrates open source systems management tools into a single solution '
+    repos:
+      bastion:
+        branches:
+        - master
+        template: Katello Project
+      foreman-gutterball:
+        branches:
+        - master
+        template: Katello Project
+      foreman_sam:
+        branches:
+        - master
+        template: Katello Project
+      generator-bastion:
+        branches:
+        - master
+        template: Katello Project
+      grinder:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-csv:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-gutterball:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-import:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-katello:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-katello-bridge:
+        branches:
+        - master
+        template: Katello Project
+      hammer-cli-sam:
+        branches:
+        - master
+        template: Katello Project
+      katello:
+        branches:
+        - master
+        template: Katello Project
+      katello-certs-tools:
+        branches:
+        - master
+        template: Katello Project
+      katello-cli:
+        branches:
+        - master
+        template: Katello Project
+      katello-client-bootstrap:
+        branches:
+        - master
+        template: Katello Project
+      katello-foreman-engine:
+        branches:
+        - master
+        template: Katello Project
+      katello-host-tools:
+        branches:
+        - master
+        template: Katello Project
+      katello-installer:
+        branches:
+        - master
+        template: Katello Project
+      katello-installer-legacy:
+        branches:
+        - master
+        template: Katello Project
+      katello-misc:
+        branches:
+        - master
+        template: Katello Project
+      katello-packaging:
+        branches:
+        - master
+        template: Katello Project
+      katello-redhat-access-engine:
+        branches:
+        - master
+        template: Katello Project
+      katello-selinux:
+        branches:
+        - master
+        template: Katello Project
+      katello-selinux-legacy:
+        branches:
+        - master
+        template: Katello Project
+      katello-utils:
+        branches:
+        - master
+        template: Katello Project
+      katello-website:
+        branches:
+        - master
+        template: Katello Project
+      katello.org:
+        branches:
+        - master
+        template: Katello Project
+      katello_api:
+        branches:
+        - master
+        template: Katello Project
+      pulp-katello:
+        branches:
+        - master
+        template: Katello Project
+      puppet-crane:
+        branches:
+        - master
+        template: Katello Project
+      puppet-elasticsearch:
+        branches:
+        - master
+        template: Katello Project
+      puppet-gutterball:
+        branches:
+        - master
+        template: Katello Project
+      puppet-hammer_devel:
+        branches:
+        - master
+        template: Katello Project
+      runcible:
+        branches:
+        - master
+        template: Katello Project
+      signo:
+        branches:
+        - master
+        template: Katello Project
+      trebuchet:
+        branches:
+        - master
+        template: Katello Project
+      trebuchet-mount:
+        branches:
+        - master
+        template: Katello Project

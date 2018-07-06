@@ -1,0 +1,244 @@
+project-templates:
+  JBoss Forge:
+    branches:
+    - master
+    gitweb: https://github.com/forge/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/forge/%(name)s
+projects:
+  JBoss Forge:
+    description: Software development tool that extends your Java IDE
+    repos:
+      addon-batch:
+        branches:
+        - master
+        template: JBoss Forge
+      addon-gradle:
+        branches:
+        - master
+        template: JBoss Forge
+      addon-mail:
+        branches:
+        - master
+        template: JBoss Forge
+      angularjs-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      angularjs-scaffoldx-plugin:
+        branches:
+        - master
+        template: JBoss Forge
+      arquillian-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      asciidoctorj-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      assertj-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      core:
+        branches:
+        - master
+        template: JBoss Forge
+      db-migration-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      devassistant-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      docker-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      docs:
+        branches:
+        - master
+        template: JBoss Forge
+      forge-build:
+        branches:
+        - master
+        template: JBoss Forge
+      forge-service:
+        branches:
+        - master
+        template: JBoss Forge
+      forge.github.com:
+        branches:
+        - develop
+        template: JBoss Forge
+      furnace:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-cdi:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-container-spring:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-demo:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-embedded:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-guice:
+        branches:
+        - master
+        template: JBoss Forge
+      furnace-simple:
+        branches:
+        - master
+        template: JBoss Forge
+      infinispan-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      intellij-idea-plugin:
+        branches:
+        - master
+        template: JBoss Forge
+      ircbot-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      javaee-descriptors:
+        branches:
+        - master
+        template: JBoss Forge
+      keycloak-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      mockito-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      netbeans-plugin:
+        branches:
+        - master
+        template: JBoss Forge
+      nodejs-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-arquillian:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-code-quality:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-hibernate-tools:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-hibersap:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-jboss-as:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-navigation:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-netty:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-openshift:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-osgi:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-picketlink:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-repository:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-seam-jms:
+        branches:
+        - master
+        template: JBoss Forge
+      plugin-switchyard:
+        branches:
+        - master
+        template: JBoss Forge
+      roaster:
+        branches:
+        - master
+        template: JBoss Forge
+      scaffold-aerogear:
+        branches:
+        - master
+        template: JBoss Forge
+      scaffold-html5:
+        branches:
+        - master
+        template: JBoss Forge
+      scripts:
+        branches:
+        - master
+        template: JBoss Forge
+      shrinkwrap-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      slf4j-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      springboot-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      users-guide:
+        branches:
+        - master
+        template: JBoss Forge
+      website:
+        branches:
+        - master
+        template: JBoss Forge
+      website-data:
+        branches:
+        - master
+        template: JBoss Forge
+      website-design:
+        branches:
+        - master
+        template: JBoss Forge
+      website-template:
+        branches:
+        - master
+        template: JBoss Forge
+      wildfly-swarm-addon:
+        branches:
+        - master
+        template: JBoss Forge
+      xml-parser:
+        branches:
+        - master
+        template: JBoss Forge

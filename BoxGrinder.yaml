@@ -1,0 +1,48 @@
+project-templates:
+  BoxGrinder:
+    branches:
+    - master
+    gitweb: https://github.com/boxgrinder/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/boxgrinder/%(name)s
+projects:
+  BoxGrinder:
+    description: Tool to build appliances
+    repos:
+      boxgrinder-appliances:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-build:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-build-plugins:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-core:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-node:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-rest:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder-rest-old:
+        branches:
+        - master
+        template: BoxGrinder
+      boxgrinder.org:
+        branches:
+        - master
+        template: BoxGrinder
+      sandbox:
+        branches:
+        - master
+        template: BoxGrinder

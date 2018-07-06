@@ -1,0 +1,16 @@
+project-templates:
+  CRI-O:
+    branches:
+    - master
+    gitweb: https://github.com/kubernetes-incubator/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/kubernetes-incubator/%(name)s
+projects:
+  CRI-O:
+    description: Container runtime for Kubernetes clusters
+    repos:
+      cri-o:
+        branches:
+        - master
+        template: CRI-O

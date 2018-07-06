@@ -1,0 +1,32 @@
+project-templates:
+  nfs-ganesha:
+    branches:
+    - master
+    gitweb: https://github.com/nfs-ganesha/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/nfs-ganesha/%(name)s
+projects:
+  nfs-ganesha:
+    description: User Space NFS and 9P File Server
+    repos:
+      ci-tests:
+        branches:
+        - master
+        template: nfs-ganesha
+      nfs-ganesha:
+        branches:
+        - next
+        template: nfs-ganesha
+      nfs-ganesha-debian:
+        branches:
+        - master
+        template: nfs-ganesha
+      nfs-ganesha-suse:
+        branches:
+        - master
+        template: nfs-ganesha
+      nfs-ganesha.github.com:
+        branches:
+        - master
+        template: nfs-ganesha

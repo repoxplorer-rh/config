@@ -1,0 +1,108 @@
+project-templates:
+  JBoss Community:
+    branches:
+    - master
+    gitweb: https://github.com/jbossorg/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jbossorg/%(name)s
+projects:
+  JBoss Community:
+    description: JBoss utilities
+    repos:
+      bootstrap-community:
+        branches:
+        - master
+        template: JBoss Community
+      borg:
+        branches:
+        - master
+        template: JBoss Community
+      coolstuff:
+        branches:
+        - master
+        template: JBoss Community
+      ddpoc:
+        branches:
+        - master
+        template: JBoss Community
+      docbook-import-for-confluence:
+        branches:
+        - master
+        template: JBoss Community
+      jira-jenkins-gadget:
+        branches:
+        - master
+        template: JBoss Community
+      jive-easy-unsubscribe:
+        branches:
+        - master
+        template: JBoss Community
+      jive-gravatar:
+        branches:
+        - master
+        template: JBoss Community
+      jive-jira:
+        branches:
+        - master
+        template: JBoss Community
+      jive-searchisko:
+        branches:
+        - master
+        template: JBoss Community
+      jive-sharethis:
+        branches:
+        - master
+        template: JBoss Community
+      project-info:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-bulkdataapi:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-community-url-prefix:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-human-friendly-urls:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-human-friendly-urls-links:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-oldurls:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-script-console:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-spam:
+        branches:
+        - master
+        template: JBoss Community
+      sbs-wiki-macro:
+        branches:
+        - master
+        template: JBoss Community
+      spam-checker-lib:
+        branches:
+        - master
+        template: JBoss Community
+      stats.jboss.org:
+        branches:
+        - master
+        template: JBoss Community
+      themes:
+        branches:
+        - master
+        template: JBoss Community
+      wildflysite:
+        branches:
+        - master
+        template: JBoss Community

@@ -1,0 +1,16 @@
+project-templates:
+  hwdata:
+    branches:
+    - master
+    gitweb: https://github.com/vcrhonek/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/vcrhonek/%(name)s
+projects:
+  hwdata:
+    description: Hardware identification and configuration data
+    repos:
+      hwdata:
+        branches:
+        - master
+        template: hwdata

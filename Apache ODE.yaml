@@ -1,0 +1,16 @@
+project-templates:
+  Apache ODE:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache ODE:
+    description: Executes business processes written following the WS-BPEL standard.
+    repos:
+      ode:
+        branches:
+        - master
+        template: Apache ODE

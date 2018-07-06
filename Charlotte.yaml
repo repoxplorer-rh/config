@@ -1,0 +1,16 @@
+project-templates:
+  Charlotte:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-infosec/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/redhat-infosec/%(name)s
+projects:
+  Charlotte:
+    description: A Snort unified file to database processor
+    repos:
+      charlotte:
+        branches:
+        - master
+        template: Charlotte

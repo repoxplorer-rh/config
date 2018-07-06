@@ -1,0 +1,40 @@
+project-templates:
+  Heketi:
+    branches:
+    - master
+    gitweb: https://github.com/heketi/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/heketi/%(name)s
+projects:
+  Heketi:
+    description: RESTful based volume management framework for Gluster
+    repos:
+      ci-tests:
+        branches:
+        - master
+        template: Heketi
+      heketi:
+        branches:
+        - master
+        template: Heketi
+      rest:
+        branches:
+        - master
+        template: Heketi
+      setup-vagrant-libvirt:
+        branches:
+        - master
+        template: Heketi
+      tests:
+        branches:
+        - master
+        template: Heketi
+      utils:
+        branches:
+        - master
+        template: Heketi
+      vagrant-heketi:
+        branches:
+        - master
+        template: Heketi

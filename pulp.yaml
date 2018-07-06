@@ -1,0 +1,116 @@
+project-templates:
+  pulp:
+    branches:
+    - master
+    gitweb: https://github.com/pulp/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/pulp/%(name)s
+projects:
+  pulp:
+    description: Pulp is a platform for managing repositories of software packages
+    repos:
+      ansible-pulp3:
+        branches:
+        - master
+        template: pulp
+      ansible-pulp3_db:
+        branches:
+        - master
+        template: pulp
+      ansible-pulp3_systemd:
+        branches:
+        - master
+        template: pulp
+      crane:
+        branches:
+        - master
+        template: pulp
+      devel:
+        branches:
+        - master
+        template: pulp
+      nectar:
+        branches:
+        - master
+        template: pulp
+      packaging:
+        branches:
+        - master
+        template: pulp
+      plugin_template:
+        branches:
+        - master
+        template: pulp
+      pulp:
+        branches:
+        - master
+        template: pulp
+      pulp-ci:
+        branches:
+        - master
+        template: pulp
+      pulp-cli:
+        branches:
+        - master
+        template: pulp
+      pulp-packaging:
+        branches:
+        - master
+        template: pulp
+      pulp_ansible:
+        branches:
+        - master
+        template: pulp
+      pulp_deb:
+        branches:
+        - master
+        template: pulp
+      pulp_docker:
+        branches:
+        - master
+        template: pulp
+      pulp_file:
+        branches:
+        - master
+        template: pulp
+      pulp_openstack:
+        branches:
+        - master
+        template: pulp
+      pulp_ostree:
+        branches:
+        - master
+        template: pulp
+      pulp_puppet:
+        branches:
+        - master
+        template: pulp
+      pulp_python:
+        branches:
+        - master
+        template: pulp
+      pulp_rpm:
+        branches:
+        - master
+        template: pulp
+      pulpproject.org:
+        branches:
+        - gh-pages
+        template: pulp
+      puppet_deployment:
+        branches:
+        - master
+        template: pulp
+      pups:
+        branches:
+        - master
+        template: pulp
+      relational-pulp:
+        branches:
+        - master
+        template: pulp
+      supybot-pulptriage:
+        branches:
+        - master
+        template: pulp

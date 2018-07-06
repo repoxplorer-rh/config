@@ -1,0 +1,16 @@
+project-templates:
+  VMaaS:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatInsights/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/RedHatInsights/%(name)s
+projects:
+  VMaaS:
+    description: Vulnerability Management as a Service
+    repos:
+      vmaas:
+        branches:
+        - master
+        template: VMaaS

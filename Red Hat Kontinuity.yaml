@@ -1,0 +1,20 @@
+project-templates:
+  Red Hat Kontinuity:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-kontinuity/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/redhat-kontinuity/%(name)s
+projects:
+  Red Hat Kontinuity:
+    description: Continuous Delivery for Application Developers Using Red Hat
+    repos:
+      adb-openshift-runtime:
+        branches:
+        - master
+        template: Red Hat Kontinuity
+      kitchensink-html5-mobile:
+        branches:
+        - master
+        template: Red Hat Kontinuity

@@ -1,0 +1,16 @@
+project-templates:
+  rebase-helper:
+    branches:
+    - master
+    gitweb: https://github.com/rebase-helper/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/rebase-helper/%(name)s
+projects:
+  rebase-helper:
+    description: Tool aiming to help package maintainers rebase their packages
+    repos:
+      rebase-helper:
+        branches:
+        - master
+        template: rebase-helper

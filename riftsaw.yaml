@@ -1,0 +1,24 @@
+project-templates:
+  riftsaw:
+    branches:
+    - master
+    gitweb: https://github.com/riftsaw/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/riftsaw/%(name)s
+projects:
+  riftsaw:
+    description: A WS-BPEL 2.0 engine that is optimized for the JBoss AS container
+    repos:
+      embedded:
+        branches:
+        - master
+        template: riftsaw
+      riftsaw:
+        branches:
+        - master
+        template: riftsaw
+      riftsaw-ode:
+        branches:
+        - master
+        template: riftsaw

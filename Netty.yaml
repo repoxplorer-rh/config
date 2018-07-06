@@ -1,0 +1,37 @@
+project-templates:
+  Netty:
+    branches:
+    - master
+    gitweb: https://github.com/netty/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/netty/%(name)s
+projects:
+  Netty:
+    description: An asynchronous event-driven network application framework for rapid
+      development of maintainable high performance protocol servers & clients.
+    repos:
+      netty:
+        branches:
+        - '4.1'
+        template: Netty
+      netty-book:
+        branches:
+        - master
+        template: Netty
+      netty-build:
+        branches:
+        - master
+        template: Netty
+      netty-tcnative:
+        branches:
+        - master
+        template: Netty
+      netty-website:
+        branches:
+        - master
+        template: Netty
+      netty.github.com:
+        branches:
+        - master
+        template: Netty

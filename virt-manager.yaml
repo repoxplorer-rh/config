@@ -1,0 +1,20 @@
+project-templates:
+  virt-manager:
+    branches:
+    - master
+    gitweb: https://github.com/virt-manager/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/virt-manager/%(name)s
+projects:
+  virt-manager:
+    description: A desktop user interface for managing virtual machines through libvirt
+    repos:
+      virt-bootstrap:
+        branches:
+        - master
+        template: virt-manager
+      virt-manager:
+        branches:
+        - master
+        template: virt-manager

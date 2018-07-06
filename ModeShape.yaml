@@ -1,0 +1,44 @@
+project-templates:
+  ModeShape:
+    branches:
+    - master
+    gitweb: https://github.com/ModeShape/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/ModeShape/%(name)s
+projects:
+  ModeShape:
+    description: A hierarchical, transactional, and consistent data store
+    repos:
+      modeshape:
+        branches:
+        - master
+        template: ModeShape
+      modeshape-assets:
+        branches:
+        - master
+        template: ModeShape
+      modeshape-examples:
+        branches:
+        - master
+        template: ModeShape
+      modeshape-performance:
+        branches:
+        - master
+        template: ModeShape
+      modeshape-rhq:
+        branches:
+        - master
+        template: ModeShape
+      modeshape-tools:
+        branches:
+        - master
+        template: ModeShape
+      modeshape.github.com:
+        branches:
+        - develop
+        template: ModeShape
+      quickstart:
+        branches:
+        - master
+        template: ModeShape

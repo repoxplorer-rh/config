@@ -1,0 +1,16 @@
+project-templates:
+  casync:
+    branches:
+    - master
+    gitweb: https://github.com/systemd/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/systemd/%(name)s
+projects:
+  casync:
+    description: Content Addressable Data Synchronizer
+    repos:
+      casync:
+        branches:
+        - master
+        template: casync

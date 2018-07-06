@@ -1,0 +1,41 @@
+project-templates:
+  Open vSwitch:
+    branches:
+    - master
+    gitweb: https://github.com/openvswitch/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/openvswitch/%(name)s
+projects:
+  Open vSwitch:
+    description: 'Open source multilayer virtual switch and OVN: virtual networking
+      for Open vSwitch'
+    repos:
+      of-config:
+        branches:
+        - master
+        template: Open vSwitch
+      openvswitch.github.io:
+        branches:
+        - master
+        template: Open vSwitch
+      ovn-kubernetes:
+        branches:
+        - master
+        template: Open vSwitch
+      ovn-scale-test:
+        branches:
+        - master
+        template: Open vSwitch
+      ovs:
+        branches:
+        - master
+        template: Open vSwitch
+      ovs-issues:
+        branches:
+        - master
+        template: Open vSwitch
+      ovs-sphinx-theme:
+        branches:
+        - master
+        template: Open vSwitch

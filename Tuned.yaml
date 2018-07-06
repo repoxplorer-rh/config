@@ -1,0 +1,16 @@
+project-templates:
+  Tuned:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-performance/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/redhat-performance/%(name)s
+projects:
+  Tuned:
+    description: Tuning profile delivery mechanism for Linux
+    repos:
+      tuned:
+        branches:
+        - master
+        template: Tuned

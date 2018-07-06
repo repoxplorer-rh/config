@@ -1,0 +1,177 @@
+project-templates:
+  Hawkular:
+    branches:
+    - master
+    gitweb: https://github.com/hawkular/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/hawkular/%(name)s
+projects:
+  Hawkular:
+    description: 'Monitoring services: Metrics, Alerting, Inventory, Application Performance
+      Management'
+    repos:
+      cassalog:
+        branches:
+        - master
+        template: Hawkular
+      docker-hawkular-cassandra:
+        branches:
+        - master
+        template: Hawkular
+      docker-hawkular-metrics:
+        branches:
+        - master
+        template: Hawkular
+      hawkinit:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-accounts:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-agent:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-alerts:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-android-client:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-apm:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-apm-opentracing-javascript:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-apm-user-guide:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-build-tools:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-bus:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-charts:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-client-go:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-client-java:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-client-python:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-client-ruby:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-command-gateway:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-commons:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-community:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-datamining:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-dist-old:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-docs:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-dropwizard-reporter:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-grafana-datasource:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-inventory:
+        branches:
+        - 1.0.x
+        template: Hawkular
+      hawkular-metrics:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-metrics-openshift:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-nest:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-openshift-agent:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-parent-pom:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-services:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-ui:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-ui-components:
+        branches:
+        - master
+        template: Hawkular
+      hawkular-ui-services:
+        branches:
+        - master
+        template: Hawkular
+      hawkular.github.io:
+        branches:
+        - pages
+        template: Hawkular
+      homebrew-hawkular:
+        branches:
+        - master
+        template: Hawkular
+      test:
+        branches:
+        - master
+        template: Hawkular
+      wildfly-cassandra:
+        branches:
+        - master
+        template: Hawkular
+      wildfly-monitor:
+        branches:
+        - master
+        template: Hawkular

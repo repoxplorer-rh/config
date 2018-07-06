@@ -1,0 +1,165 @@
+project-templates:
+  TorqueBox Project:
+    branches:
+    - master
+    gitweb: https://github.com/torquebox/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/torquebox/%(name)s
+projects:
+  TorqueBox Project:
+    description: Provides an all-in-one environment, built upon the latest JBoss AS
+      Java application server and JRuby
+    repos:
+      app-turds:
+        branches:
+        - master
+        template: TorqueBox Project
+      backstage:
+        branches:
+        - master
+        template: TorqueBox Project
+      ballast-bundled:
+        branches:
+        - master
+        template: TorqueBox Project
+      ballast-rack:
+        branches:
+        - master
+        template: TorqueBox Project
+      ballast-rails:
+        branches:
+        - master
+        template: TorqueBox Project
+      ballast-sinatra:
+        branches:
+        - master
+        template: TorqueBox Project
+      chef-cookbooks:
+        branches:
+        - master
+        template: TorqueBox Project
+      chirpr:
+        branches:
+        - master
+        template: TorqueBox Project
+      feature-demo:
+        branches:
+        - master
+        template: TorqueBox Project
+      fu_cp:
+        branches:
+        - master
+        template: TorqueBox Project
+      jruby-maven-plugins:
+        branches:
+        - master
+        template: TorqueBox Project
+      jruby9-maven-plugins:
+        branches:
+        - master
+        template: TorqueBox Project
+      kitchen-sink:
+        branches:
+        - master
+        template: TorqueBox Project
+      maven-tools:
+        branches:
+        - master
+        template: TorqueBox Project
+      mavengem:
+        branches:
+        - master
+        template: TorqueBox Project
+      openshift-quickstart:
+        branches:
+        - master
+        template: TorqueBox Project
+      presentations:
+        branches:
+        - master
+        template: TorqueBox Project
+      rubygems-servlets:
+        branches:
+        - master
+        template: TorqueBox Project
+      rumpler:
+        branches:
+        - master
+        template: TorqueBox Project
+      speedmetal:
+        branches:
+        - master
+        template: TorqueBox Project
+      stomp-chat-demo:
+        branches:
+        - master
+        template: TorqueBox Project
+      stompbox:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-appliances:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-console:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-irc-bot:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-lite:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-openshift-express:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-release:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-rpm:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-style:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox-webconsole:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebox.org:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquebreak:
+        branches:
+        - master
+        template: TorqueBox Project
+      torquespec:
+        branches:
+        - master
+        template: TorqueBox Project
+      training:
+        branches:
+        - master
+        template: TorqueBox Project
+      triviastic:
+        branches:
+        - master
+        template: TorqueBox Project
+      websocket-client:
+        branches:
+        - master
+        template: TorqueBox Project

@@ -1,0 +1,16 @@
+project-templates:
+  OCF-spec:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  OCF-spec:
+    description: Open Cluster Framework standards for high-availability clustering
+    repos:
+      OCF-spec:
+        branches:
+        - master
+        template: OCF-spec

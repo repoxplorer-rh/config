@@ -1,0 +1,16 @@
+project-templates:
+  dbxtool:
+    branches:
+    - master
+    gitweb: https://github.com/rhboot/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/rhboot/%(name)s
+projects:
+  dbxtool:
+    description: Tool for UEFI Secure Boot DBX updates
+    repos:
+      dbxtool:
+        branches:
+        - master
+        template: dbxtool

@@ -1,0 +1,28 @@
+project-templates:
+  DBuildService:
+    branches:
+    - master
+    gitweb: https://github.com/DBuildService/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/DBuildService/%(name)s
+projects:
+  DBuildService:
+    description: Python library for parsing Dockerfile files.
+    repos:
+      dbs-client:
+        branches:
+        - master
+        template: DBuildService
+      dbs-server:
+        branches:
+        - master
+        template: DBuildService
+      dbs-worker:
+        branches:
+        - master
+        template: DBuildService
+      dockerfile-parse:
+        branches:
+        - master
+        template: DBuildService

@@ -1,0 +1,124 @@
+project-templates:
+  JBoss Developer:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-developer/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-developer/%(name)s
+projects:
+  JBoss Developer:
+    description: JBoss developer tools
+    repos:
+      devnation-blog-source:
+        branches:
+        - master
+        template: JBoss Developer
+      doap:
+        branches:
+        - gh-pages
+        template: JBoss Developer
+      jboss-brms-boms:
+        branches:
+        - 6.4.x
+        template: JBoss Developer
+      jboss-brms-quickstarts:
+        branches:
+        - 6.2.x
+        template: JBoss Developer
+      jboss-brms-repository:
+        branches:
+        - 6.2.x
+        template: JBoss Developer
+      jboss-developer-demo-template:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-developer-demos:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-developer-shared-resources:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-eap-quickstarts:
+        branches:
+        - '7.1'
+        template: JBoss Developer
+      jboss-jdg-boms:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-jdg-quickstarts:
+        branches:
+        - jdg-7.2.x
+        template: JBoss Developer
+      jboss-migration-center:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-on-quickstarts:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-picketlink-quickstarts:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-portal-boms:
+        branches:
+        - 6.2.x-develop
+        template: JBoss Developer
+      jboss-portal-quickstarts:
+        branches:
+        - 6.2.x-develop
+        template: JBoss Developer
+      jboss-project-metadata:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-sandbox-quickstarts:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-stacks:
+        branches:
+        - 1.0.0.Final
+        template: JBoss Developer
+      jboss-stacks-client:
+        branches:
+        - master
+        template: JBoss Developer
+      jboss-unifiedpush-quickstarts:
+        branches:
+        - 1.0.x-devel
+        template: JBoss Developer
+      jboss-wfk-archetypes:
+        branches:
+        - 2.7.x-develop
+        template: JBoss Developer
+      jboss-wfk-boms:
+        branches:
+        - 2.7.x
+        template: JBoss Developer
+      jboss-wfk-quickstarts:
+        branches:
+        - 2.7.x
+        template: JBoss Developer
+      project-properties:
+        branches:
+        - master
+        template: JBoss Developer
+      temp-maven-repo:
+        branches:
+        - gh-pages
+        template: JBoss Developer
+      webeditor-demo:
+        branches:
+        - master
+        template: JBoss Developer
+      www.jboss.org:
+        branches:
+        - master
+        template: JBoss Developer

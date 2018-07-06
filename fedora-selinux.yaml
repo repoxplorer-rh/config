@@ -1,0 +1,40 @@
+project-templates:
+  fedora-selinux:
+    branches:
+    - master
+    gitweb: https://github.com/fedora-selinux/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/fedora-selinux/%(name)s
+projects:
+  fedora-selinux:
+    description: SELinux policies for Fedora
+    repos:
+      container-selinux-customization:
+        branches:
+        - master
+        template: fedora-selinux
+      scripts:
+        branches:
+        - master
+        template: fedora-selinux
+      selinux:
+        branches:
+        - master
+        template: fedora-selinux
+      selinux-policy:
+        branches:
+        - rawhide
+        template: fedora-selinux
+      selinux-policy-contrib:
+        branches:
+        - rawhide
+        template: fedora-selinux
+      selinux-policy-macros:
+        branches:
+        - master
+        template: fedora-selinux
+      setroubleshoot:
+        branches:
+        - master
+        template: fedora-selinux

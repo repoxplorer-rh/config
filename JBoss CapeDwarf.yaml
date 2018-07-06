@@ -1,0 +1,72 @@
+project-templates:
+  JBoss CapeDwarf:
+    branches:
+    - master
+    gitweb: https://github.com/capedwarf/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/capedwarf/%(name)s
+projects:
+  JBoss CapeDwarf:
+    description: An open-source alternative to Google App Engine
+    repos:
+      capedwarf-benchmark:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-blue:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-green:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-jboss-as:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-managed:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-modules:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-multisuite:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-openshift:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-shared:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-testsuite:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      capedwarf-versions:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      openshift:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      phoner:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      tattletale:
+        branches:
+        - master
+        template: JBoss CapeDwarf
+      todolist:
+        branches:
+        - master
+        template: JBoss CapeDwarf

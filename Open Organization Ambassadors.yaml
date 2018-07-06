@@ -1,0 +1,48 @@
+project-templates:
+  Open Organization Ambassadors:
+    branches:
+    - master
+    gitweb: https://github.com/open-organization-ambassadors/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/open-organization-ambassadors/%(name)s
+projects:
+  Open Organization Ambassadors:
+    description: Repositories from the open organization ambassadors at Opensource.com
+    repos:
+      ambassador-board-room:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      ambassador-program-description:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      catalyst-in-chief:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      open-org-definition:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      open-org-field-guide:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      open-org-it-culture:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      open-org-leaders-manual:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      open-org-workbook:
+        branches:
+        - master
+        template: Open Organization Ambassadors
+      organize-for-innovation:
+        branches:
+        - master
+        template: Open Organization Ambassadors

@@ -1,0 +1,172 @@
+project-templates:
+  libvirt:
+    branches:
+    - master
+    gitweb: https://github.com/libvirt/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/libvirt/%(name)s
+projects:
+  libvirt:
+    description: Virtual host management toolkit
+    repos:
+      autotest:
+        branches:
+        - master
+        template: libvirt
+      cimtest:
+        branches:
+        - master
+        template: libvirt
+      libcmpiutil:
+        branches:
+        - master
+        template: libvirt
+      libvirt:
+        branches:
+        - master
+        template: libvirt
+      libvirt-appdev-guide:
+        branches:
+        - master
+        template: libvirt
+      libvirt-autobuild:
+        branches:
+        - master
+        template: libvirt
+      libvirt-builder:
+        branches:
+        - master
+        template: libvirt
+      libvirt-cim:
+        branches:
+        - master
+        template: libvirt
+      libvirt-console-proxy:
+        branches:
+        - master
+        template: libvirt
+      libvirt-csharp:
+        branches:
+        - master
+        template: libvirt
+      libvirt-dbus:
+        branches:
+        - master
+        template: libvirt
+      libvirt-designer:
+        branches:
+        - master
+        template: libvirt
+      libvirt-dockerfiles:
+        branches:
+        - master
+        template: libvirt
+      libvirt-glib:
+        branches:
+        - master
+        template: libvirt
+      libvirt-go:
+        branches:
+        - master
+        template: libvirt
+      libvirt-go-xml:
+        branches:
+        - master
+        template: libvirt
+      libvirt-java:
+        branches:
+        - master
+        template: libvirt
+      libvirt-jenkins-ci:
+        branches:
+        - master
+        template: libvirt
+      libvirt-media:
+        branches:
+        - master
+        template: libvirt
+      libvirt-ocaml:
+        branches:
+        - master
+        template: libvirt
+      libvirt-perl:
+        branches:
+        - master
+        template: libvirt
+      libvirt-php:
+        branches:
+        - master
+        template: libvirt
+      libvirt-publican:
+        branches:
+        - master
+        template: libvirt
+      libvirt-python:
+        branches:
+        - master
+        template: libvirt
+      libvirt-qpid:
+        branches:
+        - master
+        template: libvirt
+      libvirt-rust:
+        branches:
+        - master
+        template: libvirt
+      libvirt-sandbox:
+        branches:
+        - master
+        template: libvirt
+      libvirt-sandbox-image:
+        branches:
+        - master
+        template: libvirt
+      libvirt-security-notice:
+        branches:
+        - master
+        template: libvirt
+      libvirt-snmp:
+        branches:
+        - master
+        template: libvirt
+      libvirt-tck:
+        branches:
+        - master
+        template: libvirt
+      libvirt-test-API:
+        branches:
+        - master
+        template: libvirt
+      libvirt-virshcmdref:
+        branches:
+        - master
+        template: libvirt
+      libvirt-wiki:
+        branches:
+        - master
+        template: libvirt
+      patchchecker:
+        branches:
+        - master
+        template: libvirt
+      php-virt-control:
+        branches:
+        - master
+        template: libvirt
+      ruby-libvirt:
+        branches:
+        - master
+        template: libvirt
+      scripts:
+        branches:
+        - master
+        template: libvirt
+      virttools-planet:
+        branches:
+        - master
+        template: libvirt
+      virttools-web:
+        branches:
+        - master
+        template: libvirt

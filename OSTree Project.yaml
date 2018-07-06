@@ -1,0 +1,24 @@
+project-templates:
+  OSTree Project:
+    branches:
+    - master
+    gitweb: https://github.com/ostreedev/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ostreedev/%(name)s
+projects:
+  OSTree Project:
+    description: Operating system and container binary deployment and upgrades
+    repos:
+      ostree:
+        branches:
+        - master
+        template: OSTree Project
+      ostree-go:
+        branches:
+        - master
+        template: OSTree Project
+      ostree-releng-scripts:
+        branches:
+        - master
+        template: OSTree Project

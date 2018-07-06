@@ -1,0 +1,49 @@
+project-templates:
+  Scribble:
+    branches:
+    - master
+    gitweb: https://github.com/scribble/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/scribble/%(name)s
+projects:
+  Scribble:
+    description: A language to describe application-level protocols among communicating
+      systems
+    repos:
+      scribble-che:
+        branches:
+        - master
+        template: Scribble
+      scribble-docs:
+        branches:
+        - master
+        template: Scribble
+      scribble-eclipse:
+        branches:
+        - master
+        template: Scribble
+      scribble-java:
+        branches:
+        - master
+        template: Scribble
+      scribble-language-guide:
+        branches:
+        - master
+        template: Scribble
+      scribble-python:
+        branches:
+        - master
+        template: Scribble
+      scribble-spec:
+        branches:
+        - master
+        template: Scribble
+      scribble-web:
+        branches:
+        - master
+        template: Scribble
+      scribble.github.io:
+        branches:
+        - pages
+        template: Scribble

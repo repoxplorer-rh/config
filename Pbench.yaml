@@ -1,0 +1,16 @@
+project-templates:
+  Pbench:
+    branches:
+    - master
+    gitweb: https://github.com/distributed-system-analysis/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/distributed-system-analysis/%(name)s
+projects:
+  Pbench:
+    description: A Benchmarking and Performance Analysis Framework
+    repos:
+      pbench:
+        branches:
+        - master
+        template: Pbench

@@ -1,0 +1,17 @@
+project-templates:
+  Gluetool:
+    branches:
+    - master
+    gitweb: https://github.com/gluetool/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/gluetool/%(name)s
+projects:
+  Gluetool:
+    description: "Gluetool is a Python command-line framework; glue for your tools\
+      \ and libraries\uFFFC"
+    repos:
+      gluetool:
+        branches:
+        - master
+        template: Gluetool

@@ -1,0 +1,36 @@
+project-templates:
+  Spacewalk:
+    branches:
+    - master
+    gitweb: https://github.com/spacewalkproject/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/spacewalkproject/%(name)s
+projects:
+  Spacewalk:
+    description: Free and open source systems management
+    repos:
+      spacehub:
+        branches:
+        - master
+        template: Spacewalk
+      spacewalk:
+        branches:
+        - master
+        template: Spacewalk
+      spacewalk-docs:
+        branches:
+        - master
+        template: Spacewalk
+      spacewalk-wiki:
+        branches:
+        - master
+        template: Spacewalk
+      spacewalkproject.github.io:
+        branches:
+        - master
+        template: Spacewalk
+      spacewalkproject.github.io.old:
+        branches:
+        - master
+        template: Spacewalk

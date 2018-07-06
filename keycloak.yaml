@@ -1,0 +1,85 @@
+project-templates:
+  keycloak:
+    branches:
+    - master
+    gitweb: https://github.com/keycloak/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/keycloak/%(name)s
+projects:
+  keycloak:
+    description: Open Source Identity and Access Management For Modern Applications
+      and Services
+    repos:
+      jenkins-keycloak-plugin:
+        branches:
+        - master
+        template: keycloak
+      kcinit:
+        branches:
+        - master
+        template: keycloak
+      keycloak:
+        branches:
+        - master
+        template: keycloak
+      keycloak-admin-client:
+        branches:
+        - master
+        template: keycloak
+      keycloak-client-registration:
+        branches:
+        - master
+        template: keycloak
+      keycloak-documentation:
+        branches:
+        - master
+        template: keycloak
+      keycloak-hapi:
+        branches:
+        - master
+        template: keycloak
+      keycloak-js-bower:
+        branches:
+        - master
+        template: keycloak
+      keycloak-misc:
+        branches:
+        - master
+        template: keycloak
+      keycloak-nodejs-auth-utils:
+        branches:
+        - master
+        template: keycloak
+      keycloak-nodejs-connect:
+        branches:
+        - master
+        template: keycloak
+      keycloak-quickstarts:
+        branches:
+        - latest
+        template: keycloak
+      keycloak-request-token:
+        branches:
+        - master
+        template: keycloak
+      keycloak-test-docker-images:
+        branches:
+        - master
+        template: keycloak
+      keycloak-web:
+        branches:
+        - master
+        template: keycloak
+      keycloak.github.io:
+        branches:
+        - master
+        template: keycloak
+      libunix-dbus-java:
+        branches:
+        - master
+        template: keycloak
+      openshift-integration:
+        branches:
+        - master
+        template: keycloak

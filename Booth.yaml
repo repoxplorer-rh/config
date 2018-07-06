@@ -1,0 +1,12 @@
+project-templates:
+  Booth:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  Booth:
+    description: Ticket manager for geographically dispersed high-availability clustering
+    repos: {}

@@ -1,0 +1,20 @@
+project-templates:
+  SSM:
+    branches:
+    - master
+    gitweb: https://github.com/system-storage-manager/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/system-storage-manager/%(name)s
+projects:
+  SSM:
+    description: System Storage Manager - A single tool to manage your storage.
+    repos:
+      ssm:
+        branches:
+        - master
+        template: SSM
+      system-storage-manager.github.io:
+        branches:
+        - master
+        template: SSM

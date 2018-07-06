@@ -1,0 +1,16 @@
+project-templates:
+  LibStorageMgmt:
+    branches:
+    - master
+    gitweb: https://github.com/libstorage/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/libstorage/%(name)s
+projects:
+  LibStorageMgmt:
+    description: A library for storage management
+    repos:
+      libstoragemgmt:
+        branches:
+        - master
+        template: LibStorageMgmt

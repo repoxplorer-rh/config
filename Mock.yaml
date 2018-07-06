@@ -1,0 +1,16 @@
+project-templates:
+  Mock:
+    branches:
+    - master
+    gitweb: https://github.com/rpm-software-management/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/rpm-software-management/%(name)s
+projects:
+  Mock:
+    description: Mock is a tool for a reproducible build of RPM packages
+    repos:
+      mock:
+        branches:
+        - devel
+        template: Mock

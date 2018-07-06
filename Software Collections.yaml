@@ -1,0 +1,217 @@
+project-templates:
+  Software Collections:
+    branches:
+    - master
+    gitweb: https://github.com/sclorg/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/sclorg/%(name)s
+projects:
+  Software Collections:
+    description: Build, install, and use multiple versions of software on the same
+      system
+    repos:
+      cakephp-ex:
+        branches:
+        - master
+        template: Software Collections
+      cassandra-container:
+        branches:
+        - master
+        template: Software Collections
+      centos-release-scl:
+        branches:
+        - master
+        template: Software Collections
+      centpkg-sclo:
+        branches:
+        - master
+        template: Software Collections
+      container-common-scripts:
+        branches:
+        - master
+        template: Software Collections
+      container-workflow-tool:
+        branches:
+        - master
+        template: Software Collections
+      containers-doc:
+        branches:
+        - master
+        template: Software Collections
+      dancer-ex:
+        branches:
+        - master
+        template: Software Collections
+      devtoolset-container:
+        branches:
+        - master
+        template: Software Collections
+      django-ex:
+        branches:
+        - master
+        template: Software Collections
+      golang-container:
+        branches:
+        - master
+        template: Software Collections
+      httpd-container:
+        branches:
+        - master
+        template: Software Collections
+      httpd-ex:
+        branches:
+        - master
+        template: Software Collections
+      image-streams:
+        branches:
+        - master
+        template: Software Collections
+      llvm-container:
+        branches:
+        - master
+        template: Software Collections
+      mariadb-container:
+        branches:
+        - master
+        template: Software Collections
+      mongodb-container:
+        branches:
+        - master
+        template: Software Collections
+      mysql-container:
+        branches:
+        - master
+        template: Software Collections
+      nginx-container:
+        branches:
+        - master
+        template: Software Collections
+      nginx-ex:
+        branches:
+        - master
+        template: Software Collections
+      passenger-container:
+        branches:
+        - master
+        template: Software Collections
+      postgresql:
+        branches:
+        - master
+        template: Software Collections
+      postgresql-container:
+        branches:
+        - master
+        template: Software Collections
+      postgresql-container-generated:
+        branches:
+        - master
+        template: Software Collections
+      postgresql-meta:
+        branches:
+        - master
+        template: Software Collections
+      rails-ex:
+        branches:
+        - master
+        template: Software Collections
+      redis-container:
+        branches:
+        - master
+        template: Software Collections
+      rhscl-container-ci:
+        branches:
+        - master
+        template: Software Collections
+      rhscl-dockerfiles:
+        branches:
+        - master
+        template: Software Collections
+      rhscl-rebuild-recipes:
+        branches:
+        - master
+        template: Software Collections
+      rhscl2dockerfile:
+        branches:
+        - master
+        template: Software Collections
+      ror-container:
+        branches:
+        - master
+        template: Software Collections
+      rpm-list-builder:
+        branches:
+        - master
+        template: Software Collections
+      ruby-ex:
+        branches:
+        - master
+        template: Software Collections
+      rust-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-base-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-nodejs-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-perl-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-php-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-python-container:
+        branches:
+        - master
+        template: Software Collections
+      s2i-ruby-container:
+        branches:
+        - master
+        template: Software Collections
+      scl-examples:
+        branches:
+        - master
+        template: Software Collections
+      scl-utils:
+        branches:
+        - master
+        template: Software Collections
+      scl-utils-build-helpers:
+        branches:
+        - master
+        template: Software Collections
+      sclo-ci-tests:
+        branches:
+        - master
+        template: Software Collections
+      scltests:
+        branches:
+        - master
+        template: Software Collections
+      softwarecollections:
+        branches:
+        - master
+        template: Software Collections
+      spec2scl:
+        branches:
+        - master
+        template: Software Collections
+      thermostat-container:
+        branches:
+        - master
+        template: Software Collections
+      varnish-container:
+        branches:
+        - master
+        template: Software Collections
+      welcome:
+        branches:
+        - master
+        template: Software Collections

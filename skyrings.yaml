@@ -1,0 +1,36 @@
+project-templates:
+  skyrings:
+    branches:
+    - master
+    gitweb: https://github.com/skyrings/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/skyrings/%(name)s
+projects:
+  skyrings:
+    description: A modern, extensible web-based storage management platform
+    repos:
+      bigfin:
+        branches:
+        - master
+        template: skyrings
+      kitoon:
+        branches:
+        - master
+        template: skyrings
+      skynet:
+        branches:
+        - master
+        template: skyrings
+      skyring:
+        branches:
+        - master
+        template: skyrings
+      skyring-common:
+        branches:
+        - master
+        template: skyrings
+      skyring-tools:
+        branches:
+        - master
+        template: skyrings

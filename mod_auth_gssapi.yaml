@@ -1,0 +1,20 @@
+project-templates:
+  mod_auth_gssapi:
+    branches:
+    - master
+    gitweb: https://github.com/modauthgssapi/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/modauthgssapi/%(name)s
+projects:
+  mod_auth_gssapi:
+    description: GSSAPI Negotiate module for Apache
+    repos:
+      mod_auth_gssapi:
+        branches:
+        - master
+        template: mod_auth_gssapi
+      mod_auth_gssapi.fedora:
+        branches:
+        - master
+        template: mod_auth_gssapi

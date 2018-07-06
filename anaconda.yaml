@@ -1,0 +1,16 @@
+project-templates:
+  anaconda:
+    branches:
+    - master
+    gitweb: https://github.com/rhinstaller/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/rhinstaller/%(name)s
+projects:
+  anaconda:
+    description: Graphical system installer
+    repos:
+      anaconda:
+        branches:
+        - master
+        template: anaconda

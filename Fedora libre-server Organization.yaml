@@ -1,0 +1,24 @@
+project-templates:
+  Fedora libre-server Organization:
+    branches:
+    - master
+    gitweb: https://github.com/libre-server/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/libre-server/%(name)s
+projects:
+  Fedora libre-server Organization:
+    description: Managing server roles
+    repos:
+      libre-server.github.io:
+        branches:
+        - master
+        template: Fedora libre-server Organization
+      proposals:
+        branches:
+        - master
+        template: Fedora libre-server Organization
+      rolekit:
+        branches:
+        - master
+        template: Fedora libre-server Organization

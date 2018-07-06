@@ -1,0 +1,17 @@
+project-templates:
+  udisks:
+    branches:
+    - master
+    gitweb: https://github.com/storaged-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/storaged-project/%(name)s
+projects:
+  udisks:
+    description: Provides a daemon, tools and libraries to access and manipulate disks,
+      storage devices and technologies
+    repos:
+      udisks:
+        branches:
+        - master
+        template: udisks

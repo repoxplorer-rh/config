@@ -1,0 +1,460 @@
+project-templates:
+  AeroGear:
+    branches:
+    - master
+    gitweb: https://github.com/aerogear/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/aerogear/%(name)s
+projects:
+  AeroGear:
+    description: Making cross-platform enterprise mobile development easy
+    repos:
+      aerogear-aerodoc-backend:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-aerodoc-web:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-authz:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-core:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-pipe:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-sdk:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-security:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-android-store:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-app-metrics:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-backend-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-blog-aggregator:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-cordova-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-cordova-crypto:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-cordova-oauth2:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-cordova-otp:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-cordova-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-crypto-java:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-design:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-digger:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-digger-installer:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-digger-java-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-digger-node-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-forge-scaffold:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-integration-tests-server:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-crypto:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-http:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-oauth2:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-otp:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-push-objc:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-ios-sdk:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-jar-resource-bundle:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-builder:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-dist:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-integration:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-js-sdk:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-kryptowire-jenkins-plugin:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-misc:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-mobile-intellij-plugin:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-otp-java:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-otp-js:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-parent:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-sdk-e2e-tests:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-simplepush-java-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-simplepush-node-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-simplepush-server:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-testing-tools:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-titanium-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-unifiedpush-dotnet-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-unifiedpush-java-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-unifiedpush-nodejs-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-unifiedpush-server:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-unifiedpush-server-integration-tests:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-webpush-java-client:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-webpush-server:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-windows-cookbook:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-windows-oauth2:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-windows-otp:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-windows-push:
+        branches:
+        - master
+        template: AeroGear
+      aerogear-xamarin-sdk:
+        branches:
+        - master
+        template: AeroGear
+      aerogear.org:
+        branches:
+        - master
+        template: AeroGear
+      android-sdk-operator-poc:
+        branches:
+        - master
+        template: AeroGear
+      android-showcase-template:
+        branches:
+        - master
+        template: AeroGear
+      androidctl:
+        branches:
+        - master
+        template: AeroGear
+      antora-ui:
+        branches:
+        - master
+        template: AeroGear
+      artifact-proxy-operator:
+        branches:
+        - master
+        template: AeroGear
+      auth-docs:
+        branches:
+        - master
+        template: AeroGear
+      collateral:
+        branches:
+        - master
+        template: AeroGear
+      cordova-showcase-template:
+        branches:
+        - master
+        template: AeroGear
+      data-sync-server:
+        branches:
+        - master
+        template: AeroGear
+      data-sync-ui:
+        branches:
+        - master
+        template: AeroGear
+      digger-android-sdk-image:
+        branches:
+        - master
+        template: AeroGear
+      digger-android-slave-image:
+        branches:
+        - master
+        template: AeroGear
+      digger-build-cli:
+        branches:
+        - master
+        template: AeroGear
+      digger-build-containers:
+        branches:
+        - master
+        template: AeroGear
+      digger-test:
+        branches:
+        - master
+        template: AeroGear
+      docs.aerogear.org:
+        branches:
+        - master
+        template: AeroGear
+      fh-sync-server-apb:
+        branches:
+        - master
+        template: AeroGear
+      ios-showcase-template:
+        branches:
+        - master
+        template: AeroGear
+      java-adm:
+        branches:
+        - master
+        template: AeroGear
+      java-mpns:
+        branches:
+        - master
+        template: AeroGear
+      kafka-cdi:
+        branches:
+        - master
+        template: AeroGear
+      keycloak-metrics-spi:
+        branches:
+        - master
+        template: AeroGear
+      keycloak-operator:
+        branches:
+        - master
+        template: AeroGear
+      minishift-mobilecore-addon:
+        branches:
+        - master
+        template: AeroGear
+      mobile-cli:
+        branches:
+        - master
+        template: AeroGear
+      mobile-controller:
+        branches:
+        - master
+        template: AeroGear
+      mobile-core:
+        branches:
+        - master
+        template: AeroGear
+      mobile-crd-client:
+        branches:
+        - master
+        template: AeroGear
+      mobile-docs:
+        branches:
+        - master
+        template: AeroGear
+      mobile-docs-html:
+        branches:
+        - master
+        template: AeroGear
+      oc-patch-file-to-configmap-role:
+        branches:
+        - master
+        template: AeroGear
+      openshift-origin-cartridge-aerogear-push:
+        branches:
+        - master
+        template: AeroGear
+      openshift-origin-cartridge-aerogear-push-jboss7:
+        branches:
+        - master
+        template: AeroGear
+      processes:
+        branches:
+        - master
+        template: AeroGear
+      proposals:
+        branches:
+        - master
+        template: AeroGear
+      push-network-proxies:
+        branches:
+        - master
+        template: AeroGear
+      shared-service-operator-poc:
+        branches:
+        - master
+        template: AeroGear
+      trira:
+        branches:
+        - master
+        template: AeroGear
+      unifiedpush-admin-ui:
+        branches:
+        - master
+        template: AeroGear
+      unifiedpush-forge-addon:
+        branches:
+        - master
+        template: AeroGear
+      ups-config-operator:
+        branches:
+        - master
+        template: AeroGear
+      ups-mock-data-loader:
+        branches:
+        - master
+        template: AeroGear
+      ups-test-driver:
+        branches:
+        - master
+        template: AeroGear
+      ups-test-suite:
+        branches:
+        - master
+        template: AeroGear
+      xamarin-showcase-template:
+        branches:
+        - master
+        template: AeroGear

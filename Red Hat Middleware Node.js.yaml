@@ -1,0 +1,248 @@
+project-templates:
+  Red Hat Middleware Node.js:
+    branches:
+    - master
+    gitweb: https://github.com/bucharest-gold/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/bucharest-gold/%(name)s
+projects:
+  Red Hat Middleware Node.js:
+    description: Red Hat Middleware Node.js projects and research
+    repos:
+      apiman-admin-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      automatic-pancake:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      bgold:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      bucharest-gold.github.io:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      centos7-nodejs:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      centos7-s2i-nodejs:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      centos7-s2i-web-app:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      drools-kie-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      entente:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      fidelity:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      genet:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      goldbot:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      hapi-genet:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      hawkular-apm-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      huilu:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      kube-probe:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      license-reporter:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      lightbright:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      litoria:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      mea5n-booster:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      mean-booster:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      mean-quick-start:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      ndmr:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      node-image-stream:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      node-metadata:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      node-rpm:
+        branches:
+        - v8.x-staging
+        template: Red Hat Middleware Node.js
+      nodejs-cache:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-cache-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-circuit-breaker:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-circuit-breaker-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-configmap:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-configmap-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-health-check:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-health-check-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-istio-circuit-breaker:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-istio-routing:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-istio-security:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-istio-tracing:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http-crud:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http-crud-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http-secured:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodejs-rest-http-secured-redhat:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      nodeshift:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      openshift-config-loader:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      openshift-rest-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      opossum:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      perf-quest:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      rhel-s2i-nodejs:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      rhel7-base:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      rhoaster:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      roi:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      s2i-nodejs:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      szero:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      szero-grunt:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      unifiedpush-admin-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      unifiedpush-registration-client:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js
+      vuejs-booster:
+        branches:
+        - master
+        template: Red Hat Middleware Node.js

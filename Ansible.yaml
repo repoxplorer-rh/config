@@ -1,0 +1,297 @@
+project-templates:
+  Ansible:
+    branches:
+    - master
+    gitweb: https://github.com/ansible/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ansible/%(name)s
+projects:
+  Ansible:
+    description: IT automation platform that makes your applications and systems easier
+      to deploy
+    repos:
+      ambassadors:
+        branches:
+        - master
+        template: Ansible
+      ansible:
+        branches:
+        - devel
+        template: Ansible
+      ansible-blog-examples:
+        branches:
+        - master
+        template: Ansible
+      ansible-container:
+        branches:
+        - develop
+        template: Ansible
+      ansible-container-demo:
+        branches:
+        - master
+        template: Ansible
+      ansible-container-examples:
+        branches:
+        - master
+        template: Ansible
+      ansible-demo-operations:
+        branches:
+        - master
+        template: Ansible
+      ansible-docker-base:
+        branches:
+        - master
+        template: Ansible
+      ansible-doctor:
+        branches:
+        - master
+        template: Ansible
+      ansible-examples:
+        branches:
+        - master
+        template: Ansible
+      ansible-for-rubyists:
+        branches:
+        - master
+        template: Ansible
+      ansible-inventory-backport:
+        branches:
+        - master
+        template: Ansible
+      ansible-jupyter-kernel:
+        branches:
+        - master
+        template: Ansible
+      ansible-kubernetes-modules:
+        branches:
+        - master
+        template: Ansible
+      ansible-lockdown:
+        branches:
+        - master
+        template: Ansible
+      ansible-modules-core:
+        branches:
+        - devel
+        template: Ansible
+      ansible-modules-extras:
+        branches:
+        - devel
+        template: Ansible
+      ansible-runner:
+        branches:
+        - master
+        template: Ansible
+      ansible-test-images:
+        branches:
+        - master
+        template: Ansible
+      ansible-tower-samples:
+        branches:
+        - master
+        template: Ansible
+      ansible.github.com:
+        branches:
+        - master
+        template: Ansible
+      ansible.github.io:
+        branches:
+        - master
+        template: Ansible
+      ansible_tower_client_ruby:
+        branches:
+        - master
+        template: Ansible
+      ansibullbot:
+        branches:
+        - master
+        template: Ansible
+      ansiconv:
+        branches:
+        - master
+        template: Ansible
+      asgi_amqp:
+        branches:
+        - master
+        template: Ansible
+      autoscaling-blog:
+        branches:
+        - master
+        template: Ansible
+      awx:
+        branches:
+        - devel
+        template: Ansible
+      awx-facts-playbooks:
+        branches:
+        - master
+        template: Ansible
+      awx-insights-playbooks:
+        branches:
+        - master
+        template: Ansible
+      awx-logos:
+        branches:
+        - master
+        template: Ansible
+      awx-rabbitmq:
+        branches:
+        - master
+        template: Ansible
+      azure-testing:
+        branches:
+        - master
+        template: Ansible
+      cloudstack-test-container:
+        branches:
+        - master
+        template: Ansible
+      community:
+        branches:
+        - master
+        template: Ansible
+      dci-ansible-testrunner:
+        branches:
+        - master
+        template: Ansible
+      dci-partner-ansible:
+        branches:
+        - master
+        template: Ansible
+      django-gulp-nginx:
+        branches:
+        - master
+        template: Ansible
+      django-jsonfield:
+        branches:
+        - tower_0.9.12
+        template: Ansible
+      django-qsstats-magic:
+        branches:
+        - master
+        template: Ansible
+      django-template:
+        branches:
+        - master
+        template: Ansible
+      dm.xmlsec.binding:
+        branches:
+        - master
+        template: Ansible
+      docker-testing:
+        branches:
+        - master
+        template: Ansible
+      foreman-test-container:
+        branches:
+        - master
+        template: Ansible
+      functools-total-ordering-monkeypatch:
+        branches:
+        - master
+        template: Ansible
+      galaxy:
+        branches:
+        - devel
+        template: Ansible
+      galaxy-docs:
+        branches:
+        - master
+        template: Ansible
+      galaxy-issues:
+        branches:
+        - master
+        template: Ansible
+      gevent-socketio:
+        branches:
+        - tower_0.3.6
+        template: Ansible
+      http-test-container:
+        branches:
+        - master
+        template: Ansible
+      immutablish-deploys:
+        branches:
+        - master
+        template: Ansible
+      lightbulb:
+        branches:
+        - master
+        template: Ansible
+      mazer:
+        branches:
+        - devel
+        template: Ansible
+      network-infra-playbooks:
+        branches:
+        - master
+        template: Ansible
+      nginx-container:
+        branches:
+        - master
+        template: Ansible
+      nios-test-container:
+        branches:
+        - master
+        template: Ansible
+      openstack-ci:
+        branches:
+        - master
+        template: Ansible
+      proposals:
+        branches:
+        - master
+        template: Ansible
+      pytest-ansible:
+        branches:
+        - master
+        template: Ansible
+      pytest-mp:
+        branches:
+        - master
+        template: Ansible
+      python-social-auth:
+        branches:
+        - master
+        template: Ansible
+      role-install-gcloud:
+        branches:
+        - master
+        template: Ansible
+      role-local-registry:
+        branches:
+        - master
+        template: Ansible
+      role-secure-docker-daemon:
+        branches:
+        - master
+        template: Ansible
+      tacacs_plus:
+        branches:
+        - master
+        template: Ansible
+      test-network-modules:
+        branches:
+        - devel
+        template: Ansible
+      tower-cli:
+        branches:
+        - master
+        template: Ansible
+      tower-example:
+        branches:
+        - master
+        template: Ansible
+      vcenter-test-container:
+        branches:
+        - master
+        template: Ansible
+      zuul-config:
+        branches:
+        - master
+        template: Ansible
+      zuul-test-repo:
+        branches:
+        - devel
+        template: Ansible

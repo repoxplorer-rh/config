@@ -1,0 +1,69 @@
+project-templates:
+  OpenShift.io:
+    branches:
+    - master
+    gitweb: https://github.com/openshiftio/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/openshiftio/%(name)s
+projects:
+  OpenShift.io:
+    description: Open online development environment for planning, creating, and deploying
+      hybrid cloud services
+    repos:
+      booster-common:
+        branches:
+        - master
+        template: OpenShift.io
+      booster-parent:
+        branches:
+        - master
+        template: OpenShift.io
+      doc-booster-synchronizer:
+        branches:
+        - master
+        template: OpenShift.io
+      openshift.io:
+        branches:
+        - master
+        template: OpenShift.io
+      openshiftio-cico-jobs:
+        branches:
+        - master
+        template: OpenShift.io
+      saas:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-analytics:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-chat:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-errortracking:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-hdd:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-launchpad:
+        branches:
+        - master
+        template: OpenShift.io
+      saas-openshiftio:
+        branches:
+        - master
+        template: OpenShift.io
+      saasherder:
+        branches:
+        - master
+        template: OpenShift.io
+      tenant-log-indirector:
+        branches:
+        - master
+        template: OpenShift.io

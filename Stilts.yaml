@@ -1,0 +1,16 @@
+project-templates:
+  Stilts:
+    branches:
+    - master
+    gitweb: https://github.com/projectodd/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/projectodd/%(name)s
+projects:
+  Stilts:
+    description: Stomp Integration Layer and Transaction Server
+    repos:
+      stilts:
+        branches:
+        - master
+        template: Stilts

@@ -1,0 +1,16 @@
+project-templates:
+  dmioscope:
+    branches:
+    - master
+    gitweb: https://github.com/bmr-cymru/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/bmr-cymru/%(name)s
+projects:
+  dmioscope:
+    description: Device-mapper IO visualiser
+    repos:
+      dmioscope:
+        branches:
+        - master
+        template: dmioscope

@@ -1,0 +1,36 @@
+project-templates:
+  SAVARA:
+    branches:
+    - master
+    gitweb: https://github.com/savara/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/savara/%(name)s
+projects:
+  SAVARA:
+    description: Creates tool support around the concept of Testable Architecture
+    repos:
+      savara-core:
+        branches:
+        - master
+        template: SAVARA
+      savara-integration:
+        branches:
+        - master
+        template: SAVARA
+      savara-jbosstools-build:
+        branches:
+        - master
+        template: SAVARA
+      savara-sam:
+        branches:
+        - master
+        template: SAVARA
+      savara-tools-eclipse:
+        branches:
+        - master
+        template: SAVARA
+      savara-tools-web:
+        branches:
+        - master
+        template: SAVARA

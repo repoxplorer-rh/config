@@ -1,0 +1,28 @@
+project-templates:
+  firewalld:
+    branches:
+    - master
+    gitweb: https://github.com/firewalld/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/firewalld/%(name)s
+projects:
+  firewalld:
+    description: Firewall daemon with D-Bus interface
+    repos:
+      ansible-role-firewall:
+        branches:
+        - master
+        template: firewalld
+      firewalld:
+        branches:
+        - master
+        template: firewalld
+      firewalld.github.io:
+        branches:
+        - master
+        template: firewalld
+      libfirewall:
+        branches:
+        - master
+        template: firewalld

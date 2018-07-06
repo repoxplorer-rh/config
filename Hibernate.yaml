@@ -1,0 +1,160 @@
+project-templates:
+  Hibernate:
+    branches:
+    - master
+    gitweb: https://github.com/hibernate/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/hibernate/%(name)s
+projects:
+  Hibernate:
+    description: JBoss-based database tools
+    repos:
+      aws-v4-signer-java-jbossmodules:
+        branches:
+        - master
+        template: Hibernate
+      beanvalidation-benchmark:
+        branches:
+        - master
+        template: Hibernate
+      ci.hibernate.org:
+        branches:
+        - master
+        template: Hibernate
+      database-profile-plugin:
+        branches:
+        - master
+        template: Hibernate
+      elasticsearch-client-jbossmodules:
+        branches:
+        - master
+        template: Hibernate
+      gson-jbossmodules:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-asciidoctor-extensions:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-asciidoctor-theme:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-commons-annotations:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-demos:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-hql-parser:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ide-codestyles:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-jdocbook-style:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-jpa-api:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-matrix-testing:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-metamodelgen:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-noorm-release-scripts:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm-cassandra:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm-couchdb:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm-ehcache:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm-ignite:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-ogm-redis:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-orm:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-presentations:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-search:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-search-6-poc:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-semantic-query:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-shards:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-test-case-templates:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-tools:
+        branches:
+        - master
+        template: Hibernate
+      hibernate-validator:
+        branches:
+        - master
+        template: Hibernate
+      hibernate.github.io:
+        branches:
+        - master
+        template: Hibernate
+      hibernate.org:
+        branches:
+        - staging
+        template: Hibernate
+      in.relation.to:
+        branches:
+        - staging
+        template: Hibernate
+      lucene-jbossmodules:
+        branches:
+        - master
+        template: Hibernate
+      version-injection-plugin:
+        branches:
+        - master
+        template: Hibernate

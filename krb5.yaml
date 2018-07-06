@@ -1,0 +1,16 @@
+project-templates:
+  krb5:
+    branches:
+    - master
+    gitweb: https://github.com/krb5/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/krb5/%(name)s
+projects:
+  krb5:
+    description: MIT Kerberos authentication protocol
+    repos:
+      krb5:
+        branches:
+        - master
+        template: krb5

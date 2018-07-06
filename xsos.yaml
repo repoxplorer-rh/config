@@ -1,0 +1,16 @@
+project-templates:
+  xsos:
+    branches:
+    - master
+    gitweb: https://github.com/ryran/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ryran/%(name)s
+projects:
+  xsos:
+    description: Summarize system info from sosreports
+    repos:
+      xsos:
+        branches:
+        - master
+        template: xsos

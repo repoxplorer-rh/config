@@ -1,0 +1,16 @@
+project-templates:
+  Apache ActiveMQ:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache ActiveMQ:
+    description: Powerful open source messaging and Integration Patterns server
+    repos:
+      activemq:
+        branches:
+        - master
+        template: Apache ActiveMQ

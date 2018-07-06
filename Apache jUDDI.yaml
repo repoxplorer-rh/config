@@ -1,0 +1,16 @@
+project-templates:
+  Apache jUDDI:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache jUDDI:
+    description: Open source Java implementation of OASIS
+    repos:
+      juddi:
+        branches:
+        - master
+        template: Apache jUDDI

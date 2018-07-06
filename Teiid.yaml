@@ -1,0 +1,136 @@
+project-templates:
+  Teiid:
+    branches:
+    - master
+    gitweb: https://github.com/teiid/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/teiid/%(name)s
+projects:
+  Teiid:
+    description: Data virtualization platform
+    repos:
+      beetle-studio:
+        branches:
+        - master
+        template: Teiid
+      data-access-service-templates:
+        branches:
+        - master
+        template: Teiid
+      javacc:
+        branches:
+        - master
+        template: Teiid
+      jdg:
+        branches:
+        - master
+        template: Teiid
+      kubernetes-service-catalog-client:
+        branches:
+        - master
+        template: Teiid
+      metadata-catalog-ui:
+        branches:
+        - master
+        template: Teiid
+      openshift:
+        branches:
+        - master
+        template: Teiid
+      oreva:
+        branches:
+        - master
+        template: Teiid
+      project-bom:
+        branches:
+        - master
+        template: Teiid
+      project-integration-bom:
+        branches:
+        - master
+        template: Teiid
+      salesforce:
+        branches:
+        - master
+        template: Teiid
+      teiid:
+        branches:
+        - master
+        template: Teiid
+      teiid-coherence:
+        branches:
+        - master
+        template: Teiid
+      teiid-dashboard:
+        branches:
+        - master
+        template: Teiid
+      teiid-documents:
+        branches:
+        - master
+        template: Teiid
+      teiid-embedded:
+        branches:
+        - master
+        template: Teiid
+      teiid-embedded-examples:
+        branches:
+        - master
+        template: Teiid
+      teiid-extensions:
+        branches:
+        - master
+        template: Teiid
+      teiid-komodo:
+        branches:
+        - master
+        template: Teiid
+      teiid-modeshape:
+        branches:
+        - master
+        template: Teiid
+      teiid-quickstarts:
+        branches:
+        - master
+        template: Teiid
+      teiid-rhq:
+        branches:
+        - master
+        template: Teiid
+      teiid-spring-boot:
+        branches:
+        - master
+        template: Teiid
+      teiid-tools:
+        branches:
+        - master
+        template: Teiid
+      teiid-web-console:
+        branches:
+        - master
+        template: Teiid
+      teiid-web-security:
+        branches:
+        - master
+        template: Teiid
+      teiid.io:
+        branches:
+        - master
+        template: Teiid
+      thorntail-teiid-examples:
+        branches:
+        - master
+        template: Teiid
+      vdb-maven-plugin:
+        branches:
+        - master
+        template: Teiid
+      whipper:
+        branches:
+        - master
+        template: Teiid
+      wildfly-swarm-teiid-DEPRECATED:
+        branches:
+        - master
+        template: Teiid

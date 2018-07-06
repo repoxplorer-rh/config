@@ -1,0 +1,472 @@
+project-templates:
+  JBoss Demo Central:
+    branches:
+    - master
+    gitweb: https://github.com/jbossdemocentral/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/jbossdemocentral/%(name)s
+projects:
+  JBoss Demo Central:
+    description: Demos for JBoss
+    repos:
+      3scale-security-oidc-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      amq-ha-replicated-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-baggage-delivery-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-customer-evaluation-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-dv-travel-agency-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-ecm-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-fsw-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-fuse-travel-agency-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-generic-loan-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-governance-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-helpdesk-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-install-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-jdg-customer-evaluation-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-kyc-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-kyc-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-mobile-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-mortgage-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-rewards-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-signavio-customer-onboarding-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-signavio-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-travel-agency-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpms-travel-agency-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpmsuite-customer-evaluation-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpmsuite-generic-loan-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      bpmsuite-rewards-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-car-insurance-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-coolstore-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-coolstore-demo-angular-patternfly:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-coolstore-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-customer-evaluation-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-fuse-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-install-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-loan-realtime-decision-server-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      brms-rewards-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      business-resource-planner-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-baggage-delivery-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-coolstore-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-customer-evaluation-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-generic-loan-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-mortgage-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-rewards-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-bpmPaaS-travel-agency-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      cartridge-brmsPaaS:
+        branches:
+        - master
+        template: JBoss Demo Central
+      codenvy-cloud-ide:
+        branches:
+        - master
+        template: JBoss Demo Central
+      continuous-delivery-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      continuous-delivery-demo-app:
+        branches:
+        - master
+        template: JBoss Demo Central
+      coolstore-microservice:
+        branches:
+        - stable-ocp-3.9
+        template: JBoss Demo Central
+      decision-manager-dmn-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      decision-manager-dmn-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      demotemplate:
+        branches:
+        - master
+        template: JBoss Demo Central
+      docker-developer:
+        branches:
+        - master
+        template: JBoss Demo Central
+      dv-brms-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      dv-datagrid-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      dv-fuse-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      dv-gettingstarted:
+        branches:
+        - master
+        template: JBoss Demo Central
+      dv-odata-docker-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-components-hl7:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-components-salesforce:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-components-sap:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-components-sap-netweaver:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-dv-shopping-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-financial-cicd:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-hystrix:
+        branches:
+        - master
+        template: JBoss Demo Central
+      fuse-introlab:
+        branches:
+        - master
+        template: JBoss Demo Central
+      getting-started-with-demos:
+        branches:
+        - master
+        template: JBoss Demo Central
+      homeloan-integration-bpm-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      homeloan-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      integration-summitlab2018-fuse-amq:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-a-mq-websockets-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-brms-performance-testing-framework:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-datagrid-camelcomponent-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-datagrid-crossdatacenter-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-datagrid-gettingstarted-demos:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-datagrid-spark-analytics-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-demo-template:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-eap-continuous-delivery-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-eap-docker-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-enterprise-data-services-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fis-autodealer:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fis-weightwatcher:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-cxf-cxfrs:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-facebook:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-file-jdbc:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-quartz2:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-twitter:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-component-websocket:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-homeloan:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-jdg-scalable-integration:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-mqgateway-failoverdemo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-fuse-oneap:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jboss-keynote-demo-2014:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jbossdemocentral.github.io:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jdg-fuse-demos:
+        branches:
+        - master
+        template: JBoss Demo Central
+      jdg-labs:
+        branches:
+        - master
+        template: JBoss Demo Central
+      katacoda-fuse-getting-started:
+        branches:
+        - master
+        template: JBoss Demo Central
+      keynote-jbossworld-2012-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      mobile-bpms-clientapp-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      mobile-bpms-cloudapp-integration-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      ose3-jboss-eap-demo-project:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-cicd-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-install-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-insurance-pricing-dmn-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-insurance-pricing-dmn-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-loan-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-loan-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhdm7-qlb-loan-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-cc-dispute-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-demo-template:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-install-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-mortgage-demo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-mortgage-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      rhpam7-order-management-demo-repo:
+        branches:
+        - master
+        template: JBoss Demo Central
+      site:
+        branches:
+        - master
+        template: JBoss Demo Central
+      summitlab2016:
+        branches:
+        - master
+        template: JBoss Demo Central

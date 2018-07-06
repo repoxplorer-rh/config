@@ -1,0 +1,16 @@
+project-templates:
+  tito:
+    branches:
+    - master
+    gitweb: https://github.com/dgoodwin/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/dgoodwin/%(name)s
+projects:
+  tito:
+    description: A tool for managing rpm-based git projects.
+    repos:
+      tito:
+        branches:
+        - master
+        template: tito

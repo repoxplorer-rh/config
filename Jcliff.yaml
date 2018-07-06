@@ -1,0 +1,17 @@
+project-templates:
+  Jcliff:
+    branches:
+    - master
+    gitweb: https://github.com/bserdar/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/bserdar/%(name)s
+projects:
+  Jcliff:
+    description: Configures a running instance of EAP6/JBoss7 using modular configuration
+      files
+    repos:
+      jcliff:
+        branches:
+        - master
+        template: Jcliff

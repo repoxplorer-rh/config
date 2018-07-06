@@ -1,0 +1,57 @@
+project-templates:
+  Fedora Cloud SIG:
+    branches:
+    - master
+    gitweb: https://github.com/fedora-cloud/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/fedora-cloud/%(name)s
+projects:
+  Fedora Cloud SIG:
+    description: Works to make Fedora successful on all major cloud platforms, public
+      and private
+    repos:
+      Fedora-Dockerfiles:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      Fedora-rktfiles:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      cloud-init:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      cloudtoserver:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      docker-brew-fedora:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      docker-io:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      docker-rpm:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      docs:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      fedoracloud:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      fosp-playbooks:
+        branches:
+        - master
+        template: Fedora Cloud SIG
+      rkt-rpm:
+        branches:
+        - master
+        template: Fedora Cloud SIG

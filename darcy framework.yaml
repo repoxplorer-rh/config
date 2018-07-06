@@ -1,0 +1,41 @@
+project-templates:
+  darcy framework:
+    branches:
+    - master
+    gitweb: https://github.com/darcy-framework/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/darcy-framework/%(name)s
+projects:
+  darcy framework:
+    description: An open source Java 8 framework for modeling user interfaces as page
+      objects.
+    repos:
+      darcy-docs:
+        branches:
+        - master
+        template: darcy framework
+      darcy-framework:
+        branches:
+        - master
+        template: darcy framework
+      darcy-salesforce:
+        branches:
+        - master
+        template: darcy framework
+      darcy-ui:
+        branches:
+        - master
+        template: darcy framework
+      darcy-web:
+        branches:
+        - master
+        template: darcy framework
+      darcy-webdriver:
+        branches:
+        - master
+        template: darcy framework
+      synq:
+        branches:
+        - master
+        template: darcy framework

@@ -1,0 +1,16 @@
+project-templates:
+  Springfield Project:
+    branches:
+    - master
+    gitweb: https://github.com/springfield-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/springfield-project/%(name)s
+projects:
+  Springfield Project:
+    description: A smart and automated storage.
+    repos:
+      springfield-project.github.io:
+        branches:
+        - master
+        template: Springfield Project

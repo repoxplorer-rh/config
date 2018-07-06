@@ -1,0 +1,66 @@
+project-templates:
+  WildFly Swarm:
+    branches:
+    - master
+    gitweb: https://github.com/wildfly-swarm/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/wildfly-swarm/%(name)s
+projects:
+  WildFly Swarm:
+    description: WildFly Swarm offers an innovative approach to packaging and running
+      Java EE applications by packaging them with just enough of the server runtime
+      to 'java -jar' your application. It's MicroProfile compatible, too.
+    repos:
+      checkstyle:
+        branches:
+        - master
+        template: WildFly Swarm
+      docs.wildfly-swarm.io:
+        branches:
+        - master
+        template: WildFly Swarm
+      gitbook-plugin-reference-guide:
+        branches:
+        - master
+        template: WildFly Swarm
+      gitbook-plugin-snippet:
+        branches:
+        - master
+        template: WildFly Swarm
+      gitbook-plugin-sourcelist:
+        branches:
+        - master
+        template: WildFly Swarm
+      process-monitor:
+        branches:
+        - master
+        template: WildFly Swarm
+      tutorial:
+        branches:
+        - master
+        template: WildFly Swarm
+      wildfly-swarm-generator:
+        branches:
+        - master
+        template: WildFly Swarm
+      wildfly-swarm-javadocs:
+        branches:
+        - gh-pages
+        template: WildFly Swarm
+      wildfly-swarm-presentations:
+        branches:
+        - master
+        template: WildFly Swarm
+      wildfly-swarm-reference-guide:
+        branches:
+        - master
+        template: WildFly Swarm
+      wildfly-swarm-users-guide:
+        branches:
+        - master
+        template: WildFly Swarm
+      wildfly-swarm.io:
+        branches:
+        - master
+        template: WildFly Swarm

@@ -1,0 +1,12 @@
+project-templates:
+  redhatanalytics:
+    branches:
+    - master
+    gitweb: https://github.com/redhatanalytics/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/redhatanalytics/%(name)s
+projects:
+  redhatanalytics:
+    description: Analytics for OpenShift
+    repos: {}

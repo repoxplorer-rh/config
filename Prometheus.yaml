@@ -1,0 +1,148 @@
+project-templates:
+  Prometheus:
+    branches:
+    - master
+    gitweb: https://github.com/prometheus/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/prometheus/%(name)s
+projects:
+  Prometheus:
+    description: A monitoring system and time series database
+    repos:
+      alertmanager:
+        branches:
+        - master
+        template: Prometheus
+      blackbox_exporter:
+        branches:
+        - master
+        template: Prometheus
+      busybox:
+        branches:
+        - master
+        template: Prometheus
+      client_golang:
+        branches:
+        - master
+        template: Prometheus
+      client_java:
+        branches:
+        - master
+        template: Prometheus
+      client_model:
+        branches:
+        - master
+        template: Prometheus
+      client_python:
+        branches:
+        - master
+        template: Prometheus
+      client_ruby:
+        branches:
+        - master
+        template: Prometheus
+      cloudwatch_exporter:
+        branches:
+        - master
+        template: Prometheus
+      collectd_exporter:
+        branches:
+        - master
+        template: Prometheus
+      common:
+        branches:
+        - master
+        template: Prometheus
+      consul_exporter:
+        branches:
+        - master
+        template: Prometheus
+      docs:
+        branches:
+        - master
+        template: Prometheus
+      golang-builder:
+        branches:
+        - master
+        template: Prometheus
+      graphite_exporter:
+        branches:
+        - master
+        template: Prometheus
+      haproxy_exporter:
+        branches:
+        - master
+        template: Prometheus
+      host_exporter:
+        branches:
+        - master
+        template: Prometheus
+      influxdb_exporter:
+        branches:
+        - master
+        template: Prometheus
+      jmx_exporter:
+        branches:
+        - master
+        template: Prometheus
+      memcached_exporter:
+        branches:
+        - master
+        template: Prometheus
+      mysqld_exporter:
+        branches:
+        - master
+        template: Prometheus
+      nagios_plugins:
+        branches:
+        - master
+        template: Prometheus
+      node_exporter:
+        branches:
+        - master
+        template: Prometheus
+      procfs:
+        branches:
+        - master
+        template: Prometheus
+      prom2json:
+        branches:
+        - master
+        template: Prometheus
+      prombench:
+        branches:
+        - master
+        template: Prometheus
+      prometheus:
+        branches:
+        - master
+        template: Prometheus
+      prometheus_api_client_ruby:
+        branches:
+        - master
+        template: Prometheus
+      promu:
+        branches:
+        - master
+        template: Prometheus
+      pushgateway:
+        branches:
+        - master
+        template: Prometheus
+      snmp_exporter:
+        branches:
+        - master
+        template: Prometheus
+      statsd_exporter:
+        branches:
+        - master
+        template: Prometheus
+      talks:
+        branches:
+        - master
+        template: Prometheus
+      tsdb:
+        branches:
+        - master
+        template: Prometheus

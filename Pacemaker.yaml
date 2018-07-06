@@ -1,0 +1,16 @@
+project-templates:
+  Pacemaker:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  Pacemaker:
+    description: Advanced, scalabale high-availability cluster resource manager
+    repos:
+      pacemaker:
+        branches:
+        - master
+        template: Pacemaker

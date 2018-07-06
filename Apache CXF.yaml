@@ -1,0 +1,16 @@
+project-templates:
+  Apache CXF:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache CXF:
+    description: A smart web services suite (JAX-WS and JAX-RS)
+    repos:
+      cxf:
+        branches:
+        - master
+        template: Apache CXF

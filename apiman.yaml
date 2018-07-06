@@ -1,0 +1,89 @@
+project-templates:
+  apiman:
+    branches:
+    - master
+    gitweb: https://github.com/apiman/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/apiman/%(name)s
+projects:
+  apiman:
+    description: The apiman project brings an open source development methodology
+      to API Management
+    repos:
+      apiman:
+        branches:
+        - master
+        template: apiman
+      apiman-api-catalog:
+        branches:
+        - master
+        template: apiman
+      apiman-cli:
+        branches:
+        - master
+        template: apiman
+      apiman-deployer:
+        branches:
+        - master
+        template: apiman
+      apiman-docker:
+        branches:
+        - master
+        template: apiman
+      apiman-docs-installation-guide:
+        branches:
+        - master
+        template: apiman
+      apiman-docs-production-guide:
+        branches:
+        - master
+        template: apiman
+      apiman-docs-user-guide:
+        branches:
+        - master
+        template: apiman
+      apiman-guides:
+        branches:
+        - master
+        template: apiman
+      apiman-manager-ui:
+        branches:
+        - master
+        template: apiman
+      apiman-plugin-registry:
+        branches:
+        - master
+        template: apiman
+      apiman-plugins:
+        branches:
+        - master
+        template: apiman
+      apiman-quickstarts:
+        branches:
+        - master
+        template: apiman
+      apiman-release:
+        branches:
+        - master
+        template: apiman
+      apiman-rls:
+        branches:
+        - master
+        template: apiman
+      apiman-servers:
+        branches:
+        - master
+        template: apiman
+      apiman-test:
+        branches:
+        - master
+        template: apiman
+      apiman-videos:
+        branches:
+        - master
+        template: apiman
+      apiman.github.io:
+        branches:
+        - master
+        template: apiman

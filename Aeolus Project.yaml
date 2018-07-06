@@ -1,0 +1,57 @@
+project-templates:
+  Aeolus Project:
+    branches:
+    - master
+    gitweb: https://github.com/aeolusproject/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/aeolusproject/%(name)s
+projects:
+  Aeolus Project:
+    description: Aeolus is a suite of open-source tools to help you build a custom
+      cloud from both public and private resources
+    repos:
+      aeolus-cli:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-configure:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-extras:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-image-rubygem:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-performance-testing:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-ux-designs:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolus-website-old:
+        branches:
+        - master
+        template: Aeolus Project
+      aeolusproject.github.com:
+        branches:
+        - master
+        template: Aeolus Project
+      audrey:
+        branches:
+        - master
+        template: Aeolus Project
+      conductor:
+        branches:
+        - master
+        template: Aeolus Project
+      imagefactory-console:
+        branches:
+        - master
+        template: Aeolus Project

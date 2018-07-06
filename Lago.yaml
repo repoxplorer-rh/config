@@ -1,0 +1,40 @@
+project-templates:
+  Lago:
+    branches:
+    - master
+    gitweb: https://github.com/lago-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/lago-project/%(name)s
+projects:
+  Lago:
+    description: Ad-hoc virtual testing environment framework
+    repos:
+      lago:
+        branches:
+        - master
+        template: Lago
+      lago-demo:
+        branches:
+        - master
+        template: Lago
+      lago-examples:
+        branches:
+        - master
+        template: Lago
+      lago-images:
+        branches:
+        - master
+        template: Lago
+      lago-ost-plugin:
+        branches:
+        - master
+        template: Lago
+      lago-workshop:
+        branches:
+        - master
+        template: Lago
+      test:
+        branches:
+        - master
+        template: Lago

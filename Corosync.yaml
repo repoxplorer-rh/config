@@ -1,0 +1,16 @@
+project-templates:
+  Corosync:
+    branches:
+    - master
+    gitweb: https://github.com/corosync/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/corosync/%(name)s
+projects:
+  Corosync:
+    description: High-availability cluster communication system
+    repos:
+      corosync:
+        branches:
+        - master
+        template: Corosync

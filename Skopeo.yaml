@@ -1,0 +1,16 @@
+project-templates:
+  Skopeo:
+    branches:
+    - master
+    gitweb: https://github.com/projectatomic/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/projectatomic/%(name)s
+projects:
+  Skopeo:
+    description: Tool for moving and signing container images
+    repos:
+      skopeo:
+        branches:
+        - master
+        template: Skopeo

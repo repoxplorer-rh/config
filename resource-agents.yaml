@@ -1,0 +1,16 @@
+project-templates:
+  resource-agents:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  resource-agents:
+    description: Common OCF resource agents for high-availability clustering
+    repos:
+      resource-agents:
+        branches:
+        - master
+        template: resource-agents

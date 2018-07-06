@@ -1,0 +1,16 @@
+project-templates:
+  clufter:
+    branches:
+    - master
+    gitweb: https://github.com/jnpkrn/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/jnpkrn/%(name)s
+projects:
+  clufter:
+    description: Tool for transforming/analyzing cluster configuration formats
+    repos:
+      clufter:
+        branches:
+        - master
+        template: clufter

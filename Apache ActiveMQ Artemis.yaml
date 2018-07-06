@@ -1,0 +1,17 @@
+project-templates:
+  Apache ActiveMQ Artemis:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache ActiveMQ Artemis:
+    description: Apache ActiveMQ Artemis is an open source project to build a multi-protocol,
+      embeddable, very high performance, clustered, asynchronous messaging system.
+    repos:
+      activemq-artemis:
+        branches:
+        - master
+        template: Apache ActiveMQ Artemis

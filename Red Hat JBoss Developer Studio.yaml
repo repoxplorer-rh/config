@@ -1,0 +1,28 @@
+project-templates:
+  Red Hat JBoss Developer Studio:
+    branches:
+    - master
+    gitweb: https://github.com/jbdevstudio/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/jbdevstudio/%(name)s
+projects:
+  Red Hat JBoss Developer Studio:
+    description: Eclipse plugins for JBoss, Fuse, OpenShift
+    repos:
+      github-teams:
+        branches:
+        - master
+        template: Red Hat JBoss Developer Studio
+      jbdevstudio-devdoc:
+        branches:
+        - master
+        template: Red Hat JBoss Developer Studio
+      jbdevstudio-product:
+        branches:
+        - master
+        template: Red Hat JBoss Developer Studio
+      jbdevstudio-website:
+        branches:
+        - master
+        template: Red Hat JBoss Developer Studio

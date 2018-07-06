@@ -1,0 +1,16 @@
+project-templates:
+  tlsfuzzer:
+    branches:
+    - master
+    gitweb: https://github.com/tomato42/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/tomato42/%(name)s
+projects:
+  tlsfuzzer:
+    description: Test suite for SSL and TLS implementations
+    repos:
+      tlsfuzzer:
+        branches:
+        - master
+        template: tlsfuzzer

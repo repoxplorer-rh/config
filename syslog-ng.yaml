@@ -1,0 +1,17 @@
+project-templates:
+  syslog-ng:
+    branches:
+    - master
+    gitweb: https://github.com/balabit/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/balabit/%(name)s
+projects:
+  syslog-ng:
+    description: 'An enhanced log daemon, supporting a wide range of input and output
+      methods: syslog, unstructured text, queueing, SQL & NoSQL'
+    repos:
+      syslog-ng:
+        branches:
+        - master
+        template: syslog-ng

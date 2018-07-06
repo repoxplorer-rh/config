@@ -1,0 +1,25 @@
+project-templates:
+  Cygwin:
+    branches:
+    - master
+    gitweb: https://github.com/cygwin/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/cygwin/%(name)s
+projects:
+  Cygwin:
+    description: A collection of Open Source tools providing functionality similar
+      to a Linux distribution on Windows.
+    repos:
+      calm:
+        branches:
+        - master
+        template: Cygwin
+      cygwin:
+        branches:
+        - master
+        template: Cygwin
+      shutdown:
+        branches:
+        - master
+        template: Cygwin

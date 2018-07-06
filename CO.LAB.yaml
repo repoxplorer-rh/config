@@ -1,0 +1,17 @@
+project-templates:
+  CO.LAB:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatOfficial/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/RedHatOfficial/%(name)s
+projects:
+  CO.LAB:
+    description: CO.LAB teaches students how to work together to solve problems, share
+      new ideas, and to create collaboratively out of a shared experience.
+    repos:
+      CO.LAB:
+        branches:
+        - master
+        template: CO.LAB

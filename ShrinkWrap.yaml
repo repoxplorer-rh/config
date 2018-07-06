@@ -1,0 +1,72 @@
+project-templates:
+  ShrinkWrap:
+    branches:
+    - master
+    gitweb: https://github.com/shrinkwrap/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/shrinkwrap/%(name)s
+projects:
+  ShrinkWrap:
+    description: Java API for Archive Manipulation
+    repos:
+      descriptors:
+        branches:
+        - master
+        template: ShrinkWrap
+      descriptors-docker:
+        branches:
+        - master
+        template: ShrinkWrap
+      resolver:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-container-jetty-60:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-container-jetty-70:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-container-mobicents-13:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-container-openejb-31:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-container-tomcat-60:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-descriptors-archive-integration:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-osgi:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-sip:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-springboot:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-vdf:
+        branches:
+        - master
+        template: ShrinkWrap
+      shrinkwrap-vfs3:
+        branches:
+        - master
+        template: ShrinkWrap

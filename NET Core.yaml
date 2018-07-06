@@ -1,0 +1,436 @@
+project-templates:
+  NET Core:
+    branches:
+    - master
+    gitweb: https://github.com/dotnet/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/dotnet/%(name)s
+projects:
+  NET Core:
+    description: Open source and cross platform implementation of .NET
+    repos:
+      BenchmarkDotNet:
+        branches:
+        - master
+        template: NET Core
+      CliCommandLineParser:
+        branches:
+        - master
+        template: NET Core
+      Connect-Event-In-A-Box:
+        branches:
+        - master
+        template: NET Core
+      MVPSummitHackathon2016:
+        branches:
+        - master
+        template: NET Core
+      ProjFileTools:
+        branches:
+        - master
+        template: NET Core
+      SyndicationFeedReaderWriter:
+        branches:
+        - master
+        template: NET Core
+      announcements:
+        branches:
+        - master
+        template: NET Core
+      apireviews:
+        branches:
+        - master
+        template: NET Core
+      arcade:
+        branches:
+        - master
+        template: NET Core
+      buildtools:
+        branches:
+        - master
+        template: NET Core
+      citest:
+        branches:
+        - master
+        template: NET Core
+      cli:
+        branches:
+        - master
+        template: NET Core
+      cli-deps-satellites:
+        branches:
+        - master
+        template: NET Core
+      cli-migrate:
+        branches:
+        - master
+        template: NET Core
+      codeformatter:
+        branches:
+        - master
+        template: NET Core
+      core:
+        branches:
+        - master
+        template: NET Core
+      core-sdk:
+        branches:
+        - master
+        template: NET Core
+      core-setup:
+        branches:
+        - master
+        template: NET Core
+      coreclr:
+        branches:
+        - master
+        template: NET Core
+      coreclr.xunit:
+        branches:
+        - master
+        template: NET Core
+      corefx:
+        branches:
+        - master
+        template: NET Core
+      corefx-standup:
+        branches:
+        - master
+        template: NET Core
+      corefx-testdata:
+        branches:
+        - master
+        template: NET Core
+      corefx-tools:
+        branches:
+        - master
+        template: NET Core
+      corefxlab:
+        branches:
+        - master
+        template: NET Core
+      corert:
+        branches:
+        - master
+        template: NET Core
+      csharp-tmLanguage:
+        branches:
+        - master
+        template: NET Core
+      csharplang:
+        branches:
+        - master
+        template: NET Core
+      designs:
+        branches:
+        - master
+        template: NET Core
+      diagnostics:
+        branches:
+        - master
+        template: NET Core
+      docfx:
+        branches:
+        - dev
+        template: NET Core
+      docker-tools:
+        branches:
+        - master
+        template: NET Core
+      docs:
+        branches:
+        - master
+        template: NET Core
+      docs.cs-cz:
+        branches:
+        - live
+        template: NET Core
+      docs.de-de:
+        branches:
+        - live
+        template: NET Core
+      docs.es-es:
+        branches:
+        - live
+        template: NET Core
+      docs.fr-fr:
+        branches:
+        - live
+        template: NET Core
+      docs.it-it:
+        branches:
+        - live
+        template: NET Core
+      docs.ja-jp:
+        branches:
+        - live
+        template: NET Core
+      docs.ko-kr:
+        branches:
+        - live
+        template: NET Core
+      docs.pl-pl:
+        branches:
+        - live
+        template: NET Core
+      docs.pt-br:
+        branches:
+        - live
+        template: NET Core
+      docs.ru-ru:
+        branches:
+        - live
+        template: NET Core
+      docs.tr-tr:
+        branches:
+        - live
+        template: NET Core
+      docs.zh-cn:
+        branches:
+        - live
+        template: NET Core
+      docs.zh-tw:
+        branches:
+        - live
+        template: NET Core
+      dotnet-api-docs:
+        branches:
+        - master
+        template: NET Core
+      dotnet-buildtools-prereqs-docker:
+        branches:
+        - master
+        template: NET Core
+      dotnet-ci:
+        branches:
+        - master
+        template: NET Core
+      dotnet-cli-archiver:
+        branches:
+        - master
+        template: NET Core
+      dotnet-docker:
+        branches:
+        - master
+        template: NET Core
+      dotnet-docker-nightly:
+        branches:
+        - master
+        template: NET Core
+      dotnet-docker-samples:
+        branches:
+        - master
+        template: NET Core
+      dotnet-template-samples:
+        branches:
+        - master
+        template: NET Core
+      dotnet.github.io:
+        branches:
+        - master
+        template: NET Core
+      dotnetfoundation-website:
+        branches:
+        - master
+        template: NET Core
+      features:
+        branches:
+        - master
+        template: NET Core
+      fsharp-api-docs:
+        branches:
+        - master
+        template: NET Core
+      fxdac:
+        branches:
+        - master
+        template: NET Core
+      home:
+        branches:
+        - master
+        template: NET Core
+      import-comments:
+        branches:
+        - master
+        template: NET Core
+      interactive-window:
+        branches:
+        - master
+        template: NET Core
+      jitutils:
+        branches:
+        - master
+        template: NET Core
+      llilc:
+        branches:
+        - master
+        template: NET Core
+      machinelearning:
+        branches:
+        - master
+        template: NET Core
+      machinelearning-samples:
+        branches:
+        - master
+        template: NET Core
+      metadata-tools:
+        branches:
+        - master
+        template: NET Core
+      ml-api-docs:
+        branches:
+        - master
+        template: NET Core
+      netcorecli-fsc:
+        branches:
+        - master
+        template: NET Core
+      new-repo:
+        branches:
+        - master
+        template: NET Core
+      orleans:
+        branches:
+        - master
+        template: NET Core
+      orleans-templates:
+        branches:
+        - master
+        template: NET Core
+      perf-infra:
+        branches:
+        - master
+        template: NET Core
+      platform-compat:
+        branches:
+        - master
+        template: NET Core
+      port-to-core:
+        branches:
+        - gh-pages
+        template: NET Core
+      portable-class-libraries:
+        branches:
+        - master
+        template: NET Core
+      project-system:
+        branches:
+        - master
+        template: NET Core
+      project-system-tools:
+        branches:
+        - master
+        template: NET Core
+      reactive:
+        branches:
+        - master
+        template: NET Core
+      roslyn:
+        branches:
+        - master
+        template: NET Core
+      roslyn-analyzers:
+        branches:
+        - master
+        template: NET Core
+      roslyn-analyzers-contrib:
+        branches:
+        - master
+        template: NET Core
+      roslyn-api-docs:
+        branches:
+        - master
+        template: NET Core
+      roslyn-sdk:
+        branches:
+        - master
+        template: NET Core
+      roslyn-tools:
+        branches:
+        - master
+        template: NET Core
+      samples:
+        branches:
+        - master
+        template: NET Core
+      sdk:
+        branches:
+        - master
+        template: NET Core
+      source-build:
+        branches:
+        - master
+        template: NET Core
+      source-indexer:
+        branches:
+        - master
+        template: NET Core
+      sourcelink:
+        branches:
+        - master
+        template: NET Core
+      standard:
+        branches:
+        - master
+        template: NET Core
+      summer-of-code:
+        branches:
+        - master
+        template: NET Core
+      swag:
+        branches:
+        - master
+        template: NET Core
+      symreader:
+        branches:
+        - master
+        template: NET Core
+      symreader-converter:
+        branches:
+        - master
+        template: NET Core
+      symreader-portable:
+        branches:
+        - master
+        template: NET Core
+      symstore:
+        branches:
+        - master
+        template: NET Core
+      templating:
+        branches:
+        - stabilize
+        template: NET Core
+      toolset:
+        branches:
+        - master
+        template: NET Core
+      training-tutorials:
+        branches:
+        - master
+        template: NET Core
+      try:
+        branches:
+        - master
+        template: NET Core
+      vblang:
+        branches:
+        - master
+        template: NET Core
+      versions:
+        branches:
+        - master
+        template: NET Core
+      wcf:
+        branches:
+        - master
+        template: NET Core
+      windows-sdk-for-google-analytics:
+        branches:
+        - master
+        template: NET Core
+      xliff-tasks:
+        branches:
+        - master
+        template: NET Core

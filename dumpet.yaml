@@ -1,0 +1,16 @@
+project-templates:
+  dumpet:
+    branches:
+    - master
+    gitweb: https://github.com/rhboot/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/rhboot/%(name)s
+projects:
+  dumpet:
+    description: Tool for debugging and verifying El Torito boot data on CD-like images
+    repos:
+      dumpet:
+        branches:
+        - master
+        template: dumpet

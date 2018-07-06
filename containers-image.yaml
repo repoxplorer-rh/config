@@ -1,0 +1,16 @@
+project-templates:
+  containers/image:
+    branches:
+    - master
+    gitweb: https://github.com/containers/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/containers/%(name)s
+projects:
+  containers/image:
+    description: A library for working with container images
+    repos:
+      image:
+        branches:
+        - master
+        template: containers/image

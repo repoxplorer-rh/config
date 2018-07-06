@@ -1,0 +1,29 @@
+project-templates:
+  JBoss Developer Studio:
+    branches:
+    - master
+    gitweb: https://github.com/jbdevstudio/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jbdevstudio/%(name)s
+projects:
+  JBoss Developer Studio:
+    description: A development environment with support for your entire development
+      lifecycle
+    repos:
+      github-teams:
+        branches:
+        - master
+        template: JBoss Developer Studio
+      jbdevstudio-devdoc:
+        branches:
+        - master
+        template: JBoss Developer Studio
+      jbdevstudio-product:
+        branches:
+        - master
+        template: JBoss Developer Studio
+      jbdevstudio-website:
+        branches:
+        - master
+        template: JBoss Developer Studio

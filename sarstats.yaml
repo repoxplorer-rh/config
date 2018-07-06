@@ -1,0 +1,16 @@
+project-templates:
+  sarstats:
+    branches:
+    - master
+    gitweb: https://github.com/mbaldessari/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/mbaldessari/%(name)s
+projects:
+  sarstats:
+    description: Creates a PDF report out of sar files
+    repos:
+      sarstats:
+        branches:
+        - master
+        template: sarstats

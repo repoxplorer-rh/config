@@ -1,0 +1,56 @@
+project-templates:
+  Avocado:
+    branches:
+    - master
+    gitweb: https://github.com/avocado-framework/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/avocado-framework/%(name)s
+projects:
+  Avocado:
+    description: A testing framework with benefits.
+    repos:
+      aexpect:
+        branches:
+        - master
+        template: Avocado
+      avocado:
+        branches:
+        - master
+        template: Avocado
+      avocado-ec2:
+        branches:
+        - master
+        template: Avocado
+      avocado-framework.github.io:
+        branches:
+        - master
+        template: Avocado
+      avocado-misc-tests:
+        branches:
+        - master
+        template: Avocado
+      avocado-presentations:
+        branches:
+        - master
+        template: Avocado
+      avocado-server:
+        branches:
+        - master
+        template: Avocado
+      avocado-virt:
+        branches:
+        - master
+        template: Avocado
+      avocado-virt-tests:
+        branches:
+        - master
+        template: Avocado
+      avocado-vt:
+        branches:
+        - master
+        template: Avocado
+      inspektor:
+        branches:
+        - master
+        template: Avocado

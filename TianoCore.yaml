@@ -1,0 +1,69 @@
+project-templates:
+  TianoCore:
+    branches:
+    - master
+    gitweb: https://github.com/tianocore/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/tianocore/%(name)s
+projects:
+  TianoCore:
+    description: Cross-platform firmware development environment for the UEFI and
+      Platform Initialization (PI) specifications
+    repos:
+      buildtools-BaseTools:
+        branches:
+        - master
+        template: TianoCore
+      edk:
+        branches:
+        - master
+        template: TianoCore
+      edk-Shell:
+        branches:
+        - master
+        template: TianoCore
+      edk2:
+        branches:
+        - master
+        template: TianoCore
+      edk2-BaseTools-win32:
+        branches:
+        - master
+        template: TianoCore
+      edk2-FatPkg:
+        branches:
+        - master
+        template: TianoCore
+      edk2-NetNt32Io:
+        branches:
+        - master
+        template: TianoCore
+      edk2-archive:
+        branches:
+        - master
+        template: TianoCore
+      edk2-non-osi:
+        branches:
+        - master
+        template: TianoCore
+      edk2-platforms:
+        branches:
+        - master
+        template: TianoCore
+      edk2-share:
+        branches:
+        - master
+        template: TianoCore
+      edk2-staging:
+        branches:
+        - about
+        template: TianoCore
+      tianocore.github.io:
+        branches:
+        - master
+        template: TianoCore
+      udk:
+        branches:
+        - udk2015
+        template: TianoCore

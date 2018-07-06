@@ -1,0 +1,20 @@
+project-templates:
+  RadarGun:
+    branches:
+    - master
+    gitweb: https://github.com/radargun/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/radargun/%(name)s
+projects:
+  RadarGun:
+    description: Distributed systems benchmark framework with focus on key-value IMDBs
+    repos:
+      radargun:
+        branches:
+        - master
+        template: RadarGun
+      radargun.github.io:
+        branches:
+        - master
+        template: RadarGun

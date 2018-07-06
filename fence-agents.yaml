@@ -1,0 +1,16 @@
+project-templates:
+  fence-agents:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  fence-agents:
+    description: Common fencing agents for high-availability clustering
+    repos:
+      fence-agents:
+        branches:
+        - master
+        template: fence-agents

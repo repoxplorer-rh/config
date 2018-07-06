@@ -1,0 +1,304 @@
+project-templates:
+  redhat-openstack:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-openstack/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/redhat-openstack/%(name)s
+projects:
+  redhat-openstack:
+    description: RDOProject code
+    repos:
+      EOL_openstack-puppet:
+        branches:
+        - master
+        template: redhat-openstack
+      EOL_smokestack_helper_scripts:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-nfv:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-pacemaker:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-rhosp:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-ci-centos:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-quickstart-overcloud:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-backup:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-baremetal-prep-virthost:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-cleanup-nfo:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-collect-logs:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-diagnostics:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-gate:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-image-build:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-inventory:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-ipa:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-prep-config:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-prep-flavors:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-prep-images:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-prep-network:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-scale-nodes:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-upgrade:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-validate:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-overcloud-validate-ha:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-parts:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-provision-heat:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-reboot:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-reference-template:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-ssl:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-tempest:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-tempest-undercloud:
+        branches:
+        - master
+        template: redhat-openstack
+      ansible-role-tripleo-undercloud-post:
+        branches:
+        - master
+        template: redhat-openstack
+      dci-agent:
+        branches:
+        - master
+        template: redhat-openstack
+      dci-test-rally:
+        branches:
+        - master
+        template: redhat-openstack
+      django:
+        branches:
+        - epel7-patches
+        template: redhat-openstack
+      easyfix:
+        branches:
+        - master
+        template: redhat-openstack
+      image-building-poc:
+        branches:
+        - master
+        template: redhat-openstack
+      infrared:
+        branches:
+        - master
+        template: redhat-openstack
+      khaleesi:
+        branches:
+        - master
+        template: redhat-openstack
+      khaleesi-settings:
+        branches:
+        - master
+        template: redhat-openstack
+      neutron-tempest-staging:
+        branches:
+        - master
+        template: redhat-openstack
+      nfv-tempest-plugin:
+        branches:
+        - master
+        template: redhat-openstack
+      octario:
+        branches:
+        - master
+        template: redhat-openstack
+      oooq-site-config-ci-centos:
+        branches:
+        - master
+        template: redhat-openstack
+      openshift-on-openstack:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-dashboard-theme:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-foreman-installer:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-manuals-convert:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-packaging-doc:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-puppet-modules:
+        branches:
+        - stable/mitaka
+        template: redhat-openstack
+      openstack-selinux:
+        branches:
+        - master
+        template: redhat-openstack
+      openstack-utils:
+        branches:
+        - master
+        template: redhat-openstack
+      packstack:
+        branches:
+        - mitaka-patches
+        template: redhat-openstack
+      puppet-galera:
+        branches:
+        - master
+        template: redhat-openstack
+      puppet-openstack-storage:
+        branches:
+        - master
+        template: redhat-openstack
+      puppet-pacemaker:
+        branches:
+        - master
+        template: redhat-openstack
+      pymod2pkg:
+        branches:
+        - master
+        template: redhat-openstack
+      python-ironicclient:
+        branches:
+        - master-patches
+        template: redhat-openstack
+      python-tempestconf:
+        branches:
+        - master
+        template: redhat-openstack
+      python-tripleo-helper:
+        branches:
+        - master
+        template: redhat-openstack
+      rally-plugins:
+        branches:
+        - master
+        template: redhat-openstack
+      rdo-ci-tools:
+        branches:
+        - master
+        template: redhat-openstack
+      rdo-docs:
+        branches:
+        - master
+        template: redhat-openstack
+      rdo-update:
+        branches:
+        - master
+        template: redhat-openstack
+      rdoinfo:
+        branches:
+        - master
+        template: redhat-openstack
+      redhat-openstack.github.com:
+        branches:
+        - master
+        template: redhat-openstack
+      tempest-plugin:
+        branches:
+        - master
+        template: redhat-openstack
+      tripleo-quickstart:
+        branches:
+        - master
+        template: redhat-openstack
+      tripleo-workshop:
+        branches:
+        - master
+        template: redhat-openstack
+      trunk.rdoproject.org:
+        branches:
+        - master
+        template: redhat-openstack
+      website:
+        branches:
+        - master
+        template: redhat-openstack
+      whitebox-tempest-plugin:
+        branches:
+        - master
+        template: redhat-openstack

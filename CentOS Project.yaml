@@ -1,0 +1,140 @@
+project-templates:
+  CentOS Project:
+    branches:
+    - master
+    gitweb: https://github.com/CentOS/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/CentOS/%(name)s
+projects:
+  CentOS Project:
+    description: A consistent manageable platform that suits a wide variety of deployments
+    repos:
+      AltArch:
+        branches:
+        - master
+        template: CentOS Project
+      Artwork:
+        branches:
+        - master
+        template: CentOS Project
+      Calendar:
+        branches:
+        - master
+        template: CentOS Project
+      CentOS-Dockerfiles:
+        branches:
+        - master
+        template: CentOS Project
+      Community-Kickstarts:
+        branches:
+        - master
+        template: CentOS Project
+      ImageStandards:
+        branches:
+        - master
+        template: CentOS Project
+      Promo-Artwork:
+        branches:
+        - master
+        template: CentOS Project
+      atomic-container:
+        branches:
+        - master
+        template: CentOS Project
+      centos-cloud:
+        branches:
+        - master
+        template: CentOS Project
+      ci-index:
+        branches:
+        - master
+        template: CentOS Project
+      cico-pipeline-library:
+        branches:
+        - master
+        template: CentOS Project
+      container-index:
+        branches:
+        - master
+        template: CentOS Project
+      container-pipeline-ci:
+        branches:
+        - master
+        template: CentOS Project
+      container-pipeline-service:
+        branches:
+        - master
+        template: CentOS Project
+      demobuild:
+        branches:
+        - master
+        template: CentOS Project
+      docs:
+        branches:
+        - master
+        template: CentOS Project
+      duffy:
+        branches:
+        - master
+        template: CentOS Project
+      pdns-custom-geoip-backend:
+        branches:
+        - master
+        template: CentOS Project
+      python-cicoclient:
+        branches:
+        - master
+        template: CentOS Project
+      reimzul:
+        branches:
+        - master
+        template: CentOS Project
+      sig-atomic-buildscripts:
+        branches:
+        - master
+        template: CentOS Project
+      sig-cloud-instance-build:
+        branches:
+        - master
+        template: CentOS Project
+      sig-cloud-instance-images:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-AltArch:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-QA_harness_ansible:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-bld-seven:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-livemedia:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-t_docker:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-t_functional:
+        branches:
+        - master
+        template: CentOS Project
+      sig-core-t_ltp:
+        branches:
+        - master
+        template: CentOS Project
+      sig-virt-t_xen:
+        branches:
+        - master
+        template: CentOS Project
+      sig-virt-xen:
+        branches:
+        - master
+        template: CentOS Project

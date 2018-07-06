@@ -1,0 +1,32 @@
+project-templates:
+  kimchi-project:
+    branches:
+    - master
+    gitweb: https://github.com/kimchi-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/kimchi-project/%(name)s
+projects:
+  kimchi-project:
+    description: An HTML5 management interface for KVM guests
+    repos:
+      ginger:
+        branches:
+        - master
+        template: kimchi-project
+      gingerbase:
+        branches:
+        - master
+        template: kimchi-project
+      gingers390x:
+        branches:
+        - master
+        template: kimchi-project
+      kimchi:
+        branches:
+        - master
+        template: kimchi-project
+      wok:
+        branches:
+        - master
+        template: kimchi-project

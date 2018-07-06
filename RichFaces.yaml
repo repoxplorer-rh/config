@@ -1,0 +1,48 @@
+project-templates:
+  RichFaces:
+    branches:
+    - master
+    gitweb: https://github.com/richfaces/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/richfaces/%(name)s
+projects:
+  RichFaces:
+    description: The next-generation JSF component framework
+    repos:
+      jdf-quickstarts:
+        branches:
+        - master
+        template: RichFaces
+      richfaces:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-archetypes:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-cdk:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-docs:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-forge-plugin:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-qa:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-sandbox:
+        branches:
+        - master
+        template: RichFaces
+      richfaces-site:
+        branches:
+        - master
+        template: RichFaces

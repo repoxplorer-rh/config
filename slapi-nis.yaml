@@ -1,0 +1,16 @@
+project-templates:
+  slapi-nis:
+    branches:
+    - master
+    gitweb: https://github.com/gooselinux/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/gooselinux/%(name)s
+projects:
+  slapi-nis:
+    description: NIS Server and Schema Compatibility plugins for Directory Server
+    repos:
+      slapi-nis:
+        branches:
+        - master
+        template: slapi-nis

@@ -1,0 +1,128 @@
+project-templates:
+  rdo-infra:
+    branches:
+    - master
+    gitweb: https://github.com/rdo-infra/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/rdo-infra/%(name)s
+projects:
+  rdo-infra:
+    description: Management of RDO build, packaging, monitoring and CI infrastructure
+    repos:
+      ansible-role-cachet-docker:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-logserver:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-rdo-base:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-rdo-bot:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-rdo-kolla-build:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-rdo_dashboards:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-rdomonitoring:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-weirdo-common:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-weirdo-kolla:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-weirdo-logs:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-weirdo-packstack:
+        branches:
+        - master
+        template: rdo-infra
+      ansible-role-weirdo-puppet-openstack:
+        branches:
+        - master
+        template: rdo-infra
+      centos-release-openstack:
+        branches:
+        - queens-rdo
+        template: rdo-infra
+      ci-config:
+        branches:
+        - master
+        template: rdo-infra
+      example-distgit:
+        branches:
+        - rpm-master
+        template: rdo-infra
+      fedora-stable-config:
+        branches:
+        - master
+        template: rdo-infra
+      puppet-dlrn:
+        branches:
+        - master
+        template: rdo-infra
+      rdo-container-registry:
+        branches:
+        - master
+        template: rdo-infra
+      rdo-dashboards:
+        branches:
+        - master
+        template: rdo-infra
+      rdo-infra-playbooks:
+        branches:
+        - master
+        template: rdo-infra
+      rdo-jobs:
+        branches:
+        - master
+        template: rdo-infra
+      rdo-release:
+        branches:
+        - queens-rdo
+        template: rdo-infra
+      rdobot:
+        branches:
+        - master
+        template: rdo-infra
+      rdostats:
+        branches:
+        - master
+        template: rdo-infra
+      releng:
+        branches:
+        - master
+        template: rdo-infra
+      review.rdoproject.org-config:
+        branches:
+        - master
+        template: rdo-infra
+      sinkhole:
+        branches:
+        - master
+        template: rdo-infra
+      test-day-tools:
+        branches:
+        - master
+        template: rdo-infra
+      weirdo:
+        branches:
+        - master
+        template: rdo-infra

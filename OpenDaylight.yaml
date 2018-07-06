@@ -1,0 +1,389 @@
+project-templates:
+  OpenDaylight:
+    branches:
+    - master
+    gitweb: https://github.com/opendaylight/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/opendaylight/%(name)s
+projects:
+  OpenDaylight:
+    description: A modular open platform for customizing and automating networks of
+      any size and scale.
+    repos:
+      aaa:
+        branches:
+        - master
+        template: OpenDaylight
+      alto:
+        branches:
+        - master
+        template: OpenDaylight
+      archetypes:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-affinity:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-armoury:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-defense4all:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-discovery:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-integration:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-net-virt-platform:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-opendove:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-plugin2oc:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-tcpmd5:
+        branches:
+        - master
+        template: OpenDaylight
+      archived-toolkit:
+        branches:
+        - master
+        template: OpenDaylight
+      atrium:
+        branches:
+        - master
+        template: OpenDaylight
+      bgpcep:
+        branches:
+        - master
+        template: OpenDaylight
+      bier:
+        branches:
+        - master
+        template: OpenDaylight
+      capwap:
+        branches:
+        - master
+        template: OpenDaylight
+      cardinal:
+        branches:
+        - master
+        template: OpenDaylight
+      centinel:
+        branches:
+        - master
+        template: OpenDaylight
+      coe:
+        branches:
+        - master
+        template: OpenDaylight
+      controller:
+        branches:
+        - master
+        template: OpenDaylight
+      coretutorials:
+        branches:
+        - master
+        template: OpenDaylight
+      daexim:
+        branches:
+        - master
+        template: OpenDaylight
+      didm:
+        branches:
+        - master
+        template: OpenDaylight
+      dlux:
+        branches:
+        - master
+        template: OpenDaylight
+      dluxapps:
+        branches:
+        - master
+        template: OpenDaylight
+      docs:
+        branches:
+        - master
+        template: OpenDaylight
+      eman:
+        branches:
+        - master
+        template: OpenDaylight
+      faas:
+        branches:
+        - master
+        template: OpenDaylight
+      federation:
+        branches:
+        - master
+        template: OpenDaylight
+      fpc:
+        branches:
+        - master
+        template: OpenDaylight
+      genius:
+        branches:
+        - master
+        template: OpenDaylight
+      gnt:
+        branches:
+        - master
+        template: OpenDaylight
+      groupbasedpolicy:
+        branches:
+        - master
+        template: OpenDaylight
+      honeycomb-vbd:
+        branches:
+        - master
+        template: OpenDaylight
+      infrautils:
+        branches:
+        - master
+        template: OpenDaylight
+      integration-distribution:
+        branches:
+        - master
+        template: OpenDaylight
+      integration-packaging:
+        branches:
+        - master
+        template: OpenDaylight
+      integration-packaging-ansible-opendaylight:
+        branches:
+        - master
+        template: OpenDaylight
+      integration-packaging-puppet-opendaylight:
+        branches:
+        - master
+        template: OpenDaylight
+      integration-test:
+        branches:
+        - master
+        template: OpenDaylight
+      iotdm:
+        branches:
+        - master
+        template: OpenDaylight
+      jsonrpc:
+        branches:
+        - master
+        template: OpenDaylight
+      l2switch:
+        branches:
+        - master
+        template: OpenDaylight
+      lacp:
+        branches:
+        - master
+        template: OpenDaylight
+      lispflowmapping:
+        branches:
+        - master
+        template: OpenDaylight
+      mdsal:
+        branches:
+        - master
+        template: OpenDaylight
+      messaging4transport:
+        branches:
+        - master
+        template: OpenDaylight
+      natapp:
+        branches:
+        - master
+        template: OpenDaylight
+      nemo:
+        branches:
+        - master
+        template: OpenDaylight
+      netconf:
+        branches:
+        - master
+        template: OpenDaylight
+      netide:
+        branches:
+        - master
+        template: OpenDaylight
+      netvirt:
+        branches:
+        - master
+        template: OpenDaylight
+      neutron:
+        branches:
+        - master
+        template: OpenDaylight
+      next:
+        branches:
+        - master
+        template: OpenDaylight
+      nic:
+        branches:
+        - master
+        template: OpenDaylight
+      ocpplugin:
+        branches:
+        - master
+        template: OpenDaylight
+      odlparent:
+        branches:
+        - master
+        template: OpenDaylight
+      odltools:
+        branches:
+        - master
+        template: OpenDaylight
+      of-config:
+        branches:
+        - master
+        template: OpenDaylight
+      ofextensions-circuitsw:
+        branches:
+        - stable/beryllium
+        template: OpenDaylight
+      openflowjava:
+        branches:
+        - master
+        template: OpenDaylight
+      openflowplugin:
+        branches:
+        - master
+        template: OpenDaylight
+      opflex:
+        branches:
+        - master
+        template: OpenDaylight
+      ovil:
+        branches:
+        - master
+        template: OpenDaylight
+      ovsdb:
+        branches:
+        - master
+        template: OpenDaylight
+      p4plugin:
+        branches:
+        - master
+        template: OpenDaylight
+      packetcable:
+        branches:
+        - master
+        template: OpenDaylight
+      persistence:
+        branches:
+        - master
+        template: OpenDaylight
+      releng-autorelease:
+        branches:
+        - master
+        template: OpenDaylight
+      releng-builder:
+        branches:
+        - master
+        template: OpenDaylight
+      reservation:
+        branches:
+        - master
+        template: OpenDaylight
+      sdninterfaceapp:
+        branches:
+        - master
+        template: OpenDaylight
+      serviceutils:
+        branches:
+        - master
+        template: OpenDaylight
+      sfc:
+        branches:
+        - master
+        template: OpenDaylight
+      snbi:
+        branches:
+        - master
+        template: OpenDaylight
+      snmp:
+        branches:
+        - master
+        template: OpenDaylight
+      snmp4sdn:
+        branches:
+        - master
+        template: OpenDaylight
+      spectrometer:
+        branches:
+        - master
+        template: OpenDaylight
+      sxp:
+        branches:
+        - master
+        template: OpenDaylight
+      systemmetrics:
+        branches:
+        - master
+        template: OpenDaylight
+      telemetry:
+        branches:
+        - master
+        template: OpenDaylight
+      topoprocessing:
+        branches:
+        - master
+        template: OpenDaylight
+      transportpce:
+        branches:
+        - master
+        template: OpenDaylight
+      tsdr:
+        branches:
+        - master
+        template: OpenDaylight
+      ttp:
+        branches:
+        - master
+        template: OpenDaylight
+      unimgr:
+        branches:
+        - master
+        template: OpenDaylight
+      usc:
+        branches:
+        - master
+        template: OpenDaylight
+      usecplugin:
+        branches:
+        - master
+        template: OpenDaylight
+      vpnservice:
+        branches:
+        - master
+        template: OpenDaylight
+      vtn:
+        branches:
+        - master
+        template: OpenDaylight
+      yang-push:
+        branches:
+        - master
+        template: OpenDaylight
+      yangide:
+        branches:
+        - master
+        template: OpenDaylight
+      yangtools:
+        branches:
+        - master
+        template: OpenDaylight

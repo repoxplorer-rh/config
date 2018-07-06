@@ -1,0 +1,16 @@
+project-templates:
+  RPM Packaging Guide:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-developer/%(name)s/commit/%%(sha)s
+    tags:
+    - Documentation
+    uri: https://github.com/redhat-developer/%(name)s
+projects:
+  RPM Packaging Guide:
+    description: Comprehensive guide to RPM packaging
+    repos:
+      rpm-packaging-guide:
+        branches:
+        - master
+        template: RPM Packaging Guide

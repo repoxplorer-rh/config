@@ -1,0 +1,44 @@
+project-templates:
+  awestruct:
+    branches:
+    - master
+    gitweb: https://github.com/awestruct/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/awestruct/%(name)s
+projects:
+  awestruct:
+    description: Static site baking and deployment tool written in Ruby
+    repos:
+      aweplug:
+        branches:
+        - master
+        template: awestruct
+      awepress:
+        branches:
+        - master
+        template: awestruct
+      awestruct:
+        branches:
+        - master
+        template: awestruct
+      awestruct-core:
+        branches:
+        - master
+        template: awestruct
+      awestruct.org:
+        branches:
+        - master
+        template: awestruct
+      github_pages:
+        branches:
+        - master
+        template: awestruct
+      rubygem-awestruct-rpm:
+        branches:
+        - master
+        template: awestruct
+      web-editor:
+        branches:
+        - master
+        template: awestruct

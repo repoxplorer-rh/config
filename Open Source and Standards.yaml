@@ -1,0 +1,132 @@
+project-templates:
+  Open Source and Standards:
+    branches:
+    - master
+    gitweb: https://github.com/OSAS/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/OSAS/%(name)s
+projects:
+  Open Source and Standards:
+    description: Red Hat Open Source and Standards team
+    repos:
+      Practical-OSS-Exploration-textbook:
+        branches:
+        - master
+        template: Open Source and Standards
+      amqp-client:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-ansible_bastion:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-firewall_facts:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-freeipa:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-httpd:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-ipa_facts:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-mariadb:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-openssh:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-polyinst_tmp:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-rsyslog:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-salt_transport:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-selinux:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-swap_file:
+        branches:
+        - master
+        template: Open Source and Standards
+      ansible-role-web_builder:
+        branches:
+        - master
+        template: Open Source and Standards
+      comminfra-docs-sle-template:
+        branches:
+        - master
+        template: Open Source and Standards
+      community-website:
+        branches:
+        - master
+        template: Open Source and Standards
+      event-tools:
+        branches:
+        - master
+        template: Open Source and Standards
+      middleman-planet:
+        branches:
+        - master
+        template: Open Source and Standards
+      middleman-springboard:
+        branches:
+        - master
+        template: Open Source and Standards
+      mountpoint:
+        branches:
+        - master
+        template: Open Source and Standards
+      mw2md:
+        branches:
+        - master
+        template: Open Source and Standards
+      posse-tos-logos:
+        branches:
+        - master
+        template: Open Source and Standards
+      project-presos:
+        branches:
+        - master
+        template: Open Source and Standards
+      rh-events:
+        branches:
+        - master
+        template: Open Source and Standards
+      s2i-golang:
+        branches:
+        - master
+        template: Open Source and Standards
+      s2i-middleman:
+        branches:
+        - master
+        template: Open Source and Standards
+      strapping-mediawiki:
+        branches:
+        - master
+        template: Open Source and Standards
+      tos-repository:
+        branches:
+        - master
+        template: Open Source and Standards
+      twitter-stats:
+        branches:
+        - master
+        template: Open Source and Standards

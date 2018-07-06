@@ -1,0 +1,25 @@
+project-templates:
+  redhat-imaging:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-imaging/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/redhat-imaging/%(name)s
+projects:
+  redhat-imaging:
+    description: imagefactory builds images for a variety of operating system/cloud
+      combinations
+    repos:
+      imagefactory:
+        branches:
+        - master
+        template: redhat-imaging
+      novaimagebuilder:
+        branches:
+        - master
+        template: redhat-imaging
+      redhat-imaging.github.io:
+        branches:
+        - master
+        template: redhat-imaging

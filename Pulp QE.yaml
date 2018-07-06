@@ -1,0 +1,28 @@
+project-templates:
+  Pulp QE:
+    branches:
+    - master
+    gitweb: https://github.com/pulpqe/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/pulpqe/%(name)s
+projects:
+  Pulp QE:
+    description: Pulp QE team
+    repos:
+      pulp-fixtures:
+        branches:
+        - master
+        template: Pulp QE
+      pulp-migrate:
+        branches:
+        - master
+        template: Pulp QE
+      pulp-qe-tools:
+        branches:
+        - master
+        template: Pulp QE
+      pulp-smash:
+        branches:
+        - master
+        template: Pulp QE

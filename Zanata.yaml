@@ -1,0 +1,165 @@
+project-templates:
+  Zanata:
+    branches:
+    - master
+    gitweb: https://github.com/zanata/%(name)s/commit/%%(sha)s
+    tags:
+    - Documentation
+    uri: https://github.com/zanata/%(name)s
+projects:
+  Zanata:
+    description: 'Web-based system for translators to translate documentation and
+      software online '
+    repos:
+      annotationclaim:
+        branches:
+        - master
+        template: Zanata
+      docs:
+        branches:
+        - gh-pages
+        template: Zanata
+      drupal_dev_environment:
+        branches:
+        - master
+        template: Zanata
+      eslint-config-zanata:
+        branches:
+        - master
+        template: Zanata
+      fake-zanata-server:
+        branches:
+        - master
+        template: Zanata
+      force-victims-update:
+        branches:
+        - master
+        template: Zanata
+      jgettext:
+        branches:
+        - master
+        template: Zanata
+      old-zanata.github.com:
+        branches:
+        - master
+        template: Zanata
+      openprops:
+        branches:
+        - master
+        template: Zanata
+      proxyhook:
+        branches:
+        - master
+        template: Zanata
+      repo-sync:
+        branches:
+        - master
+        template: Zanata
+      sync:
+        branches:
+        - master
+        template: Zanata
+      tennera:
+        branches:
+        - master
+        template: Zanata
+      tmgmt_express_checkout:
+        branches:
+        - master
+        template: Zanata
+      tmgmt_zanata:
+        branches:
+        - master
+        template: Zanata
+      tmgmt_zanata_rpmbuild:
+        branches:
+        - master
+        template: Zanata
+      zanata-api:
+        branches:
+        - master
+        template: Zanata
+      zanata-api-compat:
+        branches:
+        - master
+        template: Zanata
+      zanata-assets:
+        branches:
+        - master
+        template: Zanata
+      zanata-client:
+        branches:
+        - master
+        template: Zanata
+      zanata-client-ivy:
+        branches:
+        - master
+        template: Zanata
+      zanata-common:
+        branches:
+        - master
+        template: Zanata
+      zanata-docker-files:
+        branches:
+        - master
+        template: Zanata
+      zanata-jboss-modules:
+        branches:
+        - master
+        template: Zanata
+      zanata-mt:
+        branches:
+        - master
+        template: Zanata
+      zanata-parent:
+        branches:
+        - master
+        template: Zanata
+      zanata-performance:
+        branches:
+        - master
+        template: Zanata
+      zanata-pipeline-library:
+        branches:
+        - master
+        template: Zanata
+      zanata-platform:
+        branches:
+        - master
+        template: Zanata
+      zanata-python-client:
+        branches:
+        - master
+        template: Zanata
+      zanata-root:
+        branches:
+        - master
+        template: Zanata
+      zanata-scripts:
+        branches:
+        - master
+        template: Zanata
+      zanata-server:
+        branches:
+        - master
+        template: Zanata
+      zanata-spa:
+        branches:
+        - master
+        template: Zanata
+      zanata-tests:
+        branches:
+        - master
+        template: Zanata
+      zanata-ui:
+        branches:
+        - master
+        template: Zanata
+      zanata-wildfly:
+        branches:
+        - master
+        template: Zanata
+      zanata.github.io:
+        branches:
+        - master
+        template: Zanata

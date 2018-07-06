@@ -1,0 +1,48 @@
+project-templates:
+  WildFly Elytron:
+    branches:
+    - master
+    gitweb: https://github.com/wildfly-security/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/wildfly-security/%(name)s
+projects:
+  WildFly Elytron:
+    description: A powerful security framework for Java applications
+    repos:
+      elytron-distribution:
+        branches:
+        - master
+        template: WildFly Elytron
+      elytron-subsystem:
+        branches:
+        - master
+        template: WildFly Elytron
+      elytron-technical-reference:
+        branches:
+        - master
+        template: WildFly Elytron
+      elytron-web:
+        branches:
+        - master
+        template: WildFly Elytron
+      jboss-negotiation:
+        branches:
+        - master
+        template: WildFly Elytron
+      jboss-sasl:
+        branches:
+        - master
+        template: WildFly Elytron
+      security-manager:
+        branches:
+        - master
+        template: WildFly Elytron
+      wildfly-elytron:
+        branches:
+        - master
+        template: WildFly Elytron
+      wildfly-elytron-tool:
+        branches:
+        - master
+        template: WildFly Elytron

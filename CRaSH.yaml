@@ -1,0 +1,56 @@
+project-templates:
+  CRaSH:
+    branches:
+    - master
+    gitweb: https://github.com/crashub/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/crashub/%(name)s
+projects:
+  CRaSH:
+    description: The shell for the Java platform
+    repos:
+      bash:
+        branches:
+        - master
+        template: CRaSH
+      crash:
+        branches:
+        - master
+        template: CRaSH
+      crashub.github.com:
+        branches:
+        - master
+        template: CRaSH
+      demo-kit:
+        branches:
+        - master
+        template: CRaSH
+      grails:
+        branches:
+        - master
+        template: CRaSH
+      jcr:
+        branches:
+        - master
+        template: CRaSH
+      mod-shell:
+        branches:
+        - master
+        template: CRaSH
+      roller:
+        branches:
+        - master
+        template: CRaSH
+      spring-ehcache-demo:
+        branches:
+        - master
+        template: CRaSH
+      visualvm:
+        branches:
+        - master
+        template: CRaSH
+      web:
+        branches:
+        - master
+        template: CRaSH

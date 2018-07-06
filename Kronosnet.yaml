@@ -1,0 +1,17 @@
+project-templates:
+  Kronosnet:
+    branches:
+    - master
+    gitweb: https://github.com/kronosnet/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/kronosnet/%(name)s
+projects:
+  Kronosnet:
+    description: Reliable, resilient, scalable, configurable, secure, and simple network
+      abstraction layer
+    repos:
+      kronosnet:
+        branches:
+        - master
+        template: Kronosnet

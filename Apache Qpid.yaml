@@ -1,0 +1,17 @@
+project-templates:
+  Apache Qpid:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache Qpid:
+    description: Makes messaging tools that speak AMQP and support many languages
+      and platforms.
+    repos:
+      qpid:
+        branches:
+        - trunk
+        template: Apache Qpid

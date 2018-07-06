@@ -1,0 +1,16 @@
+project-templates:
+  widgetastic:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatQE/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/RedHatQE/%(name)s
+projects:
+  widgetastic:
+    description: Python-based WebUI testing library
+    repos:
+      widgetastic.core:
+        branches:
+        - master
+        template: widgetastic

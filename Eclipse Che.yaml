@@ -1,0 +1,17 @@
+project-templates:
+  Eclipse Che:
+    branches:
+    - master
+    gitweb: https://github.com/eclipse/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/eclipse/%(name)s
+projects:
+  Eclipse Che:
+    description: 'Eclipse Che: Next-generation Eclipse IDE. Open source workspace
+      server and cloud IDE.'
+    repos:
+      che:
+        branches:
+        - master
+        template: Eclipse Che

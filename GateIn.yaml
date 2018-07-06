@@ -1,0 +1,88 @@
+project-templates:
+  GateIn:
+    branches:
+    - master
+    gitweb: https://github.com/gatein/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/gatein/%(name)s
+projects:
+  GateIn:
+    description: More than a web framework by letting you use your preferred one
+    repos:
+      gatein-api-java:
+        branches:
+        - master
+        template: GateIn
+      gatein-api-rest:
+        branches:
+        - master
+        template: GateIn
+      gatein-artwork:
+        branches:
+        - master
+        template: GateIn
+      gatein-common:
+        branches:
+        - master
+        template: GateIn
+      gatein-dep:
+        branches:
+        - master
+        template: GateIn
+      gatein-management:
+        branches:
+        - master
+        template: GateIn
+      gatein-mop:
+        branches:
+        - master
+        template: GateIn
+      gatein-naming:
+        branches:
+        - master
+        template: GateIn
+      gatein-parent:
+        branches:
+        - master
+        template: GateIn
+      gatein-pc:
+        branches:
+        - master
+        template: GateIn
+      gatein-portal:
+        branches:
+        - master
+        template: GateIn
+      gatein-rhq:
+        branches:
+        - master
+        template: GateIn
+      gatein-shindig:
+        branches:
+        - master
+        template: GateIn
+      gatein-simplecaptcha:
+        branches:
+        - master
+        template: GateIn
+      gatein-sso:
+        branches:
+        - master
+        template: GateIn
+      gatein-toolbox:
+        branches:
+        - master
+        template: GateIn
+      gatein-wci:
+        branches:
+        - master
+        template: GateIn
+      gatein-wcm:
+        branches:
+        - master
+        template: GateIn
+      gatein-wsrp:
+        branches:
+        - master
+        template: GateIn

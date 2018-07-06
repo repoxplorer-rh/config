@@ -1,0 +1,133 @@
+project-templates:
+  Patternfly:
+    branches:
+    - master
+    gitweb: https://github.com/patternfly/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/patternfly/%(name)s
+projects:
+  Patternfly:
+    description: Created to promote design commonality and improved user experience
+      across enterprise IT products and applications
+    repos:
+      angular-patternfly:
+        branches:
+        - master
+        template: Patternfly
+      angular-patternfly-demo-app:
+        branches:
+        - master
+        template: Patternfly
+      angular-patternfly-sass:
+        branches:
+        - master
+        template: Patternfly
+      angularjs-datatables:
+        branches:
+        - master
+        template: Patternfly
+      patternfly:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-accessibility-demo:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-angular2-demo-app:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-blog:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-code-guide:
+        branches:
+        - gh-pages
+        template: Patternfly
+      patternfly-conference:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-demo-app:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-design:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-design-kit:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-eng-publish:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-eng-release:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-favicon:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-jquery:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-next:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-next-ng:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-next-react-demo-app:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-ng:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-org:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-react:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-react-demo-app:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-sandbox-ng:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-sass:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-site:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-timeline:
+        branches:
+        - master
+        template: Patternfly
+      patternfly-tutorial:
+        branches:
+        - master
+        template: Patternfly
+      patternfly.github.io:
+        branches:
+        - master
+        template: Patternfly

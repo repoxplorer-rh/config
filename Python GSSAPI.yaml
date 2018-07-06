@@ -1,0 +1,44 @@
+project-templates:
+  Python GSSAPI:
+    branches:
+    - master
+    gitweb: https://github.com/pythongssapi/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/pythongssapi/%(name)s
+projects:
+  Python GSSAPI:
+    description: GSSAPI bindings for Python and related testing tooling
+    repos:
+      gssapi-console:
+        branches:
+        - master
+        template: Python GSSAPI
+      k5test:
+        branches:
+        - master
+        template: Python GSSAPI
+      python-gssapi:
+        branches:
+        - master
+        template: Python GSSAPI
+      python-gssapi.debian:
+        branches:
+        - master
+        template: Python GSSAPI
+      python-gssapi.fedora:
+        branches:
+        - master
+        template: Python GSSAPI
+      python3-gssapi.epel:
+        branches:
+        - epel7
+        template: Python GSSAPI
+      requests-gssapi:
+        branches:
+        - master
+        template: Python GSSAPI
+      urllib-gssapi:
+        branches:
+        - master
+        template: Python GSSAPI

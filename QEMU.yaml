@@ -1,0 +1,16 @@
+project-templates:
+  QEMU:
+    branches:
+    - master
+    gitweb: https://github.com/qemu/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/qemu/%(name)s
+projects:
+  QEMU:
+    description: A fast processor emulator
+    repos:
+      qemu:
+        branches:
+        - master
+        template: QEMU

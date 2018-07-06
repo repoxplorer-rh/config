@@ -1,0 +1,17 @@
+project-templates:
+  Oz:
+    branches:
+    - master
+    gitweb: https://github.com/clalancette/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/clalancette/%(name)s
+projects:
+  Oz:
+    description: A tool for automatically installing operating systems into files
+      with only minimal up-front input from the user
+    repos:
+      oz:
+        branches:
+        - master
+        template: Oz

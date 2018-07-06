@@ -1,0 +1,3534 @@
+project-templates:
+  KDE:
+    branches:
+    - master
+    gitweb: https://github.com/KDE/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/KDE/%(name)s
+projects:
+  KDE:
+    description: A free software community offering an advanced graphical desktop,
+      a wide variety of applications and a platform to easily build new applications
+      upon
+    repos:
+      abakus:
+        branches:
+        - master
+        template: KDE
+      about-distro:
+        branches:
+        - master
+        template: KDE
+      activities-support:
+        branches:
+        - master
+        template: KDE
+      aki:
+        branches:
+        - master
+        template: KDE
+      akonadi:
+        branches:
+        - master
+        template: KDE
+      akonadi-airsync:
+        branches:
+        - master
+        template: KDE
+      akonadi-calendar:
+        branches:
+        - master
+        template: KDE
+      akonadi-calendar-tools:
+        branches:
+        - master
+        template: KDE
+      akonadi-contacts:
+        branches:
+        - master
+        template: KDE
+      akonadi-exchange:
+        branches:
+        - master
+        template: KDE
+      akonadi-facebook:
+        branches:
+        - master
+        template: KDE
+      akonadi-git-resource:
+        branches:
+        - master
+        template: KDE
+      akonadi-google-applets:
+        branches:
+        - master
+        template: KDE
+      akonadi-googledata-resource:
+        branches:
+        - master
+        template: KDE
+      akonadi-import-wizard:
+        branches:
+        - master
+        template: KDE
+      akonadi-mime:
+        branches:
+        - master
+        template: KDE
+      akonadi-next:
+        branches:
+        - master
+        template: KDE
+      akonadi-notes:
+        branches:
+        - master
+        template: KDE
+      akonadi-phabricator-resource:
+        branches:
+        - master
+        template: KDE
+      akonadi-search:
+        branches:
+        - master
+        template: KDE
+      akonadi-sugarcrm:
+        branches:
+        - master
+        template: KDE
+      akonadi-vkontakte:
+        branches:
+        - master
+        template: KDE
+      akonadiclient:
+        branches:
+        - master
+        template: KDE
+      akonadiconsole:
+        branches:
+        - master
+        template: KDE
+      akregator:
+        branches:
+        - master
+        template: KDE
+      akunambol:
+        branches:
+        - master
+        template: KDE
+      alkimia:
+        branches:
+        - master
+        template: KDE
+      amarok:
+        branches:
+        - master
+        template: KDE
+      amarok-history:
+        branches:
+        - '0.6'
+        template: KDE
+      amor:
+        branches:
+        - master
+        template: KDE
+      analitza:
+        branches:
+        - master
+        template: KDE
+      android-builder:
+        branches:
+        - master
+        template: KDE
+      android-qt:
+        branches:
+        - master
+        template: KDE
+      android-qt-creator:
+        branches:
+        - master
+        template: KDE
+      android-qt-mobility:
+        branches:
+        - master
+        template: KDE
+      android-qt-ndk:
+        branches:
+        - master
+        template: KDE
+      android-qt5-qtbase:
+        branches:
+        - master
+        template: KDE
+      android-qtwebkit:
+        branches:
+        - master
+        template: KDE
+      apper:
+        branches:
+        - master
+        template: KDE
+      appimage-packaging:
+        branches:
+        - master
+        template: KDE
+      appmenu-runner:
+        branches:
+        - master
+        template: KDE
+      appstream-runner:
+        branches:
+        - master
+        template: KDE
+      ark:
+        branches:
+        - master
+        template: KDE
+      artikulate:
+        branches:
+        - master
+        template: KDE
+      artikulate-data:
+        branches:
+        - master
+        template: KDE
+      assemblygen:
+        branches:
+        - master
+        template: KDE
+      asynqt:
+        branches:
+        - master
+        template: KDE
+      atcore:
+        branches:
+        - master
+        template: KDE
+      atcore-cli:
+        branches:
+        - master
+        template: KDE
+      atelier:
+        branches:
+        - master
+        template: KDE
+      atlantik:
+        branches:
+        - master
+        template: KDE
+      attica:
+        branches:
+        - master
+        template: KDE
+      audex:
+        branches:
+        - master
+        template: KDE
+      audiocd-kio:
+        branches:
+        - master
+        template: KDE
+      automoc:
+        branches:
+        - master
+        template: KDE
+      babe:
+        branches:
+        - master
+        template: KDE
+      babe-qml:
+        branches:
+        - master
+        template: KDE
+      baloo:
+        branches:
+        - master
+        template: KDE
+      baloo-widgets:
+        branches:
+        - master
+        template: KDE
+      bangarang:
+        branches:
+        - master
+        template: KDE
+      binschema:
+        branches:
+        - master
+        template: KDE
+      blinken:
+        branches:
+        - master
+        template: KDE
+      blogilo:
+        branches:
+        - master
+        template: KDE
+      bluedevil:
+        branches:
+        - master
+        template: KDE
+      bluez-qt:
+        branches:
+        - master
+        template: KDE
+      bodega-client:
+        branches:
+        - master
+        template: KDE
+      bodega-server:
+        branches:
+        - master
+        template: KDE
+      bodega-webapp-client:
+        branches:
+        - master
+        template: KDE
+      bodega-webapp-manager:
+        branches:
+        - master
+        template: KDE
+      bomber:
+        branches:
+        - master
+        template: KDE
+      bookmanager:
+        branches:
+        - master
+        template: KDE
+      bovo:
+        branches:
+        - master
+        template: KDE
+      breeze:
+        branches:
+        - master
+        template: KDE
+      breeze-grub:
+        branches:
+        - master
+        template: KDE
+      breeze-gtk:
+        branches:
+        - master
+        template: KDE
+      breeze-icons:
+        branches:
+        - master
+        template: KDE
+      breeze-plymouth:
+        branches:
+        - master
+        template: KDE
+      brooklyn:
+        branches:
+        - master
+        template: KDE
+      brprint3d:
+        branches:
+        - master
+        template: KDE
+      buho:
+        branches:
+        - master
+        template: KDE
+      cagibi:
+        branches:
+        - master
+        template: KDE
+      calendarsupport:
+        branches:
+        - master
+        template: KDE
+      calligra:
+        branches:
+        - master
+        template: KDE
+      calligra-history:
+        branches:
+        - master
+        template: KDE
+      cantor:
+        branches:
+        - master
+        template: KDE
+      cervisia:
+        branches:
+        - master
+        template: KDE
+      chocolatey-packaging:
+        branches:
+        - master
+        template: KDE
+      choqok:
+        branches:
+        - master
+        template: KDE
+      cirkuit:
+        branches:
+        - master
+        template: KDE
+      clazy:
+        branches:
+        - master
+        template: KDE
+      cmetronome:
+        branches:
+        - master
+        template: KDE
+      cocoon:
+        branches:
+        - master
+        template: KDE
+      colibri:
+        branches:
+        - master
+        template: KDE
+      colord-kde:
+        branches:
+        - master
+        template: KDE
+      confine:
+        branches:
+        - master
+        template: KDE
+      conquirere:
+        branches:
+        - master
+        template: KDE
+      contour:
+        branches:
+        - master
+        template: KDE
+      craft:
+        branches:
+        - master
+        template: KDE
+      craft-blueprints-kde:
+        branches:
+        - master
+        template: KDE
+      craftmaster:
+        branches:
+        - master
+        template: KDE
+      cutepaste:
+        branches:
+        - master
+        template: KDE
+      cxx11-cmake-modules:
+        branches:
+        - master
+        template: KDE
+      declarative-plasmoids:
+        branches:
+        - master
+        template: KDE
+      dekorator:
+        branches:
+        - master
+        template: KDE
+      dferry:
+        branches:
+        - master
+        template: KDE
+      digikam:
+        branches:
+        - master
+        template: KDE
+      digikam-doc:
+        branches:
+        - master
+        template: KDE
+      digikam-software-compilation:
+        branches:
+        - master
+        template: KDE
+      discover:
+        branches:
+        - master
+        template: KDE
+      distro-release-notifier:
+        branches:
+        - master
+        template: KDE
+      docker-neon:
+        branches:
+        - Neon/stable
+        template: KDE
+      docker-neon-all:
+        branches:
+        - master
+        template: KDE
+      dolphin:
+        branches:
+        - master
+        template: KDE
+      dolphin-plugins:
+        branches:
+        - master
+        template: KDE
+      dragon:
+        branches:
+        - master
+        template: KDE
+      drkonqi:
+        branches:
+        - master
+        template: KDE
+      dummy:
+        branches:
+        - master
+        template: KDE
+      ebookreader:
+        branches:
+        - master
+        template: KDE
+      elf-dissector:
+        branches:
+        - master
+        template: KDE
+      elisa:
+        branches:
+        - master
+        template: KDE
+      emerge:
+        branches:
+        - master
+        template: KDE
+      emerge-history:
+        branches:
+        - master
+        template: KDE
+      eventviews:
+        branches:
+        - master
+        template: KDE
+      extra-cmake-modules:
+        branches:
+        - master
+        template: KDE
+      eyeos-style:
+        branches:
+        - master
+        template: KDE
+      falkon:
+        branches:
+        - master
+        template: KDE
+      ffmpegthumbs:
+        branches:
+        - master
+        template: KDE
+      filelight:
+        branches:
+        - master
+        template: KDE
+      flatpak-kde-applications:
+        branches:
+        - master
+        template: KDE
+      flatpak-kde-runtime:
+        branches:
+        - master
+        template: KDE
+      flatpak-platform-plugin:
+        branches:
+        - master
+        template: KDE
+      flickr-runner:
+        branches:
+        - master
+        template: KDE
+      frameworkintegration:
+        branches:
+        - master
+        template: KDE
+      gcompris:
+        branches:
+        - master
+        template: KDE
+      gcompris-data:
+        branches:
+        - master
+        template: KDE
+      gestures-kde:
+        branches:
+        - master
+        template: KDE
+      ginkgo:
+        branches:
+        - master
+        template: KDE
+      gluon:
+        branches:
+        - master
+        template: KDE
+      gluon-blocks:
+        branches:
+        - master
+        template: KDE
+      gpgmepp:
+        branches:
+        - master
+        template: KDE
+      granatier:
+        branches:
+        - master
+        template: KDE
+      grantlee-editor:
+        branches:
+        - master
+        template: KDE
+      grantleetheme:
+        branches:
+        - master
+        template: KDE
+      gwenview:
+        branches:
+        - master
+        template: KDE
+      heaptrack:
+        branches:
+        - master
+        template: KDE
+      homerun:
+        branches:
+        - master
+        template: KDE
+      incidenceeditor:
+        branches:
+        - master
+        template: KDE
+      index-fm:
+        branches:
+        - master
+        template: KDE
+      inqlude-client:
+        branches:
+        - master
+        template: KDE
+      isoimagewriter:
+        branches:
+        - master
+        template: KDE
+      itinerary:
+        branches:
+        - master
+        template: KDE
+      jovie:
+        branches:
+        - master
+        template: KDE
+      jsmoke:
+        branches:
+        - master
+        template: KDE
+      juk:
+        branches:
+        - master
+        template: KDE
+      jungle:
+        branches:
+        - master
+        template: KDE
+      k3b:
+        branches:
+        - master
+        template: KDE
+      kaccessible:
+        branches:
+        - master
+        template: KDE
+      kaccounts-integration:
+        branches:
+        - master
+        template: KDE
+      kaccounts-mobile:
+        branches:
+        - master
+        template: KDE
+      kaccounts-providers:
+        branches:
+        - master
+        template: KDE
+      kactivities:
+        branches:
+        - master
+        template: KDE
+      kactivities-stats:
+        branches:
+        - master
+        template: KDE
+      kactivitymanagerd:
+        branches:
+        - master
+        template: KDE
+      kaddressbook:
+        branches:
+        - master
+        template: KDE
+      kaffeine:
+        branches:
+        - master
+        template: KDE
+      kairo:
+        branches:
+        - master
+        template: KDE
+      kajongg:
+        branches:
+        - master
+        template: KDE
+      kalarm:
+        branches:
+        - master
+        template: KDE
+      kalarmcal:
+        branches:
+        - master
+        template: KDE
+      kalgebra:
+        branches:
+        - master
+        template: KDE
+      kalternatives:
+        branches:
+        - master
+        template: KDE
+      kalzium:
+        branches:
+        - master
+        template: KDE
+      kamera:
+        branches:
+        - master
+        template: KDE
+      kamoso:
+        branches:
+        - master
+        template: KDE
+      kanagram:
+        branches:
+        - master
+        template: KDE
+      kanalytics:
+        branches:
+        - master
+        template: KDE
+      kannasaver:
+        branches:
+        - master
+        template: KDE
+      kapa:
+        branches:
+        - master
+        template: KDE
+      kapidox:
+        branches:
+        - master
+        template: KDE
+      kapman:
+        branches:
+        - master
+        template: KDE
+      kapptemplate:
+        branches:
+        - master
+        template: KDE
+      karchive:
+        branches:
+        - master
+        template: KDE
+      kard:
+        branches:
+        - master
+        template: KDE
+      kartesio:
+        branches:
+        - master
+        template: KDE
+      kasync:
+        branches:
+        - master
+        template: KDE
+      kate:
+        branches:
+        - master
+        template: KDE
+      katomic:
+        branches:
+        - master
+        template: KDE
+      kaudiocreator:
+        branches:
+        - master
+        template: KDE
+      kauth:
+        branches:
+        - master
+        template: KDE
+      kbackup:
+        branches:
+        - master
+        template: KDE
+      kbibtex:
+        branches:
+        - master
+        template: KDE
+      kbibtex-testset:
+        branches:
+        - master
+        template: KDE
+      kblackbox:
+        branches:
+        - master
+        template: KDE
+      kblocks:
+        branches:
+        - master
+        template: KDE
+      kblog:
+        branches:
+        - master
+        template: KDE
+      kbookmarks:
+        branches:
+        - master
+        template: KDE
+      kbounce:
+        branches:
+        - master
+        template: KDE
+      kbreakout:
+        branches:
+        - master
+        template: KDE
+      kbruch:
+        branches:
+        - master
+        template: KDE
+      kcachegrind:
+        branches:
+        - master
+        template: KDE
+      kcalc:
+        branches:
+        - master
+        template: KDE
+      kcalcore:
+        branches:
+        - master
+        template: KDE
+      kcalutils:
+        branches:
+        - master
+        template: KDE
+      kcharselect:
+        branches:
+        - master
+        template: KDE
+      kcm-grub2:
+        branches:
+        - master
+        template: KDE
+      kcm-userconfig:
+        branches:
+        - master
+        template: KDE
+      kcmgrub2:
+        branches:
+        - master
+        template: KDE
+      kcmutils:
+        branches:
+        - master
+        template: KDE
+      kcodecs:
+        branches:
+        - master
+        template: KDE
+      kcolorchooser:
+        branches:
+        - master
+        template: KDE
+      kcoloredit:
+        branches:
+        - master
+        template: KDE
+      kcompletion:
+        branches:
+        - master
+        template: KDE
+      kconfig:
+        branches:
+        - master
+        template: KDE
+      kconfigwidgets:
+        branches:
+        - master
+        template: KDE
+      kcontacts:
+        branches:
+        - master
+        template: KDE
+      kcoreaddons:
+        branches:
+        - master
+        template: KDE
+      kcrash:
+        branches:
+        - master
+        template: KDE
+      kcron:
+        branches:
+        - master
+        template: KDE
+      kcwsh:
+        branches:
+        - master
+        template: KDE
+      kdav:
+        branches:
+        - master
+        template: KDE
+      kdav2:
+        branches:
+        - master
+        template: KDE
+      kdb:
+        branches:
+        - master
+        template: KDE
+      kdbusaddons:
+        branches:
+        - master
+        template: KDE
+      kde-artwork-active:
+        branches:
+        - master
+        template: KDE
+      kde-baseapps:
+        branches:
+        - master
+        template: KDE
+      kde-build-metadata:
+        branches:
+        - master
+        template: KDE
+      kde-cli-tools:
+        branches:
+        - master
+        template: KDE
+      kde-dev-scripts:
+        branches:
+        - master
+        template: KDE
+      kde-dev-utils:
+        branches:
+        - master
+        template: KDE
+      kde-gtk-config:
+        branches:
+        - master
+        template: KDE
+      kde-now:
+        branches:
+        - master
+        template: KDE
+      kde-ruleset:
+        branches:
+        - master
+        template: KDE
+      kde-runtime:
+        branches:
+        - master
+        template: KDE
+      kde-workspace:
+        branches:
+        - master
+        template: KDE
+      kde1-kdeadmin:
+        branches:
+        - master
+        template: KDE
+      kde1-kdebase:
+        branches:
+        - master
+        template: KDE
+      kde1-kdegames:
+        branches:
+        - master
+        template: KDE
+      kde1-kdegraphics:
+        branches:
+        - master
+        template: KDE
+      kde1-kdelibs:
+        branches:
+        - master
+        template: KDE
+      kde1-kdemultimedia:
+        branches:
+        - master
+        template: KDE
+      kde1-kdenetwork:
+        branches:
+        - master
+        template: KDE
+      kde1-kdetoys:
+        branches:
+        - master
+        template: KDE
+      kde1-kdeutils:
+        branches:
+        - master
+        template: KDE
+      kdeadmin-strigi-analyzers:
+        branches:
+        - master
+        template: KDE
+      kdebugsettings:
+        branches:
+        - master
+        template: KDE
+      kdeclarative:
+        branches:
+        - master
+        template: KDE
+      kdeconnect-android:
+        branches:
+        - master
+        template: KDE
+      kdeconnect-kde:
+        branches:
+        - master
+        template: KDE
+      kdecoration:
+        branches:
+        - master
+        template: KDE
+      kdecoration-viewer:
+        branches:
+        - master
+        template: KDE
+      kded:
+        branches:
+        - master
+        template: KDE
+      kdeedu-data:
+        branches:
+        - master
+        template: KDE
+      kdeexamples:
+        branches:
+        - master
+        template: KDE
+      kdegraphics:
+        branches:
+        - master
+        template: KDE
+      kdegraphics-mobipocket:
+        branches:
+        - master
+        template: KDE
+      kdegraphics-strigi-analyzer:
+        branches:
+        - master
+        template: KDE
+      kdegraphics-thumbnailers:
+        branches:
+        - master
+        template: KDE
+      kdelibs:
+        branches:
+        - KDE/4.14
+        template: KDE
+      kdelibs4support:
+        branches:
+        - master
+        template: KDE
+      kdenetwork-filesharing:
+        branches:
+        - master
+        template: KDE
+      kdenetwork-strigi-analyzers:
+        branches:
+        - master
+        template: KDE
+      kdenlive:
+        branches:
+        - master
+        template: KDE
+      kdepim:
+        branches:
+        - master
+        template: KDE
+      kdepim-addons:
+        branches:
+        - master
+        template: KDE
+      kdepim-apps-libs:
+        branches:
+        - master
+        template: KDE
+      kdepim-runtime:
+        branches:
+        - master
+        template: KDE
+      kdepimlibs:
+        branches:
+        - master
+        template: KDE
+      kdeplasma-addons:
+        branches:
+        - master
+        template: KDE
+      kdesdk-devenv-dependencies:
+        branches:
+        - master
+        template: KDE
+      kdesdk-kioslaves:
+        branches:
+        - master
+        template: KDE
+      kdesdk-strigi-analyzers:
+        branches:
+        - master
+        template: KDE
+      kdesdk-thumbnailers:
+        branches:
+        - master
+        template: KDE
+      kdesignerplugin:
+        branches:
+        - master
+        template: KDE
+      kdesrc-build:
+        branches:
+        - master
+        template: KDE
+      kdesu:
+        branches:
+        - master
+        template: KDE
+      kdesudo:
+        branches:
+        - master
+        template: KDE
+      kdesvn:
+        branches:
+        - master
+        template: KDE
+      kdev-cargo:
+        branches:
+        - master
+        template: KDE
+      kdev-clang:
+        branches:
+        - master
+        template: KDE
+      kdev-clang-tidy:
+        branches:
+        - master
+        template: KDE
+      kdev-control-flow-graph:
+        branches:
+        - master
+        template: KDE
+      kdev-cppcheck:
+        branches:
+        - master
+        template: KDE
+      kdev-crossfire:
+        branches:
+        - master
+        template: KDE
+      kdev-css:
+        branches:
+        - master
+        template: KDE
+      kdev-embedded:
+        branches:
+        - Arduino
+        template: KDE
+      kdev-executebrowser:
+        branches:
+        - master
+        template: KDE
+      kdev-go:
+        branches:
+        - master
+        template: KDE
+      kdev-java:
+        branches:
+        - master
+        template: KDE
+      kdev-krazy2:
+        branches:
+        - master
+        template: KDE
+      kdev-mercurial:
+        branches:
+        - master
+        template: KDE
+      kdev-perforce:
+        branches:
+        - master
+        template: KDE
+      kdev-php:
+        branches:
+        - master
+        template: KDE
+      kdev-php-docs:
+        branches:
+        - master
+        template: KDE
+      kdev-php-formatter:
+        branches:
+        - master
+        template: KDE
+      kdev-python:
+        branches:
+        - master
+        template: KDE
+      kdev-qmake:
+        branches:
+        - master
+        template: KDE
+      kdev-qmljs:
+        branches:
+        - master
+        template: KDE
+      kdev-ruby:
+        branches:
+        - master
+        template: KDE
+      kdev-rust:
+        branches:
+        - master
+        template: KDE
+      kdev-sql:
+        branches:
+        - master
+        template: KDE
+      kdev-upload:
+        branches:
+        - master
+        template: KDE
+      kdev-valgrind:
+        branches:
+        - master
+        template: KDE
+      kdev-verapp:
+        branches:
+        - master
+        template: KDE
+      kdev-www:
+        branches:
+        - master
+        template: KDE
+      kdev-xdebug:
+        branches:
+        - master
+        template: KDE
+      kdev-xml:
+        branches:
+        - master
+        template: KDE
+      kdev-xtest:
+        branches:
+        - master
+        template: KDE
+      kdevelop:
+        branches:
+        - master
+        template: KDE
+      kdevelop-pg-qt:
+        branches:
+        - master
+        template: KDE
+      kdevplatform:
+        branches:
+        - master
+        template: KDE
+      kdewebkit:
+        branches:
+        - master
+        template: KDE
+      kdewin:
+        branches:
+        - master
+        template: KDE
+      kdewin-installer:
+        branches:
+        - master
+        template: KDE
+      kdewin-tools:
+        branches:
+        - master
+        template: KDE
+      kdf:
+        branches:
+        - master
+        template: KDE
+      kdgantt2:
+        branches:
+        - master
+        template: KDE
+      kdiagram:
+        branches:
+        - master
+        template: KDE
+      kdialog:
+        branches:
+        - master
+        template: KDE
+      kdiamond:
+        branches:
+        - master
+        template: KDE
+      kdiff3:
+        branches:
+        - master
+        template: KDE
+      kdisksutilities:
+        branches:
+        - master
+        template: KDE
+      kdnssd:
+        branches:
+        - master
+        template: KDE
+      kdoctools:
+        branches:
+        - master
+        template: KDE
+      kdocumentstore:
+        branches:
+        - master
+        template: KDE
+      kdots:
+        branches:
+        - master
+        template: KDE
+      keditbookmarks:
+        branches:
+        - master
+        template: KDE
+      kemoticons:
+        branches:
+        - master
+        template: KDE
+      kexi:
+        branches:
+        - master
+        template: KDE
+      kf5book:
+        branches:
+        - master
+        template: KDE
+      kfilemetadata:
+        branches:
+        - master
+        template: KDE
+      kfilereplace:
+        branches:
+        - master
+        template: KDE
+      kfind:
+        branches:
+        - master
+        template: KDE
+      kfloppy:
+        branches:
+        - master
+        template: KDE
+      kfourinline:
+        branches:
+        - master
+        template: KDE
+      kfritz:
+        branches:
+        - master
+        template: KDE
+      kgamma5:
+        branches:
+        - master
+        template: KDE
+      kgeography:
+        branches:
+        - master
+        template: KDE
+      kget:
+        branches:
+        - master
+        template: KDE
+      kglobalaccel:
+        branches:
+        - master
+        template: KDE
+      kgoldrunner:
+        branches:
+        - master
+        template: KDE
+      kgpg:
+        branches:
+        - master
+        template: KDE
+      kgraphviewer:
+        branches:
+        - master
+        template: KDE
+      kguiaddons:
+        branches:
+        - master
+        template: KDE
+      khangman:
+        branches:
+        - master
+        template: KDE
+      khelpcenter:
+        branches:
+        - master
+        template: KDE
+      khipu:
+        branches:
+        - master
+        template: KDE
+      kholidays:
+        branches:
+        - master
+        template: KDE
+      khotkeys:
+        branches:
+        - master
+        template: KDE
+      khtml:
+        branches:
+        - master
+        template: KDE
+      ki18n:
+        branches:
+        - master
+        template: KDE
+      kiconthemes:
+        branches:
+        - master
+        template: KDE
+      kidentitymanagement:
+        branches:
+        - master
+        template: KDE
+      kidletime:
+        branches:
+        - master
+        template: KDE
+      kig:
+        branches:
+        - master
+        template: KDE
+      kigo:
+        branches:
+        - master
+        template: KDE
+      kile:
+        branches:
+        - master
+        template: KDE
+      killbots:
+        branches:
+        - master
+        template: KDE
+      kimageformats:
+        branches:
+        - master
+        template: KDE
+      kimagemapeditor:
+        branches:
+        - master
+        template: KDE
+      kimap:
+        branches:
+        - master
+        template: KDE
+      kimap2:
+        branches:
+        - master
+        template: KDE
+      kimono:
+        branches:
+        - master
+        template: KDE
+      kimtoy:
+        branches:
+        - master
+        template: KDE
+      kinfocenter:
+        branches:
+        - master
+        template: KDE
+      kinit:
+        branches:
+        - master
+        template: KDE
+      kio:
+        branches:
+        - master
+        template: KDE
+      kio-extras:
+        branches:
+        - master
+        template: KDE
+      kio-gdrive:
+        branches:
+        - master
+        template: KDE
+      kio-gopher:
+        branches:
+        - master
+        template: KDE
+      kio-mtp:
+        branches:
+        - master
+        template: KDE
+      kio-stash:
+        branches:
+        - master
+        template: KDE
+      kio-upnp-ms:
+        branches:
+        - master
+        template: KDE
+      kipi-plugins:
+        branches:
+        - master
+        template: KDE
+      kipi-plugins-doc:
+        branches:
+        - master
+        template: KDE
+      kirigami:
+        branches:
+        - master
+        template: KDE
+      kirigami-gallery:
+        branches:
+        - master
+        template: KDE
+      kiriki:
+        branches:
+        - master
+        template: KDE
+      kitemmodels:
+        branches:
+        - master
+        template: KDE
+      kitemviews:
+        branches:
+        - master
+        template: KDE
+      kiten:
+        branches:
+        - master
+        template: KDE
+      kitinerary:
+        branches:
+        - master
+        template: KDE
+      kjobwidgets:
+        branches:
+        - master
+        template: KDE
+      kjots:
+        branches:
+        - master
+        template: KDE
+      kjs:
+        branches:
+        - master
+        template: KDE
+      kjsembed:
+        branches:
+        - master
+        template: KDE
+      kjumpingcube:
+        branches:
+        - master
+        template: KDE
+      kldap:
+        branches:
+        - master
+        template: KDE
+      kleopatra:
+        branches:
+        - master
+        template: KDE
+      klettres:
+        branches:
+        - master
+        template: KDE
+      klickety:
+        branches:
+        - master
+        template: KDE
+      klimbgrades:
+        branches:
+        - master
+        template: KDE
+      klines:
+        branches:
+        - master
+        template: KDE
+      klinkstatus:
+        branches:
+        - master
+        template: KDE
+      klook:
+        branches:
+        - master
+        template: KDE
+      kmag:
+        branches:
+        - master
+        template: KDE
+      kmahjongg:
+        branches:
+        - master
+        template: KDE
+      kmail:
+        branches:
+        - master
+        template: KDE
+      kmail-account-wizard:
+        branches:
+        - master
+        template: KDE
+      kmailtransport:
+        branches:
+        - master
+        template: KDE
+      kmarkdownwebview:
+        branches:
+        - master
+        template: KDE
+      kmbox:
+        branches:
+        - master
+        template: KDE
+      kmediaplayer:
+        branches:
+        - master
+        template: KDE
+      kmenuedit:
+        branches:
+        - master
+        template: KDE
+      kmime:
+        branches:
+        - master
+        template: KDE
+      kmines:
+        branches:
+        - master
+        template: KDE
+      kmix:
+        branches:
+        - master
+        template: KDE
+      kmousetool:
+        branches:
+        - master
+        template: KDE
+      kmouth:
+        branches:
+        - master
+        template: KDE
+      kmplayer:
+        branches:
+        - master
+        template: KDE
+      kmplot:
+        branches:
+        - master
+        template: KDE
+      kmuddy:
+        branches:
+        - master
+        template: KDE
+      kmymoney:
+        branches:
+        - master
+        template: KDE
+      knavalbattle:
+        branches:
+        - master
+        template: KDE
+      knemo:
+        branches:
+        - master
+        template: KDE
+      knetwalk:
+        branches:
+        - master
+        template: KDE
+      knewstuff:
+        branches:
+        - master
+        template: KDE
+      knights:
+        branches:
+        - master
+        template: KDE
+      knipptasch:
+        branches:
+        - master
+        template: KDE
+      knotes:
+        branches:
+        - master
+        template: KDE
+      knotifications:
+        branches:
+        - master
+        template: KDE
+      knotifyconfig:
+        branches:
+        - master
+        template: KDE
+      kobjecttracking:
+        branches:
+        - master
+        template: KDE
+      koffice:
+        branches:
+        - master
+        template: KDE
+      koffice-chartingshape:
+        branches:
+        - master
+        template: KDE
+      koffice-formulashape:
+        branches:
+        - master
+        template: KDE
+      koffice-googledocs:
+        branches:
+        - master
+        template: KDE
+      koffice-musicshape:
+        branches:
+        - master
+        template: KDE
+      koffice-plugins:
+        branches:
+        - master
+        template: KDE
+      koffice-texthighlight:
+        branches:
+        - master
+        template: KDE
+      koffice-videoshape:
+        branches:
+        - master
+        template: KDE
+      koko:
+        branches:
+        - master
+        template: KDE
+      kolena:
+        branches:
+        - master
+        template: KDE
+      kolf:
+        branches:
+        - master
+        template: KDE
+      kollision:
+        branches:
+        - master
+        template: KDE
+      kolor-manager:
+        branches:
+        - master
+        template: KDE
+      kolourpaint:
+        branches:
+        - master
+        template: KDE
+      kommander:
+        branches:
+        - master
+        template: KDE
+      kompare:
+        branches:
+        - master
+        template: KDE
+      konqueror:
+        branches:
+        - master
+        template: KDE
+      konquest:
+        branches:
+        - master
+        template: KDE
+      konsole:
+        branches:
+        - master
+        template: KDE
+      kontact:
+        branches:
+        - master
+        template: KDE
+      kontact-quick:
+        branches:
+        - master
+        template: KDE
+      kontactinterface:
+        branches:
+        - master
+        template: KDE
+      kontaminuti:
+        branches:
+        - master
+        template: KDE
+      konversation:
+        branches:
+        - master
+        template: KDE
+      kooka:
+        branches:
+        - master
+        template: KDE
+      kopete:
+        branches:
+        - master
+        template: KDE
+      kopete-pimpresence:
+        branches:
+        - master
+        template: KDE
+      kopete-protocol-telepathy:
+        branches:
+        - master
+        template: KDE
+      kopete-scripting:
+        branches:
+        - master
+        template: KDE
+      kopete-sharemydesktop:
+        branches:
+        - master
+        template: KDE
+      kopete-smpppdcs:
+        branches:
+        - master
+        template: KDE
+      kopete-thinklight:
+        branches:
+        - master
+        template: KDE
+      kopete-whiteboard:
+        branches:
+        - master
+        template: KDE
+      kor:
+        branches:
+        - master
+        template: KDE
+      korganizer:
+        branches:
+        - master
+        template: KDE
+      korundum:
+        branches:
+        - master
+        template: KDE
+      kpackage:
+        branches:
+        - master
+        template: KDE
+      kparts:
+        branches:
+        - master
+        template: KDE
+      kpaste:
+        branches:
+        - master
+        template: KDE
+      kpat:
+        branches:
+        - master
+        template: KDE
+      kpeg:
+        branches:
+        - master
+        template: KDE
+      kpeople:
+        branches:
+        - master
+        template: KDE
+      kpeoplevcard:
+        branches:
+        - master
+        template: KDE
+      kphotoalbum:
+        branches:
+        - master
+        template: KDE
+      kpimtextedit:
+        branches:
+        - master
+        template: KDE
+      kpkpass:
+        branches:
+        - master
+        template: KDE
+      kplayer:
+        branches:
+        - master
+        template: KDE
+      kplotting:
+        branches:
+        - master
+        template: KDE
+      kpmcore:
+        branches:
+        - master
+        template: KDE
+      kppp:
+        branches:
+        - master
+        template: KDE
+      kprinter4:
+        branches:
+        - master
+        template: KDE
+      kproperty:
+        branches:
+        - master
+        template: KDE
+      kpty:
+        branches:
+        - master
+        template: KDE
+      kqtquickcharts:
+        branches:
+        - master
+        template: KDE
+      krdc:
+        branches:
+        - master
+        template: KDE
+      krecipes:
+        branches:
+        - master
+        template: KDE
+      kreenshot-editor:
+        branches:
+        - master
+        template: KDE
+      kregexpeditor:
+        branches:
+        - master
+        template: KDE
+      kremotecontrol:
+        branches:
+        - master
+        template: KDE
+      krename:
+        branches:
+        - master
+        template: KDE
+      kreport:
+        branches:
+        - master
+        template: KDE
+      kreversi:
+        branches:
+        - master
+        template: KDE
+      krfb:
+        branches:
+        - master
+        template: KDE
+      krita:
+        branches:
+        - master
+        template: KDE
+      krita-analogies:
+        branches:
+        - master
+        template: KDE
+      krita-cimg:
+        branches:
+        - master
+        template: KDE
+      krita-ctlbrush:
+        branches:
+        - master
+        template: KDE
+      krita-deskew:
+        branches:
+        - master
+        template: KDE
+      krita-dither:
+        branches:
+        - master
+        template: KDE
+      krita-grayscalizer:
+        branches:
+        - master
+        template: KDE
+      krita-humanbody:
+        branches:
+        - master
+        template: KDE
+      krita-imagecomplete:
+        branches:
+        - master
+        template: KDE
+      krita-linesampler:
+        branches:
+        - master
+        template: KDE
+      krita-pyramidalsharpening:
+        branches:
+        - master
+        template: KDE
+      krono:
+        branches:
+        - master
+        template: KDE
+      kronometer:
+        branches:
+        - master
+        template: KDE
+      kross:
+        branches:
+        - master
+        template: KDE
+      kross-interpreters:
+        branches:
+        - master
+        template: KDE
+      kruler:
+        branches:
+        - master
+        template: KDE
+      krunner:
+        branches:
+        - master
+        template: KDE
+      krusader:
+        branches:
+        - master
+        template: KDE
+      ksaneplugin:
+        branches:
+        - master
+        template: KDE
+      ksaolaji:
+        branches:
+        - master
+        template: KDE
+      kscd:
+        branches:
+        - master
+        template: KDE
+      kscreen:
+        branches:
+        - master
+        template: KDE
+      kscreenlocker:
+        branches:
+        - master
+        template: KDE
+      ksecrets:
+        branches:
+        - master
+        template: KDE
+      kservice:
+        branches:
+        - master
+        template: KDE
+      kshisen:
+        branches:
+        - master
+        template: KDE
+      ksirk:
+        branches:
+        - master
+        template: KDE
+      ksmtp:
+        branches:
+        - master
+        template: KDE
+      ksnakeduel:
+        branches:
+        - master
+        template: KDE
+      ksnapshot:
+        branches:
+        - master
+        template: KDE
+      ksokoban:
+        branches:
+        - master
+        template: KDE
+      kspaceduel:
+        branches:
+        - master
+        template: KDE
+      ksquares:
+        branches:
+        - master
+        template: KDE
+      ksshaskpass:
+        branches:
+        - master
+        template: KDE
+      kst-plot:
+        branches:
+        - master
+        template: KDE
+      kstars:
+        branches:
+        - master
+        template: KDE
+      ksudoku:
+        branches:
+        - master
+        template: KDE
+      ksysguard:
+        branches:
+        - master
+        template: KDE
+      ksystemlog:
+        branches:
+        - master
+        template: KDE
+      kte-collaborative:
+        branches:
+        - master
+        template: KDE
+      kteatime:
+        branches:
+        - master
+        template: KDE
+      ktechlab:
+        branches:
+        - master
+        template: KDE
+      ktexteditor:
+        branches:
+        - master
+        template: KDE
+      ktexteditorpreviewplugin:
+        branches:
+        - master
+        template: KDE
+      ktextwidgets:
+        branches:
+        - master
+        template: KDE
+      ktimer:
+        branches:
+        - master
+        template: KDE
+      ktnef:
+        branches:
+        - master
+        template: KDE
+      ktorrent:
+        branches:
+        - master
+        template: KDE
+      ktouch:
+        branches:
+        - master
+        template: KDE
+      ktp-accounts-kcm:
+        branches:
+        - master
+        template: KDE
+      ktp-active:
+        branches:
+        - master
+        template: KDE
+      ktp-approver:
+        branches:
+        - master
+        template: KDE
+      ktp-auth-handler:
+        branches:
+        - master
+        template: KDE
+      ktp-call-ui:
+        branches:
+        - master
+        template: KDE
+      ktp-common-internals:
+        branches:
+        - master
+        template: KDE
+      ktp-contact-list:
+        branches:
+        - master
+        template: KDE
+      ktp-contact-runner:
+        branches:
+        - master
+        template: KDE
+      ktp-desktop-applets:
+        branches:
+        - master
+        template: KDE
+      ktp-filetransfer-handler:
+        branches:
+        - master
+        template: KDE
+      ktp-kde:
+        branches:
+        - master
+        template: KDE
+      ktp-kded-module:
+        branches:
+        - master
+        template: KDE
+      ktp-kipi-plugin:
+        branches:
+        - master
+        template: KDE
+      ktp-launcher-kded:
+        branches:
+        - master
+        template: KDE
+      ktp-mobile:
+        branches:
+        - master
+        template: KDE
+      ktp-nepomuk-service:
+        branches:
+        - master
+        template: KDE
+      ktp-presence-dataengine:
+        branches:
+        - master
+        template: KDE
+      ktp-send-file:
+        branches:
+        - master
+        template: KDE
+      ktp-ssh-contact:
+        branches:
+        - master
+        template: KDE
+      ktp-test-tool:
+        branches:
+        - master
+        template: KDE
+      ktp-testlib:
+        branches:
+        - master
+        template: KDE
+      ktp-text-ui:
+        branches:
+        - master
+        template: KDE
+      ktuberling:
+        branches:
+        - master
+        template: KDE
+      kturtle:
+        branches:
+        - master
+        template: KDE
+      ktutorial:
+        branches:
+        - master
+        template: KDE
+      ktux:
+        branches:
+        - master
+        template: KDE
+      kube:
+        branches:
+        - master
+        template: KDE
+      kubeplayer:
+        branches:
+        - master
+        template: KDE
+      kubrick:
+        branches:
+        - master
+        template: KDE
+      kubuntu-debug-installer:
+        branches:
+        - master
+        template: KDE
+      kubuntu-driver-kcm:
+        branches:
+        - master
+        template: KDE
+      kubuntu-notification-helper:
+        branches:
+        - master
+        template: KDE
+      kuickshow:
+        branches:
+        - master
+        template: KDE
+      kunitconversion:
+        branches:
+        - master
+        template: KDE
+      kuser:
+        branches:
+        - master
+        template: KDE
+      kuserfeedback:
+        branches:
+        - master
+        template: KDE
+      kvkbd:
+        branches:
+        - master
+        template: KDE
+      kwallet:
+        branches:
+        - master
+        template: KDE
+      kwallet-pam:
+        branches:
+        - master
+        template: KDE
+      kwalletmanager:
+        branches:
+        - master
+        template: KDE
+      kwave:
+        branches:
+        - master
+        template: KDE
+      kwayland:
+        branches:
+        - master
+        template: KDE
+      kwayland-integration:
+        branches:
+        - master
+        template: KDE
+      kwebkitpart:
+        branches:
+        - master
+        template: KDE
+      kwhiteboard:
+        branches:
+        - master
+        template: KDE
+      kwidgetsaddons:
+        branches:
+        - master
+        template: KDE
+      kwin:
+        branches:
+        - master
+        template: KDE
+      kwindowsaddons:
+        branches:
+        - master
+        template: KDE
+      kwindowsystem:
+        branches:
+        - master
+        template: KDE
+      kwooty:
+        branches:
+        - master
+        template: KDE
+      kwordquiz:
+        branches:
+        - master
+        template: KDE
+      kwrited:
+        branches:
+        - master
+        template: KDE
+      kxmlgui:
+        branches:
+        - master
+        template: KDE
+      kxmlrpcclient:
+        branches:
+        - master
+        template: KDE
+      kxstitch:
+        branches:
+        - master
+        template: KDE
+      labplot:
+        branches:
+        - master
+        template: KDE
+      lancelot:
+        branches:
+        - master
+        template: KDE
+      latte-dock:
+        branches:
+        - master
+        template: KDE
+      libbluedevil:
+        branches:
+        - master
+        template: KDE
+      libdebconf-kde:
+        branches:
+        - master
+        template: KDE
+      libechonest:
+        branches:
+        - master
+        template: KDE
+      libgravatar:
+        branches:
+        - master
+        template: KDE
+      libkcddb:
+        branches:
+        - master
+        template: KDE
+      libkcompactdisc:
+        branches:
+        - master
+        template: KDE
+      libkcw:
+        branches:
+        - master
+        template: KDE
+      libkdcraw:
+        branches:
+        - master
+        template: KDE
+      libkdeaccessibilityclient:
+        branches:
+        - master
+        template: KDE
+      libkdeedu:
+        branches:
+        - master
+        template: KDE
+      libkdegameai:
+        branches:
+        - master
+        template: KDE
+      libkdegames:
+        branches:
+        - master
+        template: KDE
+      libkdepim:
+        branches:
+        - master
+        template: KDE
+      libkeduvocdocument:
+        branches:
+        - master
+        template: KDE
+      libkexiv2:
+        branches:
+        - master
+        template: KDE
+      libkface:
+        branches:
+        - master
+        template: KDE
+      libkfbapi:
+        branches:
+        - master
+        template: KDE
+      libkgapi:
+        branches:
+        - master
+        template: KDE
+      libkgeomap:
+        branches:
+        - master
+        template: KDE
+      libkipi:
+        branches:
+        - master
+        template: KDE
+      libkleo:
+        branches:
+        - master
+        template: KDE
+      libkmahjongg:
+        branches:
+        - master
+        template: KDE
+      libkomparediff2:
+        branches:
+        - master
+        template: KDE
+      libkoralle:
+        branches:
+        - master
+        template: KDE
+      libksane:
+        branches:
+        - master
+        template: KDE
+      libkscreen:
+        branches:
+        - master
+        template: KDE
+      libksieve:
+        branches:
+        - master
+        template: KDE
+      libksysguard:
+        branches:
+        - master
+        template: KDE
+      libktorrent:
+        branches:
+        - master
+        template: KDE
+      libkubuntu:
+        branches:
+        - master
+        template: KDE
+      libkvkontakte:
+        branches:
+        - master
+        template: KDE
+      liblikeback:
+        branches:
+        - master
+        template: KDE
+      libmediawiki:
+        branches:
+        - master
+        template: KDE
+      libqaccessibilityclient:
+        branches:
+        - master
+        template: KDE
+      libqapt:
+        branches:
+        - master
+        template: KDE
+      libqgit2:
+        branches:
+        - master
+        template: KDE
+      libqinfinity:
+        branches:
+        - master
+        template: KDE
+      libqsystemd:
+        branches:
+        - master
+        template: KDE
+      libqzeitgeist:
+        branches:
+        - master
+        template: KDE
+      libringclient:
+        branches:
+        - master
+        template: KDE
+      libstreamanalyzer:
+        branches:
+        - master
+        template: KDE
+      libstreams:
+        branches:
+        - master
+        template: KDE
+      libtagaro:
+        branches:
+        - master
+        template: KDE
+      libtmdbqt:
+        branches:
+        - master
+        template: KDE
+      lightdm:
+        branches:
+        - master
+        template: KDE
+      liquidshell:
+        branches:
+        - master
+        template: KDE
+      lokalize:
+        branches:
+        - master
+        template: KDE
+      lskat:
+        branches:
+        - master
+        template: KDE
+      macaw-movies:
+        branches:
+        - master
+        template: KDE
+      macports-kde:
+        branches:
+        - master
+        template: KDE
+      mailcommon:
+        branches:
+        - master
+        template: KDE
+      mailimporter:
+        branches:
+        - master
+        template: KDE
+      mangonel:
+        branches:
+        - master
+        template: KDE
+      marble:
+        branches:
+        - master
+        template: KDE
+      massif-visualizer:
+        branches:
+        - master
+        template: KDE
+      mbox-importer:
+        branches:
+        - master
+        template: KDE
+      messagelib:
+        branches:
+        - master
+        template: KDE
+      milou:
+        branches:
+        - master
+        template: KDE
+      ministro:
+        branches:
+        - master
+        template: KDE
+      minuet:
+        branches:
+        - master
+        template: KDE
+      mobster:
+        branches:
+        - master
+        template: KDE
+      modemmanager-qt:
+        branches:
+        - master
+        template: KDE
+      mplayerthumbs:
+        branches:
+        - master
+        template: KDE
+      mrdanga-player:
+        branches:
+        - master
+        template: KDE
+      mtp-server:
+        branches:
+        - master
+        template: KDE
+      mula:
+        branches:
+        - master
+        template: KDE
+      muon:
+        branches:
+        - master
+        template: KDE
+      necessitas-installer-framework:
+        branches:
+        - master
+        template: KDE
+      necessitas-tools:
+        branches:
+        - master
+        template: KDE
+      nepomuk-core:
+        branches:
+        - master
+        template: KDE
+      nepomuk-system-tray:
+        branches:
+        - master
+        template: KDE
+      nepomuk-tools:
+        branches:
+        - master
+        template: KDE
+      nepomuk-web-extractor:
+        branches:
+        - master
+        template: KDE
+      nepomuk-webminer:
+        branches:
+        - master
+        template: KDE
+      nepomuk-widgets:
+        branches:
+        - master
+        template: KDE
+      nepomukannotation:
+        branches:
+        - master
+        template: KDE
+      nepomukextras:
+        branches:
+        - master
+        template: KDE
+      nepomukshell:
+        branches:
+        - master
+        template: KDE
+      nepomuktvnamer:
+        branches:
+        - master
+        template: KDE
+      networkmanagement:
+        branches:
+        - master
+        template: KDE
+      networkmanager-qt:
+        branches:
+        - master
+        template: KDE
+      notably:
+        branches:
+        - master
+        template: KDE
+      notificationsurvey:
+        branches:
+        - master
+        template: KDE
+      ocs-apiserver:
+        branches:
+        - master
+        template: KDE
+      ocs-cdn:
+        branches:
+        - master
+        template: KDE
+      ocs-fileserver:
+        branches:
+        - master
+        template: KDE
+      ocs-server:
+        branches:
+        - master
+        template: KDE
+      ocs-webserver:
+        branches:
+        - master
+        template: KDE
+      okteta:
+        branches:
+        - master
+        template: KDE
+      okular:
+        branches:
+        - master
+        template: KDE
+      osx-integration:
+        branches:
+        - master
+        template: KDE
+      osx-patches:
+        branches:
+        - master
+        template: KDE
+      oxygen:
+        branches:
+        - master
+        template: KDE
+      oxygen-fonts:
+        branches:
+        - master
+        template: KDE
+      oxygen-gtk:
+        branches:
+        - master
+        template: KDE
+      oxygen-icons:
+        branches:
+        - master
+        template: KDE
+      oxygen-icons5:
+        branches:
+        - master
+        template: KDE
+      oxygen-transparent:
+        branches:
+        - master
+        template: KDE
+      pairs:
+        branches:
+        - master
+        template: KDE
+      palapeli:
+        branches:
+        - master
+        template: KDE
+      parley:
+        branches:
+        - master
+        template: KDE
+      partitionmanager:
+        branches:
+        - master
+        template: KDE
+      perlkde:
+        branches:
+        - master
+        template: KDE
+      perlqt:
+        branches:
+        - master
+        template: KDE
+      person-viewer:
+        branches:
+        - master
+        template: KDE
+      peruse:
+        branches:
+        - master
+        template: KDE
+      phoneblocker:
+        branches:
+        - master
+        template: KDE
+      phonon:
+        branches:
+        - master
+        template: KDE
+      phonon-directshow:
+        branches:
+        - master
+        template: KDE
+      phonon-gstreamer:
+        branches:
+        - master
+        template: KDE
+      phonon-mmf:
+        branches:
+        - master
+        template: KDE
+      phonon-mplayer:
+        branches:
+        - master
+        template: KDE
+      phonon-quicktime:
+        branches:
+        - master
+        template: KDE
+      phonon-vlc:
+        branches:
+        - master
+        template: KDE
+      phonon-waveout:
+        branches:
+        - master
+        template: KDE
+      phonon-xine:
+        branches:
+        - master
+        template: KDE
+      photobook:
+        branches:
+        - master
+        template: KDE
+      picmi:
+        branches:
+        - master
+        template: KDE
+      pim-data-exporter:
+        branches:
+        - master
+        template: KDE
+      pim-sieve-editor:
+        branches:
+        - master
+        template: KDE
+      pim-storage-service-manager:
+        branches:
+        - master
+        template: KDE
+      pimcommon:
+        branches:
+        - master
+        template: KDE
+      plasma-active-kickstart:
+        branches:
+        - master
+        template: KDE
+      plasma-active-maliit:
+        branches:
+        - master
+        template: KDE
+      plasma-active-window-control:
+        branches:
+        - master
+        template: KDE
+      plasma-angelfish:
+        branches:
+        - master
+        template: KDE
+      plasma-browser-integration:
+        branches:
+        - master
+        template: KDE
+      plasma-camera:
+        branches:
+        - master
+        template: KDE
+      plasma-crystal:
+        branches:
+        - master
+        template: KDE
+      plasma-desktop:
+        branches:
+        - master
+        template: KDE
+      plasma-framework:
+        branches:
+        - master
+        template: KDE
+      plasma-integration:
+        branches:
+        - master
+        template: KDE
+      plasma-lionmail:
+        branches:
+        - master
+        template: KDE
+      plasma-maliit-framework:
+        branches:
+        - master
+        template: KDE
+      plasma-maliit-plugins:
+        branches:
+        - master
+        template: KDE
+      plasma-mediacenter:
+        branches:
+        - master
+        template: KDE
+      plasma-mobile:
+        branches:
+        - master
+        template: KDE
+      plasma-mobile-config:
+        branches:
+        - master
+        template: KDE
+      plasma-mobile-design-docs:
+        branches:
+        - master
+        template: KDE
+      plasma-mycroft:
+        branches:
+        - master
+        template: KDE
+      plasma-nm:
+        branches:
+        - master
+        template: KDE
+      plasma-pa:
+        branches:
+        - master
+        template: KDE
+      plasma-packagekit:
+        branches:
+        - master
+        template: KDE
+      plasma-phone-components:
+        branches:
+        - master
+        template: KDE
+      plasma-phone-dev-setup:
+        branches:
+        - master
+        template: KDE
+      plasma-phone-settings:
+        branches:
+        - master
+        template: KDE
+      plasma-pk-updates:
+        branches:
+        - master
+        template: KDE
+      plasma-redshift-control:
+        branches:
+        - master
+        template: KDE
+      plasma-samegame:
+        branches:
+        - master
+        template: KDE
+      plasma-sdk:
+        branches:
+        - master
+        template: KDE
+      plasma-settings:
+        branches:
+        - master
+        template: KDE
+      plasma-simplemenu:
+        branches:
+        - master
+        template: KDE
+      plasma-systemd-integration:
+        branches:
+        - master
+        template: KDE
+      plasma-tests:
+        branches:
+        - master
+        template: KDE
+      plasma-vault:
+        branches:
+        - master
+        template: KDE
+      plasma-workspace:
+        branches:
+        - master
+        template: KDE
+      plasma-workspace-wallpapers:
+        branches:
+        - master
+        template: KDE
+      plasmate:
+        branches:
+        - master
+        template: KDE
+      plasmoid-eventlist:
+        branches:
+        - master
+        template: KDE
+      plymouth-kcm:
+        branches:
+        - master
+        template: KDE
+      polkit-kde-agent-1:
+        branches:
+        - master
+        template: KDE
+      polkit-kde-kcmodules-1:
+        branches:
+        - master
+        template: KDE
+      polkit-qt-1:
+        branches:
+        - master
+        template: KDE
+      powerdevil:
+        branches:
+        - master
+        template: KDE
+      poxml:
+        branches:
+        - master
+        template: KDE
+      predicate:
+        branches:
+        - master
+        template: KDE
+      print-manager:
+        branches:
+        - master
+        template: KDE
+      printer-applet:
+        branches:
+        - master
+        template: KDE
+      prison:
+        branches:
+        - master
+        template: KDE
+      propagator:
+        branches:
+        - master
+        template: KDE
+      publictransport:
+        branches:
+        - master
+        template: KDE
+      pulseaudio-qt:
+        branches:
+        - master
+        template: KDE
+      purpose:
+        branches:
+        - master
+        template: KDE
+      pykde4:
+        branches:
+        - master
+        template: KDE
+      pykde5:
+        branches:
+        - master
+        template: KDE
+      qca:
+        branches:
+        - master
+        template: KDE
+      qmlweb:
+        branches:
+        - master
+        template: KDE
+      qqc2-desktop-style:
+        branches:
+        - master
+        template: KDE
+      qt:
+        branches:
+        - '4.5'
+        template: KDE
+      qt1:
+        branches:
+        - master
+        template: KDE
+      qtatspi:
+        branches:
+        - master
+        template: KDE
+      qtcurve:
+        branches:
+        - master
+        template: KDE
+      qtjolie:
+        branches:
+        - master
+        template: KDE
+      qtruby:
+        branches:
+        - master
+        template: KDE
+      quanta:
+        branches:
+        - master
+        template: KDE
+      qyoto:
+        branches:
+        - master
+        template: KDE
+      rekollect:
+        branches:
+        - master
+        template: KDE
+      rekonq:
+        branches:
+        - master
+        template: KDE
+      release-buddy:
+        branches:
+        - master
+        template: KDE
+      releaseme:
+        branches:
+        - master
+        template: KDE
+      repo-management:
+        branches:
+        - master
+        template: KDE
+      ring-kde:
+        branches:
+        - master
+        template: KDE
+      rkward:
+        branches:
+        - master
+        template: KDE
+      rocs:
+        branches:
+        - master
+        template: KDE
+      rsibreak:
+        branches:
+        - master
+        template: KDE
+      ruqola:
+        branches:
+        - master
+        template: KDE
+      rust-qt-binding-generator:
+        branches:
+        - master
+        template: KDE
+      samba-mounter:
+        branches:
+        - master
+        template: KDE
+      scribo:
+        branches:
+        - master
+        template: KDE
+      sddm-kcm:
+        branches:
+        - master
+        template: KDE
+      semele:
+        branches:
+        - master
+        template: KDE
+      sflphone-kde:
+        branches:
+        - master
+        template: KDE
+      share-like-connect:
+        branches:
+        - master
+        template: KDE
+      signon-kwallet-extension:
+        branches:
+        - master
+        template: KDE
+      silk:
+        branches:
+        - master
+        template: KDE
+      simon:
+        branches:
+        - master
+        template: KDE
+      simon-tools:
+        branches:
+        - master
+        template: KDE
+      sink:
+        branches:
+        - master
+        template: KDE
+      skanlite:
+        branches:
+        - master
+        template: KDE
+      skrooge:
+        branches:
+        - master
+        template: KDE
+      smaragd:
+        branches:
+        - master
+        template: KDE
+      smb4k:
+        branches:
+        - master
+        template: KDE
+      smokegen:
+        branches:
+        - master
+        template: KDE
+      smokekde:
+        branches:
+        - master
+        template: KDE
+      smokeqt:
+        branches:
+        - master
+        template: KDE
+      snapcraft-kde-applications:
+        branches:
+        - master
+        template: KDE
+      snorenotify:
+        branches:
+        - master
+        template: KDE
+      snoretoast:
+        branches:
+        - master
+        template: KDE
+      solid:
+        branches:
+        - master
+        template: KDE
+      solid-power:
+        branches:
+        - master
+        template: KDE
+      sonnet:
+        branches:
+        - master
+        template: KDE
+      soprano:
+        branches:
+        - master
+        template: KDE
+      spacebar:
+        branches:
+        - master
+        template: KDE
+      spectacle:
+        branches:
+        - master
+        template: KDE
+      sprinter:
+        branches:
+        - master
+        template: KDE
+      sprinter-plugins:
+        branches:
+        - master
+        template: KDE
+      stackfolder:
+        branches:
+        - master
+        template: KDE
+      startactive:
+        branches:
+        - master
+        template: KDE
+      step:
+        branches:
+        - master
+        template: KDE
+      stibium:
+        branches:
+        - master
+        template: KDE
+      strigi:
+        branches:
+        - master
+        template: KDE
+      strigi-multimedia:
+        branches:
+        - master
+        template: KDE
+      strigiclient:
+        branches:
+        - master
+        template: KDE
+      strigidaemon:
+        branches:
+        - master
+        template: KDE
+      strigiutils:
+        branches:
+        - master
+        template: KDE
+      superbuild:
+        branches:
+        - master
+        template: KDE
+      superkaramba:
+        branches:
+        - master
+        template: KDE
+      svgmod:
+        branches:
+        - master
+        template: KDE
+      svgpart:
+        branches:
+        - master
+        template: KDE
+      sweeper:
+        branches:
+        - master
+        template: KDE
+      symboleditor:
+        branches:
+        - master
+        template: KDE
+      symmy:
+        branches:
+        - master
+        template: KDE
+      synchrotron:
+        branches:
+        - master
+        template: KDE
+      synchrotron-sources:
+        branches:
+        - master
+        template: KDE
+      syndication:
+        branches:
+        - master
+        template: KDE
+      syntax-highlighting:
+        branches:
+        - master
+        template: KDE
+      systemd-kcm:
+        branches:
+        - master
+        template: KDE
+      systemdgenie:
+        branches:
+        - master
+        template: KDE
+      systemsettings:
+        branches:
+        - master
+        template: KDE
+      telegram-qt:
+        branches:
+        - master
+        template: KDE
+      telepathy-kdeconnect:
+        branches:
+        - master
+        template: KDE
+      telepathy-logger-qt:
+        branches:
+        - master
+        template: KDE
+      telepathy-morse:
+        branches:
+        - master
+        template: KDE
+      tellico:
+        branches:
+        - master
+        template: KDE
+      threadweaver:
+        branches:
+        - master
+        template: KDE
+      tikzkit:
+        branches:
+        - master
+        template: KDE
+      trojita:
+        branches:
+        - master
+        template: KDE
+      tupi:
+        branches:
+        - master
+        template: KDE
+      twine2:
+        branches:
+        - master
+        template: KDE
+      ubiquity-slideshow-neon:
+        branches:
+        - master
+        template: KDE
+      ufw-kde:
+        branches:
+        - master
+        template: KDE
+      umbrello:
+        branches:
+        - master
+        template: KDE
+      user-manager:
+        branches:
+        - master
+        template: KDE
+      veritas:
+        branches:
+        - master
+        template: KDE
+      vvave:
+        branches:
+        - master
+        template: KDE
+      wacomtablet:
+        branches:
+        - master
+        template: KDE
+      whoopsie-kcm:
+        branches:
+        - master
+        template: KDE
+      wicd-kde:
+        branches:
+        - master
+        template: KDE
+      wiki-reader:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-chapters-backend:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-course-midtier:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-courses-backend:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-frontend:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-offline-extension:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-pages-backend:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-pwa-gateway:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-sdk:
+        branches:
+        - master
+        template: KDE
+      wikitolearn-shared-services:
+        branches:
+        - master
+        template: KDE
+      xbuilder:
+        branches:
+        - master
+        template: KDE
+      xdg-desktop-portal-kde:
+        branches:
+        - master
+        template: KDE
+      xdg-portal-test-kde:
+        branches:
+        - master
+        template: KDE
+      xsettings-kde:
+        branches:
+        - master
+        template: KDE
+      xutils:
+        branches:
+        - master
+        template: KDE
+      yakuake:
+        branches:
+        - master
+        template: KDE
+      yocto-meta-kde:
+        branches:
+        - master
+        template: KDE
+      yocto-meta-kf5:
+        branches:
+        - master
+        template: KDE
+      zanshin:
+        branches:
+        - master
+        template: KDE
+      zeroconf-ioslave:
+        branches:
+        - master
+        template: KDE

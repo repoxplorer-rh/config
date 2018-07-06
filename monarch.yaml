@@ -1,0 +1,16 @@
+project-templates:
+  monarch:
+    branches:
+    - master
+    gitweb: https://github.com/alechenninger/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/alechenninger/%(name)s
+projects:
+  monarch:
+    description: Automate hieradata management
+    repos:
+      monarch:
+        branches:
+        - master
+        template: monarch

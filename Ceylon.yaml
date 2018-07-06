@@ -1,0 +1,168 @@
+project-templates:
+  Ceylon:
+    branches:
+    - master
+    gitweb: https://github.com/ceylon/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/ceylon/%(name)s
+projects:
+  Ceylon:
+    description: A language for writing large programs in teams.
+    repos:
+      ceylon-common:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-compiler:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-debian-repo:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-dist:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-di:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-javafx:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-jdk:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-jogl:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-jooby:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-jpa:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-npm:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-rx:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-spark:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-examples-web:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-feedhenry-demo:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-gradle-android:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-highlighters:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-ide-netbeans:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-js:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-maven-plugin:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-maven-plugin.old:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-maven-repo:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-model:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-module-resolver:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-presentations:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-rpm-repo:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-runtime:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-spec:
+        branches:
+        - master
+        template: Ceylon
+      ceylon-swarm-demo:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.ast:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.build:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.github.com:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.language:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.openshift:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.swarm:
+        branches:
+        - master
+        template: Ceylon
+      ceylon.transaction:
+        branches:
+        - master
+        template: Ceylon
+      openshift-cartridge:
+        branches:
+        - master
+        template: Ceylon
+      other-ceylon-lang.org:
+        branches:
+        - master
+        template: Ceylon

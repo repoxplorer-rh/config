@@ -1,0 +1,16 @@
+project-templates:
+  JGroups:
+    branches:
+    - master
+    gitweb: https://github.com/belaban/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/belaban/%(name)s
+projects:
+  JGroups:
+    description: A toolkit for reliable messaging
+    repos:
+      JGroups:
+        branches:
+        - master
+        template: JGroups

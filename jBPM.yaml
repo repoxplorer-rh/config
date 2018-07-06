@@ -1,0 +1,16 @@
+project-templates:
+  jBPM:
+    branches:
+    - master
+    gitweb: https://github.com/kiegroup/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/kiegroup/%(name)s
+projects:
+  jBPM:
+    description: A flexible Business Process Management (BPM) Suite.
+    repos:
+      jbpm:
+        branches:
+        - master
+        template: jBPM

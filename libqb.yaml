@@ -1,0 +1,16 @@
+project-templates:
+  libqb:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  libqb:
+    description: Library providing high-performance features for client-server applications
+    repos:
+      libqb:
+        branches:
+        - master
+        template: libqb

@@ -1,0 +1,17 @@
+project-templates:
+  Apache Karaf:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache Karaf:
+    description: Karaf provides dual polymorphic container and application bootstrapping
+      paradigms to the Enterprise
+    repos:
+      karaf:
+        branches:
+        - master
+        template: Apache Karaf

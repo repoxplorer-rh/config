@@ -1,0 +1,16 @@
+project-templates:
+  fence-virt:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  fence-virt:
+    description: Fence agents for virtual machines in high-availability clusters
+    repos:
+      fence-virt:
+        branches:
+        - master
+        template: fence-virt

@@ -1,0 +1,37 @@
+project-templates:
+  Fedora Developer Portal:
+    branches:
+    - master
+    gitweb: https://github.com/developer-portal/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/developer-portal/%(name)s
+projects:
+  Fedora Developer Portal:
+    description: Portal for developers using Fedora as a workstation or a deployment
+      platform
+    repos:
+      content:
+        branches:
+        - master
+        template: Fedora Developer Portal
+      developer-portal.github.io:
+        branches:
+        - master
+        template: Fedora Developer Portal
+      developer.fedoraproject.org:
+        branches:
+        - master
+        template: Fedora Developer Portal
+      mockups:
+        branches:
+        - master
+        template: Fedora Developer Portal
+      tools:
+        branches:
+        - master
+        template: Fedora Developer Portal
+      website:
+        branches:
+        - master
+        template: Fedora Developer Portal

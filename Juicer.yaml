@@ -1,0 +1,20 @@
+project-templates:
+  Juicer:
+    branches:
+    - master
+    gitweb: https://github.com/juicer/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/juicer/%(name)s
+projects:
+  Juicer:
+    description: Pulp repository administration
+    repos:
+      juicer:
+        branches:
+        - master
+        template: Juicer
+      spritzer:
+        branches:
+        - master
+        template: Juicer

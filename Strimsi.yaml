@@ -1,0 +1,13 @@
+project-templates:
+  Strimsi:
+    branches:
+    - master
+    gitweb: https://github.com/strimzi/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/strimzi/%(name)s
+projects:
+  Strimsi:
+    description: Strimzi provides a way to run an Apache Kafka cluster on OpenShift
+      and Kubernetes in various deployment configurations
+    repos: {}

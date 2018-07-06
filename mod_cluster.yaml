@@ -1,0 +1,32 @@
+project-templates:
+  mod_cluster:
+    branches:
+    - master
+    gitweb: https://github.com/modcluster/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/modcluster/%(name)s
+projects:
+  mod_cluster:
+    description: An httpd-based load balancer
+    repos:
+      ci.modcluster.io:
+        branches:
+        - master
+        template: mod_cluster
+      documentation:
+        branches:
+        - master
+        template: mod_cluster
+      mod_cluster:
+        branches:
+        - master
+        template: mod_cluster
+      mod_proxy_cluster:
+        branches:
+        - master
+        template: mod_cluster
+      modcluster.io:
+        branches:
+        - master
+        template: mod_cluster

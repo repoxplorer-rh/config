@@ -1,0 +1,29 @@
+project-templates:
+  XNIO:
+    branches:
+    - master
+    gitweb: https://github.com/xnio/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/xnio/%(name)s
+projects:
+  XNIO:
+    description: XNIO is a simplified low-level I/O layer which can be used anywhere
+      you are using NIO today
+    repos:
+      netty-xnio-transport:
+        branches:
+        - master
+        template: XNIO
+      xnio:
+        branches:
+        - 3.x
+        template: XNIO
+      xnio-dns:
+        branches:
+        - master
+        template: XNIO
+      xnio-native:
+        branches:
+        - master
+        template: XNIO

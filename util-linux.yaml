@@ -1,0 +1,17 @@
+project-templates:
+  util-linux:
+    branches:
+    - master
+    gitweb: https://github.com/karelzak/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/karelzak/%(name)s
+projects:
+  util-linux:
+    description: A standard package distributed by the Linux Kernel Organization for
+      use as part of the Linux operating system
+    repos:
+      util-linux:
+        branches:
+        - master
+        template: util-linux

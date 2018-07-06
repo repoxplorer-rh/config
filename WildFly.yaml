@@ -1,0 +1,173 @@
+project-templates:
+  WildFly:
+    branches:
+    - master
+    gitweb: https://github.com/wildfly/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/wildfly/%(name)s
+projects:
+  WildFly:
+    description: WildFly is a flexible, lightweight, managed application runtime that
+      helps you build applications.
+    repos:
+      boms:
+        branches:
+        - master
+        template: WildFly
+      cdi-api-bridge:
+        branches:
+        - master
+        template: WildFly
+      core-management:
+        branches:
+        - master
+        template: WildFly
+      galleon:
+        branches:
+        - master
+        template: WildFly
+      galleon-plugins:
+        branches:
+        - master
+        template: WildFly
+      jandex:
+        branches:
+        - master
+        template: WildFly
+      jandex-maven-plugin:
+        branches:
+        - master
+        template: WildFly
+      jboss-ejb-client:
+        branches:
+        - master
+        template: WildFly
+      jboss-ejb3-ext-api:
+        branches:
+        - master
+        template: WildFly
+      mail-ra:
+        branches:
+        - master
+        template: WildFly
+      maven-plugins:
+        branches:
+        - master
+        template: WildFly
+      quickstart:
+        branches:
+        - master
+        template: WildFly
+      servlet-api-bridge:
+        branches:
+        - master
+        template: WildFly
+      typeannotation-test:
+        branches:
+        - master
+        template: WildFly
+      wildfly:
+        branches:
+        - master
+        template: WildFly
+      wildfly-archetypes:
+        branches:
+        - master
+        template: WildFly
+      wildfly-arquillian:
+        branches:
+        - master
+        template: WildFly
+      wildfly-build-tools:
+        branches:
+        - master
+        template: WildFly
+      wildfly-capabilities:
+        branches:
+        - master
+        template: WildFly
+      wildfly-checkstyle-config:
+        branches:
+        - master
+        template: WildFly
+      wildfly-client-config:
+        branches:
+        - master
+        template: WildFly
+      wildfly-common:
+        branches:
+        - master
+        template: WildFly
+      wildfly-common-jdk9-supplement:
+        branches:
+        - master
+        template: WildFly
+      wildfly-component-matrix-plugin:
+        branches:
+        - master
+        template: WildFly
+      wildfly-core:
+        branches:
+        - master
+        template: WildFly
+      wildfly-discovery:
+        branches:
+        - master
+        template: WildFly
+      wildfly-gradle-tools:
+        branches:
+        - master
+        template: WildFly
+      wildfly-http-client:
+        branches:
+        - master
+        template: WildFly
+      wildfly-legacy:
+        branches:
+        - master
+        template: WildFly
+      wildfly-legacy-test:
+        branches:
+        - master
+        template: WildFly
+      wildfly-maven-plugin:
+        branches:
+        - master
+        template: WildFly
+      wildfly-naming-client:
+        branches:
+        - master
+        template: WildFly
+      wildfly-nosql:
+        branches:
+        - master
+        template: WildFly
+      wildfly-openssl:
+        branches:
+        - master
+        template: WildFly
+      wildfly-producers:
+        branches:
+        - master
+        template: WildFly
+      wildfly-proposals:
+        branches:
+        - master
+        template: WildFly
+      wildfly-transaction-client:
+        branches:
+        - master
+        template: WildFly
+      wildfly-url-http:
+        branches:
+        - master
+        template: WildFly
+      wildfly.github.io:
+        branches:
+        - master
+        template: WildFly
+      wildfly.org:
+        branches:
+        - master
+        template: WildFly

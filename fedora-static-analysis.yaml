@@ -1,0 +1,36 @@
+project-templates:
+  fedora-static-analysis:
+    branches:
+    - master
+    gitweb: https://github.com/fedora-static-analysis/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/fedora-static-analysis/%(name)s
+projects:
+  fedora-static-analysis:
+    description: Static code analysis
+    repos:
+      firehose:
+        branches:
+        - master
+        template: fedora-static-analysis
+      firehose-saved-data:
+        branches:
+        - master
+        template: fedora-static-analysis
+      firehoseui:
+        branches:
+        - master
+        template: fedora-static-analysis
+      gccinvocation:
+        branches:
+        - master
+        template: fedora-static-analysis
+      mock-with-analysis:
+        branches:
+        - master
+        template: fedora-static-analysis
+      wiki:
+        branches:
+        - master
+        template: fedora-static-analysis

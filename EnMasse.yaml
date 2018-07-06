@@ -1,0 +1,64 @@
+project-templates:
+  EnMasse:
+    branches:
+    - master
+    gitweb: https://github.com/EnMasseProject/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/EnMasseProject/%(name)s
+projects:
+  EnMasse:
+    description: Messaging as a Service on Kubernetes and OpenShift
+    repos:
+      artemis-docker-base:
+        branches:
+        - master
+        template: EnMasse
+      enmasse:
+        branches:
+        - master
+        template: EnMasse
+      enmasse-bench:
+        branches:
+        - master
+        template: EnMasse
+      enmasse-rest:
+        branches:
+        - master
+        template: EnMasse
+      enmasse-s2i:
+        branches:
+        - master
+        template: EnMasse
+      enmasse-workshop:
+        branches:
+        - master
+        template: EnMasse
+      enmasse.io:
+        branches:
+        - master
+        template: EnMasse
+      enmasseproject.github.io:
+        branches:
+        - master
+        template: EnMasse
+      java-docker-base:
+        branches:
+        - master
+        template: EnMasse
+      nodejs-docker-base:
+        branches:
+        - master
+        template: EnMasse
+      router-docker-base:
+        branches:
+        - master
+        template: EnMasse
+      service-broker:
+        branches:
+        - master
+        template: EnMasse
+      travis-scripts:
+        branches:
+        - master
+        template: EnMasse

@@ -1,0 +1,16 @@
+project-templates:
+  Cinch:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatQE/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/RedHatQE/%(name)s
+projects:
+  Cinch:
+    description: Jenkins CI master/slave configuration
+    repos:
+      cinch:
+        branches:
+        - master
+        template: Cinch

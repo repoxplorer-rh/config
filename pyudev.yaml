@@ -1,0 +1,16 @@
+project-templates:
+  pyudev:
+    branches:
+    - master
+    gitweb: https://github.com/pyudev/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/pyudev/%(name)s
+projects:
+  pyudev:
+    description: Python bindings for libudev
+    repos:
+      pyudev:
+        branches:
+        - develop-0.22
+        template: pyudev

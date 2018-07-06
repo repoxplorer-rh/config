@@ -1,0 +1,92 @@
+project-templates:
+  Immutant:
+    branches:
+    - master
+    gitweb: https://github.com/immutant/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/immutant/%(name)s
+projects:
+  Immutant:
+    description: A cohesive suite of Clojure libraries
+    repos:
+      atl-clj-presentation:
+        branches:
+        - master
+        template: Immutant
+      boot-immutant:
+        branches:
+        - master
+        template: Immutant
+      cluster-demo:
+        branches:
+        - master
+        template: Immutant
+      deploy-tools:
+        branches:
+        - master
+        template: Immutant
+      feature-demo:
+        branches:
+        - master
+        template: Immutant
+      fntest:
+        branches:
+        - master
+        template: Immutant
+      hotrod-overlay:
+        branches:
+        - master
+        template: Immutant
+      immutant:
+        branches:
+        - master
+        template: Immutant
+      immutant-basic-web-demo:
+        branches:
+        - master
+        template: Immutant
+      immutant-dependency-exclusions:
+        branches:
+        - master
+        template: Immutant
+      immutant-release:
+        branches:
+        - master
+        template: Immutant
+      immutant-transit:
+        branches:
+        - master
+        template: Immutant
+      immutant.org:
+        branches:
+        - master
+        template: Immutant
+      jboss-as-management:
+        branches:
+        - master
+        template: Immutant
+      lein-immutant:
+        branches:
+        - master
+        template: Immutant
+      openshift-immutant-cart:
+        branches:
+        - master
+        template: Immutant
+      openshift-quickstart:
+        branches:
+        - master
+        template: Immutant
+      overlay:
+        branches:
+        - master
+        template: Immutant
+      presentations:
+        branches:
+        - master
+        template: Immutant
+      simple-immutant-vertx-demo:
+        branches:
+        - master
+        template: Immutant

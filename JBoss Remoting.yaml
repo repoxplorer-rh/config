@@ -1,0 +1,29 @@
+project-templates:
+  JBoss Remoting:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-remoting/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-remoting/%(name)s
+projects:
+  JBoss Remoting:
+    description: A general purpose framework for symmetric and asymmetric communication
+      over a network
+    repos:
+      jboss-marshalling:
+        branches:
+        - master
+        template: JBoss Remoting
+      jboss-marshalling-jdk9:
+        branches:
+        - master
+        template: JBoss Remoting
+      jboss-remoting:
+        branches:
+        - master
+        template: JBoss Remoting
+      remoting-wireshark:
+        branches:
+        - master
+        template: JBoss Remoting

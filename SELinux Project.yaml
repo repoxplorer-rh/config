@@ -1,0 +1,37 @@
+project-templates:
+  SELinux Project:
+    branches:
+    - master
+    gitweb: https://github.com/SELinuxProject/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/SELinuxProject/%(name)s
+projects:
+  SELinux Project:
+    description: SELinux is a security enhancement to Linux which allows users and
+      administrators more control over access control
+    repos:
+      cil:
+        branches:
+        - master
+        template: SELinux Project
+      refpolicy:
+        branches:
+        - master
+        template: SELinux Project
+      selinux:
+        branches:
+        - master
+        template: SELinux Project
+      selinux-kernel:
+        branches:
+        - master
+        template: SELinux Project
+      selinux-testsuite:
+        branches:
+        - master
+        template: SELinux Project
+      setools:
+        branches:
+        - master
+        template: SELinux Project

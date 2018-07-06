@@ -1,0 +1,20 @@
+project-templates:
+  Fedora LiveCD Tools:
+    branches:
+    - master
+    gitweb: https://github.com/livecd-tools/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/livecd-tools/%(name)s
+projects:
+  Fedora LiveCD Tools:
+    description: Tools for building live CDs using DNF
+    repos:
+      appliance-tools:
+        branches:
+        - master
+        template: Fedora LiveCD Tools
+      livecd-tools:
+        branches:
+        - master
+        template: Fedora LiveCD Tools

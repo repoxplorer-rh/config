@@ -1,0 +1,57 @@
+project-templates:
+  Switchyard:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-switchyard/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-switchyard/%(name)s
+projects:
+  Switchyard:
+    description: SwitchYard is a component-based development framework focused on
+      building structured, maintainable services and applications
+    repos:
+      components:
+        branches:
+        - master
+        template: Switchyard
+      console:
+        branches:
+        - master
+        template: Switchyard
+      core:
+        branches:
+        - master
+        template: Switchyard
+      learning:
+        branches:
+        - master
+        template: Switchyard
+      openshift-demo:
+        branches:
+        - master
+        template: Switchyard
+      parent:
+        branches:
+        - master
+        template: Switchyard
+      quickstarts:
+        branches:
+        - master
+        template: Switchyard
+      release:
+        branches:
+        - master
+        template: Switchyard
+      switchyard:
+        branches:
+        - master
+        template: Switchyard
+      switchyard-openshift:
+        branches:
+        - master
+        template: Switchyard
+      tools:
+        branches:
+        - master
+        template: Switchyard

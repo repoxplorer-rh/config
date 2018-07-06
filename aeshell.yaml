@@ -1,0 +1,48 @@
+project-templates:
+  aeshell:
+    branches:
+    - master
+    gitweb: https://github.com/aeshell/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/aeshell/%(name)s
+projects:
+  aeshell:
+    description: Write command-based java programs
+    repos:
+      aesh:
+        branches:
+        - master
+        template: aeshell
+      aesh-extensions:
+        branches:
+        - master
+        template: aeshell
+      aesh-jvm-tools:
+        branches:
+        - master
+        template: aeshell
+      aesh-readline:
+        branches:
+        - master
+        template: aeshell
+      aeshell.github.com:
+        branches:
+        - web
+        template: aeshell
+      examples:
+        branches:
+        - master
+        template: aeshell
+      mterm:
+        branches:
+        - master
+        template: aeshell
+      nanook:
+        branches:
+        - master
+        template: aeshell
+      scalaesh:
+        branches:
+        - master
+        template: aeshell

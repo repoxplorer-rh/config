@@ -1,0 +1,17 @@
+project-templates:
+  Avahi:
+    branches:
+    - master
+    gitweb: https://github.com/lathiat/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/lathiat/%(name)s
+projects:
+  Avahi:
+    description: Facilitates service discovery on a local network via the mDNS/DNS-SD
+      protocol suite
+    repos:
+      avahi:
+        branches:
+        - master
+        template: Avahi

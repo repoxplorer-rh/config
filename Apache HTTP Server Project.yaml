@@ -1,0 +1,17 @@
+project-templates:
+  Apache HTTP Server Project:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache HTTP Server Project:
+    description: Provide a secure, efficient and extensible server that provides HTTP
+      services
+    repos:
+      httpd:
+        branches:
+        - trunk
+        template: Apache HTTP Server Project

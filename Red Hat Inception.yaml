@@ -1,0 +1,140 @@
+project-templates:
+  Red Hat Inception:
+    branches:
+    - master
+    gitweb: https://github.com/RHInception/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/RHInception/%(name)s
+projects:
+  Red Hat Inception:
+    description: Red Hat's Inception Team
+    repos:
+      cacophony:
+        branches:
+        - master
+        template: Red Hat Inception
+      git-branch-blacklist:
+        branches:
+        - master
+        template: Red Hat Inception
+      jsonstats:
+        branches:
+        - master
+        template: Red Hat Inception
+      python-irc-packages:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-cfg-seed:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-client:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-common:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-core:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-docs:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-logger:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-rest:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-bigip:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-docker:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-emailnotify:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-fileops:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-func:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-git:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-httprequest:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-ircnotify:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-juicer:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-nagios:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-noop:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-output:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-quickstart:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-satellite5:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-servicenow:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-sleep:
+        branches:
+        - master
+        template: Red Hat Inception
+      re-worker-sql:
+        branches:
+        - master
+        template: Red Hat Inception
+      relent:
+        branches:
+        - master
+        template: Red Hat Inception
+      taboot-tailer-refactor:
+        branches:
+        - master
+        template: Red Hat Inception
+      talook:
+        branches:
+        - master
+        template: Red Hat Inception

@@ -1,0 +1,64 @@
+project-templates:
+  rhq-project:
+    branches:
+    - master
+    gitweb: https://github.com/rhq-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/rhq-project/%(name)s
+projects:
+  rhq-project:
+    description: RHQ is an enterprise management solution for JBoss middleware projects
+    repos:
+      docker:
+        branches:
+        - master
+        template: rhq-project
+      ems:
+        branches:
+        - master
+        template: rhq-project
+      misc:
+        branches:
+        - master
+        template: rhq-project
+      netty-collectd:
+        branches:
+        - master
+        template: rhq-project
+      plugin_generator:
+        branches:
+        - master
+        template: rhq-project
+      presentation_material:
+        branches:
+        - master
+        template: rhq-project
+      rhq:
+        branches:
+        - master
+        template: rhq-project
+      rhq-agent-plugin-plugin:
+        branches:
+        - master
+        template: rhq-project
+      rhq-audit:
+        branches:
+        - master
+        template: rhq-project
+      rhq-checkstyle-config:
+        branches:
+        - master
+        template: rhq-project
+      rhq-project.github.com:
+        branches:
+        - master
+        template: rhq-project
+      samples:
+        branches:
+        - master
+        template: rhq-project
+      translations:
+        branches:
+        - master
+        template: rhq-project

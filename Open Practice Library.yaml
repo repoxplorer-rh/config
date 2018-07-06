@@ -1,0 +1,17 @@
+project-templates:
+  Open Practice Library:
+    branches:
+    - master
+    gitweb: https://github.com/rht-labs/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/rht-labs/%(name)s
+projects:
+  Open Practice Library:
+    description: Documentation on the practices used in Red Hat Open Innovation Labs
+      residencies
+    repos:
+      practice-library:
+        branches:
+        - master
+        template: Open Practice Library

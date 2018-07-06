@@ -1,0 +1,320 @@
+project-templates:
+  Arquillian:
+    branches:
+    - master
+    gitweb: https://github.com/arquillian/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/arquillian/%(name)s
+projects:
+  Arquillian:
+    description: An Innovative Testing Platform for the JVM
+    repos:
+      arquillian-algeron:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-artwork:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-chameleon:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-cloudbees:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-glassfish:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-jbossas:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-jetty:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-jruby:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-openejb:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-openshift:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-openwebbeans:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-osgi:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-reloaded:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-resin:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-se:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-tomcat:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-undertow:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-was:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-weld:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-container-wls:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-core:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-cube:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-cube-q:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-droidium:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-examples:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-android:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-angularjs:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-byteman:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-drone:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-guice:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-gwt:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-ios:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-jacoco:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-jrebel:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-liferay:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-moco:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-performance:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-persistence:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-portal:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-qunit:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-rest:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-screenrecorder:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-seam2:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-spring:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-transaction:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extension-warp:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-extensions:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-governor:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-gradle-plugin:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-graphene:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-hol:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-jenkins-build:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-kube:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-maven:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-organization:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-recorder:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-reporter:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-rusheye:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-script:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-selenium-bom:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-spacelift:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-spacelift-gradle:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-tck:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-testrunner-jbehave:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-testrunner-spock:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-universe-bom:
+        branches:
+        - master
+        template: Arquillian
+      arquillian-weld-embedded-1.1:
+        branches:
+        - master
+        template: Arquillian
+      arquillian.github.io:
+        branches:
+        - develop
+        template: Arquillian
+      arquillian_deprecated:
+        branches:
+        - master
+        template: Arquillian
+      continuous-enterprise-development:
+        branches:
+        - master
+        template: Arquillian
+      ike-prow-plugins:
+        branches:
+        - master
+        template: Arquillian
+      org-settings:
+        branches:
+        - master
+        template: Arquillian
+      seam-forge:
+        branches:
+        - master
+        template: Arquillian
+      smart-testing:
+        branches:
+        - master
+        template: Arquillian
+      smart-testing-dogfood-repo:
+        branches:
+        - master
+        template: Arquillian
+      smart-testing-jenkins-pipeline-shared:
+        branches:
+        - master
+        template: Arquillian
+      smart-testing-junit5-demo:
+        branches:
+        - master
+        template: Arquillian

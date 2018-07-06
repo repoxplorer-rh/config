@@ -1,0 +1,12 @@
+project-templates:
+  IBus:
+    branches:
+    - master
+    gitweb: https://github.com/ibus/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/ibus/%(name)s
+projects:
+  IBus:
+    description: Intelligent Input Bus for Linux/Unix
+    repos: {}

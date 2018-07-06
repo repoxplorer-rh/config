@@ -1,0 +1,100 @@
+project-templates:
+  abrt:
+    branches:
+    - master
+    gitweb: https://github.com/abrt/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/abrt/%(name)s
+projects:
+  abrt:
+    description: Automatic bug detection and reporting tool
+    repos:
+      abrt:
+        branches:
+        - master
+        template: abrt
+      abrt-ansible:
+        branches:
+        - master
+        template: abrt
+      abrt-docker:
+        branches:
+        - master
+        template: abrt
+      abrt-server-info-page:
+        branches:
+        - master
+        template: abrt
+      abrt.github.io:
+        branches:
+        - master
+        template: abrt
+      ansible-abrt-client-role:
+        branches:
+        - master
+        template: abrt
+      ansible-role-faf:
+        branches:
+        - master
+        template: abrt
+      ansible-role-retrace-server:
+        branches:
+        - master
+        template: abrt
+      btparser:
+        branches:
+        - master
+        template: abrt
+      cockpit-abrt:
+        branches:
+        - master
+        template: abrt
+      container-exception-logger:
+        branches:
+        - master
+        template: abrt
+      doc:
+        branches:
+        - master
+        template: abrt
+      faf:
+        branches:
+        - master
+        template: abrt
+      faf-docker:
+        branches:
+        - master
+        template: abrt
+      foreman_abrt:
+        branches:
+        - master
+        template: abrt
+      gnome-abrt:
+        branches:
+        - master
+        template: abrt
+      libreport:
+        branches:
+        - master
+        template: abrt
+      puppet-abrt:
+        branches:
+        - master
+        template: abrt
+      retrace-server:
+        branches:
+        - master
+        template: abrt
+      satyr:
+        branches:
+        - master
+        template: abrt
+      smart-proxy-abrt:
+        branches:
+        - master
+        template: abrt
+      staging:
+        branches:
+        - master
+        template: abrt

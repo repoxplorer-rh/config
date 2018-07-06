@@ -1,0 +1,188 @@
+project-templates:
+  Infinispan:
+    branches:
+    - master
+    gitweb: https://github.com/infinispan/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/infinispan/%(name)s
+projects:
+  Infinispan:
+    description: Data grid platform and highly scalable NoSQL cloud data store
+    repos:
+      Infinispan-book:
+        branches:
+        - master
+        template: Infinispan
+      cpp-client:
+        branches:
+        - master
+        template: Infinispan
+      dotnet-client:
+        branches:
+        - master
+        template: Infinispan
+      infinispan:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-archetypes:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-arquillian-container:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-benchmarks:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-bdbje:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-cassandra:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-cloud:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-dummy:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-hbase:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-jdbm:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-mongodb:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cachestore-redis:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-cakery:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-console-mockup:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-designs:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-ec2-demos:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-embedded-tutorial:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-forge:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-hadoop:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-jms-nearcache-demo:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-kafka:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-management-console:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-odata-server:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-openshift-templates:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-quickstart:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-remote-tutorial:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-sample-module:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-server:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-simple-tutorials:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-site-check:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-spark:
+        branches:
+        - master
+        template: Infinispan
+      infinispan-spring-boot:
+        branches:
+        - master
+        template: Infinispan
+      infinispan.github.io:
+        branches:
+        - develop
+        template: Infinispan
+      infispector:
+        branches:
+        - master
+        template: Infinispan
+      jokre:
+        branches:
+        - master
+        template: Infinispan
+      js-client:
+        branches:
+        - master
+        template: Infinispan
+      proto8:
+        branches:
+        - master
+        template: Infinispan
+      protostream:
+        branches:
+        - master
+        template: Infinispan
+      python-client:
+        branches:
+        - master
+        template: Infinispan
+      ruby-client:
+        branches:
+        - master
+        template: Infinispan
+      visual:
+        branches:
+        - master
+        template: Infinispan

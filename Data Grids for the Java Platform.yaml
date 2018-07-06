@@ -1,0 +1,20 @@
+project-templates:
+  Data Grids for the Java Platform:
+    branches:
+    - master
+    gitweb: https://github.com/datagrids/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/datagrids/%(name)s
+projects:
+  Data Grids for the Java Platform:
+    description: Data Grids for Java
+    repos:
+      datagrids:
+        branches:
+        - master
+        template: Data Grids for the Java Platform
+      spec:
+        branches:
+        - master
+        template: Data Grids for the Java Platform

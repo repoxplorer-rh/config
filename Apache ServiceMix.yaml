@@ -1,0 +1,16 @@
+project-templates:
+  Apache ServiceMix:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache ServiceMix:
+    description: A flexible, open-source integration container
+    repos:
+      servicemix:
+        branches:
+        - master
+        template: Apache ServiceMix

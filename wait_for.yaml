@@ -1,0 +1,16 @@
+project-templates:
+  wait_for:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatQE/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/RedHatQE/%(name)s
+projects:
+  wait_for:
+    description: Python-based library for waiting for things
+    repos:
+      wait_for:
+        branches:
+        - master
+        template: wait_for

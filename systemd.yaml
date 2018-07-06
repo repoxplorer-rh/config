@@ -1,0 +1,96 @@
+project-templates:
+  systemd:
+    branches:
+    - master
+    gitweb: https://github.com/systemd/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/systemd/%(name)s
+projects:
+  systemd:
+    description: System and Service Manager for Linux
+    repos:
+      casync:
+        branches:
+        - master
+        template: systemd
+      ejournald:
+        branches:
+        - master
+        template: systemd
+      erlang-sd_notify:
+        branches:
+        - master
+        template: systemd
+      journal2gelf:
+        branches:
+        - master
+        template: systemd
+      journald-cat:
+        branches:
+        - master
+        template: systemd
+      kdbus:
+        branches:
+        - master
+        template: systemd
+      mkosi:
+        branches:
+        - master
+        template: systemd
+      node-systemd:
+        branches:
+        - master
+        template: systemd
+      php-systemd:
+        branches:
+        - master
+        template: systemd
+      portable-walkthrough:
+        branches:
+        - master
+        template: systemd
+      python-systemd:
+        branches:
+        - master
+        template: systemd
+      systemd:
+        branches:
+        - master
+        template: systemd
+      systemd-bootchart:
+        branches:
+        - master
+        template: systemd
+      systemd-build-scan:
+        branches:
+        - gh-pages
+        template: systemd
+      systemd-centos-ci:
+        branches:
+        - master
+        template: systemd
+      systemd-coredump-python:
+        branches:
+        - master
+        template: systemd
+      systemd-fedora-ci:
+        branches:
+        - master
+        template: systemd
+      systemd-initctl:
+        branches:
+        - master
+        template: systemd
+      systemd-netlogd:
+        branches:
+        - master
+        template: systemd
+      systemd-stable:
+        branches:
+        - v201-stable
+        template: systemd
+      tutorials:
+        branches:
+        - master
+        template: systemd

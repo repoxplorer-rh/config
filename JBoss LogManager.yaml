@@ -1,0 +1,57 @@
+project-templates:
+  JBoss LogManager:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-logging/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-logging/%(name)s
+projects:
+  JBoss LogManager:
+    description: JBoss implementation of standard Java logging, with many powerful
+      enhancements
+    repos:
+      commons-logging-jboss-logging:
+        branches:
+        - master
+        template: JBoss LogManager
+      commons-logging-jboss-logmanager:
+        branches:
+        - master
+        template: JBoss LogManager
+      jboss-log4j-compat:
+        branches:
+        - master
+        template: JBoss LogManager
+      jboss-logging:
+        branches:
+        - master
+        template: JBoss LogManager
+      jboss-logging-tools:
+        branches:
+        - master
+        template: JBoss LogManager
+      jboss-logmanager:
+        branches:
+        - master
+        template: JBoss LogManager
+      jboss-stdio:
+        branches:
+        - master
+        template: JBoss LogManager
+      jul-to-slf4j-stub:
+        branches:
+        - master
+        template: JBoss LogManager
+      log4j-jboss-logmanager:
+        branches:
+        - master
+        template: JBoss LogManager
+      slf4j-jboss-logging:
+        branches:
+        - master
+        template: JBoss LogManager
+      slf4j-jboss-logmanager:
+        branches:
+        - master
+        template: JBoss LogManager

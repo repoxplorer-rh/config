@@ -1,0 +1,28 @@
+project-templates:
+  Wise:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-wise/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-wise/%(name)s
+projects:
+  Wise:
+    description: Java framework for easily invoking webservices
+    repos:
+      wise-core:
+        branches:
+        - master
+        template: Wise
+      wise-gwt-gui:
+        branches:
+        - master
+        template: Wise
+      wise-jenkins:
+        branches:
+        - master
+        template: Wise
+      wise-webgui:
+        branches:
+        - master
+        template: Wise

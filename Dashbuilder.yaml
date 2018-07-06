@@ -1,0 +1,25 @@
+project-templates:
+  Dashbuilder:
+    branches:
+    - master
+    gitweb: https://github.com/dashbuilder/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/dashbuilder/%(name)s
+projects:
+  Dashbuilder:
+    description: A full-featured web application which allows non-technical users
+      to visually create business dashboards
+    repos:
+      dashbuilder:
+        branches:
+        - master
+        template: Dashbuilder
+      dashbuilder-developers:
+        branches:
+        - master
+        template: Dashbuilder
+      dashbuilder-website:
+        branches:
+        - master
+        template: Dashbuilder

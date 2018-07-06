@@ -1,0 +1,40 @@
+project-templates:
+  ManageIQ-Exchange:
+    branches:
+    - master
+    gitweb: https://github.com/ManageIQ-Exchange/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/ManageIQ-Exchange/%(name)s
+projects:
+  ManageIQ-Exchange:
+    description: Management Spins platform
+    repos:
+      guides:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      manageiq-exchange:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      manageiq-exchange-cli-go:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      manageiq-exchange-frontend:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      manageiq-exchange-spin-template:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      manageiq-exchange-ui:
+        branches:
+        - master
+        template: ManageIQ-Exchange
+      react-scripts:
+        branches:
+        - master
+        template: ManageIQ-Exchange

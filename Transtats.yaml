@@ -1,0 +1,32 @@
+project-templates:
+  Transtats:
+    branches:
+    - master
+    gitweb: https://github.com/transtats/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/transtats/%(name)s
+projects:
+  Transtats:
+    description: Tool to track translation completeness of packages for product releases
+    repos:
+      transtats:
+        branches:
+        - devel
+        template: Transtats
+      transtats-ansible:
+        branches:
+        - master
+        template: Transtats
+      transtats-automation:
+        branches:
+        - master
+        template: Transtats
+      transtats-cli:
+        branches:
+        - devel
+        template: Transtats
+      transtats.github.io:
+        branches:
+        - master
+        template: Transtats

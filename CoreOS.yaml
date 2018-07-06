@@ -1,0 +1,704 @@
+project-templates:
+  CoreOS:
+    branches:
+    - master
+    gitweb: https://github.com/coreos/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/coreos/%(name)s
+projects:
+  CoreOS:
+    description: Key components to secure, simplify and automate your container infrastructure
+    repos:
+      aci-discovery:
+        branches:
+        - master
+        template: CoreOS
+      analyze-local-images:
+        branches:
+        - master
+        template: CoreOS
+      awesome-kubernetes-extensions:
+        branches:
+        - master
+        template: CoreOS
+      aws-auth-proxy:
+        branches:
+        - master
+        template: CoreOS
+      awscli:
+        branches:
+        - master
+        template: CoreOS
+      babel-plugin-git-version-build:
+        branches:
+        - master
+        template: CoreOS
+      baselayout:
+        branches:
+        - master
+        template: CoreOS
+      bcrypt-tool:
+        branches:
+        - master
+        template: CoreOS
+      blog-examples:
+        branches:
+        - master
+        template: CoreOS
+      board-overlays:
+        branches:
+        - master
+        template: CoreOS
+      bootengine:
+        branches:
+        - master
+        template: CoreOS
+      bugs:
+        branches:
+        - master
+        template: CoreOS
+      capnslog:
+        branches:
+        - master
+        template: CoreOS
+      cetcd:
+        branches:
+        - master
+        template: CoreOS
+      chromite:
+        branches:
+        - master
+        template: CoreOS
+      clair:
+        branches:
+        - master
+        template: CoreOS
+      clair-jwt:
+        branches:
+        - master
+        template: CoreOS
+      community:
+        branches:
+        - master
+        template: CoreOS
+      container-images:
+        branches:
+        - master
+        template: CoreOS
+      container-linux-config-transpiler:
+        branches:
+        - master
+        template: CoreOS
+      container-linux-update-operator:
+        branches:
+        - master
+        template: CoreOS
+      container-linux-userdata-validator:
+        branches:
+        - master
+        template: CoreOS
+      core-admin:
+        branches:
+        - master
+        template: CoreOS
+      core-cache:
+        branches:
+        - master
+        template: CoreOS
+      corelb:
+        branches:
+        - master
+        template: CoreOS
+      coreos-buildbot:
+        branches:
+        - master
+        template: CoreOS
+      coreos-cloudinit:
+        branches:
+        - master
+        template: CoreOS
+      coreos-cryptagent:
+        branches:
+        - master
+        template: CoreOS
+      coreos-github:
+        branches:
+        - master
+        template: CoreOS
+      coreos-kubernetes:
+        branches:
+        - master
+        template: CoreOS
+      coreos-metadata:
+        branches:
+        - master
+        template: CoreOS
+      coreos-overlay:
+        branches:
+        - master
+        template: CoreOS
+      coreos-rackspace-rescue-scripts:
+        branches:
+        - master
+        template: CoreOS
+      coreos-vagrant:
+        branches:
+        - master
+        template: CoreOS
+      coreos-web:
+        branches:
+        - master
+        template: CoreOS
+      coreos-xhyve:
+        branches:
+        - master
+        template: CoreOS
+      coreos.fedoraproject.org:
+        branches:
+        - master
+        template: CoreOS
+      coretest:
+        branches:
+        - master
+        template: CoreOS
+      dbtester:
+        branches:
+        - master
+        template: CoreOS
+      dbus-cplusplus:
+        branches:
+        - master
+        template: CoreOS
+      depot_tools:
+        branches:
+        - master
+        template: CoreOS
+      dev-util:
+        branches:
+        - master
+        template: CoreOS
+      devweb:
+        branches:
+        - master
+        template: CoreOS
+      dex:
+        branches:
+        - master
+        template: CoreOS
+      discovery.etcd.io:
+        branches:
+        - master
+        template: CoreOS
+      docker-nginx-https-redirect:
+        branches:
+        - master
+        template: CoreOS
+      docker-rclone-latest:
+        branches:
+        - master
+        template: CoreOS
+      docker-skim:
+        branches:
+        - master
+        template: CoreOS
+      docs:
+        branches:
+        - master
+        template: CoreOS
+      elb-presence:
+        branches:
+        - master
+        template: CoreOS
+      eselect-go:
+        branches:
+        - master
+        template: CoreOS
+      etcd:
+        branches:
+        - master
+        template: CoreOS
+      etcd-backup-operator:
+        branches:
+        - master
+        template: CoreOS
+      etcd-ca:
+        branches:
+        - master
+        template: CoreOS
+      etcd-manager:
+        branches:
+        - master
+        template: CoreOS
+      etcd-operator:
+        branches:
+        - master
+        template: CoreOS
+      etcd-play:
+        branches:
+        - master
+        template: CoreOS
+      etcd-starter:
+        branches:
+        - master
+        template: CoreOS
+      etcdctl:
+        branches:
+        - master
+        template: CoreOS
+      etcdlabs:
+        branches:
+        - master
+        template: CoreOS
+      example-app:
+        branches:
+        - master
+        template: CoreOS
+      fabric-kubernetes-nodes:
+        branches:
+        - master
+        template: CoreOS
+      findowner:
+        branches:
+        - master
+        template: CoreOS
+      flannel:
+        branches:
+        - master
+        template: CoreOS
+      flannel-cni:
+        branches:
+        - master
+        template: CoreOS
+      fleet:
+        branches:
+        - master
+        template: CoreOS
+      go-etcd:
+        branches:
+        - master
+        template: CoreOS
+      go-gitreceive:
+        branches:
+        - master
+        template: CoreOS
+      go-iptables:
+        branches:
+        - master
+        template: CoreOS
+      go-log:
+        branches:
+        - master
+        template: CoreOS
+      go-namespaces:
+        branches:
+        - master
+        template: CoreOS
+      go-oidc:
+        branches:
+        - v2
+        template: CoreOS
+      go-omaha:
+        branches:
+        - master
+        template: CoreOS
+      go-quay:
+        branches:
+        - master
+        template: CoreOS
+      go-semver:
+        branches:
+        - master
+        template: CoreOS
+      go-systemd:
+        branches:
+        - master
+        template: CoreOS
+      go-tcmu:
+        branches:
+        - master
+        template: CoreOS
+      go-tspi:
+        branches:
+        - master
+        template: CoreOS
+      go-webrtc-datachannel:
+        branches:
+        - master
+        template: CoreOS
+      go-workflow:
+        branches:
+        - master
+        template: CoreOS
+      gocat:
+        branches:
+        - master
+        template: CoreOS
+      gofail:
+        branches:
+        - master
+        template: CoreOS
+      grafiti:
+        branches:
+        - master
+        template: CoreOS
+      grub:
+        branches:
+        - 2.02-coreos
+        template: CoreOS
+      gzran:
+        branches:
+        - master
+        template: CoreOS
+      ignition:
+        branches:
+        - master
+        template: CoreOS
+      init:
+        branches:
+        - master
+        template: CoreOS
+      installer:
+        branches:
+        - master
+        template: CoreOS
+      issue-analyzer:
+        branches:
+        - master
+        template: CoreOS
+      issue-sync:
+        branches:
+        - master
+        template: CoreOS
+      jenkins-os:
+        branches:
+        - master
+        template: CoreOS
+      jetcd:
+        branches:
+        - master
+        template: CoreOS
+      jira-operator:
+        branches:
+        - master
+        template: CoreOS
+      jwt-auth-example:
+        branches:
+        - master
+        template: CoreOS
+      jwtproxy:
+        branches:
+        - master
+        template: CoreOS
+      kapprover:
+        branches:
+        - master
+        template: CoreOS
+      kenc:
+        branches:
+        - master
+        template: CoreOS
+      khealth:
+        branches:
+        - master
+        template: CoreOS
+      kpm:
+        branches:
+        - master
+        template: CoreOS
+      krud:
+        branches:
+        - master
+        template: CoreOS
+      kscale:
+        branches:
+        - master
+        template: CoreOS
+      ksched:
+        branches:
+        - master
+        template: CoreOS
+      ktestutil:
+        branches:
+        - master
+        template: CoreOS
+      kube-jenkins-config:
+        branches:
+        - master
+        template: CoreOS
+      kube-namespace-cni:
+        branches:
+        - master
+        template: CoreOS
+      kube-prometheus:
+        branches:
+        - master
+        template: CoreOS
+      kube-version:
+        branches:
+        - master
+        template: CoreOS
+      kubecsr:
+        branches:
+        - master
+        template: CoreOS
+      kubectl:
+        branches:
+        - master
+        template: CoreOS
+      kubernetes-dtc-admission:
+        branches:
+        - tpm_manager
+        template: CoreOS
+      kubernetes-workshops:
+        branches:
+        - master
+        template: CoreOS
+      libyubihsm-rs:
+        branches:
+        - master
+        template: CoreOS
+      license-bill-of-materials:
+        branches:
+        - master
+        template: CoreOS
+      locksmith:
+        branches:
+        - master
+        template: CoreOS
+      manifest:
+        branches:
+        - master
+        template: CoreOS
+      manifest-builds:
+        branches:
+        - master
+        template: CoreOS
+      mantle:
+        branches:
+        - master
+        template: CoreOS
+      matchbox:
+        branches:
+        - master
+        template: CoreOS
+      mayday:
+        branches:
+        - master
+        template: CoreOS
+      minikube-iso:
+        branches:
+        - master
+        template: CoreOS
+      mockldap:
+        branches:
+        - v0.1.x
+        template: CoreOS
+      motd-http:
+        branches:
+        - master
+        template: CoreOS
+      nova-agent-container:
+        branches:
+        - master
+        template: CoreOS
+      nova-agent-watcher:
+        branches:
+        - master
+        template: CoreOS
+      nsproxy:
+        branches:
+        - master
+        template: CoreOS
+      pkg:
+        branches:
+        - master
+        template: CoreOS
+      pods:
+        branches:
+        - master
+        template: CoreOS
+      portage-stable:
+        branches:
+        - master
+        template: CoreOS
+      pr-nagbot:
+        branches:
+        - master
+        template: CoreOS
+      prometheus-aggregator:
+        branches:
+        - master
+        template: CoreOS
+      prometheus-operator:
+        branches:
+        - master
+        template: CoreOS
+      protodoc:
+        branches:
+        - master
+        template: CoreOS
+      py-bitbucket:
+        branches:
+        - master
+        template: CoreOS
+      qemu:
+        branches:
+        - master
+        template: CoreOS
+      quartermaster:
+        branches:
+        - master
+        template: CoreOS
+      quay-docs:
+        branches:
+        - gh-pages
+        template: CoreOS
+      quayctl:
+        branches:
+        - master
+        template: CoreOS
+      registry-monitor:
+        branches:
+        - master
+        template: CoreOS
+      regress-e2e:
+        branches:
+        - master
+        template: CoreOS
+      resumablehashlib:
+        branches:
+        - master
+        template: CoreOS
+      rollback-controller:
+        branches:
+        - master
+        template: CoreOS
+      scripts:
+        branches:
+        - master
+        template: CoreOS
+      sdnotify-proxy:
+        branches:
+        - master
+        template: CoreOS
+      seabios:
+        branches:
+        - master
+        template: CoreOS
+      seismograph:
+        branches:
+        - master
+        template: CoreOS
+      sqlbuilder:
+        branches:
+        - master
+        template: CoreOS
+      stripe-proxy:
+        branches:
+        - master
+        template: CoreOS
+      subgun:
+        branches:
+        - master
+        template: CoreOS
+      systemd-rest:
+        branches:
+        - master
+        template: CoreOS
+      tailor:
+        branches:
+        - master
+        template: CoreOS
+      tectonic-config:
+        branches:
+        - master
+        template: CoreOS
+      tectonic-docs:
+        branches:
+        - master
+        template: CoreOS
+      tectonic-forum:
+        branches:
+        - master
+        template: CoreOS
+      tectonic-installer:
+        branches:
+        - track-1
+        template: CoreOS
+      tectonic-rpms:
+        branches:
+        - master
+        template: CoreOS
+      tectonic-torcx:
+        branches:
+        - master
+        template: CoreOS
+      template-project:
+        branches:
+        - master
+        template: CoreOS
+      terraform-aws-kubernetes:
+        branches:
+        - master
+        template: CoreOS
+      terraform-azurerm-kubernetes:
+        branches:
+        - master
+        template: CoreOS
+      terraform-provider-ct:
+        branches:
+        - master
+        template: CoreOS
+      terraform-provider-matchbox:
+        branches:
+        - master
+        template: CoreOS
+      third_party.go:
+        branches:
+        - master
+        template: CoreOS
+      toolbox:
+        branches:
+        - master
+        template: CoreOS
+      torcx:
+        branches:
+        - master
+        template: CoreOS
+      torus:
+        branches:
+        - master
+        template: CoreOS
+      training:
+        branches:
+        - master
+        template: CoreOS
+      unit-examples:
+        branches:
+        - master
+        template: CoreOS
+      update-ssh-keys:
+        branches:
+        - master
+        template: CoreOS
+      update_engine:
+        branches:
+        - master
+        template: CoreOS
+      updateservicectl:
+        branches:
+        - master
+        template: CoreOS
+      vagrant-ignition:
+        branches:
+        - master
+        template: CoreOS
+      vault-operator:
+        branches:
+        - master
+        template: CoreOS
+      zetcd:
+        branches:
+        - master
+        template: CoreOS

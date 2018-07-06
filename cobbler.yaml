@@ -1,0 +1,16 @@
+project-templates:
+  cobbler:
+    branches:
+    - master
+    gitweb: https://github.com/cobbler/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/cobbler/%(name)s
+projects:
+  cobbler:
+    description: Versatile Linux deployment server
+    repos:
+      cobbler:
+        branches:
+        - master
+        template: cobbler

@@ -1,0 +1,16 @@
+project-templates:
+  Augeas:
+    branches:
+    - master
+    gitweb: https://github.com/hercules-team/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/hercules-team/%(name)s
+projects:
+  Augeas:
+    description: Augeas is a configuration editing tool
+    repos:
+      augeas:
+        branches:
+        - master
+        template: Augeas

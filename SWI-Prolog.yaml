@@ -1,0 +1,288 @@
+project-templates:
+  SWI-Prolog:
+    branches:
+    - master
+    gitweb: https://github.com/SWI-Prolog/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/SWI-Prolog/%(name)s
+projects:
+  SWI-Prolog:
+    description: Comprehensive Prolog compiler and development environment
+    repos:
+      SWI-Prolog.github.io:
+        branches:
+        - master
+        template: SWI-Prolog
+      bench:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-InterProlog:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-minisat:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-plfann:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-plosc:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-protobufs:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-space:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-swiplcs:
+        branches:
+        - master
+        template: SWI-Prolog
+      contrib-tipc:
+        branches:
+        - master
+        template: SWI-Prolog
+      distro-debian:
+        branches:
+        - master
+        template: SWI-Prolog
+      dleak:
+        branches:
+        - master
+        template: SWI-Prolog
+      docker-swipl:
+        branches:
+        - master
+        template: SWI-Prolog
+      docker-swish:
+        branches:
+        - master
+        template: SWI-Prolog
+      issues:
+        branches:
+        - master
+        template: SWI-Prolog
+      libXpm:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-C-sicstus:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-bdwgc:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-emacs:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-libXpm:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-macos-build:
+        branches:
+        - master
+        template: SWI-Prolog
+      misc-winlibs:
+        branches:
+        - X64
+        template: SWI-Prolog
+      packages-PDT:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-R:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-RDF:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-archive:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-bdb:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-chr:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-clib:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-clpqr:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-cpp:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-cppproxy:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-cql:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-http:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-inclpr:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-indent:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-jasmine:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-jpl:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-libedit:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-ltx2htm:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-nlp:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-odbc:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-paxos:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-pcre:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-pengines:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-pldoc:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-plunit:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-prosqlite:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-readline:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-real:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-regex:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-semweb:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-sgml:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-ssl:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-swipl-win:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-table:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-utf8proc:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-windows:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-xpce:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-yaml:
+        branches:
+        - master
+        template: SWI-Prolog
+      packages-zlib:
+        branches:
+        - master
+        template: SWI-Prolog
+      pengines:
+        branches:
+        - master
+        template: SWI-Prolog
+      plweb:
+        branches:
+        - master
+        template: SWI-Prolog
+      plweb-www:
+        branches:
+        - master
+        template: SWI-Prolog
+      roadmap:
+        branches:
+        - master
+        template: SWI-Prolog
+      swipl:
+        branches:
+        - master
+        template: SWI-Prolog
+      swipl-devel:
+        branches:
+        - master
+        template: SWI-Prolog
+      swipl-wasm:
+        branches:
+        - master
+        template: SWI-Prolog
+      swish:
+        branches:
+        - master
+        template: SWI-Prolog

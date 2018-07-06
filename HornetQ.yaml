@@ -1,0 +1,53 @@
+project-templates:
+  HornetQ:
+    branches:
+    - master
+    gitweb: https://github.com/hornetq/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/hornetq/%(name)s
+projects:
+  HornetQ:
+    description: Build a multi-protocol, embeddable, very high performance, clustered,
+      asynchronous messaging system
+    repos:
+      HawtMQ:
+        branches:
+        - master
+        template: HornetQ
+      ProtonPlug:
+        branches:
+        - master
+        template: HornetQ
+      application-server-MDB-loader:
+        branches:
+        - master
+        template: HornetQ
+      hornetq:
+        branches:
+        - master
+        template: HornetQ
+      hornetq-checkstyle-checks:
+        branches:
+        - master
+        template: HornetQ
+      hornetq-jopr-plugin:
+        branches:
+        - master
+        template: HornetQ
+      hornetq-oneoffs:
+        branches:
+        - master
+        template: HornetQ
+      hornetq-version-tests:
+        branches:
+        - master
+        template: HornetQ
+      hq-wildfly-patches:
+        branches:
+        - master
+        template: HornetQ
+      maven-hornetq-plugin:
+        branches:
+        - master
+        template: HornetQ

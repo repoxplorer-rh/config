@@ -1,0 +1,17 @@
+project-templates:
+  PackageKit:
+    branches:
+    - master
+    gitweb: https://github.com/hughsie/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/hughsie/%(name)s
+projects:
+  PackageKit:
+    description: A D-BUS abstraction layer that allows the user to manage packages
+      in a secure way using a cross-distro, cross-architecture API
+    repos:
+      PackageKit:
+        branches:
+        - master
+        template: PackageKit

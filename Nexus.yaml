@@ -1,0 +1,12 @@
+project-templates:
+  Nexus:
+    branches:
+    - master
+    gitweb: https://github.com/valleedelisle/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/valleedelisle/%(name)s
+projects:
+  Nexus:
+    description: Centralized WebUI for Citellus
+    repos: {}

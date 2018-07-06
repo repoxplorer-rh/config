@@ -1,0 +1,37 @@
+project-templates:
+  PressGang:
+    branches:
+    - master
+    gitweb: https://github.com/pressgang/%(name)s/commit/%%(sha)s
+    tags:
+    - Documentation
+    uri: https://github.com/pressgang/%(name)s
+projects:
+  PressGang:
+    description: Everything related to documentation tooling/writing for community
+      projects
+    repos:
+      docbook5-poc:
+        branches:
+        - master
+        template: PressGang
+      jdocbook-core:
+        branches:
+        - master
+        template: PressGang
+      maven-jdocbook-plugin:
+        branches:
+        - master
+        template: PressGang
+      maven-jdocbook-style-plugin:
+        branches:
+        - master
+        template: PressGang
+      pressgang-documentation-guide:
+        branches:
+        - master
+        template: PressGang
+      pressgang-tools:
+        branches:
+        - master
+        template: PressGang

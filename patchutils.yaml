@@ -1,0 +1,17 @@
+project-templates:
+  patchutils:
+    branches:
+    - master
+    gitweb: https://github.com/twaugh/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/twaugh/%(name)s
+projects:
+  patchutils:
+    description: Patchutils is a small collection of programs that operate on patch
+      files
+    repos:
+      patchutils:
+        branches:
+        - master
+        template: patchutils

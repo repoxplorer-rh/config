@@ -1,0 +1,72 @@
+project-templates:
+  jbosstm:
+    branches:
+    - master
+    gitweb: https://github.com/jbosstm/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jbosstm/%(name)s
+projects:
+  jbosstm:
+    description: Tools for working with the Narayana transaction service
+    repos:
+      artifacts:
+        branches:
+        - master
+        template: jbosstm
+      blacktie:
+        branches:
+        - master
+        template: jbosstm
+      ci-report-generator:
+        branches:
+        - newCi
+        template: jbosstm
+      conferences:
+        branches:
+        - master
+        template: jbosstm
+      documentation:
+        branches:
+        - master
+        template: jbosstm
+      incubator:
+        branches:
+        - master
+        template: jbosstm
+      javaone2017:
+        branches:
+        - master
+        template: jbosstm
+      jboss-transaction-spi:
+        branches:
+        - master
+        template: jbosstm
+      jbossas-transactions-testsuite:
+        branches:
+        - master
+        template: jbosstm
+      narayana:
+        branches:
+        - master
+        template: jbosstm
+      narayana.io:
+        branches:
+        - develop
+        template: jbosstm
+      performance:
+        branches:
+        - master
+        template: jbosstm
+      project-metadata:
+        branches:
+        - master
+        template: jbosstm
+      quickstart:
+        branches:
+        - master
+        template: jbosstm
+      transaction-analyser:
+        branches:
+        - master
+        template: jbosstm

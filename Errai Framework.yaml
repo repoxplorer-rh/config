@@ -1,0 +1,36 @@
+project-templates:
+  Errai Framework:
+    branches:
+    - master
+    gitweb: https://github.com/errai/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/errai/%(name)s
+projects:
+  Errai Framework:
+    description: Build web applications
+    repos:
+      archetypes:
+        branches:
+        - master
+        template: Errai Framework
+      errai:
+        branches:
+        - master
+        template: Errai Framework
+      errai-intellij-idea-plugin:
+        branches:
+        - master
+        template: Errai Framework
+      errai-tutorial:
+        branches:
+        - master
+        template: Errai Framework
+      errai.github.com:
+        branches:
+        - master
+        template: Errai Framework
+      getting-started-guide:
+        branches:
+        - master
+        template: Errai Framework

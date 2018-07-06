@@ -1,0 +1,16 @@
+project-templates:
+  dmpy:
+    branches:
+    - master
+    gitweb: https://github.com/bmr-cymru/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/bmr-cymru/%(name)s
+projects:
+  dmpy:
+    description: Device-mapper Python bindings
+    repos:
+      dmpy:
+        branches:
+        - master
+        template: dmpy

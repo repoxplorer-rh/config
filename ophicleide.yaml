@@ -1,0 +1,24 @@
+project-templates:
+  ophicleide:
+    branches:
+    - master
+    gitweb: https://github.com/ophicleide/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ophicleide/%(name)s
+projects:
+  ophicleide:
+    description: The Ophicleide Word2vec application
+    repos:
+      ophicleide-training:
+        branches:
+        - develop
+        template: ophicleide
+      ophicleide-web:
+        branches:
+        - master
+        template: ophicleide
+      ophicleide.github.io:
+        branches:
+        - master
+        template: ophicleide

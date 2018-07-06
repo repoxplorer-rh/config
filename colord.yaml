@@ -1,0 +1,17 @@
+project-templates:
+  colord:
+    branches:
+    - master
+    gitweb: https://github.com/hughsie/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/hughsie/%(name)s
+projects:
+  colord:
+    description: A system service that makes it easy to manage, install and generate
+      color profiles
+    repos:
+      colord:
+        branches:
+        - master
+        template: colord

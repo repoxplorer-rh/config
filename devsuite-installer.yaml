@@ -1,0 +1,16 @@
+project-templates:
+  devsuite-installer:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-developer-tooling/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/redhat-developer-tooling/%(name)s
+projects:
+  devsuite-installer:
+    description: Single Installer for all Red Hat Development Tools
+    repos:
+      developer-platform-install:
+        branches:
+        - master
+        template: devsuite-installer

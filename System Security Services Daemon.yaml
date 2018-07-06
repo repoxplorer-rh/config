@@ -1,0 +1,20 @@
+project-templates:
+  System Security Services Daemon:
+    branches:
+    - master
+    gitweb: https://github.com/SSSD/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/SSSD/%(name)s
+projects:
+  System Security Services Daemon:
+    description: System daemon providing identity and access-control
+    repos:
+      ding-libs:
+        branches:
+        - master
+        template: System Security Services Daemon
+      sssd:
+        branches:
+        - master
+        template: System Security Services Daemon

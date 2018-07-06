@@ -1,0 +1,16 @@
+project-templates:
+  Sentaku:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatQE/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/RedHatQE/%(name)s
+projects:
+  Sentaku:
+    description: Python based library for contextual method choice
+    repos:
+      Sentaku:
+        branches:
+        - master
+        template: Sentaku

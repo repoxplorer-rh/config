@@ -1,0 +1,16 @@
+project-templates:
+  Solenopsis:
+    branches:
+    - master
+    gitweb: https://github.com/solenopsis/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/solenopsis/%(name)s
+projects:
+  Solenopsis:
+    description: A command-line deployment tool for Salesforce
+    repos:
+      Solenopsis:
+        branches:
+        - master
+        template: Solenopsis

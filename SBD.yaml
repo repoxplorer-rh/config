@@ -1,0 +1,13 @@
+project-templates:
+  SBD:
+    branches:
+    - master
+    gitweb: https://github.com/ClusterLabs/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/ClusterLabs/%(name)s
+projects:
+  SBD:
+    description: Shared-storage- and watchdog-based fencing for high-availability
+      clusters
+    repos: {}

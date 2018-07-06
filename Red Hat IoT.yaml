@@ -1,0 +1,76 @@
+project-templates:
+  Red Hat IoT:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-iot/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/redhat-iot/%(name)s
+projects:
+  Red Hat IoT:
+    description: Demos and projects for Red Hat's IoT efforts
+    repos:
+      amqp-spark-demo:
+        branches:
+        - master
+        template: Red Hat IoT
+      cloudera-iot-demo:
+        branches:
+        - master
+        template: Red Hat IoT
+      codestarter-2017:
+        branches:
+        - master
+        template: Red Hat IoT
+      de.dentrassi.kura.drools:
+        branches:
+        - master
+        template: Red Hat IoT
+      demo-kit:
+        branches:
+        - master
+        template: Red Hat IoT
+      demo-tooling:
+        branches:
+        - master
+        template: Red Hat IoT
+      homebrew-tap:
+        branches:
+        - master
+        template: Red Hat IoT
+      iot-assettracking-demo:
+        branches:
+        - master
+        template: Red Hat IoT
+      iot-cargo-demo:
+        branches:
+        - master
+        template: Red Hat IoT
+      iot-playground:
+        branches:
+        - master
+        template: Red Hat IoT
+      iot-simulator:
+        branches:
+        - master
+        template: Red Hat IoT
+      jboss-sap-integration:
+        branches:
+        - master
+        template: Red Hat IoT
+      kura-sensorsim:
+        branches:
+        - master
+        template: Red Hat IoT
+      kurasowa:
+        branches:
+        - master
+        template: Red Hat IoT
+      rh-iot-demo:
+        branches:
+        - master
+        template: Red Hat IoT
+      rh-vertica-demo:
+        branches:
+        - master
+        template: Red Hat IoT

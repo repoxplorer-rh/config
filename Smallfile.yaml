@@ -1,0 +1,16 @@
+project-templates:
+  Smallfile:
+    branches:
+    - master
+    gitweb: https://github.com/bengland2/%(name)s/commit/%%(sha)s
+    tags:
+    - Storage
+    uri: https://github.com/bengland2/%(name)s
+projects:
+  Smallfile:
+    description: Metadata-intensive workload generator for distributed POSIX filesystems
+    repos:
+      smallfile:
+        branches:
+        - master
+        template: Smallfile

@@ -1,0 +1,73 @@
+project-templates:
+  PicketLink:
+    branches:
+    - master
+    gitweb: https://github.com/picketlink/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/picketlink/%(name)s
+projects:
+  PicketLink:
+    description: An umbrella project for security and identity management for Java
+      Applications
+    repos:
+      idm-prototype:
+        branches:
+        - master
+        template: PicketLink
+      picketlink:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-bindings:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-certmgmt:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-console:
+        branches:
+        - PLINK-358
+        template: PicketLink
+      picketlink-contrib:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-eap-quickstarts:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-extensions:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-forge-addon:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-idm:
+        branches:
+        - '1.4'
+        template: PicketLink
+      picketlink-idm-restored:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-installer:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-tests:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-website:
+        branches:
+        - master
+        template: PicketLink
+      picketlink-wfk-quickstarts:
+        branches:
+        - master
+        template: PicketLink

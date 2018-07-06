@@ -1,0 +1,21 @@
+project-templates:
+  Obsidian Toaster:
+    branches:
+    - master
+    gitweb: https://github.com/obsidian-toaster/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/obsidian-toaster/%(name)s
+projects:
+  Obsidian Toaster:
+    description: Tools, Quickstarts, Generators of Cloud Native Applications running
+      top of OpenShift
+    repos:
+      platform:
+        branches:
+        - master
+        template: Obsidian Toaster
+      project:
+        branches:
+        - master
+        template: Obsidian Toaster

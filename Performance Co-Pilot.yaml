@@ -1,0 +1,64 @@
+project-templates:
+  Performance Co-Pilot:
+    branches:
+    - master
+    gitweb: https://github.com/performancecopilot/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/performancecopilot/%(name)s
+projects:
+  Performance Co-Pilot:
+    description: A system performance and analysis framework
+    repos:
+      hornet:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      parfait:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-go:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-webapp-blinkenlights:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-webapp-grafana:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-webapp-graphite:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-webapp-vector:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp-website:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      pcp2pdf:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      performancecopilot.github.io:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      qa-status:
+        branches:
+        - master
+        template: Performance Co-Pilot
+      speed:
+        branches:
+        - master
+        template: Performance Co-Pilot

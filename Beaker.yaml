@@ -1,0 +1,48 @@
+project-templates:
+  Beaker:
+    branches:
+    - master
+    gitweb: https://github.com/beaker-project/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/beaker-project/%(name)s
+projects:
+  Beaker:
+    description: Managing and automating labs of test computers
+    repos:
+      beah:
+        branches:
+        - master
+        template: Beaker
+      beaker:
+        branches:
+        - develop
+        template: Beaker
+      beaker-core-tasks:
+        branches:
+        - master
+        template: Beaker
+      beaker-meta-tasks:
+        branches:
+        - master
+        template: Beaker
+      beaker-project.org:
+        branches:
+        - master
+        template: Beaker
+      beaker-system-scan:
+        branches:
+        - master
+        template: Beaker
+      lshw-tests:
+        branches:
+        - master
+        template: Beaker
+      rhts:
+        branches:
+        - master
+        template: Beaker
+      zpxe:
+        branches:
+        - master
+        template: Beaker

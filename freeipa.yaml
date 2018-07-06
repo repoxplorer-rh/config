@@ -1,0 +1,89 @@
+project-templates:
+  freeipa:
+    branches:
+    - master
+    gitweb: https://github.com/freeipa/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/freeipa/%(name)s
+projects:
+  freeipa:
+    description: An integrated Identity and Authentication solution for Linux/UNIX
+      networked environments
+    repos:
+      ansible-freeipa:
+        branches:
+        - master
+        template: freeipa
+      bind-dyndb-ldap:
+        branches:
+        - master
+        template: freeipa
+      freeipa:
+        branches:
+        - master
+        template: freeipa
+      freeipa-builder:
+        branches:
+        - master
+        template: freeipa
+      freeipa-ci:
+        branches:
+        - master
+        template: freeipa
+      freeipa-community-portal:
+        branches:
+        - master
+        template: freeipa
+      freeipa-container:
+        branches:
+        - master
+        template: freeipa
+      freeipa-demo:
+        branches:
+        - master
+        template: freeipa
+      freeipa-dyndir:
+        branches:
+        - master
+        template: freeipa
+      freeipa-letsencrypt:
+        branches:
+        - master
+        template: freeipa
+      freeipa-planet:
+        branches:
+        - master
+        template: freeipa
+      freeipa-pr-ci:
+        branches:
+        - master
+        template: freeipa
+      freeipa-tools:
+        branches:
+        - master
+        template: freeipa
+      freeipa-wiki:
+        branches:
+        - master
+        template: freeipa
+      freeipa-workshop:
+        branches:
+        - master
+        template: freeipa
+      github-sync-test:
+        branches:
+        - master
+        template: freeipa
+      ipa-docker-test-runner:
+        branches:
+        - master
+        template: freeipa
+      ipa-vagrant-tools:
+        branches:
+        - master
+        template: freeipa
+      zone2dyndb-ldif:
+        branches:
+        - master
+        template: freeipa

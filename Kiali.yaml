@@ -1,0 +1,44 @@
+project-templates:
+  Kiali:
+    branches:
+    - master
+    gitweb: https://github.com/kiali/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/kiali/%(name)s
+projects:
+  Kiali:
+    description: Service Mesh Observability
+    repos:
+      kiali:
+        branches:
+        - master
+        template: Kiali
+      kiali-client-python:
+        branches:
+        - master
+        template: Kiali
+      kiali-design:
+        branches:
+        - master
+        template: Kiali
+      kiali-katacoda-scenarios:
+        branches:
+        - master
+        template: Kiali
+      kiali-test-mesh:
+        branches:
+        - master
+        template: Kiali
+      kiali-ui:
+        branches:
+        - master
+        template: Kiali
+      kiali.github.io:
+        branches:
+        - master
+        template: Kiali
+      kiali.io:
+        branches:
+        - master
+        template: Kiali

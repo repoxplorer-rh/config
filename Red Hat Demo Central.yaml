@@ -1,0 +1,96 @@
+project-templates:
+  Red Hat Demo Central:
+    branches:
+    - master
+    gitweb: https://github.com/redhatdemocentral/%(name)s/commit/%%(sha)s
+    tags:
+    - Organizations
+    uri: https://github.com/redhatdemocentral/%(name)s
+projects:
+  Red Hat Demo Central:
+    description: Red Hat demos coillection
+    repos:
+      apac-sko-demo-rhmap-cloudapp:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      apac-sko-demo-rhmap-frontend:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      appdev-in-the-cloud-rhpds-workshops:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      cdk-install-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      destinasia-services-repo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      ocp-install-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-baggage-delivery-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-bpms-install-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-brms-install-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-client-onboarding-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-cloudforms-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-coolstore-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-coolstore-persistence-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-customer-evaluation-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-destinasia-rules-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-generic-loan-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-mortgage-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-rewards-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-travel-agency-acquisition-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-travel-agency-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central
+      rhcs-vacation-request-demo:
+        branches:
+        - master
+        template: Red Hat Demo Central

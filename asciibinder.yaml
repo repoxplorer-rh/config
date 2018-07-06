@@ -1,0 +1,16 @@
+project-templates:
+  asciibinder:
+    branches:
+    - master
+    gitweb: https://github.com/redhataccess/%(name)s/commit/%%(sha)s
+    tags:
+    - Documentation
+    uri: https://github.com/redhataccess/%(name)s
+projects:
+  asciibinder:
+    description: Single-source documentation for complex open-source projects
+    repos:
+      ascii_binder:
+        branches:
+        - master
+        template: asciibinder

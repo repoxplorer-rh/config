@@ -1,0 +1,52 @@
+project-templates:
+  Eclipse Web Tools Project:
+    branches:
+    - master
+    gitweb: https://github.com/eclipse/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/eclipse/%(name)s
+projects:
+  Eclipse Web Tools Project:
+    description: Eclipse plugins for Web, JavaEE development
+    repos:
+      webtools.common:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.javaee:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.jsf:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.servertools:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.sourceediting:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.sourceediting.tests:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.sourceediting.xpath:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.sourceediting.xpath.tests:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.sourceediting.xsl:
+        branches:
+        - master
+        template: Eclipse Web Tools Project
+      webtools.webservices:
+        branches:
+        - master
+        template: Eclipse Web Tools Project

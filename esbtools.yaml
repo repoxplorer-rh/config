@@ -1,0 +1,56 @@
+project-templates:
+  esbtools:
+    branches:
+    - master
+    gitweb: https://github.com/esbtools/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/esbtools/%(name)s
+projects:
+  esbtools:
+    description: Enterprise Service Bus
+    repos:
+      cert-ldap-login-module:
+        branches:
+        - master
+        template: esbtools
+      esb-gateways:
+        branches:
+        - master
+        template: esbtools
+      esb-message-admin:
+        branches:
+        - master
+        template: esbtools
+      esb-message-admin-docs:
+        branches:
+        - master
+        template: esbtools
+      esbmsgadmin:
+        branches:
+        - master
+        template: esbtools
+      esbtools:
+        branches:
+        - master
+        template: esbtools
+      esbtools-docs:
+        branches:
+        - master
+        template: esbtools
+      esbtools.github.io:
+        branches:
+        - master
+        template: esbtools
+      event-handler:
+        branches:
+        - master
+        template: esbtools
+      jenkins-job-dsl-pipelines:
+        branches:
+        - master
+        template: esbtools
+      lightblue-notification-hook:
+        branches:
+        - master
+        template: esbtools

@@ -1,0 +1,12 @@
+project-templates:
+  Spice:
+    branches:
+    - master
+    gitweb: https://github.com/SPICE/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/SPICE/%(name)s
+projects:
+  Spice:
+    description: Open source solution for remote access to virtual machine
+    repos: {}

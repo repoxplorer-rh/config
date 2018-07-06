@@ -1,0 +1,16 @@
+project-templates:
+  python-hwdata:
+    branches:
+    - master
+    gitweb: https://github.com/xsuchy/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/xsuchy/%(name)s
+projects:
+  python-hwdata:
+    description: Python bindings to hwdata
+    repos:
+      python-hwdata:
+        branches:
+        - master
+        template: python-hwdata

@@ -1,0 +1,18 @@
+project-templates:
+  OptaPlanner:
+    branches:
+    - master
+    gitweb: https://github.com/kiegroup/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/kiegroup/%(name)s
+projects:
+  OptaPlanner:
+    description: Java Constraint Solver that optimizes use cases such as employee
+      rostering, vehicle routing, task assignment, cloud optimization and other planning
+      problems.
+    repos:
+      optaplanner:
+        branches:
+        - master
+        template: OptaPlanner

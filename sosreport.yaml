@@ -1,0 +1,20 @@
+project-templates:
+  sosreport:
+    branches:
+    - master
+    gitweb: https://github.com/sosreport/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/sosreport/%(name)s
+projects:
+  sosreport:
+    description: A unified tool for collecting system logs and other debug information
+    repos:
+      sos:
+        branches:
+        - master
+        template: sosreport
+      sos-collector:
+        branches:
+        - master
+        template: sosreport

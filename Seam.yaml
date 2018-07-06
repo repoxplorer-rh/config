@@ -1,0 +1,165 @@
+project-templates:
+  Seam:
+    branches:
+    - master
+    gitweb: https://github.com/seam/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/seam/%(name)s
+projects:
+  Seam:
+    description: A development platform for building rich Internet applications in
+      Java
+    repos:
+      build:
+        branches:
+        - master
+        template: Seam
+      catch:
+        branches:
+        - develop
+        template: Seam
+      clouds:
+        branches:
+        - master
+        template: Seam
+      compatibility:
+        branches:
+        - develop
+        template: Seam
+      config:
+        branches:
+        - develop
+        template: Seam
+      conversation:
+        branches:
+        - develop
+        template: Seam
+      cron:
+        branches:
+        - develop
+        template: Seam
+      dist:
+        branches:
+        - master
+        template: Seam
+      drools:
+        branches:
+        - master
+        template: Seam
+      examples:
+        branches:
+        - master
+        template: Seam
+      faces:
+        branches:
+        - develop
+        template: Seam
+      flex:
+        branches:
+        - master
+        template: Seam
+      international:
+        branches:
+        - develop
+        template: Seam
+      jbpm:
+        branches:
+        - master
+        template: Seam
+      jcr:
+        branches:
+        - develop
+        template: Seam
+      jms:
+        branches:
+        - develop
+        template: Seam
+      mail:
+        branches:
+        - develop
+        template: Seam
+      migration:
+        branches:
+        - develop
+        template: Seam
+      parent:
+        branches:
+        - master
+        template: Seam
+      persistence:
+        branches:
+        - develop
+        template: Seam
+      remoting:
+        branches:
+        - develop
+        template: Seam
+      render:
+        branches:
+        - master
+        template: Seam
+      reports:
+        branches:
+        - develop
+        template: Seam
+      rest:
+        branches:
+        - develop
+        template: Seam
+      seam-example-confbuzz:
+        branches:
+        - develop
+        template: Seam
+      seam.github.com:
+        branches:
+        - master
+        template: Seam
+      security:
+        branches:
+        - develop
+        template: Seam
+      servlet:
+        branches:
+        - develop
+        template: Seam
+      social:
+        branches:
+        - develop
+        template: Seam
+      solder:
+        branches:
+        - develop
+        template: Seam
+      spring:
+        branches:
+        - develop
+        template: Seam
+      ticket-monster:
+        branches:
+        - master
+        template: Seam
+      transaction:
+        branches:
+        - develop
+        template: Seam
+      university:
+        branches:
+        - master
+        template: Seam
+      validation:
+        branches:
+        - develop
+        template: Seam
+      validation-as-fork:
+        branches:
+        - master
+        template: Seam
+      wicket:
+        branches:
+        - develop
+        template: Seam
+      xwidgets:
+        branches:
+        - master
+        template: Seam

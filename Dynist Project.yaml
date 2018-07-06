@@ -1,0 +1,60 @@
+project-templates:
+  Dynist Project:
+    branches:
+    - master
+    gitweb: https://github.com/dyninst/%(name)s/commit/%%(sha)s
+    tags:
+    - Development
+    uri: https://github.com/dyninst/%(name)s
+projects:
+  Dynist Project:
+    description: The Paradyn Performance Consultant
+    repos:
+      docs:
+        branches:
+        - master
+        template: Dynist Project
+      dyninst:
+        branches:
+        - master
+        template: Dynist Project
+      mrnet:
+        branches:
+        - master
+        template: Dynist Project
+      mutators:
+        branches:
+        - master
+        template: Dynist Project
+      packagers:
+        branches:
+        - master
+        template: Dynist Project
+      paradyn:
+        branches:
+        - master
+        template: Dynist Project
+      scalable_tools_workshop:
+        branches:
+        - master
+        template: Dynist Project
+      scripts:
+        branches:
+        - master
+        template: Dynist Project
+      spi:
+        branches:
+        - master
+        template: Dynist Project
+      testsuite:
+        branches:
+        - master
+        template: Dynist Project
+      toolchain-origin:
+        branches:
+        - master
+        template: Dynist Project
+      tools:
+        branches:
+        - master
+        template: Dynist Project

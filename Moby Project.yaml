@@ -1,0 +1,53 @@
+project-templates:
+  Moby Project:
+    branches:
+    - master
+    gitweb: https://github.com/moby/%(name)s/commit/%%(sha)s
+    tags:
+    - Operations
+    uri: https://github.com/moby/%(name)s
+projects:
+  Moby Project:
+    description: A collaborative project for the container ecosystem to assemble container-based
+      systems
+    repos:
+      buildkit:
+        branches:
+        - master
+        template: Moby Project
+      datakit:
+        branches:
+        - master
+        template: Moby Project
+      datakit.logs:
+        branches:
+        - master
+        template: Moby Project
+      hyperkit:
+        branches:
+        - master
+        template: Moby Project
+      libentitlement:
+        branches:
+        - master
+        template: Moby Project
+      moby:
+        branches:
+        - master
+        template: Moby Project
+      mobywebsite:
+        branches:
+        - master
+        template: Moby Project
+      tool:
+        branches:
+        - master
+        template: Moby Project
+      tsc:
+        branches:
+        - master
+        template: Moby Project
+      vpnkit:
+        branches:
+        - master
+        template: Moby Project

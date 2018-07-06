@@ -1,0 +1,57 @@
+project-templates:
+  jboss-logging:
+    branches:
+    - master
+    gitweb: https://github.com/jboss-logging/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/jboss-logging/%(name)s
+projects:
+  jboss-logging:
+    description: JBoss Logging is a logging bridge providing integration with numerous
+      logging frameworks
+    repos:
+      commons-logging-jboss-logging:
+        branches:
+        - master
+        template: jboss-logging
+      commons-logging-jboss-logmanager:
+        branches:
+        - master
+        template: jboss-logging
+      jboss-log4j-compat:
+        branches:
+        - master
+        template: jboss-logging
+      jboss-logging:
+        branches:
+        - master
+        template: jboss-logging
+      jboss-logging-tools:
+        branches:
+        - master
+        template: jboss-logging
+      jboss-logmanager:
+        branches:
+        - master
+        template: jboss-logging
+      jboss-stdio:
+        branches:
+        - master
+        template: jboss-logging
+      jul-to-slf4j-stub:
+        branches:
+        - master
+        template: jboss-logging
+      log4j-jboss-logmanager:
+        branches:
+        - master
+        template: jboss-logging
+      slf4j-jboss-logging:
+        branches:
+        - master
+        template: jboss-logging
+      slf4j-jboss-logmanager:
+        branches:
+        - master
+        template: jboss-logging

@@ -1,0 +1,84 @@
+project-templates:
+  LibreOffice:
+    branches:
+    - master
+    gitweb: https://github.com/libreoffice/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/libreoffice/%(name)s
+projects:
+  LibreOffice:
+    description: An integrated office suite based on copyleft licenses.
+    repos:
+      OmegaT:
+        branches:
+        - master
+        template: LibreOffice
+      core:
+        branches:
+        - master
+        template: LibreOffice
+      dictionaries:
+        branches:
+        - master
+        template: LibreOffice
+      gnu-make-lo:
+        branches:
+        - master
+        template: LibreOffice
+      help:
+        branches:
+        - master
+        template: LibreOffice
+      impress_remote:
+        branches:
+        - master
+        template: LibreOffice
+      libabw:
+        branches:
+        - master
+        template: LibreOffice
+      libcdr:
+        branches:
+        - master
+        template: LibreOffice
+      libetonyek:
+        branches:
+        - master
+        template: LibreOffice
+      libexttextcat:
+        branches:
+        - master
+        template: LibreOffice
+      libfreehand:
+        branches:
+        - master
+        template: LibreOffice
+      libmspub:
+        branches:
+        - master
+        template: LibreOffice
+      libvisio:
+        branches:
+        - master
+        template: LibreOffice
+      loeclipse:
+        branches:
+        - master
+        template: LibreOffice
+      mso-dumper:
+        branches:
+        - master
+        template: LibreOffice
+      noa-libre:
+        branches:
+        - master
+        template: LibreOffice
+      online:
+        branches:
+        - master
+        template: LibreOffice
+      translations:
+        branches:
+        - master
+        template: LibreOffice

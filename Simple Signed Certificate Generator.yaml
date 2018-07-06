@@ -1,0 +1,16 @@
+project-templates:
+  Simple Signed Certificate Generator:
+    branches:
+    - master
+    gitweb: https://github.com/sgallagher/%(name)s/commit/%%(sha)s
+    tags:
+    - Platform
+    uri: https://github.com/sgallagher/%(name)s
+projects:
+  Simple Signed Certificate Generator:
+    description: Simple SSL certificate generator
+    repos:
+      sscg:
+        branches:
+        - master
+        template: Simple Signed Certificate Generator

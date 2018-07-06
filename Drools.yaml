@@ -1,0 +1,18 @@
+project-templates:
+  Drools:
+    branches:
+    - master
+    gitweb: https://github.com/kiegroup/%(name)s/commit/%%(sha)s
+    tags:
+    - Middleware
+    uri: https://github.com/kiegroup/%(name)s
+projects:
+  Drools:
+    description: Business rule management system with a forward-chaining and backward-chaining
+      inference based rules engine, allowing fast and reliable evaluation of business
+      rules and complex event processing
+    repos:
+      drools:
+        branches:
+        - master
+        template: Drools

@@ -1,0 +1,7 @@
+---
+groups:
+  RedHat:
+    description: Contributions from Red Hat
+    emails: {}
+    domains:
+      - redhat.com

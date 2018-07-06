@@ -1,0 +1,6 @@
+---
+
+# This platform fetch identities data from the IDP (Github).
+# So do not edit that file.
+
+identities: {}

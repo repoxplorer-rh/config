@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/ophicleide/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/ophicleide/%(name)s
 projects:
   ophicleide:

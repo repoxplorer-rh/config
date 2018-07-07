@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/rht-labs/%(name)s/commit/%%(sha)s
-    tags:
-    - Organizations
     uri: https://github.com/rht-labs/%(name)s
 projects:
   Open Practice Library:

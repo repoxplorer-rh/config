@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/RHElements/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/RHElements/%(name)s
 projects:
   RHElements:

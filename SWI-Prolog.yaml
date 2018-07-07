@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/SWI-Prolog/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/SWI-Prolog/%(name)s
 projects:
   SWI-Prolog:

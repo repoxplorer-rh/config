@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/python/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/python/%(name)s
 projects:
   Python:

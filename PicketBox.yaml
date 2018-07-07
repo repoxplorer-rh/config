@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/picketbox/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/picketbox/%(name)s
 projects:
   PicketBox:

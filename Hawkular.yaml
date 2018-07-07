@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/hawkular/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/hawkular/%(name)s
 projects:
   Hawkular:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: http://github.com/redhat-qe-security/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: http://github.com/redhat-qe-security/%(name)s
 projects:
   Red Hat QE Security:

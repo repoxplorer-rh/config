@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/fabric8io/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/fabric8io/%(name)s
 projects:
   fabric8:

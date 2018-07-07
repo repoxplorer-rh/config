@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/jboss-remoting/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/jboss-remoting/%(name)s
 projects:
   JBoss Remoting:

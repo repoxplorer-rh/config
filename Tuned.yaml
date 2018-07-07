@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/redhat-performance/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/redhat-performance/%(name)s
 projects:
   Tuned:

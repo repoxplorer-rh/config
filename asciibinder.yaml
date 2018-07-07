@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/redhataccess/%(name)s/commit/%%(sha)s
-    tags:
-    - Documentation
     uri: https://github.com/redhataccess/%(name)s
 projects:
   asciibinder:

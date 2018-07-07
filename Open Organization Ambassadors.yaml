@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/open-organization-ambassadors/%(name)s/commit/%%(sha)s
-    tags:
-    - Organizations
     uri: https://github.com/open-organization-ambassadors/%(name)s
 projects:
   Open Organization Ambassadors:

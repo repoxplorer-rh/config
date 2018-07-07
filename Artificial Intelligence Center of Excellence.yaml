@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/AICoE/%(name)s/commit/%%(sha)s
-    tags:
-    - Organizations
     uri: https://github.com/AICoE/%(name)s
 projects:
   Artificial Intelligence Center of Excellence:

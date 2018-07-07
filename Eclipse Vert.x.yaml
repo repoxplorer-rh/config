@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/vert-x3/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/vert-x3/%(name)s
 projects:
   Eclipse Vert.x:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/rook/%(name)s/commit/%%(sha)s
-    tags:
-    - Storage
     uri: https://github.com/rook/%(name)s
 projects:
   Rook:

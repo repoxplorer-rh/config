@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/bmr-cymru/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/bmr-cymru/%(name)s
 projects:
   boom:

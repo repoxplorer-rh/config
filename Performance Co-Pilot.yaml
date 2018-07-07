@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/performancecopilot/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/performancecopilot/%(name)s
 projects:
   Performance Co-Pilot:

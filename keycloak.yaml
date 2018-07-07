@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/keycloak/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/keycloak/%(name)s
 projects:
   keycloak:

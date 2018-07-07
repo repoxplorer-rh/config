@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/tomato42/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/tomato42/%(name)s
 projects:
   tlsfuzzer:

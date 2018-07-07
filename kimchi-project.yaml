@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/kimchi-project/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/kimchi-project/%(name)s
 projects:
   kimchi-project:

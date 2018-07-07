@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/varlink/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/varlink/%(name)s
 projects:
   varlink:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/darcy-framework/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/darcy-framework/%(name)s
 projects:
   darcy framework:

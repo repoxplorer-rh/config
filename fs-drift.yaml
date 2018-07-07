@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/parallel-fs-utils/fs-drift/commits/%(name)s/commit/%%(sha)s
-    tags:
-    - Storage
     uri: https://github.com/parallel-fs-utils/fs-drift/commits/%(name)s
 projects:
   fs-drift:

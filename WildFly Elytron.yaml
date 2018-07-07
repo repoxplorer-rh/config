@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/wildfly-security/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/wildfly-security/%(name)s
 projects:
   WildFly Elytron:

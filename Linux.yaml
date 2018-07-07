@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/torvalds/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/torvalds/%(name)s
 projects:
   Linux:

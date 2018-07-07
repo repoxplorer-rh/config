@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/aeolusproject/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/aeolusproject/%(name)s
 projects:
   Aeolus Project:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/redhat-documentation/%(name)s/commit/%%(sha)s
-    tags:
-    - Documentation
     uri: https://github.com/redhat-documentation/%(name)s
 projects:
   Red Hat Documentation:

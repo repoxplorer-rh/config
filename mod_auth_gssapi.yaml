@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/modauthgssapi/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/modauthgssapi/%(name)s
 projects:
   mod_auth_gssapi:

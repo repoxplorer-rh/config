@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/up2date/%(name)s/commit/%%(sha)s
-    tags:
-    - Platform
     uri: https://github.com/up2date/%(name)s
 projects:
   Red Hat Update Agent:

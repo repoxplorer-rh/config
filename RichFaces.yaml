@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/richfaces/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/richfaces/%(name)s
 projects:
   RichFaces:

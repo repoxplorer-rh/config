@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/DBuildService/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/DBuildService/%(name)s
 projects:
   DBuildService:

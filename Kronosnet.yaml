@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/kronosnet/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/kronosnet/%(name)s
 projects:
   Kronosnet:

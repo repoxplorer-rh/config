@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/dm-vdo/%(name)s/commit/%%(sha)s
-    tags:
-    - Storage
     uri: https://github.com/dm-vdo/%(name)s
 projects:
   dm-vdo:

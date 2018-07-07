@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/jesperpedersen/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/jesperpedersen/%(name)s
 projects:
   Tattletale:

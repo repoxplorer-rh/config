@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/jbossorg/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/jbossorg/%(name)s
 projects:
   JBoss Community:

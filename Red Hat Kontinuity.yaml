@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/redhat-kontinuity/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/redhat-kontinuity/%(name)s
 projects:
   Red Hat Kontinuity:

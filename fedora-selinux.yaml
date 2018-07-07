@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/fedora-selinux/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/fedora-selinux/%(name)s
 projects:
   fedora-selinux:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/strimzi/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/strimzi/%(name)s
 projects:
   Strimsi:

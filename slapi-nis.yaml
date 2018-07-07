@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/gooselinux/%(name)s/commit/%%(sha)s
-    tags:
-    - Operations
     uri: https://github.com/gooselinux/%(name)s
 projects:
   slapi-nis:

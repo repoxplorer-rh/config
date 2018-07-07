@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/jbdevstudio/%(name)s/commit/%%(sha)s
-    tags:
-    - Middleware
     uri: https://github.com/jbdevstudio/%(name)s
 projects:
   JBoss Developer Studio:

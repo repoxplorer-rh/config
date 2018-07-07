@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/jbossdemocentral/%(name)s/commit/%%(sha)s
-    tags:
-    - Organizations
     uri: https://github.com/jbossdemocentral/%(name)s
 projects:
   JBoss Demo Central:

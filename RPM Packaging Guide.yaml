@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/redhat-developer/%(name)s/commit/%%(sha)s
-    tags:
-    - Documentation
     uri: https://github.com/redhat-developer/%(name)s
 projects:
   RPM Packaging Guide:

@@ -3,8 +3,6 @@ project-templates:
     branches:
     - master
     gitweb: https://github.com/avocado-framework/%(name)s/commit/%%(sha)s
-    tags:
-    - Development
     uri: https://github.com/avocado-framework/%(name)s
 projects:
   Avocado:

@@ -1,7 +1,48 @@
 ---
 groups:
-  RedHat:
+  Red Hat:
     description: Contributions from Red Hat
     emails: {}
     domains:
       - redhat.com
+      - enovance.com
+      - gluster.com
+      - ansible.com
+  Suse:
+    description: Contributions from Suse
+    emails: {}
+    domains:
+      - suse.com
+      - suse.de
+      - suse.cz
+  Cisco:
+    description: Contributions from Cisco
+    emails: {}
+    domains:
+      - cisco.com
+  Google:
+    description: Contributions from Google
+    emails: {}
+    domains:
+      - google.com
+  Microsoft:
+    description: Contributions from Microsoft
+    emails: {}
+    domains:
+      - microsoft.com
+  Hewlett Packard:
+    description: Contributions from Hewlett Packard
+    emails: {}
+    domains:
+      - hp.com
+      - hpe.com
+  Canonical:
+    description: Contributions from Canonical
+    emails: {}
+    domains:
+      - canonical.com
+  Intel:
+    description: Contributions from Intel
+    emails: {}
+    domains:
+      - intel.com

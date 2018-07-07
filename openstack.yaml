@@ -1,0 +1,3360 @@
+project-templates:
+  openstack:
+    branches:
+    - master
+    gitweb: http://github.com/openstack/%(name)s/commit/%%(sha)s
+    uri: http://github.com/openstack/%(name)s
+projects:
+  openstack:
+    description: The openstack Github organization
+    repos:
+      adjutant:
+        template: openstack
+      adjutant-ui:
+        template: openstack
+      aeromancer:
+        template: openstack
+      ailuropoda:
+        template: openstack
+      airship-armada:
+        template: openstack
+      airship-berth:
+        template: openstack
+      airship-deckhand:
+        template: openstack
+      airship-divingbell:
+        template: openstack
+      airship-drydock:
+        template: openstack
+      airship-in-a-bottle:
+        template: openstack
+      airship-maas:
+        template: openstack
+      airship-pegleg:
+        template: openstack
+      airship-promenade:
+        template: openstack
+      airship-shipyard:
+        template: openstack
+      alexandria:
+        template: openstack
+      almanach:
+        template: openstack
+      anchor:
+        template: openstack
+      ansible-config_template:
+        template: openstack
+      ansible-hardening:
+        template: openstack
+      ansible-role-ara:
+        template: openstack
+      ansible-role-bindep:
+        template: openstack
+      ansible-role-carbon:
+        template: openstack
+      ansible-role-cloud-launcher:
+        template: openstack
+      ansible-role-container-registry:
+        template: openstack
+      ansible-role-diskimage-builder:
+        template: openstack
+      ansible-role-fedmsg:
+        template: openstack
+      ansible-role-gearman:
+        template: openstack
+      ansible-role-grafyaml:
+        template: openstack
+      ansible-role-jenkins:
+        template: openstack
+      ansible-role-jenkins-job-builder:
+        template: openstack
+      ansible-role-jenkins-plugins:
+        template: openstack
+      ansible-role-k8s-cinder:
+        template: openstack
+      ansible-role-k8s-cookiecutter:
+        template: openstack
+      ansible-role-k8s-glance:
+        template: openstack
+      ansible-role-k8s-keystone:
+        template: openstack
+      ansible-role-k8s-mariadb:
+        template: openstack
+      ansible-role-k8s-rabbitmq:
+        template: openstack
+      ansible-role-k8s-tripleo:
+        template: openstack
+      ansible-role-logrotate:
+        template: openstack
+      ansible-role-nginx:
+        template: openstack
+      ansible-role-nodepool:
+        template: openstack
+      ansible-role-openstacksdk:
+        template: openstack
+      ansible-role-python_venv_build:
+        template: openstack
+      ansible-role-qdrouterd:
+        template: openstack
+      ansible-role-redhat-subscription:
+        template: openstack
+      ansible-role-shade:
+        template: openstack
+      ansible-role-ssh:
+        template: openstack
+      ansible-role-statsd:
+        template: openstack
+      ansible-role-sudoers:
+        template: openstack
+      ansible-role-systemd_mount:
+        template: openstack
+      ansible-role-systemd_networkd:
+        template: openstack
+      ansible-role-systemd_service:
+        template: openstack
+      ansible-role-tripleo-keystone:
+        template: openstack
+      ansible-role-tripleo-modify-image:
+        template: openstack
+      ansible-role-virtualenv:
+        template: openstack
+      ansible-role-whisper:
+        template: openstack
+      ansible-role-zookeeper:
+        template: openstack
+      ansible-role-zuul:
+        template: openstack
+      anvil:
+        template: openstack
+      aodh:
+        template: openstack
+      api-site:
+        template: openstack
+      api-wg:
+        template: openstack
+      apmec:
+        template: openstack
+      apmec-horizon:
+        template: openstack
+      app-catalog:
+        template: openstack
+      app-catalog-common:
+        template: openstack
+      app-catalog-ui:
+        template: openstack
+      ara:
+        template: openstack
+      ara-clients:
+        template: openstack
+      ara-plugins:
+        template: openstack
+      ara-server:
+        template: openstack
+      ara-web:
+        template: openstack
+      arch-wg:
+        template: openstack
+      astara:
+        template: openstack
+      astara-appliance:
+        template: openstack
+      astara-horizon:
+        template: openstack
+      astara-neutron:
+        template: openstack
+      automaton:
+        template: openstack
+      bandit:
+        template: openstack
+      bansho:
+        template: openstack
+      barbican:
+        template: openstack
+      barbican-specs:
+        template: openstack
+      barbican-tempest-plugin:
+        template: openstack
+      bareon:
+        template: openstack
+      bareon-allocator:
+        template: openstack
+      bareon-api:
+        template: openstack
+      bareon-image-elements:
+        template: openstack
+      bareon-ironic:
+        template: openstack
+      bareon-specs:
+        template: openstack
+      bifrost:
+        template: openstack
+      bilean:
+        template: openstack
+      blazar:
+        template: openstack
+      blazar-dashboard:
+        template: openstack
+      blazar-nova:
+        template: openstack
+      blazar-tempest-plugin:
+        template: openstack
+      boartty:
+        template: openstack
+      broadview-collector:
+        template: openstack
+      broadview-lib:
+        template: openstack
+      broadview-ui:
+        template: openstack
+      browbeat:
+        template: openstack
+      castellan:
+        template: openstack
+      castellan-ui:
+        template: openstack
+      cathead:
+        template: openstack
+      ceilometer:
+        template: openstack
+      ceilometer-powervm:
+        template: openstack
+      ceilometer-zvm:
+        template: openstack
+      ceilometermiddleware:
+        template: openstack
+      cerberus:
+        template: openstack
+      cerberus-dashboard:
+        template: openstack
+      certbot-dns-openstack:
+        template: openstack
+      charm-6wind-virtual-accelerator:
+        template: openstack
+      charm-aodh:
+        template: openstack
+      charm-barbican:
+        template: openstack
+      charm-barbican-softhsm:
+        template: openstack
+      charm-ceilometer:
+        template: openstack
+      charm-ceilometer-agent:
+        template: openstack
+      charm-ceph:
+        template: openstack
+      charm-ceph-fs:
+        template: openstack
+      charm-ceph-mon:
+        template: openstack
+      charm-ceph-osd:
+        template: openstack
+      charm-ceph-proxy:
+        template: openstack
+      charm-ceph-radosgw:
+        template: openstack
+      charm-cinder:
+        template: openstack
+      charm-cinder-backup:
+        template: openstack
+      charm-cinder-ceph:
+        template: openstack
+      charm-cloudkitty:
+        template: openstack
+      charm-deployment-guide:
+        template: openstack
+      charm-designate:
+        template: openstack
+      charm-designate-bind:
+        template: openstack
+      charm-glance:
+        template: openstack
+      charm-glance-simplestreams-sync:
+        template: openstack
+      charm-glusterfs:
+        template: openstack
+      charm-gnocchi:
+        template: openstack
+      charm-guide:
+        template: openstack
+      charm-hacluster:
+        template: openstack
+      charm-heat:
+        template: openstack
+      charm-interface-barbican-hsm:
+        template: openstack
+      charm-interface-bgp:
+        template: openstack
+      charm-interface-bind-rndc:
+        template: openstack
+      charm-interface-ceph-client:
+        template: openstack
+      charm-interface-ceph-mds:
+        template: openstack
+      charm-interface-designate:
+        template: openstack
+      charm-interface-gnocchi:
+        template: openstack
+      charm-interface-hacluster:
+        template: openstack
+      charm-interface-keystone:
+        template: openstack
+      charm-interface-keystone-admin:
+        template: openstack
+      charm-interface-keystone-credentials:
+        template: openstack
+      charm-interface-keystone-domain-backend:
+        template: openstack
+      charm-interface-manila-plugin:
+        template: openstack
+      charm-interface-mysql-shared:
+        template: openstack
+      charm-interface-neutron-plugin:
+        template: openstack
+      charm-interface-neutron-plugin-api-subordinate:
+        template: openstack
+      charm-interface-odl-controller-api:
+        template: openstack
+      charm-interface-openstack-ha:
+        template: openstack
+      charm-interface-ovsdb-manager:
+        template: openstack
+      charm-interface-rabbitmq:
+        template: openstack
+      charm-interface-service-control:
+        template: openstack
+      charm-ironic:
+        template: openstack
+      charm-keystone:
+        template: openstack
+      charm-keystone-ldap:
+        template: openstack
+      charm-layer-ceph-base:
+        template: openstack
+      charm-layer-openstack:
+        template: openstack
+      charm-layer-openstack-api:
+        template: openstack
+      charm-layer-openstack-principle:
+        template: openstack
+      charm-lxd:
+        template: openstack
+      charm-manila:
+        template: openstack
+      charm-manila-generic:
+        template: openstack
+      charm-manila-glusterfs:
+        template: openstack
+      charm-mistral:
+        template: openstack
+      charm-murano:
+        template: openstack
+      charm-neutron-api:
+        template: openstack
+      charm-neutron-api-genericswitch:
+        template: openstack
+      charm-neutron-api-odl:
+        template: openstack
+      charm-neutron-api-plumgrid:
+        template: openstack
+      charm-neutron-dynamic-routing:
+        template: openstack
+      charm-neutron-gateway:
+        template: openstack
+      charm-neutron-openvswitch:
+        template: openstack
+      charm-nova-cloud-controller:
+        template: openstack
+      charm-nova-compute:
+        template: openstack
+      charm-nova-compute-proxy:
+        template: openstack
+      charm-odl-controller:
+        template: openstack
+      charm-openstack-dashboard:
+        template: openstack
+      charm-openvswitch-odl:
+        template: openstack
+      charm-panko:
+        template: openstack
+      charm-percona-cluster:
+        template: openstack
+      charm-plumgrid-director:
+        template: openstack
+      charm-plumgrid-edge:
+        template: openstack
+      charm-plumgrid-gateway:
+        template: openstack
+      charm-rabbitmq-server:
+        template: openstack
+      charm-specs:
+        template: openstack
+      charm-swift-proxy:
+        template: openstack
+      charm-swift-storage:
+        template: openstack
+      charm-tempest:
+        template: openstack
+      charm-trove:
+        template: openstack
+      charm-vault:
+        template: openstack
+      charms.ceph:
+        template: openstack
+      charms.openstack:
+        template: openstack
+      ci-cd-pipeline-app-murano:
+        template: openstack
+      cinder:
+        template: openstack
+      cinder-fusioncompute:
+        template: openstack
+      cinder-specs:
+        template: openstack
+      cinder-tempest-plugin:
+        template: openstack
+      cisco-ironic-contrib:
+        template: openstack
+      cl-openstack-client:
+        template: openstack
+      cliff:
+        template: openstack
+      cloud-init:
+        template: openstack
+      cloudbase-init:
+        template: openstack
+      cloudcafe:
+        template: openstack
+      clouddocs-maven-plugin:
+        template: openstack
+      cloudkitty:
+        template: openstack
+      cloudkitty-dashboard:
+        template: openstack
+      cloudkitty-specs:
+        template: openstack
+      cloudkitty-tempest-plugin:
+        template: openstack
+      cloudpulse:
+        template: openstack
+      cloudroast:
+        template: openstack
+      cloudv-ostf-adapter:
+        template: openstack
+      cognitive:
+        template: openstack
+      collectd-openstack-plugins:
+        template: openstack
+      compass-adapters:
+        template: openstack
+      compass-core:
+        template: openstack
+      compass-install:
+        template: openstack
+      compass-specs:
+        template: openstack
+      compass-web:
+        template: openstack
+      compute-hyperv:
+        template: openstack
+      congress:
+        template: openstack
+      congress-dashboard:
+        template: openstack
+      congress-specs:
+        template: openstack
+      congress-tempest-plugin:
+        template: openstack
+      constellations:
+        template: openstack
+      contributor-guide:
+        template: openstack
+      conveyor:
+        template: openstack
+      cookbook-openstack-application-catalog:
+        template: openstack
+      cookbook-openstack-bare-metal:
+        template: openstack
+      cookbook-openstack-block-storage:
+        template: openstack
+      cookbook-openstack-client:
+        template: openstack
+      cookbook-openstack-common:
+        template: openstack
+      cookbook-openstack-compute:
+        template: openstack
+      cookbook-openstack-dashboard:
+        template: openstack
+      cookbook-openstack-data-processing:
+        template: openstack
+      cookbook-openstack-database:
+        template: openstack
+      cookbook-openstack-dns:
+        template: openstack
+      cookbook-openstack-identity:
+        template: openstack
+      cookbook-openstack-image:
+        template: openstack
+      cookbook-openstack-integration-test:
+        template: openstack
+      cookbook-openstack-network:
+        template: openstack
+      cookbook-openstack-object-storage:
+        template: openstack
+      cookbook-openstack-ops-database:
+        template: openstack
+      cookbook-openstack-ops-messaging:
+        template: openstack
+      cookbook-openstack-orchestration:
+        template: openstack
+      cookbook-openstack-telemetry:
+        template: openstack
+      cookbook-openstackclient:
+        template: openstack
+      coreos-image-builder:
+        template: openstack
+      coupler:
+        template: openstack
+      coverage2sql:
+        template: openstack
+      craton:
+        template: openstack
+      craton-dashboard:
+        template: openstack
+      cue:
+        template: openstack
+      cue-dashboard:
+        template: openstack
+      cursive:
+        template: openstack
+      cyborg:
+        template: openstack
+      cyborg-specs:
+        template: openstack
+      daisycloud-core:
+        template: openstack
+      dash-stack:
+        template: openstack
+      deb-alembic:
+        template: openstack
+      deb-aodh:
+        template: openstack
+      deb-auto-backports:
+        template: openstack
+      deb-bandit:
+        template: openstack
+      deb-barbican:
+        template: openstack
+      deb-ceilometer:
+        template: openstack
+      deb-ceilometermiddleware:
+        template: openstack
+      deb-cinder:
+        template: openstack
+      deb-congress:
+        template: openstack
+      deb-designate:
+        template: openstack
+      deb-designate-dashboard:
+        template: openstack
+      deb-fonts-materialdesignicons-webfont:
+        template: openstack
+      deb-fonts-roboto-fontface:
+        template: openstack
+      deb-git-review:
+        template: openstack
+      deb-glance:
+        template: openstack
+      deb-glare:
+        template: openstack
+      deb-gnocchi:
+        template: openstack
+      deb-heat:
+        template: openstack
+      deb-heat-cfntools:
+        template: openstack
+      deb-horizon:
+        template: openstack
+      deb-ironic:
+        template: openstack
+      deb-ironic-inspector:
+        template: openstack
+      deb-ironic-ui:
+        template: openstack
+      deb-kazoo:
+        template: openstack
+      deb-keystone:
+        template: openstack
+      deb-liberasurecode:
+        template: openstack
+      deb-libisal:
+        template: openstack
+      deb-magnum:
+        template: openstack
+      deb-manila:
+        template: openstack
+      deb-manila-ui:
+        template: openstack
+      deb-migrate:
+        template: openstack
+      deb-mistral:
+        template: openstack
+      deb-msgpack-python:
+        template: openstack
+      deb-murano:
+        template: openstack
+      deb-murano-agent:
+        template: openstack
+      deb-murano-dashboard:
+        template: openstack
+      deb-networking-arista:
+        template: openstack
+      deb-networking-cisco:
+        template: openstack
+      deb-networking-hyperv:
+        template: openstack
+      deb-networking-l2gw:
+        template: openstack
+      deb-networking-midonet:
+        template: openstack
+      deb-networking-mlnx:
+        template: openstack
+      deb-networking-nec:
+        template: openstack
+      deb-networking-odl:
+        template: openstack
+      deb-networking-ovn:
+        template: openstack
+      deb-neutron:
+        template: openstack
+      deb-neutron-fwaas:
+        template: openstack
+      deb-neutron-lbaas:
+        template: openstack
+      deb-neutron-taas:
+        template: openstack
+      deb-neutron-vpnaas:
+        template: openstack
+      deb-nodepool:
+        template: openstack
+      deb-nova:
+        template: openstack
+      deb-novnc:
+        template: openstack
+      deb-openstack-doc-tools:
+        template: openstack
+      deb-openstack-meta-packages:
+        template: openstack
+      deb-openstack-nose:
+        template: openstack
+      deb-openstack-pkg-tools:
+        branches:
+        - debian/liberty
+        template: openstack
+      deb-openstack-trove:
+        template: openstack
+      deb-os-apply-config:
+        template: openstack
+      deb-os-brick:
+        template: openstack
+      deb-os-client-config:
+        template: openstack
+      deb-os-cloud-config:
+        template: openstack
+      deb-os-collect-config:
+        template: openstack
+      deb-os-net-config:
+        template: openstack
+      deb-os-refresh-config:
+        template: openstack
+      deb-os-testr:
+        template: openstack
+      deb-os-vif:
+        template: openstack
+      deb-os-win:
+        template: openstack
+      deb-oslo.cache:
+        template: openstack
+      deb-oslo.concurrency:
+        template: openstack
+      deb-oslo.config:
+        template: openstack
+      deb-oslo.context:
+        template: openstack
+      deb-oslo.db:
+        template: openstack
+      deb-oslo.i18n:
+        template: openstack
+      deb-oslo.log:
+        template: openstack
+      deb-oslo.messaging:
+        template: openstack
+      deb-oslo.middleware:
+        template: openstack
+      deb-oslo.policy:
+        template: openstack
+      deb-oslo.privsep:
+        template: openstack
+      deb-oslo.reports:
+        template: openstack
+      deb-oslo.rootwrap:
+        template: openstack
+      deb-oslo.serialization:
+        template: openstack
+      deb-oslo.service:
+        template: openstack
+      deb-oslo.utils:
+        template: openstack
+      deb-oslo.versionedobjects:
+        template: openstack
+      deb-oslo.vmware:
+        template: openstack
+      deb-oslosphinx:
+        template: openstack
+      deb-oslotest:
+        template: openstack
+      deb-python-aioeventlet:
+        template: openstack
+      deb-python-aodhclient:
+        template: openstack
+      deb-python-autobahn:
+        template: openstack
+      deb-python-automaton:
+        template: openstack
+      deb-python-barbicanclient:
+        template: openstack
+      deb-python-bashate:
+        template: openstack
+      deb-python-cassandra-driver:
+        template: openstack
+      deb-python-castellan:
+        template: openstack
+      deb-python-ceilometerclient:
+        template: openstack
+      deb-python-ceilometermiddleware:
+        template: openstack
+      deb-python-cinderclient:
+        template: openstack
+      deb-python-cliff:
+        template: openstack
+      deb-python-coffin:
+        template: openstack
+      deb-python-colander:
+        template: openstack
+      deb-python-concurrent.futures:
+        template: openstack
+      deb-python-congressclient:
+        template: openstack
+      deb-python-cotyledon:
+        template: openstack
+      deb-python-couleur:
+        template: openstack
+      deb-python-crank:
+        template: openstack
+      deb-python-croniter:
+        template: openstack
+      deb-python-csscompressor:
+        template: openstack
+      deb-python-cursive:
+        template: openstack
+      deb-python-daemonize:
+        template: openstack
+      deb-python-dcos:
+        template: openstack
+      deb-python-ddt:
+        template: openstack
+      deb-python-debtcollector:
+        template: openstack
+      deb-python-designateclient:
+        template: openstack
+      deb-python-dib-utils:
+        template: openstack
+      deb-python-diskimage-builder:
+        template: openstack
+      deb-python-django-appconf:
+        template: openstack
+      deb-python-django-babel:
+        template: openstack
+      deb-python-django-bootstrap-form:
+        template: openstack
+      deb-python-django-compressor:
+        template: openstack
+      deb-python-django-discover-runner:
+        template: openstack
+      deb-python-django-formtools:
+        template: openstack
+      deb-python-django-openstack-auth:
+        template: openstack
+      deb-python-django-overextends:
+        template: openstack
+      deb-python-django-pyscss:
+        template: openstack
+      deb-python-doc8:
+        template: openstack
+      deb-python-dogpile.cache:
+        template: openstack
+      deb-python-dogpile.core:
+        template: openstack
+      deb-python-editor:
+        template: openstack
+      deb-python-eventlet:
+        template: openstack
+      deb-python-extras:
+        template: openstack
+      deb-python-falcon:
+        template: openstack
+      deb-python-fasteners:
+        template: openstack
+      deb-python-fixtures:
+        template: openstack
+      deb-python-frozendict:
+        template: openstack
+      deb-python-fuelclient:
+        template: openstack
+      deb-python-funcsigs:
+        template: openstack
+      deb-python-functools32:
+        template: openstack
+      deb-python-futurist:
+        template: openstack
+      deb-python-gabbi:
+        template: openstack
+      deb-python-glance-store:
+        template: openstack
+      deb-python-glanceclient:
+        template: openstack
+      deb-python-gnocchiclient:
+        template: openstack
+      deb-python-greenio:
+        template: openstack
+      deb-python-hacking:
+        template: openstack
+      deb-python-happybase:
+        template: openstack
+      deb-python-heatclient:
+        template: openstack
+      deb-python-hplefthandclient:
+        template: openstack
+      deb-python-httpretty:
+        template: openstack
+      deb-python-ironic-inspector-client:
+        template: openstack
+      deb-python-ironic-lib:
+        template: openstack
+      deb-python-ironicclient:
+        template: openstack
+      deb-python-jingo:
+        template: openstack
+      deb-python-json-patch:
+        template: openstack
+      deb-python-json-pointer:
+        template: openstack
+      deb-python-jsonpath-rw:
+        template: openstack
+      deb-python-jsonpath-rw-ext:
+        template: openstack
+      deb-python-jsonrpclib:
+        template: openstack
+      deb-python-jsonschema:
+        template: openstack
+      deb-python-k8sclient:
+        template: openstack
+      deb-python-kafka:
+        template: openstack
+      deb-python-keystoneauth1:
+        template: openstack
+      deb-python-keystoneclient:
+        template: openstack
+      deb-python-keystonemiddleware:
+        template: openstack
+      deb-python-kmip:
+        template: openstack
+      deb-python-ldappool:
+        template: openstack
+      deb-python-lesscpy:
+        template: openstack
+      deb-python-linecache2:
+        template: openstack
+      deb-python-magnumclient:
+        template: openstack
+      deb-python-manilaclient:
+        template: openstack
+      deb-python-memcache:
+        template: openstack
+      deb-python-microversion-parse:
+        template: openstack
+      deb-python-misaka:
+        template: openstack
+      deb-python-mistralclient:
+        template: openstack
+      deb-python-monascaclient:
+        template: openstack
+      deb-python-monotonic:
+        template: openstack
+      deb-python-mox3:
+        template: openstack
+      deb-python-multi-key-dict:
+        template: openstack
+      deb-python-muranoclient:
+        template: openstack
+      deb-python-neutron-lib:
+        template: openstack
+      deb-python-neutronclient:
+        template: openstack
+      deb-python-nose-exclude:
+        template: openstack
+      deb-python-nose-parameterized:
+        template: openstack
+      deb-python-nose-timer:
+        template: openstack
+      deb-python-nosehtmloutput:
+        template: openstack
+      deb-python-novaclient:
+        template: openstack
+      deb-python-oauth2client:
+        template: openstack
+      deb-python-openstackclient:
+        template: openstack
+      deb-python-openstackdocstheme:
+        template: openstack
+      deb-python-openstacksdk:
+        template: openstack
+      deb-python-os-api-ref:
+        template: openstack
+      deb-python-os-apply-config:
+        template: openstack
+      deb-python-os-brick:
+        template: openstack
+      deb-python-os-client-config:
+        template: openstack
+      deb-python-os-cloud-config:
+        template: openstack
+      deb-python-os-collect-config:
+        template: openstack
+      deb-python-os-net-config:
+        template: openstack
+      deb-python-os-refresh-config:
+        template: openstack
+      deb-python-os-testr:
+        template: openstack
+      deb-python-os-vif:
+        template: openstack
+      deb-python-os-win:
+        template: openstack
+      deb-python-osc-lib:
+        template: openstack
+      deb-python-oslo.cache:
+        template: openstack
+      deb-python-oslo.concurrency:
+        template: openstack
+      deb-python-oslo.config:
+        template: openstack
+      deb-python-oslo.context:
+        template: openstack
+      deb-python-oslo.db:
+        template: openstack
+      deb-python-oslo.i18n:
+        template: openstack
+      deb-python-oslo.log:
+        template: openstack
+      deb-python-oslo.messaging:
+        template: openstack
+      deb-python-oslo.middleware:
+        template: openstack
+      deb-python-oslo.policy:
+        template: openstack
+      deb-python-oslo.privsep:
+        template: openstack
+      deb-python-oslo.reports:
+        template: openstack
+      deb-python-oslo.rootwrap:
+        template: openstack
+      deb-python-oslo.serialization:
+        template: openstack
+      deb-python-oslo.service:
+        template: openstack
+      deb-python-oslo.utils:
+        template: openstack
+      deb-python-oslo.versionedobjects:
+        template: openstack
+      deb-python-oslo.vmware:
+        template: openstack
+      deb-python-oslotest:
+        template: openstack
+      deb-python-osprofiler:
+        template: openstack
+      deb-python-pager:
+        template: openstack
+      deb-python-pbr:
+        template: openstack
+      deb-python-pecan:
+        template: openstack
+      deb-python-pika-pool:
+        template: openstack
+      deb-python-pint:
+        template: openstack
+      deb-python-positional:
+        template: openstack
+      deb-python-proliantutils:
+        template: openstack
+      deb-python-pulp:
+        template: openstack
+      deb-python-pycadf:
+        template: openstack
+      deb-python-pydot-ng:
+        template: openstack
+      deb-python-pydotplus:
+        template: openstack
+      deb-python-pyeclib:
+        template: openstack
+      deb-python-pyghmi:
+        template: openstack
+      deb-python-pygit2:
+        template: openstack
+      deb-python-pykmip:
+        template: openstack
+      deb-python-pyldap:
+        template: openstack
+      deb-python-pymemcache:
+        template: openstack
+      deb-python-pymysql:
+        template: openstack
+      deb-python-pyngus:
+        template: openstack
+      deb-python-pysaml2:
+        template: openstack
+      deb-python-pytimeparse:
+        template: openstack
+      deb-python-pyvmomi:
+        template: openstack
+      deb-python-quantumclient:
+        template: openstack
+      deb-python-rcssmin:
+        template: openstack
+      deb-python-rednose:
+        template: openstack
+      deb-python-reno:
+        template: openstack
+      deb-python-requestbuilder:
+        template: openstack
+      deb-python-requests-kerberos:
+        template: openstack
+      deb-python-requests-mock:
+        template: openstack
+      deb-python-requests-unixsocket:
+        template: openstack
+      deb-python-requestsexceptions:
+        template: openstack
+      deb-python-retrying:
+        template: openstack
+      deb-python-rfc3986:
+        template: openstack
+      deb-python-rjsmin:
+        template: openstack
+      deb-python-rtslib-fb:
+        template: openstack
+      deb-python-saharaclient:
+        template: openstack
+      deb-python-savannaclient:
+        template: openstack
+      deb-python-scciclient:
+        template: openstack
+      deb-python-seamicroclient:
+        template: openstack
+      deb-python-semantic-version:
+        template: openstack
+      deb-python-semver:
+        template: openstack
+      deb-python-senlinclient:
+        template: openstack
+      deb-python-shotgun:
+        template: openstack
+      deb-python-sqlalchemy-utils:
+        template: openstack
+      deb-python-steadymark:
+        template: openstack
+      deb-python-swiftclient:
+        template: openstack
+      deb-python-tackerclient:
+        template: openstack
+      deb-python-taskflow:
+        template: openstack
+      deb-python-tempest-lib:
+        template: openstack
+      deb-python-testtools:
+        template: openstack
+      deb-python-toml:
+        template: openstack
+      deb-python-tooz:
+        template: openstack
+      deb-python-tosca-parser:
+        template: openstack
+      deb-python-traceback2:
+        template: openstack
+      deb-python-trollius:
+        template: openstack
+      deb-python-troveclient:
+        template: openstack
+      deb-python-tuskarclient:
+        template: openstack
+      deb-python-txaio:
+        template: openstack
+      deb-python-warlock:
+        template: openstack
+      deb-python-watcherclient:
+        template: openstack
+      deb-python-weakrefmethod:
+        template: openstack
+      deb-python-websocket-client:
+        template: openstack
+      deb-python-wrapt:
+        template: openstack
+      deb-python-wsgi-intercept:
+        template: openstack
+      deb-python-wsme:
+        template: openstack
+      deb-python-xstatic:
+        template: openstack
+      deb-python-xstatic-angular:
+        template: openstack
+      deb-python-xstatic-angular-bootstrap:
+        template: openstack
+      deb-python-xstatic-angular-cookies:
+        template: openstack
+      deb-python-xstatic-angular-fileupload:
+        template: openstack
+      deb-python-xstatic-angular-gettext:
+        template: openstack
+      deb-python-xstatic-angular-lrdragndrop:
+        template: openstack
+      deb-python-xstatic-angular-mock:
+        template: openstack
+      deb-python-xstatic-angular-schema-form:
+        template: openstack
+      deb-python-xstatic-bootstrap-datepicker:
+        template: openstack
+      deb-python-xstatic-bootstrap-scss:
+        template: openstack
+      deb-python-xstatic-bootswatch:
+        template: openstack
+      deb-python-xstatic-d3:
+        template: openstack
+      deb-python-xstatic-font-awesome:
+        template: openstack
+      deb-python-xstatic-hogan:
+        template: openstack
+      deb-python-xstatic-jasmine:
+        template: openstack
+      deb-python-xstatic-jquery:
+        template: openstack
+      deb-python-xstatic-jquery-migrate:
+        template: openstack
+      deb-python-xstatic-jquery-ui:
+        template: openstack
+      deb-python-xstatic-jquery.bootstrap.wizard:
+        template: openstack
+      deb-python-xstatic-jquery.quicksearch:
+        template: openstack
+      deb-python-xstatic-jquery.tablesorter:
+        template: openstack
+      deb-python-xstatic-jsencrypt:
+        template: openstack
+      deb-python-xstatic-magic-search:
+        template: openstack
+      deb-python-xstatic-mdi:
+        template: openstack
+      deb-python-xstatic-objectpath:
+        template: openstack
+      deb-python-xstatic-qunit:
+        template: openstack
+      deb-python-xstatic-rickshaw:
+        template: openstack
+      deb-python-xstatic-roboto-fontface:
+        template: openstack
+      deb-python-xstatic-smart-table:
+        template: openstack
+      deb-python-xstatic-spin:
+        template: openstack
+      deb-python-xstatic-term.js:
+        template: openstack
+      deb-python-xstatic-tv4:
+        template: openstack
+      deb-python-xvfbwrapper:
+        template: openstack
+      deb-python-yaql:
+        template: openstack
+      deb-python-zaqarclient:
+        template: openstack
+      deb-rally:
+        template: openstack
+      deb-ryu:
+        template: openstack
+      deb-sahara:
+        template: openstack
+      deb-sahara-dashboard:
+        template: openstack
+      deb-senlin:
+        template: openstack
+      deb-senlin-dashboard:
+        template: openstack
+      deb-spice-html5:
+        template: openstack
+      deb-stevedore:
+        template: openstack
+      deb-subunit:
+        template: openstack
+      deb-swauth:
+        template: openstack
+      deb-swift:
+        template: openstack
+      deb-swift-bench:
+        template: openstack
+      deb-swift-plugin-s3:
+        template: openstack
+      deb-tempest:
+        template: openstack
+      deb-testresources:
+        template: openstack
+      deb-trove:
+        template: openstack
+      deb-trove-dashboard:
+        template: openstack
+      deb-watcher:
+        template: openstack
+      deb-websockify:
+        template: openstack
+      deb-zaqar:
+        template: openstack
+      deb-zaqar-ui:
+        template: openstack
+      debtcollector:
+        template: openstack
+      delimiter:
+        template: openstack
+      designate:
+        template: openstack
+      designate-dashboard:
+        template: openstack
+      designate-msdnsagent:
+        template: openstack
+      designate-specs:
+        template: openstack
+      designate-tempest-plugin:
+        template: openstack
+      development-proposals:
+        template: openstack
+      devstack-plugin-additional-pkg-repos:
+        template: openstack
+      devstack-plugin-amqp1:
+        template: openstack
+      devstack-plugin-bdd:
+        template: openstack
+      devstack-plugin-ceph:
+        template: openstack
+      devstack-plugin-container:
+        template: openstack
+      devstack-plugin-glusterfs:
+        template: openstack
+      devstack-plugin-hdfs:
+        template: openstack
+      devstack-plugin-kafka:
+        template: openstack
+      devstack-plugin-libvirt-qemu:
+        template: openstack
+      devstack-plugin-mariadb:
+        template: openstack
+      devstack-plugin-nfs:
+        template: openstack
+      devstack-plugin-pika:
+        template: openstack
+      devstack-plugin-sheepdog:
+        template: openstack
+      devstack-plugin-tar-installer:
+        template: openstack
+      devstack-plugin-vmax:
+        template: openstack
+      devstack-plugin-zmq:
+        template: openstack
+      devstack-tools:
+        template: openstack
+      dib-utils:
+        template: openstack
+      diskimage-builder:
+        template: openstack
+      distil:
+        template: openstack
+      distil-ui:
+        template: openstack
+      django-openstack-auth-kerberos:
+        template: openstack
+      django_openstack_auth:
+        template: openstack
+      doc8:
+        template: openstack
+      docker-machine-openstack:
+        template: openstack
+      docs-specs:
+        template: openstack
+      downpour:
+        template: openstack
+      dox:
+        template: openstack
+      dragonflow:
+        template: openstack
+      drbd-devstack:
+        template: openstack
+      driverlog:
+        template: openstack
+      ec2-api:
+        template: openstack
+      ec2-driver:
+        template: openstack
+      ec2api-tempest-plugin:
+        template: openstack
+      ekko:
+        template: openstack
+      election:
+        template: openstack
+      enterprise-wg:
+        template: openstack
+      entropy:
+        template: openstack
+      eslint-config-openstack:
+        template: openstack
+      evoque:
+        template: openstack
+      evoque-dashboard:
+        template: openstack
+      faafo:
+        template: openstack
+      fairy-slipper:
+        template: openstack
+      fenix:
+        template: openstack
+      fixtures-git:
+        template: openstack
+      flame:
+        template: openstack
+      foxnut:
+        template: openstack
+      freezer:
+        template: openstack
+      freezer-api:
+        template: openstack
+      freezer-dr:
+        template: openstack
+      freezer-specs:
+        template: openstack
+      freezer-tempest-plugin:
+        template: openstack
+      freezer-web-ui:
+        template: openstack
+      fuel-agent:
+        template: openstack
+      fuel-astute:
+        template: openstack
+      fuel-ccp:
+        template: openstack
+      fuel-ccp-ceph:
+        template: openstack
+      fuel-ccp-ci-config:
+        template: openstack
+      fuel-ccp-cinder:
+        template: openstack
+      fuel-ccp-debian-base:
+        template: openstack
+      fuel-ccp-designate:
+        template: openstack
+      fuel-ccp-elasticsearch:
+        template: openstack
+      fuel-ccp-entrypoint:
+        template: openstack
+      fuel-ccp-etcd:
+        template: openstack
+      fuel-ccp-galera:
+        template: openstack
+      fuel-ccp-glance:
+        template: openstack
+      fuel-ccp-grafana:
+        template: openstack
+      fuel-ccp-heat:
+        template: openstack
+      fuel-ccp-horizon:
+        template: openstack
+      fuel-ccp-installer:
+        template: openstack
+      fuel-ccp-ironic:
+        template: openstack
+      fuel-ccp-keystone:
+        template: openstack
+      fuel-ccp-mariadb:
+        template: openstack
+      fuel-ccp-memcached:
+        template: openstack
+      fuel-ccp-murano:
+        template: openstack
+      fuel-ccp-neutron:
+        template: openstack
+      fuel-ccp-nginx:
+        template: openstack
+      fuel-ccp-nova:
+        template: openstack
+      fuel-ccp-openstack-base:
+        template: openstack
+      fuel-ccp-rabbitmq:
+        template: openstack
+      fuel-ccp-rally:
+        template: openstack
+      fuel-ccp-sahara:
+        template: openstack
+      fuel-ccp-searchlight:
+        template: openstack
+      fuel-ccp-specs:
+        template: openstack
+      fuel-ccp-stacklight:
+        template: openstack
+      fuel-ccp-tests:
+        template: openstack
+      fuel-ccp-zmq:
+        template: openstack
+      fuel-dev-tools:
+        template: openstack
+      fuel-devops:
+        template: openstack
+      fuel-docs:
+        template: openstack
+      fuel-library:
+        template: openstack
+      fuel-main:
+        template: openstack
+      fuel-menu:
+        template: openstack
+      fuel-mirror:
+        template: openstack
+      fuel-nailgun-agent:
+        template: openstack
+      fuel-nailgun-extension-cluster-upgrade:
+        template: openstack
+      fuel-nailgun-extension-converted-serializers:
+        template: openstack
+      fuel-nailgun-extension-iac:
+        template: openstack
+      fuel-noop-fixtures:
+        template: openstack
+      fuel-octane:
+        template: openstack
+      fuel-ostf:
+        template: openstack
+      fuel-plugin-6wind-virtual-accelerator:
+        template: openstack
+      fuel-plugin-astara:
+        template: openstack
+      fuel-plugin-availability-zones:
+        template: openstack
+      fuel-plugin-bgpvpn:
+        template: openstack
+      fuel-plugin-bigswitch:
+        template: openstack
+      fuel-plugin-block-device:
+        template: openstack
+      fuel-plugin-calamari:
+        template: openstack
+      fuel-plugin-calico:
+        template: openstack
+      fuel-plugin-ceilometer-redis:
+        template: openstack
+      fuel-plugin-ceph-multibackend:
+        template: openstack
+      fuel-plugin-ci:
+        template: openstack
+      fuel-plugin-cinder-gcs:
+        template: openstack
+      fuel-plugin-cinder-kaminario:
+        template: openstack
+      fuel-plugin-cinder-netapp:
+        template: openstack
+      fuel-plugin-cisco-aci:
+        template: openstack
+      fuel-plugin-congress:
+        template: openstack
+      fuel-plugin-contrail:
+        template: openstack
+      fuel-plugin-datera-cinder:
+        template: openstack
+      fuel-plugin-dbaas-trove:
+        template: openstack
+      fuel-plugin-debug:
+        template: openstack
+      fuel-plugin-designate:
+        template: openstack
+      fuel-plugin-detach-database:
+        template: openstack
+      fuel-plugin-detach-haproxy:
+        template: openstack
+      fuel-plugin-detach-horizon:
+        template: openstack
+      fuel-plugin-detach-keystone:
+        template: openstack
+      fuel-plugin-detach-netnode:
+        template: openstack
+      fuel-plugin-detach-rabbitmq:
+        template: openstack
+      fuel-plugin-detach-swift:
+        template: openstack
+      fuel-plugin-dns-updater:
+        template: openstack
+      fuel-plugin-dynatrace:
+        template: openstack
+      fuel-plugin-elasticsearch-kibana:
+        template: openstack
+      fuel-plugin-emailnotifyd:
+        template: openstack
+      fuel-plugin-external-emc:
+        template: openstack
+      fuel-plugin-external-glusterfs:
+        template: openstack
+      fuel-plugin-external-lb:
+        template: openstack
+      fuel-plugin-external-zabbix:
+        template: openstack
+      fuel-plugin-fortinet:
+        template: openstack
+      fuel-plugin-glance-nfs:
+        template: openstack
+      fuel-plugin-gluon:
+        template: openstack
+      fuel-plugin-ha-fencing:
+        template: openstack
+      fuel-plugin-hedvig-cinder:
+        template: openstack
+      fuel-plugin-influxdb-grafana:
+        template: openstack
+      fuel-plugin-inkscope:
+        template: openstack
+      fuel-plugin-ironic:
+        template: openstack
+      fuel-plugin-kafka:
+        template: openstack
+      fuel-plugin-ldap:
+        template: openstack
+      fuel-plugin-ldap-slaves:
+        template: openstack
+      fuel-plugin-lma-collector:
+        template: openstack
+      fuel-plugin-lma-infrastructure-alerting:
+        template: openstack
+      fuel-plugin-manila:
+        template: openstack
+      fuel-plugin-mellanox:
+        template: openstack
+      fuel-plugin-midonet:
+        template: openstack
+      fuel-plugin-mistral:
+        template: openstack
+      fuel-plugin-murano:
+        template: openstack
+      fuel-plugin-murano-networking-sfc:
+        template: openstack
+      fuel-plugin-murano-tests:
+        template: openstack
+      fuel-plugin-network-node:
+        template: openstack
+      fuel-plugin-networking-sfc:
+        template: openstack
+      fuel-plugin-neutron-fwaas:
+        template: openstack
+      fuel-plugin-neutron-lbaas:
+        template: openstack
+      fuel-plugin-neutron-vpnaas:
+        template: openstack
+      fuel-plugin-nimblestorage-cinder:
+        template: openstack
+      fuel-plugin-nitrous:
+        template: openstack
+      fuel-plugin-nova-nfs:
+        template: openstack
+      fuel-plugin-nsx-t:
+        template: openstack
+      fuel-plugin-nsxv:
+        template: openstack
+      fuel-plugin-nuage:
+        template: openstack
+      fuel-plugin-onos:
+        template: openstack
+      fuel-plugin-openbook:
+        template: openstack
+      fuel-plugin-opendaylight:
+        template: openstack
+      fuel-plugin-openstack-telemetry:
+        template: openstack
+      fuel-plugin-ovs:
+        template: openstack
+      fuel-plugin-plumgrid:
+        template: openstack
+      fuel-plugin-purestorage-cinder:
+        template: openstack
+      fuel-plugin-qemu:
+        template: openstack
+      fuel-plugin-qlogic-sriov-vxlan:
+        template: openstack
+      fuel-plugin-rally:
+        template: openstack
+      fuel-plugin-saltstack:
+        template: openstack
+      fuel-plugin-scaleio:
+        template: openstack
+      fuel-plugin-scaleio-cinder:
+        template: openstack
+      fuel-plugin-sensu:
+        template: openstack
+      fuel-plugin-solidfire-cinder:
+        template: openstack
+      fuel-plugin-swiftstack:
+        template: openstack
+      fuel-plugin-tacker:
+        template: openstack
+      fuel-plugin-tempest:
+        template: openstack
+      fuel-plugin-tintri-cinder:
+        template: openstack
+      fuel-plugin-tls:
+        template: openstack
+      fuel-plugin-unity:
+        template: openstack
+      fuel-plugin-vmware-dvs:
+        template: openstack
+      fuel-plugin-vxlan:
+        template: openstack
+      fuel-plugin-watcher:
+        template: openstack
+      fuel-plugin-wstunnel:
+        template: openstack
+      fuel-plugin-xenserver:
+        template: openstack
+      fuel-plugin-zabbix-agents:
+        template: openstack
+      fuel-plugin-zabbix-monitoring-emc:
+        template: openstack
+      fuel-plugin-zabbix-monitoring-extreme-networks:
+        template: openstack
+      fuel-plugin-zabbix-snmptrapd:
+        template: openstack
+      fuel-plugins:
+        template: openstack
+      fuel-qa:
+        template: openstack
+      fuel-specs:
+        template: openstack
+      fuel-stats:
+        template: openstack
+      fuel-ui:
+        template: openstack
+      fuel-upgrade:
+        template: openstack
+      fuel-virtualbox:
+        template: openstack
+      fuel-web:
+        template: openstack
+      futurist:
+        template: openstack
+      fuxi:
+        template: openstack
+      fuxi-golang:
+        template: openstack
+      fuxi-kubernetes:
+        template: openstack
+      gantt:
+        template: openstack
+      gce-api:
+        template: openstack
+      gerrit-dash-creator:
+        template: openstack
+      gertty:
+        template: openstack
+      giftwrap:
+        template: openstack
+      git-nit:
+        template: openstack
+      git-repo-manifests:
+        template: openstack
+      git-upstream:
+        template: openstack
+      glance:
+        template: openstack
+      glance-specs:
+        template: openstack
+      glance_store:
+        template: openstack
+      glare:
+        template: openstack
+      glare-specs:
+        template: openstack
+      gluon:
+        template: openstack
+      gnocchi:
+        template: openstack
+      goal-tools:
+        template: openstack
+      golang-client:
+        template: openstack
+      golang-commons:
+        template: openstack
+      gos-brick:
+        template: openstack
+      governance:
+        template: openstack
+      governance-sigs:
+        template: openstack
+      governance-uc:
+        template: openstack
+      governance-website:
+        template: openstack
+      group-based-policy:
+        template: openstack
+      group-based-policy-automation:
+        template: openstack
+      group-based-policy-specs:
+        template: openstack
+      group-based-policy-ui:
+        template: openstack
+      ha-guide:
+        template: openstack
+      heat:
+        template: openstack
+      heat-agents:
+        template: openstack
+      heat-cfntools:
+        template: openstack
+      heat-dashboard:
+        template: openstack
+      heat-specs:
+        template: openstack
+      heat-tempest-plugin:
+        template: openstack
+      heat-templates:
+        template: openstack
+      heat-translator:
+        template: openstack
+      horizon:
+        template: openstack
+      horizon-cisco-ui:
+        template: openstack
+      horizon-mellanox:
+        template: openstack
+      hurricane:
+        template: openstack
+      i18n:
+        template: openstack
+      i18n-specs:
+        template: openstack
+      inception:
+        template: openstack
+      instack:
+        template: openstack
+      instack-undercloud:
+        template: openstack
+      installguide-cookiecutter:
+        template: openstack
+      intel-nfv-ci-tests:
+        template: openstack
+      interop:
+        template: openstack
+      interop-workloads:
+        template: openstack
+      iotronic:
+        template: openstack
+      iotronic-lightning-rod:
+        template: openstack
+      iotronic-ui:
+        template: openstack
+      ipa-example-hardware-managers:
+        template: openstack
+      ironic:
+        template: openstack
+      ironic-inspector:
+        template: openstack
+      ironic-inspector-specs:
+        template: openstack
+      ironic-inspector-tempest-plugin:
+        template: openstack
+      ironic-lib:
+        template: openstack
+      ironic-python-agent:
+        template: openstack
+      ironic-python-agent-builder:
+        template: openstack
+      ironic-specs:
+        template: openstack
+      ironic-staging-drivers:
+        template: openstack
+      ironic-tempest-plugin:
+        template: openstack
+      ironic-ui:
+        template: openstack
+      ironic-webclient:
+        template: openstack
+      jacket:
+        template: openstack
+      jenkins-plugins-for-murano:
+        template: openstack
+      js-openstack-lib:
+        template: openstack
+      k8s-cloud-provider:
+        template: openstack
+      k8s-docker-suite-app-murano:
+        template: openstack
+      karbor:
+        template: openstack
+      karbor-dashboard:
+        template: openstack
+      karma-subunit-reporter:
+        template: openstack
+      kayobe:
+        template: openstack
+      kayobe-config:
+        template: openstack
+      keystone:
+        template: openstack
+      keystone-specs:
+        template: openstack
+      keystone-tempest-plugin:
+        template: openstack
+      keystoneauth:
+        template: openstack
+      keystoneauth-saml2:
+        template: openstack
+      keystonemiddleware:
+        template: openstack
+      kiloeyes:
+        template: openstack
+      kingbird:
+        template: openstack
+      kingbird-dashboard:
+        template: openstack
+      kite:
+        template: openstack
+      kloudbuster:
+        template: openstack
+      kolla:
+        template: openstack
+      kolla-ansible:
+        template: openstack
+      kolla-cli:
+        template: openstack
+      kolla-kubernetes:
+        template: openstack
+      kolla-mesos:
+        template: openstack
+      kosmos:
+        template: openstack
+      kosmos-specs:
+        template: openstack
+      kuryr:
+        template: openstack
+      kuryr-kubernetes:
+        template: openstack
+      kuryr-libnetwork:
+        template: openstack
+      kuryr-tempest-plugin:
+        template: openstack
+      kwapi:
+        template: openstack
+      ldappool:
+        template: openstack
+      liberasurecode:
+        template: openstack
+      loci:
+        template: openstack
+      loci-cinder:
+        template: openstack
+      loci-designate:
+        template: openstack
+      loci-glance:
+        template: openstack
+      loci-heat:
+        template: openstack
+      loci-horizon:
+        template: openstack
+      loci-ironic:
+        template: openstack
+      loci-keystone:
+        template: openstack
+      loci-murano:
+        template: openstack
+      loci-neutron:
+        template: openstack
+      loci-nova:
+        template: openstack
+      loci-requirements:
+        template: openstack
+      loci-swift:
+        template: openstack
+      loci-trove:
+        template: openstack
+      magnetodb:
+        template: openstack
+      magnetodb-specs:
+        template: openstack
+      magnum:
+        template: openstack
+      magnum-specs:
+        template: openstack
+      magnum-tempest-plugin:
+        template: openstack
+      magnum-ui:
+        template: openstack
+      manila:
+        template: openstack
+      manila-image-elements:
+        template: openstack
+      manila-specs:
+        template: openstack
+      manila-tempest-plugin:
+        template: openstack
+      manila-test-image:
+        template: openstack
+      manila-ui:
+        template: openstack
+      marshal:
+        template: openstack
+      masakari:
+        template: openstack
+      masakari-dashboard:
+        template: openstack
+      masakari-monitors:
+        template: openstack
+      masakari-specs:
+        template: openstack
+      meghdwar:
+        template: openstack
+      merlin:
+        template: openstack
+      metalsmith:
+        template: openstack
+      meteos:
+        template: openstack
+      meteos-ui:
+        template: openstack
+      microversion-parse:
+        template: openstack
+      mistral:
+        template: openstack
+      mistral-dashboard:
+        template: openstack
+      mistral-extra:
+        template: openstack
+      mistral-lib:
+        template: openstack
+      mistral-specs:
+        template: openstack
+      mistral-tempest-plugin:
+        template: openstack
+      mitmstack:
+        template: openstack
+      mixmatch:
+        template: openstack
+      mogan:
+        template: openstack
+      mogan-specs:
+        template: openstack
+      mogan-ui:
+        template: openstack
+      molteniron:
+        template: openstack
+      monasca-agent:
+        template: openstack
+      monasca-analytics:
+        template: openstack
+      monasca-api:
+        template: openstack
+      monasca-ceilometer:
+        template: openstack
+      monasca-common:
+        template: openstack
+      monasca-events-api:
+        template: openstack
+      monasca-grafana-datasource:
+        template: openstack
+      monasca-kibana-plugin:
+        template: openstack
+      monasca-log-api:
+        template: openstack
+      monasca-notification:
+        template: openstack
+      monasca-persister:
+        template: openstack
+      monasca-specs:
+        template: openstack
+      monasca-statsd:
+        template: openstack
+      monasca-tempest-plugin:
+        template: openstack
+      monasca-thresh:
+        template: openstack
+      monasca-transform:
+        template: openstack
+      monasca-ui:
+        template: openstack
+      monasca-vagrant:
+        template: openstack
+      monitoring-for-openstack:
+        template: openstack
+      monitorstack:
+        template: openstack
+      mors:
+        template: openstack
+      mox3:
+        template: openstack
+      murano:
+        template: openstack
+      murano-agent:
+        template: openstack
+      murano-apps:
+        template: openstack
+      murano-dashboard:
+        template: openstack
+      murano-deployment:
+        template: openstack
+      murano-pkg-check:
+        template: openstack
+      murano-plugin-networking-sfc:
+        template: openstack
+      murano-specs:
+        template: openstack
+      murano-tempest-plugin:
+        template: openstack
+      namos:
+        template: openstack
+      nemesis:
+        template: openstack
+      nerd-reviewer:
+        template: openstack
+      network-checker:
+        template: openstack
+      networking-6wind:
+        template: openstack
+      networking-ale-omniswitch:
+        template: openstack
+      networking-ansible:
+        template: openstack
+      networking-arista:
+        template: openstack
+      networking-avaya:
+        template: openstack
+      networking-bagpipe:
+        template: openstack
+      networking-baremetal:
+        template: openstack
+      networking-bgpvpn:
+        template: openstack
+      networking-bigswitch:
+        template: openstack
+      networking-brocade:
+        template: openstack
+      networking-calico:
+        template: openstack
+      networking-cisco:
+        template: openstack
+      networking-cumulus:
+        template: openstack
+      networking-dpm:
+        template: openstack
+      networking-edge-vpn:
+        template: openstack
+      networking-extreme:
+        template: openstack
+      networking-fortinet:
+        template: openstack
+      networking-fujitsu:
+        template: openstack
+      networking-generic-switch:
+        template: openstack
+      networking-generic-switch-tempest-plugin:
+        template: openstack
+      networking-gluon:
+        template: openstack
+      networking-h3c:
+        template: openstack
+      networking-hpe:
+        template: openstack
+      networking-huawei:
+        template: openstack
+      networking-hyperv:
+        template: openstack
+      networking-icc:
+        template: openstack
+      networking-infoblox:
+        template: openstack
+      networking-l2gw:
+        template: openstack
+      networking-l2gw-tempest-plugin:
+        template: openstack
+      networking-lagopus:
+        template: openstack
+      networking-lenovo:
+        template: openstack
+      networking-midonet:
+        template: openstack
+      networking-mlnx:
+        template: openstack
+      networking-nec:
+        template: openstack
+      networking-odl:
+        template: openstack
+      networking-ofagent:
+        template: openstack
+      networking-onos:
+        template: openstack
+      networking-opencontrail:
+        template: openstack
+      networking-ovn:
+        template: openstack
+      networking-ovs-dpdk:
+        template: openstack
+      networking-peregrine:
+        template: openstack
+      networking-plumgrid:
+        template: openstack
+      networking-powervm:
+        template: openstack
+      networking-sfc:
+        template: openstack
+      networking-spp:
+        template: openstack
+      networking-vpp:
+        template: openstack
+      networking-vsphere:
+        template: openstack
+      networking-zte:
+        template: openstack
+      networking-zvm:
+        template: openstack
+      neutron:
+        template: openstack
+      neutron-classifier:
+        template: openstack
+      neutron-dynamic-routing:
+        template: openstack
+      neutron-fwaas:
+        template: openstack
+      neutron-fwaas-dashboard:
+        template: openstack
+      neutron-lbaas:
+        template: openstack
+      neutron-lbaas-dashboard:
+        template: openstack
+      neutron-lib:
+        template: openstack
+      neutron-specs:
+        template: openstack
+      neutron-tempest-plugin:
+        template: openstack
+      neutron-vpnaas:
+        template: openstack
+      neutron-vpnaas-dashboard:
+        template: openstack
+      nfv-filters:
+        template: openstack
+      nova:
+        template: openstack
+      nova-docker:
+        template: openstack
+      nova-dpm:
+        template: openstack
+      nova-fusioncompute:
+        template: openstack
+      nova-lxd:
+        template: openstack
+      nova-mksproxy:
+        template: openstack
+      nova-powervm:
+        template: openstack
+      nova-solver-scheduler:
+        template: openstack
+      nova-specs:
+        template: openstack
+      nova-zvm-virt-driver:
+        template: openstack
+      novajoin:
+        template: openstack
+      novajoin-tempest-plugin:
+        template: openstack
+      oaktree:
+        template: openstack
+      oaktreemodel:
+        template: openstack
+      octavia:
+        template: openstack
+      octavia-dashboard:
+        template: openstack
+      octavia-tempest-plugin:
+        template: openstack
+      omni:
+        template: openstack
+      ooi:
+        template: openstack
+      opencafe:
+        template: openstack
+      openstack:
+        template: openstack
+      openstack-ansible:
+        template: openstack
+      openstack-ansible-apt_package_pinning:
+        template: openstack
+      openstack-ansible-ceph_client:
+        template: openstack
+      openstack-ansible-galera_client:
+        template: openstack
+      openstack-ansible-galera_server:
+        template: openstack
+      openstack-ansible-haproxy_server:
+        template: openstack
+      openstack-ansible-lxc_container_create:
+        template: openstack
+      openstack-ansible-lxc_hosts:
+        template: openstack
+      openstack-ansible-memcached_server:
+        template: openstack
+      openstack-ansible-nspawn_container_create:
+        template: openstack
+      openstack-ansible-nspawn_hosts:
+        template: openstack
+      openstack-ansible-openstack_hosts:
+        template: openstack
+      openstack-ansible-openstack_openrc:
+        template: openstack
+      openstack-ansible-ops:
+        template: openstack
+      openstack-ansible-os_almanach:
+        template: openstack
+      openstack-ansible-os_aodh:
+        template: openstack
+      openstack-ansible-os_barbican:
+        template: openstack
+      openstack-ansible-os_blazar:
+        template: openstack
+      openstack-ansible-os_ceilometer:
+        template: openstack
+      openstack-ansible-os_cinder:
+        template: openstack
+      openstack-ansible-os_cloudkitty:
+        template: openstack
+      openstack-ansible-os_congress:
+        template: openstack
+      openstack-ansible-os_designate:
+        template: openstack
+      openstack-ansible-os_freezer:
+        template: openstack
+      openstack-ansible-os_glance:
+        template: openstack
+      openstack-ansible-os_gnocchi:
+        template: openstack
+      openstack-ansible-os_heat:
+        template: openstack
+      openstack-ansible-os_horizon:
+        template: openstack
+      openstack-ansible-os_ironic:
+        template: openstack
+      openstack-ansible-os_karbor:
+        template: openstack
+      openstack-ansible-os_keystone:
+        template: openstack
+      openstack-ansible-os_magnum:
+        template: openstack
+      openstack-ansible-os_masakari:
+        template: openstack
+      openstack-ansible-os_molteniron:
+        template: openstack
+      openstack-ansible-os_monasca:
+        template: openstack
+      openstack-ansible-os_monasca-agent:
+        template: openstack
+      openstack-ansible-os_monasca-ui:
+        template: openstack
+      openstack-ansible-os_neutron:
+        template: openstack
+      openstack-ansible-os_nova:
+        template: openstack
+      openstack-ansible-os_octavia:
+        template: openstack
+      openstack-ansible-os_panko:
+        template: openstack
+      openstack-ansible-os_rally:
+        template: openstack
+      openstack-ansible-os_sahara:
+        template: openstack
+      openstack-ansible-os_searchlight:
+        template: openstack
+      openstack-ansible-os_swift:
+        template: openstack
+      openstack-ansible-os_swift_sync:
+        template: openstack
+      openstack-ansible-os_tacker:
+        template: openstack
+      openstack-ansible-os_tempest:
+        template: openstack
+      openstack-ansible-os_trove:
+        template: openstack
+      openstack-ansible-os_watcher:
+        template: openstack
+      openstack-ansible-os_zaqar:
+        template: openstack
+      openstack-ansible-os_zun:
+        template: openstack
+      openstack-ansible-pip_install:
+        template: openstack
+      openstack-ansible-pip_lock_down:
+        template: openstack
+      openstack-ansible-plugins:
+        template: openstack
+      openstack-ansible-py_from_git:
+        template: openstack
+      openstack-ansible-rabbitmq_server:
+        template: openstack
+      openstack-ansible-repo_build:
+        template: openstack
+      openstack-ansible-repo_server:
+        template: openstack
+      openstack-ansible-rsyslog_client:
+        template: openstack
+      openstack-ansible-rsyslog_server:
+        template: openstack
+      openstack-ansible-security:
+        template: openstack
+      openstack-ansible-specs:
+        template: openstack
+      openstack-ansible-tests:
+        template: openstack
+      openstack-chef-repo:
+        template: openstack
+      openstack-chef-specs:
+        template: openstack
+      openstack-doc-tools:
+        template: openstack
+      openstack-health:
+        template: openstack
+      openstack-helm:
+        template: openstack
+      openstack-helm-addons:
+        template: openstack
+      openstack-helm-infra:
+        template: openstack
+      openstack-manuals:
+        template: openstack
+      openstack-mentoring-scripts:
+        template: openstack
+      openstack-planet:
+        template: openstack
+      openstack-resource-agents:
+        template: openstack
+      openstack-resource-agents-specs:
+        template: openstack
+      openstack-salt:
+        template: openstack
+      openstack-salt-specs:
+        template: openstack
+      openstack-service-broker:
+        template: openstack
+      openstack-spaceport:
+        template: openstack
+      openstack-specs:
+        template: openstack
+      openstack-ux:
+        template: openstack
+      openstackclient:
+        template: openstack
+      openstackdocstheme:
+        template: openstack
+      openstacksdk:
+        template: openstack
+      operations-guide:
+        template: openstack
+      ops-tags-team:
+        template: openstack
+      ops-telecom-nfv:
+        template: openstack
+      os-acc:
+        template: openstack
+      os-api-ref:
+        template: openstack
+      os-apply-config:
+        template: openstack
+      os-brick:
+        template: openstack
+      os-client-config:
+        template: openstack
+      os-cloud-config:
+        template: openstack
+      os-collect-config:
+        template: openstack
+      os-dpm:
+        template: openstack
+      os-faults:
+        template: openstack
+      os-log-merger:
+        template: openstack
+      os-namos:
+        template: openstack
+      os-net-config:
+        template: openstack
+      os-performance-tools:
+        template: openstack
+      os-refresh-config:
+        template: openstack
+      os-service-types:
+        template: openstack
+      os-testr:
+        template: openstack
+      os-traits:
+        template: openstack
+      os-vif:
+        template: openstack
+      os-win:
+        template: openstack
+      os-xenapi:
+        template: openstack
+      osc-lib:
+        template: openstack
+      osc-placement:
+        template: openstack
+      osel:
+        template: openstack
+      oslo-incubator:
+        template: openstack
+      oslo-specs:
+        template: openstack
+      oslo.cache:
+        template: openstack
+      oslo.concurrency:
+        template: openstack
+      oslo.config:
+        template: openstack
+      oslo.context:
+        template: openstack
+      oslo.db:
+        template: openstack
+      oslo.i18n:
+        template: openstack
+      oslo.limit:
+        template: openstack
+      oslo.log:
+        template: openstack
+      oslo.messaging:
+        template: openstack
+      oslo.middleware:
+        template: openstack
+      oslo.policy:
+        template: openstack
+      oslo.privsep:
+        template: openstack
+      oslo.reports:
+        template: openstack
+      oslo.rootwrap:
+        template: openstack
+      oslo.serialization:
+        template: openstack
+      oslo.service:
+        template: openstack
+      oslo.tools:
+        template: openstack
+      oslo.utils:
+        template: openstack
+      oslo.versionedobjects:
+        template: openstack
+      oslo.vmware:
+        template: openstack
+      oslosphinx:
+        template: openstack
+      oslotest:
+        template: openstack
+      osops-coda:
+        template: openstack
+      osops-example-configs:
+        template: openstack
+      osops-tools-contrib:
+        template: openstack
+      osops-tools-generic:
+        template: openstack
+      osops-tools-logging:
+        template: openstack
+      osops-tools-monitoring:
+        template: openstack
+      osprofiler:
+        template: openstack
+      ospurge:
+        template: openstack
+      ossa:
+        template: openstack
+      oswin-tempest-plugin:
+        template: openstack
+      ovsdbapp:
+        template: openstack
+      packetary:
+        template: openstack
+      packetary-specs:
+        template: openstack
+      packstack:
+        template: openstack
+      pandaman:
+        template: openstack
+      panko:
+        template: openstack
+      patrole:
+        template: openstack
+      paunch:
+        template: openstack
+      pbrx:
+        template: openstack
+      performa:
+        template: openstack
+      performance-docs:
+        template: openstack
+      picasso:
+        template: openstack
+      poppy:
+        template: openstack
+      poppy-ui:
+        template: openstack
+      powervc-driver:
+        template: openstack
+      project-navigator-data:
+        template: openstack
+      project-team-guide:
+        template: openstack
+      proliantutils:
+        template: openstack
+      ptgbot:
+        template: openstack
+      publiccloud-wg:
+        template: openstack
+      puppet-aodh:
+        template: openstack
+      puppet-autossh:
+        template: openstack
+      puppet-barbican:
+        template: openstack
+      puppet-ceilometer:
+        template: openstack
+      puppet-ceph:
+        template: openstack
+      puppet-cinder:
+        template: openstack
+      puppet-cloudkitty:
+        template: openstack
+      puppet-congress:
+        template: openstack
+      puppet-designate:
+        template: openstack
+      puppet-ec2api:
+        template: openstack
+      puppet-fenix:
+        template: openstack
+      puppet-freezer:
+        template: openstack
+      puppet-ganesha:
+        template: openstack
+      puppet-glance:
+        template: openstack
+      puppet-glare:
+        template: openstack
+      puppet-gnocchi:
+        template: openstack
+      puppet-heat:
+        template: openstack
+      puppet-horizon:
+        template: openstack
+      puppet-ironic:
+        template: openstack
+      puppet-keystone:
+        template: openstack
+      puppet-magnum:
+        template: openstack
+      puppet-manila:
+        template: openstack
+      puppet-midonet:
+        template: openstack
+      puppet-mistral:
+        template: openstack
+      puppet-modulesync-configs:
+        template: openstack
+      puppet-monasca:
+        template: openstack
+      puppet-murano:
+        template: openstack
+      puppet-n1k-vsm:
+        template: openstack
+      puppet-neutron:
+        template: openstack
+      puppet-nova:
+        template: openstack
+      puppet-octavia:
+        template: openstack
+      puppet-openstack-cookiecutter:
+        template: openstack
+      puppet-openstack-guide:
+        template: openstack
+      puppet-openstack-integration:
+        template: openstack
+      puppet-openstack-release-tools:
+        template: openstack
+      puppet-openstack-specs:
+        template: openstack
+      puppet-openstack_extras:
+        template: openstack
+      puppet-openstack_spec_helper:
+        template: openstack
+      puppet-openstacklib:
+        template: openstack
+      puppet-oslo:
+        template: openstack
+      puppet-ovn:
+        template: openstack
+      puppet-pacemaker:
+        template: openstack
+      puppet-panko:
+        template: openstack
+      puppet-qdr:
+        template: openstack
+      puppet-rally:
+        template: openstack
+      puppet-sahara:
+        template: openstack
+      puppet-senlin:
+        template: openstack
+      puppet-setproxy:
+        template: openstack
+      puppet-surveil:
+        template: openstack
+      puppet-swift:
+        template: openstack
+      puppet-tacker:
+        template: openstack
+      puppet-tempest:
+        template: openstack
+      puppet-tripleo:
+        template: openstack
+      puppet-trove:
+        template: openstack
+      puppet-tuskar:
+        template: openstack
+      puppet-vitrage:
+        template: openstack
+      puppet-vswitch:
+        template: openstack
+      puppet-watcher:
+        template: openstack
+      puppet-zaqar:
+        template: openstack
+      pycadf:
+        template: openstack
+      pyeclib:
+        template: openstack
+      pyghmi:
+        template: openstack
+      pylockfile:
+        template: openstack
+      pymod2pkg:
+        template: openstack
+      python-adjutantclient:
+        template: openstack
+      python-almanachclient:
+        template: openstack
+      python-aodhclient:
+        template: openstack
+      python-apmecclient:
+        template: openstack
+      python-appcatalogclient:
+        template: openstack
+      python-barbicanclient:
+        template: openstack
+      python-bileanclient:
+        template: openstack
+      python-blazarclient:
+        template: openstack
+      python-brick-cinderclient-ext:
+        template: openstack
+      python-ceilometerclient:
+        template: openstack
+      python-cerberusclient:
+        template: openstack
+      python-cinderclient:
+        template: openstack
+      python-cloudkittyclient:
+        template: openstack
+      python-cloudpulseclient:
+        template: openstack
+      python-cognitiveclient:
+        template: openstack
+      python-congressclient:
+        template: openstack
+      python-cratonclient:
+        template: openstack
+      python-cueclient:
+        template: openstack
+      python-cyborgclient:
+        template: openstack
+      python-designateclient:
+        template: openstack
+      python-distilclient:
+        template: openstack
+      python-don:
+        template: openstack
+      python-dracclient:
+        template: openstack
+      python-evoqueclient:
+        template: openstack
+      python-fenixclient:
+        template: openstack
+      python-freezerclient:
+        template: openstack
+      python-fuelclient:
+        template: openstack
+      python-ganttclient:
+        template: openstack
+      python-glanceclient:
+        template: openstack
+      python-glareclient:
+        template: openstack
+      python-gnocchiclient:
+        template: openstack
+      python-group-based-policy-client:
+        template: openstack
+      python-heatclient:
+        template: openstack
+      python-hnvclient:
+        template: openstack
+      python-iotronicclient:
+        template: openstack
+      python-ironic-inspector-client:
+        template: openstack
+      python-ironicclient:
+        template: openstack
+      python-jenkins:
+        template: openstack
+      python-k8sclient:
+        template: openstack
+      python-karborclient:
+        template: openstack
+      python-keystoneclient:
+        template: openstack
+      python-keystoneclient-kerberos:
+        template: openstack
+      python-kingbirdclient:
+        template: openstack
+      python-kiteclient:
+        template: openstack
+      python-magnetodbclient:
+        template: openstack
+      python-magnumclient:
+        template: openstack
+      python-manilaclient:
+        template: openstack
+      python-masakariclient:
+        template: openstack
+      python-meteosclient:
+        template: openstack
+      python-mistralclient:
+        template: openstack
+      python-moganclient:
+        template: openstack
+      python-monascaclient:
+        template: openstack
+      python-muranoclient:
+        template: openstack
+      python-namosclient:
+        template: openstack
+      python-neutron-pd-driver:
+        template: openstack
+      python-neutronclient:
+        template: openstack
+      python-novaclient:
+        template: openstack
+      python-octaviaclient:
+        template: openstack
+      python-oneviewclient:
+        template: openstack
+      python-openstackclient:
+        template: openstack
+      python-opentsdbclient:
+        template: openstack
+      python-pankoclient:
+        template: openstack
+      python-picassoclient:
+        template: openstack
+      python-qinlingclient:
+        template: openstack
+      python-rackclient:
+        template: openstack
+      python-redfish:
+        template: openstack
+      python-rsdclient:
+        template: openstack
+      python-saharaclient:
+        template: openstack
+      python-scciclient:
+        template: openstack
+      python-searchlightclient:
+        template: openstack
+      python-senlinclient:
+        template: openstack
+      python-solumclient:
+        template: openstack
+      python-sticksclient:
+        template: openstack
+      python-surveilclient:
+        template: openstack
+      python-swiftclient:
+        template: openstack
+      python-tackerclient:
+        template: openstack
+      python-tatuclient:
+        template: openstack
+      python-tempestconf:
+        template: openstack
+      python-tricircleclient:
+        template: openstack
+      python-tripleoclient:
+        template: openstack
+      python-troveclient:
+        template: openstack
+      python-tuskarclient:
+        template: openstack
+      python-valenceclient:
+        template: openstack
+      python-vitrageclient:
+        template: openstack
+      python-watcherclient:
+        template: openstack
+      python-wsmanclient:
+        template: openstack
+      python-zaqarclient:
+        template: openstack
+      python-zunclient:
+        template: openstack
+      qa-specs:
+        template: openstack
+      qinling:
+        template: openstack
+      quark:
+        template: openstack
+      rack:
+        template: openstack
+      radar:
+        template: openstack
+      rally:
+        template: openstack
+      rally-openstack:
+        template: openstack
+      ramdisk-func-test:
+        template: openstack
+      ranger:
+        template: openstack
+      ranger-agent:
+        template: openstack
+      refstack:
+        template: openstack
+      refstack-client:
+        template: openstack
+      release-schedule-generator:
+        template: openstack
+      release-test:
+        template: openstack
+      releases:
+        template: openstack
+      renderspec:
+        template: openstack
+      reno:
+        template: openstack
+      requests-mock:
+        template: openstack
+      requirements:
+        template: openstack
+      rpm-packaging:
+        template: openstack
+      rpm-packaging-tools:
+        template: openstack
+      rsd-lib:
+        template: openstack
+      rst2bash:
+        template: openstack
+      sahara:
+        template: openstack
+      sahara-ci-config:
+        template: openstack
+      sahara-dashboard:
+        template: openstack
+      sahara-extra:
+        template: openstack
+      sahara-image-elements:
+        template: openstack
+      sahara-specs:
+        template: openstack
+      sahara-tests:
+        template: openstack
+      salt-formula-ceilometer:
+        template: openstack
+      salt-formula-cinder:
+        template: openstack
+      salt-formula-glance:
+        template: openstack
+      salt-formula-heat:
+        template: openstack
+      salt-formula-horizon:
+        template: openstack
+      salt-formula-keystone:
+        template: openstack
+      salt-formula-kubernetes:
+        template: openstack
+      salt-formula-midonet:
+        template: openstack
+      salt-formula-neutron:
+        template: openstack
+      salt-formula-nova:
+        template: openstack
+      salt-formula-opencontrail:
+        template: openstack
+      salt-formula-swift:
+        template: openstack
+      scalpels:
+        template: openstack
+      scientific-wg:
+        template: openstack
+      searchlight:
+        template: openstack
+      searchlight-specs:
+        template: openstack
+      searchlight-ui:
+        template: openstack
+      security-analysis:
+        template: openstack
+      security-doc:
+        template: openstack
+      security-specs:
+        template: openstack
+      self-healing-sig:
+        template: openstack
+      senlin:
+        template: openstack
+      senlin-dashboard:
+        template: openstack
+      senlin-tempest-plugin:
+        template: openstack
+      service-types-authority:
+        template: openstack
+      shaker:
+        template: openstack
+      shotgun:
+        template: openstack
+      shovel:
+        template: openstack
+      shovel-horizon:
+        template: openstack
+      slogging:
+        template: openstack
+      snap-ceilometer:
+        template: openstack
+      snap-cinder:
+        template: openstack
+      snap-glance:
+        template: openstack
+      snap-gnocchi:
+        template: openstack
+      snap-keystone:
+        template: openstack
+      snap-neutron:
+        template: openstack
+      snap-nova:
+        template: openstack
+      snap-nova-hypervisor:
+        template: openstack
+      snap-openstackclients:
+        template: openstack
+      snap-rally:
+        template: openstack
+      snap-tempest:
+        template: openstack
+      snap.openstack:
+        template: openstack
+      solar:
+        template: openstack
+      solar-resources:
+        template: openstack
+      solum:
+        template: openstack
+      solum-dashboard:
+        template: openstack
+      solum-infra-guestagent:
+        template: openstack
+      solum-specs:
+        template: openstack
+      solum-tempest-plugin:
+        template: openstack
+      spanner:
+        template: openstack
+      sphinx-feature-classification:
+        template: openstack
+      sqlalchemy-migrate:
+        template: openstack
+      stackalytics:
+        template: openstack
+      stacklight-integration-tests:
+        template: openstack
+      stacktach:
+        template: openstack
+      stacktach-klugman:
+        template: openstack
+      stacktach-notification-utils:
+        template: openstack
+      stacktach-notigen:
+        template: openstack
+      stacktach-quince:
+        template: openstack
+      stacktach-quincy:
+        template: openstack
+      stacktach-sandbox:
+        template: openstack
+      stacktach-shoebox:
+        template: openstack
+      stacktach-simport:
+        template: openstack
+      stacktach-stackdistiller:
+        template: openstack
+      stacktach-timex:
+        template: openstack
+      stacktach-winchester:
+        template: openstack
+      stackube:
+        template: openstack
+      stackviz:
+        template: openstack
+      steth:
+        template: openstack
+      stevedore:
+        template: openstack
+      sticks:
+        template: openstack
+      sticks-dashboard:
+        template: openstack
+      storlets:
+        template: openstack
+      stx-clients:
+        template: openstack
+      stx-config:
+        template: openstack
+      stx-docs:
+        template: openstack
+      stx-fault:
+        template: openstack
+      stx-gplv2:
+        template: openstack
+      stx-gplv3:
+        template: openstack
+      stx-gui:
+        template: openstack
+      stx-ha:
+        template: openstack
+      stx-integ:
+        template: openstack
+      stx-manifest:
+        template: openstack
+      stx-metal:
+        template: openstack
+      stx-nfv:
+        template: openstack
+      stx-root:
+        template: openstack
+      stx-tis-repo:
+        template: openstack
+      stx-tools:
+        template: openstack
+      stx-update:
+        template: openstack
+      stx-upstream:
+        template: openstack
+      stx-utils:
+        template: openstack
+      surveil:
+        template: openstack
+      surveil-specs:
+        template: openstack
+      sushy:
+        template: openstack
+      sushy-tools:
+        template: openstack
+      swauth:
+        template: openstack
+      swift:
+        template: openstack
+      swift-bench:
+        template: openstack
+      swift-ceph-backend:
+        template: openstack
+      swift-specs:
+        template: openstack
+      swift3:
+        template: openstack
+      swiftonfile:
+        template: openstack
+      swiftonhpss:
+        template: openstack
+      synergy-scheduler-manager:
+        template: openstack
+      synergy-service:
+        template: openstack
+      syntribos:
+        template: openstack
+      syntribos-openstack-templates:
+        template: openstack
+      syntribos-payloads:
+        template: openstack
+      tacker:
+        template: openstack
+      tacker-horizon:
+        template: openstack
+      tacker-specs:
+        template: openstack
+      tap-as-a-service:
+        template: openstack
+      tap-as-a-service-dashboard:
+        template: openstack
+      taskflow:
+        template: openstack
+      tatu:
+        template: openstack
+      tatu-dashboard:
+        template: openstack
+      tc-as-a-service:
+        template: openstack
+      telcowg-usecases:
+        template: openstack
+      telemetry-specs:
+        template: openstack
+      telemetry-tempest-plugin:
+        template: openstack
+      tempest:
+        template: openstack
+      tempest-horizon:
+        template: openstack
+      tempest-lib:
+        template: openstack
+      tempest-plugin-cookiecutter:
+        template: openstack
+      tempest-stress:
+        template: openstack
+      tempest-tripleo-ui:
+        template: openstack
+      terracotta:
+        template: openstack
+      third-party-ci-tools:
+        template: openstack
+      timmy:
+        template: openstack
+      tooz:
+        template: openstack
+      tosca-parser:
+        template: openstack
+      training-guides:
+        template: openstack
+      training-labs:
+        template: openstack
+      transparency-policy:
+        template: openstack
+      tricircle:
+        template: openstack
+      trio2o:
+        template: openstack
+      tripleo-common:
+        template: openstack
+      tripleo-common-tempest-plugin:
+        template: openstack
+      tripleo-docs:
+        template: openstack
+      tripleo-ha-utils:
+        template: openstack
+      tripleo-heat-templates:
+        template: openstack
+      tripleo-image-elements:
+        template: openstack
+      tripleo-incubator:
+        template: openstack
+      tripleo-ipsec:
+        template: openstack
+      tripleo-puppet-elements:
+        template: openstack
+      tripleo-quickstart:
+        template: openstack
+      tripleo-quickstart-extras:
+        template: openstack
+      tripleo-repos:
+        template: openstack
+      tripleo-specs:
+        template: openstack
+      tripleo-ui:
+        template: openstack
+      tripleo-upgrade:
+        template: openstack
+      tripleo-validations:
+        template: openstack
+      trove:
+        template: openstack
+      trove-dashboard:
+        template: openstack
+      trove-image-builder:
+        template: openstack
+      trove-integration:
+        template: openstack
+      trove-specs:
+        template: openstack
+      trove-tempest-plugin:
+        template: openstack
+      tuning-box:
+        template: openstack
+      turbo-hipster:
+        template: openstack
+      tuskar:
+        template: openstack
+      tuskar-ui:
+        template: openstack
+      uc-recognition:
+        template: openstack
+      ui-cookiecutter:
+        template: openstack
+      upstream-institute-virtual-environment:
+        template: openstack
+      vahana:
+        template: openstack
+      valence:
+        template: openstack
+      valence-specs:
+        template: openstack
+      valet:
+        template: openstack
+      virtualbmc:
+        template: openstack
+      virtualpdu:
+        template: openstack
+      vitrage:
+        template: openstack
+      vitrage-dashboard:
+        template: openstack
+      vitrage-specs:
+        template: openstack
+      vitrage-tempest-plugin:
+        template: openstack
+      vm-bm-wg:
+        template: openstack
+      vmtp:
+        template: openstack
+      vmware-nsx:
+        template: openstack
+      vmware-nsx-tempest-plugin:
+        template: openstack
+      vmware-nsxlib:
+        template: openstack
+      vmware-vspc:
+        template: openstack
+      watcher:
+        template: openstack
+      watcher-dashboard:
+        template: openstack
+      watcher-specs:
+        template: openstack
+      watcher-tempest-plugin:
+        template: openstack
+      whereto:
+        template: openstack
+      windmill:
+        template: openstack
+      workload-ref-archs:
+        template: openstack
+      wsme:
+        template: openstack
+      xenapi-os-testing:
+        template: openstack
+      xstatic-angular:
+        template: openstack
+      xstatic-angular-bootstrap:
+        template: openstack
+      xstatic-angular-cookies:
+        template: openstack
+      xstatic-angular-fileupload:
+        template: openstack
+      xstatic-angular-gettext:
+        template: openstack
+      xstatic-angular-lrdragndrop:
+        template: openstack
+      xstatic-angular-material:
+        template: openstack
+      xstatic-angular-mock:
+        template: openstack
+      xstatic-angular-notify:
+        template: openstack
+      xstatic-angular-sanitize:
+        template: openstack
+      xstatic-angular-smart-table:
+        template: openstack
+      xstatic-angular-ui-router:
+        template: openstack
+      xstatic-angular-uuid:
+        template: openstack
+      xstatic-angular-vis:
+        template: openstack
+      xstatic-bootstrap-datepicker:
+        template: openstack
+      xstatic-bootstrap-scss:
+        template: openstack
+      xstatic-bootswatch:
+        template: openstack
+      xstatic-d3:
+        template: openstack
+      xstatic-filesaver:
+        template: openstack
+      xstatic-font-awesome:
+        template: openstack
+      xstatic-hogan:
+        template: openstack
+      xstatic-jasmine:
+        template: openstack
+      xstatic-jquery-migrate:
+        template: openstack
+      xstatic-jquery.bootstrap.wizard:
+        template: openstack
+      xstatic-jquery.quicksearch:
+        template: openstack
+      xstatic-jquery.tablesorter:
+        template: openstack
+      xstatic-js-yaml:
+        template: openstack
+      xstatic-jsencrypt:
+        template: openstack
+      xstatic-json2yaml:
+        template: openstack
+      xstatic-magic-search:
+        template: openstack
+      xstatic-mdi:
+        template: openstack
+      xstatic-qunit:
+        template: openstack
+      xstatic-rickshaw:
+        template: openstack
+      xstatic-roboto-fontface:
+        template: openstack
+      xstatic-spin:
+        template: openstack
+      xstatic-vis:
+        template: openstack
+      yaql:
+        template: openstack
+      zaqar:
+        template: openstack
+      zaqar-specs:
+        template: openstack
+      zaqar-tempest-plugin:
+        template: openstack
+      zaqar-ui:
+        template: openstack
+      zun:
+        template: openstack
+      zun-tempest-plugin:
+        template: openstack
+      zun-ui:
+        template: openstack

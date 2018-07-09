@@ -128,10 +128,10 @@ projects:
         branches:
         - wip-sage-testing
         template: Ceph
-      ceph-client:
-        branches:
-        - for-linus
-        template: Ceph
+#      ceph-client:
+#        branches:
+#        - for-linus
+#        template: Ceph
       ceph-client-standalone:
         branches:
         - master

@@ -1,0 +1,352 @@
+project-templates:
+  openstack-infra:
+    branches:
+    - master
+    gitweb: http://github.com/openstack-infra/%(name)s/commit/%%(sha)s
+    uri: http://github.com/openstack-infra/%(name)s
+projects:
+  openstack-infra:
+    description: The openstack-infra Github organization
+    repos:
+      activity-board:
+        template: openstack-infra
+      afsmon:
+        template: openstack-infra
+      ansible-role-puppet:
+        template: openstack-infra
+      askbot-theme:
+        template: openstack-infra
+      beaker-localhost:
+        template: openstack-infra
+      beaker-nodepool:
+        template: openstack-infra
+      bindep:
+        template: openstack-infra
+      bugdaystats:
+        template: openstack-infra
+      ciwatch:
+        template: openstack-infra
+      devstack-gate:
+        template: openstack-infra
+      elastic-recheck:
+        template: openstack-infra
+      err2d2:
+        template: openstack-infra
+      featuretracker:
+        template: openstack-infra
+      gear:
+        template: openstack-infra
+      gearman-plugin:
+        template: openstack-infra
+      germqtt:
+        template: openstack-infra
+      gerrit:
+        template: openstack-infra
+      gerritbot:
+        template: openstack-infra
+      gerritlib:
+        template: openstack-infra
+      git-restack:
+        template: openstack-infra
+      git-review:
+        template: openstack-infra
+      gitdm:
+        template: openstack-infra
+      glean:
+        template: openstack-infra
+      grafyaml:
+        template: openstack-infra
+      groups:
+        template: openstack-infra
+      groups-static-pages:
+        template: openstack-infra
+      infra-ansible:
+        template: openstack-infra
+      infra-manual:
+        template: openstack-infra
+      infra-specs:
+        template: openstack-infra
+      irc-meetings:
+        template: openstack-infra
+      jeepyb:
+        template: openstack-infra
+      jenkins-job-builder:
+        template: openstack-infra
+      js-afs-blob-store:
+        template: openstack-infra
+      js-generator-openstack:
+        template: openstack-infra
+      js-openstack-registry-hooks:
+        template: openstack-infra
+      lodgeit:
+        template: openstack-infra
+      log-classify:
+        template: openstack-infra
+      log_processor:
+        template: openstack-infra
+      logstash-filters:
+        template: openstack-infra
+      lpmqtt:
+        template: openstack-infra
+      meetbot:
+        template: openstack-infra
+      mqtt_statsd:
+        template: openstack-infra
+      nodepool:
+        template: openstack-infra
+      nose-html-output:
+        template: openstack-infra
+      odsreg:
+        template: openstack-infra
+      openstack-zuul-jobs:
+        template: openstack-infra
+      openstack-zuul-roles:
+        template: openstack-infra
+      openstackid:
+        template: openstack-infra
+      openstackid-resources:
+        template: openstack-infra
+      openstackweb:
+        template: openstack-infra
+      os-loganalyze:
+        template: openstack-infra
+      project-config:
+        template: openstack-infra
+      project-config-example:
+        template: openstack-infra
+      publications:
+        template: openstack-infra
+      puppet-accessbot:
+        template: openstack-infra
+      puppet-ansible:
+        template: openstack-infra
+      puppet-apparmor:
+        template: openstack-infra
+      puppet-apps_site:
+        template: openstack-infra
+      puppet-askbot:
+        template: openstack-infra
+      puppet-asterisk:
+        template: openstack-infra
+      puppet-bandersnatch:
+        template: openstack-infra
+      puppet-bugdaystats:
+        template: openstack-infra
+      puppet-bup:
+        template: openstack-infra
+      puppet-cgit:
+        template: openstack-infra
+      puppet-ciwatch:
+        template: openstack-infra
+      puppet-dashboard:
+        template: openstack-infra
+      puppet-diskimage_builder:
+        template: openstack-infra
+      puppet-docker_registry:
+        template: openstack-infra
+      puppet-drupal:
+        template: openstack-infra
+      puppet-elastic_recheck:
+        template: openstack-infra
+      puppet-elasticsearch:
+        template: openstack-infra
+      puppet-ethercalc:
+        template: openstack-infra
+      puppet-etherpad_lite:
+        template: openstack-infra
+      puppet-exim:
+        template: openstack-infra
+      puppet-featuretracker:
+        template: openstack-infra
+      puppet-germqtt:
+        template: openstack-infra
+      puppet-gerrit:
+        template: openstack-infra
+      puppet-gerritbot:
+        template: openstack-infra
+      puppet-github:
+        template: openstack-infra
+      puppet-grafyaml:
+        template: openstack-infra
+      puppet-graphite:
+        template: openstack-infra
+      puppet-haveged:
+        template: openstack-infra
+      puppet-hound:
+        template: openstack-infra
+      puppet-httpd:
+        template: openstack-infra
+      puppet-infra-cookiecutter:
+        template: openstack-infra
+      puppet-infracloud:
+        template: openstack-infra
+      puppet-ipsilon:
+        template: openstack-infra
+      puppet-iptables:
+        template: openstack-infra
+      puppet-jeepyb:
+        template: openstack-infra
+      puppet-jenkins:
+        template: openstack-infra
+      puppet-kerberos:
+        template: openstack-infra
+      puppet-kibana:
+        template: openstack-infra
+      puppet-lodgeit:
+        template: openstack-infra
+      puppet-log_processor:
+        template: openstack-infra
+      puppet-logrotate:
+        template: openstack-infra
+      puppet-logstash:
+        template: openstack-infra
+      puppet-lpmqtt:
+        template: openstack-infra
+      puppet-mailman:
+        template: openstack-infra
+      puppet-mediawiki:
+        template: openstack-infra
+      puppet-meetbot:
+        template: openstack-infra
+      puppet-mosquitto:
+        template: openstack-infra
+      puppet-mqtt_statsd:
+        template: openstack-infra
+      puppet-mysql_backup:
+        template: openstack-infra
+      puppet-nodepool:
+        template: openstack-infra
+      puppet-odsreg:
+        template: openstack-infra
+      puppet-openafs:
+        template: openstack-infra
+      puppet-openstack_health:
+        template: openstack-infra
+      puppet-openstack_infra_spec_helper:
+        template: openstack-infra
+      puppet-openstackci:
+        template: openstack-infra
+      puppet-openstackid:
+        template: openstack-infra
+      puppet-os_client_config:
+        template: openstack-infra
+      puppet-packagekit:
+        template: openstack-infra
+      puppet-pgsql_backup:
+        template: openstack-infra
+      puppet-phabricator:
+        template: openstack-infra
+      puppet-pip:
+        template: openstack-infra
+      puppet-planet:
+        template: openstack-infra
+      puppet-project_config:
+        template: openstack-infra
+      puppet-ptgbot:
+        template: openstack-infra
+      puppet-puppet:
+        template: openstack-infra
+      puppet-redis:
+        template: openstack-infra
+      puppet-refstack:
+        template: openstack-infra
+      puppet-releasestatus:
+        template: openstack-infra
+      puppet-reviewday:
+        template: openstack-infra
+      puppet-simpleproxy:
+        template: openstack-infra
+      puppet-snmpd:
+        template: openstack-infra
+      puppet-ssh:
+        template: openstack-infra
+      puppet-ssl_cert_check:
+        template: openstack-infra
+      puppet-stackalytics:
+        template: openstack-infra
+      puppet-statusbot:
+        template: openstack-infra
+      puppet-storyboard:
+        template: openstack-infra
+      puppet-subunit2sql:
+        template: openstack-infra
+      puppet-sudoers:
+        template: openstack-infra
+      puppet-tmpreaper:
+        template: openstack-infra
+      puppet-translation_checksite:
+        template: openstack-infra
+      puppet-ulimit:
+        template: openstack-infra
+      puppet-unattended_upgrades:
+        template: openstack-infra
+      puppet-unbound:
+        template: openstack-infra
+      puppet-user:
+        template: openstack-infra
+      puppet-vcsrepo:
+        template: openstack-infra
+      puppet-vinz:
+        template: openstack-infra
+      puppet-yum:
+        template: openstack-infra
+      puppet-zanata:
+        template: openstack-infra
+      puppet-zuul:
+        template: openstack-infra
+      pynotedb:
+        template: openstack-infra
+      pypi-mirror:
+        template: openstack-infra
+      python-storyboardclient:
+        template: openstack-infra
+      release-tools:
+        template: openstack-infra
+      releasestatus:
+        template: openstack-infra
+      requestsexceptions:
+        template: openstack-infra
+      reviewday:
+        template: openstack-infra
+      reviewstats:
+        template: openstack-infra
+      shade:
+        template: openstack-infra
+      statusbot:
+        template: openstack-infra
+      storyboard:
+        template: openstack-infra
+      storyboard-webclient:
+        template: openstack-infra
+      subunit2sql:
+        template: openstack-infra
+      system-config:
+        template: openstack-infra
+      tripleo-ci:
+        template: openstack-infra
+      trystack-site:
+        template: openstack-infra
+      vinz:
+        template: openstack-infra
+      vinz-webclient:
+        template: openstack-infra
+      yaml2ical:
+        template: openstack-infra
+      zmq-event-publisher:
+        template: openstack-infra
+      zone-zuul-ci.org:
+        template: openstack-infra
+      zuul:
+        template: openstack-infra
+      zuul-base-jobs:
+        template: openstack-infra
+      zuul-jobs:
+        template: openstack-infra
+      zuul-packaging:
+        template: openstack-infra
+      zuul-sphinx:
+        template: openstack-infra
+      zuul-website:
+        template: openstack-infra
+      zuul-website-media:
+        template: openstack-infra

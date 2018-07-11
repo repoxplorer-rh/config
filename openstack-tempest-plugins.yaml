@@ -1,0 +1,233 @@
+project-templates:
+  openstack-tempest:
+    branches:
+    - master
+    gitweb: https://github.com/%(name)s/commit/%%(sha)s
+    parsers:
+    - .*(blueprint) ([^ .]+).*
+    uri: https://github.com/%(name)s
+projects:
+  openstack/Tempest-plugins:
+    description: 'Custom project Tempest Plugin that gather stats from Tempest directory across multiple openstack projects'
+    repos:
+      openstack/almanach:
+        paths:
+        - almanach/tests/tempest
+        template: openstack-tempest
+      openstack/aodh:
+        paths:
+        - aodh/tests/tempest
+        template: openstack-tempest
+      openstack/barbican-tempest-plugin:
+        template: openstack-tempest
+      openstack/ceilometer:
+        paths:
+        - ceilometer/tests/tempest
+        template: openstack-tempest
+      openstack/cinder:
+        paths:
+        - cinder/tests/tempest
+        template: openstack-tempest
+      openstack/congress:
+        paths:
+        - congress_tempest_tests
+        template: openstack-tempest
+      openstack/designate-tempest-plugin:
+        template: openstack-tempest
+      openstack/ec2-api:
+        paths:
+        - ec2api/tests/functional
+        template: openstack-tempest
+      openstack/freezer:
+        paths:
+        - freezer/tests/freezer_tempest_plugin
+        template: openstack-tempest
+      openstack/freezer-api:
+        paths:
+        - freezer_api/tests/freezer_api_tempest_plugin
+        template: openstack-tempest
+      openstack/freezer-tempest-plugin:
+        template: openstack-tempest
+      openstack/gce-api:
+        paths:
+        - gceapi/tests/functional
+        template: openstack-tempest
+      openstack/glare:
+        paths:
+        - glare_tempest_plugin
+        template: openstack-tempest
+      openstack/heat:
+        paths:
+        - heat_integrationtests
+        template: openstack-tempest
+      openstack/intel-nfv-ci-tests:
+        paths:
+        - intel_nfv_ci_tests
+        template: openstack-tempest
+      openstack/ironic:
+        paths:
+        - ironic_tempest_plugin
+        template: openstack-tempest
+      openstack/ironic-inspector:
+        paths:
+        - ironic_inspector/test/inspector_tempest_plugin
+        template: openstack-tempest
+      openstack/ironic-inspector-tempest-plugin:
+        template: openstack-tempest
+      openstack/ironic-tempest-plugin:
+        template: openstack-tempest
+      openstack/keystone-tempest-plugin:
+        template: openstack-tempest
+      openstack/kingbird:
+        paths:
+        - kingbird/tests/tempest
+        template: openstack-tempest
+      openstack/kuryr-tempest-plugin:
+        template: openstack-tempest
+      openstack/magnum:
+        paths:
+        - magnum/tests/functional/tempest_tests
+        - magnum/tests/functional/api
+        template: openstack-tempest
+      openstack/manila:
+        paths:
+        - manila_tempest_tests
+        template: openstack-tempest
+      openstack/mistral:
+        paths:
+        - mistral_tempest_tests
+        template: openstack-tempest
+      openstack/mogan:
+        paths:
+        - mogan/tests/tempest
+        template: openstack-tempest
+      openstack/monasca-api:
+        paths:
+        - monasca_tempest_tests
+        template: openstack-tempest
+      openstack/monasca-log-api:
+        paths:
+        - monasca_log_api_tempest
+        template: openstack-tempest
+      openstack/murano:
+        paths:
+        - murano_tempest_tests
+        template: openstack-tempest
+      openstack/networking-bgpvpn:
+        paths:
+        - networking_bgpvpn_tempest
+        template: openstack-tempest
+      openstack/networking-fortinet:
+        paths:
+        - networking_fortinet/tests/tempest_plugin
+        template: openstack-tempest
+      openstack/networking-generic-switch:
+        paths:
+        - tempest_plugin
+        template: openstack-tempest
+      openstack/networking-l2gw:
+        paths:
+        - networking_l2gw/tests/tempest
+        template: openstack-tempest
+      openstack/networking-midonet:
+        paths:
+        - midonet/neutron/tests/tempest
+        template: openstack-tempest
+      openstack/networking-plumgrid:
+        paths:
+        - plumgrid_tempest_plugin
+        template: openstack-tempest
+      openstack/networking-sfc:
+        paths:
+        - networking_sfc/tests/tempest_plugin
+        template: openstack-tempest
+      openstack/neutron:
+        paths:
+        - neutron/tests/tempest
+        template: openstack-tempest
+      openstack/neutron-dynamic-routing:
+        paths:
+        - neutron_dynamic_routing/tests/tempest
+        template: openstack-tempest
+      openstack/neutron-fwaas:
+        paths:
+        - neutron_fwaas/tests/tempest_plugin
+        template: openstack-tempest
+      openstack/neutron-lbaas:
+        paths:
+        - neutron_lbaas/tests/tempest
+        template: openstack-tempest
+      openstack/neutron-vpnaas:
+        paths:
+        - neutron_vpnaas/tests/tempest
+        template: openstack-tempest
+      openstack/nova-lxd:
+        paths:
+        - nova_lxd_tempest_plugin
+        template: openstack-tempest
+      openstack/octavia:
+        paths:
+        - octavia/tests/tempest
+        template: openstack-tempest
+      openstack/octavia-tempest-plugin:
+        template: openstack-tempest
+      openstack/oswin-tempest-plugin:
+        paths:
+        - oswin_tempest_plugin
+        template: openstack-tempest
+      openstack/panko:
+        paths:
+        - panko/tests/tempest
+        template: openstack-tempest
+      openstack/patrole:
+        paths:
+        - patrole_tempest_plugin
+        template: openstack-tempest
+      openstack/sahara-tests:
+        paths:
+        - sahara_tempest_plugin
+        template: openstack-tempest
+      openstack/senlin:
+        paths:
+        - senlin/tests/tempest
+        template: openstack-tempest
+      openstack/tap-as-a-service:
+        paths:
+        - neutron_taas/tests/tempest_plugin
+        template: openstack-tempest
+      openstack/tempest-horizon:
+        template: openstack-tempest
+      openstack/trio2o:
+        paths:
+        - trio2o/tempestplugin
+        template: openstack-tempest
+      openstack/trove:
+        paths:
+        - trove/tests/tempest
+        template: openstack-tempest
+      openstack/valet:
+        paths:
+        - valet/tests/tempest
+        template: openstack-tempest
+      openstack/vitrage:
+        paths:
+        - vitrage_tempest_tests
+        template: openstack-tempest
+      openstack/vmware-nsx:
+        paths:
+        - vmware_nsx_tempest
+        template: openstack-tempest
+      openstack/vmware-nsx-tempest-plugin:
+        template: openstack-tempest
+      openstack/watcher:
+        paths:
+        - watcher_tempest_plugin
+        template: openstack-tempest
+      openstack/zaqar:
+        paths:
+        - zaqar/tests/tempest_plugin
+        template: openstack-tempest
+      openstack/zun:
+        paths:
+        - zun/tests/tempest
+        template: openstack-tempest

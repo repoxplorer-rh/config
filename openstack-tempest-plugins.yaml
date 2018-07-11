@@ -10,6 +10,8 @@ projects:
   openstack/Tempest-plugins:
     description: 'Custom project Tempest Plugin that gather stats from Tempest directory across multiple openstack projects'
     repos:
+      openstack/tempest:
+        template: openstack-tempest
       openstack/almanach:
         paths:
         - almanach/tests/tempest

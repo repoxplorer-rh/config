@@ -13,3 +13,43 @@ projects:
         branches:
         - trunk
         template: Apache Qpid
+      qpid-proton:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-jms:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-dispatch:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-cpp:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-proton-j:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-broker-j:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-python:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-interop-test:
+        branches:
+        - master
+        template: Apache Qpid
+      qpid-site:
+        branches:
+        - asf-site
+        template: Apache Qpid
+      qpid-jms-amqp-0-x:
+        branches:
+        - master
+        template: Apache Qpid

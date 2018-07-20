@@ -1,0 +1,12 @@
+project-templates:
+  skontar:
+    branches:
+    - master
+    gitweb: http://github.com/skontar/%(name)s/commit/%%(sha)s
+    uri: http://github.com/skontar/%(name)s
+projects:
+  CVSS:
+    description: CVSS2/3
+    repos:
+      cvss:
+        template: skontar

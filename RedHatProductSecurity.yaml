@@ -1,0 +1,20 @@
+project-templates:
+  RedHatProductSecurity:
+    branches:
+    - master
+    gitweb: http://github.com/RedHatProductSecurity/%(name)s/commit/%%(sha)s
+    uri: http://github.com/RedHatProductSecurity/%(name)s
+projects:
+  RedHatProductSecurity:
+    description: The RedHatProductSecurity Github organization
+    repos:
+      CVE-HOWTO:
+        template: RedHatProductSecurity
+      Certificates-Shipped:
+        template: RedHatProductSecurity
+      Diffie-Hellman-Primes:
+        template: RedHatProductSecurity
+      Hyperbaric-Chamber:
+        template: RedHatProductSecurity
+      JarManifest:
+        template: RedHatProductSecurity

@@ -1,0 +1,50 @@
+project-templates:
+  PicketBox:
+    branches:
+    - master
+    gitweb: https://github.com/picketbox/%(name)s/commit/%%(sha)s
+    uri: https://github.com/picketbox/%(name)s
+projects:
+  PicketBox:
+    description: A project for Java Application Security
+    repos:
+      bare-vault:
+        branches:
+        - master
+        template: PicketBox
+      commons:
+        branches:
+        - master
+        template: PicketBox
+      picketbox:
+        branches:
+        - master
+        template: PicketBox
+      picketbox-cdi:
+        branches:
+        - master
+        template: PicketBox
+      picketbox-container-stale:
+        branches:
+        - master
+        template: PicketBox
+      picketbox-keystore:
+        branches:
+        - master
+        template: PicketBox
+      picketbox-ldap:
+        branches:
+        - master
+        template: PicketBox
+      picketbox-quickstarts:
+        branches:
+        - master
+        template: PicketBox
+      picketbox5-deprecate:
+        branches:
+        - master
+        template: PicketBox
+      security-xacml:
+        branches:
+        - master
+        template: PicketBox

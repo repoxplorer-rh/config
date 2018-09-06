@@ -1,0 +1,239 @@
+project-templates:
+  Kubernetes:
+    branches:
+    - master
+    gitweb: https://github.com/kubernetes/%(name)s/commit/%%(sha)s
+    uri: https://github.com/kubernetes/%(name)s
+projects:
+  Kubernetes:
+    description: An open-source system for automating deployment, scaling, and management
+      of containerized applications
+    repos:
+      api:
+        branches:
+        - master
+        template: Kubernetes
+      apiextensions-apiserver:
+        branches:
+        - master
+        template: Kubernetes
+      apimachinery:
+        branches:
+        - master
+        template: Kubernetes
+      apiserver:
+        branches:
+        - master
+        template: Kubernetes
+      autoscaler:
+        branches:
+        - master
+        template: Kubernetes
+      client-go:
+        branches:
+        - master
+        template: Kubernetes
+      cloud-provider-aws:
+        branches:
+        - master
+        template: Kubernetes
+      cloud-provider-azure:
+        branches:
+        - master
+        template: Kubernetes
+      cloud-provider-gcp:
+        branches:
+        - master
+        template: Kubernetes
+      cloud-provider-openstack:
+        branches:
+        - master
+        template: Kubernetes
+      cloud-provider-vsphere:
+        branches:
+        - master
+        template: Kubernetes
+      cluster-registry:
+        branches:
+        - master
+        template: Kubernetes
+      code-generator:
+        branches:
+        - master
+        template: Kubernetes
+      community:
+        branches:
+        - master
+        template: Kubernetes
+      contrib:
+        branches:
+        - master
+        template: Kubernetes
+      csi-api:
+        branches:
+        - master
+        template: Kubernetes
+      dashboard:
+        branches:
+        - master
+        template: Kubernetes
+      dns:
+        branches:
+        - master
+        template: Kubernetes
+      examples:
+        branches:
+        - master
+        template: Kubernetes
+      features:
+        branches:
+        - master
+        template: Kubernetes
+      federation:
+        branches:
+        - master
+        template: Kubernetes
+      frakti:
+        branches:
+        - master
+        template: Kubernetes
+      gengo:
+        branches:
+        - master
+        template: Kubernetes
+      git-sync:
+        branches:
+        - master
+        template: Kubernetes
+      heapster:
+        branches:
+        - master
+        template: Kubernetes
+      ingress-gce:
+        branches:
+        - master
+        template: Kubernetes
+      ingress-nginx:
+        branches:
+        - master
+        template: Kubernetes
+      k8s.io:
+        branches:
+        - master
+        template: Kubernetes
+      kompose:
+        branches:
+        - master
+        template: Kubernetes
+      kops:
+        branches:
+        - master
+        template: Kubernetes
+      kube-aggregator:
+        branches:
+        - master
+        template: Kubernetes
+      kube-deploy:
+        branches:
+        - master
+        template: Kubernetes
+      kube-openapi:
+        branches:
+        - master
+        template: Kubernetes
+      kube-state-metrics:
+        branches:
+        - master
+        template: Kubernetes
+      kubeadm:
+        branches:
+        - master
+        template: Kubernetes
+      kubectl:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes-anywhere:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes-docs-ja:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes-docs-ko:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes-docs-zh:
+        branches:
+        - master
+        template: Kubernetes
+      kubernetes-template-project:
+        branches:
+        - master
+        template: Kubernetes
+      metrics:
+        branches:
+        - master
+        template: Kubernetes
+      minikube:
+        branches:
+        - master
+        template: Kubernetes
+      node-problem-detector:
+        branches:
+        - master
+        template: Kubernetes
+      org:
+        branches:
+        - master
+        template: Kubernetes
+      perf-tests:
+        branches:
+        - master
+        template: Kubernetes
+      publishing-bot:
+        branches:
+        - master
+        template: Kubernetes
+      release:
+        branches:
+        - master
+        template: Kubernetes
+      repo-infra:
+        branches:
+        - master
+        template: Kubernetes
+      sample-apiserver:
+        branches:
+        - master
+        template: Kubernetes
+      sample-controller:
+        branches:
+        - master
+        template: Kubernetes
+      sig-release:
+        branches:
+        - master
+        template: Kubernetes
+      steering:
+        branches:
+        - master
+        template: Kubernetes
+      test-infra:
+        branches:
+        - master
+        template: Kubernetes
+      utils:
+        branches:
+        - master
+        template: Kubernetes
+      website:
+        branches:
+        - master
+        template: Kubernetes

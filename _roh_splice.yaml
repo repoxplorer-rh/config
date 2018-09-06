@@ -1,0 +1,22 @@
+project-templates:
+  splice:
+    branches:
+    - master
+    gitweb: https://github.com/splice/%(name)s/commit/%%(sha)s
+    uri: https://github.com/splice/%(name)s
+projects:
+  splice:
+    description: Reporting tool
+    repos:
+      cloudfront:
+        branches:
+        - master
+        template: splice
+      isoweek:
+        branches:
+        - master
+        template: splice
+      js-808:
+        branches:
+        - master
+        template: splice

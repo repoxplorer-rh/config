@@ -1,0 +1,238 @@
+project-templates:
+  Red Hat Insights:
+    branches:
+    - master
+    gitweb: https://github.com/RedHatInsights/%(name)s/commit/%%(sha)s
+    uri: https://github.com/RedHatInsights/%(name)s
+projects:
+  Red Hat Insights:
+    description: Proactive analytics and real-time intelligence
+    repos:
+      account-reports:
+        branches:
+        - master
+        template: Red Hat Insights
+      aicoe-insights-clustering:
+        branches:
+        - master
+        template: Red Hat Insights
+      ansible-insights-client:
+        branches:
+        - master
+        template: Red Hat Insights
+      bunyan-post:
+        branches:
+        - master
+        template: Red Hat Insights
+      dmidecode-vendor-mappings:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-3scale:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-CI-examples:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-advisor-frontend:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-advisor-frontend-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-amqp:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ansible:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-api-swagger:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-bigzam:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-chrome:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-chrome-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-client:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-core:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-core-blog:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-dashboard:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-dashboard-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-deployment-test:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-deployment-test-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-assets:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-components:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-starter-app:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-starter-app-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-storybook:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-frontend-storybook-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-goapi:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-inventory-frontend:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-inventory-frontend-build:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-node-auth:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-npm-cache:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-api:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-cli:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-controller:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-master:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-scanner:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-ocp-ui:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-openshift:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-platform-jenkins:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-plugins-demo:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-proxy:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-slackbot:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-streaming:
+        branches:
+        - master
+        template: Red Hat Insights
+      insights-web:
+        branches:
+        - master
+        template: Red Hat Insights
+      jenkins-plugin:
+        branches:
+        - master
+        template: Red Hat Insights
+      kafka-examples:
+        branches:
+        - master
+        template: Red Hat Insights
+      oclogs:
+        branches:
+        - master
+        template: Red Hat Insights
+      openshift-dedicated-backup:
+        branches:
+        - master
+        template: Red Hat Insights
+      openshift-scan:
+        branches:
+        - master
+        template: Red Hat Insights
+      pact-python-demo:
+        branches:
+        - master
+        template: Red Hat Insights
+      vmaas:
+        branches:
+        - master
+        template: Red Hat Insights
+      vulnerability-engine:
+        branches:
+        - master
+        template: Red Hat Insights
+      vulnerability-ui:
+        branches:
+        - master
+        template: Red Hat Insights
+      vulnerability-ui-build:
+        branches:
+        - master
+        template: Red Hat Insights

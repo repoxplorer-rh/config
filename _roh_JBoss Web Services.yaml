@@ -1,0 +1,138 @@
+project-templates:
+  JBoss Web Services:
+    branches:
+    - master
+    gitweb: https://github.com/jbossws/%(name)s/commit/%%(sha)s
+    uri: https://github.com/jbossws/%(name)s
+projects:
+  JBoss Web Services:
+    description: Web Services framework and tools for WildFly and JBoss EAP
+    repos:
+      jaxws-codefirst-maven-archetype:
+        branches:
+        - master
+        template: JBoss Web Services
+      jaxws-httpserver-httpspi:
+        branches:
+        - master
+        template: JBoss Web Services
+      jaxws-jboss-httpserver-httpspi:
+        branches:
+        - master
+        template: JBoss Web Services
+      jaxws-tools-maven-plugin:
+        branches:
+        - master
+        template: JBoss Web Services
+      jaxws-undertow-httpspi:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-api:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-common:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-common-tools:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-cxf:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-hudson:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-jboss42:
+        branches:
+        - jbossws-jboss42-2.0.1.GA_CP
+        template: JBoss Web Services
+      jbossws-jboss5:
+        branches:
+        - jbossws-jboss500
+        template: JBoss Web Services
+      jbossws-jboss6:
+        branches:
+        - jbossws-jboss600
+        template: JBoss Web Services
+      jbossws-jboss70:
+        branches:
+        - jbossws-jboss700
+        template: JBoss Web Services
+      jbossws-jboss71:
+        branches:
+        - jbossws-jboss711
+        template: JBoss Web Services
+      jbossws-jboss72:
+        branches:
+        - jbossws-jboss720-4.3.x
+        template: JBoss Web Services
+      jbossws-parent:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-shared-testsuite:
+        branches:
+        - jbossws-shared-testsuite-4.1.x
+        template: JBoss Web Services
+      jbossws-spi:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly100:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly101:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly110:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly120:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly130:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly140:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws-wildfly80:
+        branches:
+        - jbossws-wildfly800
+        template: JBoss Web Services
+      jbossws-wildfly81:
+        branches:
+        - jbossws-wildfly810
+        template: JBoss Web Services
+      jbossws-wildfly82:
+        branches:
+        - jbossws-wildfly821
+        template: JBoss Web Services
+      jbossws-wildfly90:
+        branches:
+        - master
+        template: JBoss Web Services
+      jbossws.github.io:
+        branches:
+        - master
+        template: JBoss Web Services
+      resource-filter-maven-plugin:
+        branches:
+        - master
+        template: JBoss Web Services
+      wsi-bp-test:
+        branches:
+        - master
+        template: JBoss Web Services

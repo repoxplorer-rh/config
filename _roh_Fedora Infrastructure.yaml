@@ -1,0 +1,410 @@
+project-templates:
+  Fedora Infrastructure:
+    branches:
+    - master
+    gitweb: https://github.com/fedora-infra/%(name)s/commit/%%(sha)s
+    uri: https://github.com/fedora-infra/%(name)s
+projects:
+  Fedora Infrastructure:
+    description: Fedora Infrastructure Team
+    repos:
+      JSAutoLogin:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      android-pusher:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      apps.fp.o:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      askbot-fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      asknot-ng:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      bodhi:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      bugzilla2fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      busmon:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      canvass:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      copr-scala:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      datagrepper:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      datanommer:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      elections:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      faitout:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fas:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fas-client:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fas3-api-haskell:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedbadges:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedhubsync:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedimg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedinfra-currentreboots:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmenu:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg-atomic-composer:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg-fasclient:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-gcm-demo:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-genacls:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg-health:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-java:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-migration-tools:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-notify:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg-pkgdb-sync-git:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg-wp:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg2statsd:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedmsg_meta_fedora_infrastructure:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedmsg_middleware:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedocal:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-gather-easyfix:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-messaging:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-news:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedora-openhw2012:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-packages:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-releng-dash:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fedora-search:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-stats:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      fedora-stats-tools:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      flock-registration:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn.consumer:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn.lib:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn.rules:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn.sse:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fmn.web:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      fresque:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      geoip-city-wsgi:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      gilmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      github2fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      githubtools:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      gnome-tagger:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      hrf:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      ideas:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      is-it-in-rhel:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      jenkins-fedmsg-emit:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      kitchen:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      mailman3-fedmsg-plugin:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      mdapi:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      mirrormanager2:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      mobile:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      mote:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      nuancier:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      packagedb:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      packagedb-cli:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pagure-cli:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pagure-haskell:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pagure-hook-receiver:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pdc-updater:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      people2:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pkgdb2:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pkgwat.api:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      pkgwat.cli:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      postaja:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      pygit2_utils:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      python-fedora:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      rube:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      shumgrepper:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      spechub:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      sse2fedmsg:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      statscache:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      statscache_plugins:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      statusfpo:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      stickynotes2modernpaste:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      summershum:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      supybot-fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      supybot-fedora:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      tahrir:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      tahrir-api:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      taiga-contrib-fas-openid-auth:
+        branches:
+        - master
+        template: Fedora Infrastructure
+      the-new-hotness:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      trac-fedmsg-plugin:
+        branches:
+        - develop
+        template: Fedora Infrastructure
+      zanata2fedmsg:
+        branches:
+        - develop
+        template: Fedora Infrastructure

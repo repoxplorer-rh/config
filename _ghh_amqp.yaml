@@ -1,0 +1,16 @@
+project-templates:
+  amqp:
+    branches:
+    - master
+    gitweb: http://github.com/amqp/%(name)s/commit/%%(sha)s
+    uri: http://github.com/amqp/%(name)s
+projects:
+  amqp:
+    description: The amqp Github organization
+    repos:
+      node-red-contrib-rhea:
+        template: amqp
+      rhea:
+        template: amqp
+      rhea-promise:
+        template: amqp

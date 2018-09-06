@@ -1,0 +1,42 @@
+project-templates:
+  varlink:
+    branches:
+    - master
+    gitweb: https://github.com/varlink/%(name)s/commit/%%(sha)s
+    uri: https://github.com/varlink/%(name)s
+projects:
+  varlink:
+    description: System and Service Manager for Linux
+    repos:
+      go:
+        branches:
+        - master
+        template: varlink
+      java:
+        branches:
+        - develop
+        template: varlink
+      language-varlink:
+        branches:
+        - master
+        template: varlink
+      libvarlink:
+        branches:
+        - master
+        template: varlink
+      linux-varlink:
+        branches:
+        - master
+        template: varlink
+      python:
+        branches:
+        - master
+        template: varlink
+      rust:
+        branches:
+        - master
+        template: varlink
+      varlink.github.io:
+        branches:
+        - master
+        template: varlink

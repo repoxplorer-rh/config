@@ -1,0 +1,126 @@
+project-templates:
+  RPM Package Manager:
+    branches:
+    - master
+    gitweb: https://github.com/rpm-software-management/%(name)s/commit/%%(sha)s
+    uri: https://github.com/rpm-software-management/%(name)s
+projects:
+  RPM Package Manager:
+    description: Package creation and management
+    repos:
+      ci-dnf-stack:
+        branches:
+        - master
+        template: RPM Package Manager
+      createrepo:
+        branches:
+        - master
+        template: RPM Package Manager
+      createrepo_c:
+        branches:
+        - master
+        template: RPM Package Manager
+      deltarpm:
+        branches:
+        - master
+        template: RPM Package Manager
+      dnf:
+        branches:
+        - master
+        template: RPM Package Manager
+      dnf-URPM:
+        branches:
+        - master
+        template: RPM Package Manager
+      dnf-plugin-system-upgrade:
+        branches:
+        - master
+        template: RPM Package Manager
+      dnf-plugins-core:
+        branches:
+        - master
+        template: RPM Package Manager
+      dnf-plugins-extras:
+        branches:
+        - master
+        template: RPM Package Manager
+      drpm:
+        branches:
+        - master
+        template: RPM Package Manager
+      hawkey:
+        branches:
+        - master
+        template: RPM Package Manager
+      libcomps:
+        branches:
+        - master
+        template: RPM Package Manager
+      libdnf:
+        branches:
+        - master
+        template: RPM Package Manager
+      librepo:
+        branches:
+        - master
+        template: RPM Package Manager
+      librhsm:
+        branches:
+        - master
+        template: RPM Package Manager
+      maximum-rpm:
+        branches:
+        - master
+        template: RPM Package Manager
+      microdnf:
+        branches:
+        - master
+        template: RPM Package Manager
+      mock:
+        branches:
+        - devel
+        template: RPM Package Manager
+      rpm:
+        branches:
+        - master
+        template: RPM Package Manager
+      rpm-extras:
+        branches:
+        - master
+        template: RPM Package Manager
+      rpm-software-management.github.io:
+        branches:
+        - master
+        template: RPM Package Manager
+      rpm-web:
+        branches:
+        - master
+        template: RPM Package Manager
+      rpmlint:
+        branches:
+        - master
+        template: RPM Package Manager
+      urlgrabber:
+        branches:
+        - master
+        template: RPM Package Manager
+      yum:
+        branches:
+        - master
+        template: RPM Package Manager
+      yum-docs:
+        branches:
+        - master
+        template: RPM Package Manager
+      yum-metadata-parser:
+        branches:
+        - master
+        template: RPM Package Manager
+      yum-updatesd:
+        branches:
+        - master
+        template: RPM Package Manager
+      yum-utils:
+        branches:
+        - master
+        template: RPM Package Manager

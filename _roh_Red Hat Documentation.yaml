@@ -1,0 +1,35 @@
+project-templates:
+  Red Hat Documentation:
+    branches:
+    - master
+    gitweb: https://github.com/redhat-documentation/%(name)s/commit/%%(sha)s
+    uri: https://github.com/redhat-documentation/%(name)s
+projects:
+  Red Hat Documentation:
+    description: The location for fully open-sourced, freely accessible content on
+      standards and conventions that relate to Red Hat's product documentation.
+    repos:
+      asciidoc-markup-conventions:
+        branches:
+        - master
+        template: Red Hat Documentation
+      community-collaboration-guide:
+        branches:
+        - master
+        template: Red Hat Documentation
+      doc-guidelines:
+        branches:
+        - master
+        template: Red Hat Documentation
+      modular-docs:
+        branches:
+        - master
+        template: Red Hat Documentation
+      redhat-documentation.github.io:
+        branches:
+        - master
+        template: Red Hat Documentation
+      tools:
+        branches:
+        - master
+        template: Red Hat Documentation

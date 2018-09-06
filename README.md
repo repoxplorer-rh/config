@@ -1,2 +1,0 @@
-# config
-repoXplorer configuration

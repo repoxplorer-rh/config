@@ -1,0 +1,251 @@
+project-templates:
+  Snowdrop:
+    branches:
+    - master
+    gitweb: https://github.com/snowdrop/%(name)s/commit/%%(sha)s
+    uri: https://github.com/snowdrop/%(name)s
+projects:
+  Snowdrop:
+    description: A utility package that contains JBoss-specific extensions to the
+      Spring Framework
+    repos:
+      boosters-utils:
+        branches:
+        - master
+        template: Snowdrop
+      cloud-native-backend:
+        branches:
+        - master
+        template: Snowdrop
+      cloud-native-catalog:
+        branches:
+        - master
+        template: Snowdrop
+      cloud-native-dvlpt-demo:
+        branches:
+        - master
+        template: Snowdrop
+      cloud-native-frontend:
+        branches:
+        - master
+        template: Snowdrop
+      cloud-native-lab:
+        branches:
+        - master
+        template: Snowdrop
+      control-gavs-starter:
+        branches:
+        - master
+        template: Snowdrop
+      generator:
+        branches:
+        - master
+        template: Snowdrop
+      github-repo-cleanup-scripts:
+        branches:
+        - master
+        template: Snowdrop
+      istio-forge-addon:
+        branches:
+        - master
+        template: Snowdrop
+      istio-integration:
+        branches:
+        - master
+        template: Snowdrop
+      istio-java-api:
+        branches:
+        - master
+        template: Snowdrop
+      istio-model:
+        branches:
+        - master
+        template: Snowdrop
+      jaeger-opentracing:
+        branches:
+        - master
+        template: Snowdrop
+      k8s-supervisor:
+        branches:
+        - master
+        template: Snowdrop
+      kubernetes-info-webhook:
+        branches:
+        - master
+        template: Snowdrop
+      legacy_content:
+        branches:
+        - master
+        template: Snowdrop
+      licenses-generator:
+        branches:
+        - master
+        template: Snowdrop
+      narayana-spring-boot:
+        branches:
+        - master
+        template: Snowdrop
+      ocp-docker-build-install:
+        branches:
+        - master
+        template: Snowdrop
+      ocp-fmp-build-install:
+        branches:
+        - master
+        template: Snowdrop
+      ocp-odo-build-install:
+        branches:
+        - master
+        template: Snowdrop
+      ocp-template-build-install:
+        branches:
+        - master
+        template: Snowdrop
+      openshift-infra:
+        branches:
+        - master
+        template: Snowdrop
+      openshift-templates:
+        branches:
+        - master
+        template: Snowdrop
+      opentracing-tracer:
+        branches:
+        - master
+        template: Snowdrop
+      requests:
+        branches:
+        - master
+        template: Snowdrop
+      service-catalog-java-api:
+        branches:
+        - master
+        template: Snowdrop
+      servicecatalog-connector:
+        branches:
+        - master
+        template: Snowdrop
+      snowdrop-automation-client:
+        branches:
+        - master
+        template: Snowdrop
+      snowdrop-docs:
+        branches:
+        - master
+        template: Snowdrop
+      snowdrop-site-angular:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-blank-template:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-bom:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-booster-archetype:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-booster-parent:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-cache-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-circuit-breaker-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-configmap-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-crud-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-health-check-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-http-2:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-http-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-http-secured-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-istio-circuit-breaker-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-istio-distributed-tracing-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-istio-routing-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-istio-security-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-jolokia:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-messaging-work-queue-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-mvc-jsp:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-opentracing-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-quickstart-istio:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-spring-data-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-boot-tomcat-logging-booster:
+        branches:
+        - master
+        template: Snowdrop
+      spring-cloud-stream-binder-artemis:
+        branches:
+        - master
+        template: Snowdrop
+      spring-data-snowdrop:
+        branches:
+        - master
+        template: Snowdrop
+      testsuite:
+        branches:
+        - master
+        template: Snowdrop
+      tomcat-spring-boot-qualification:
+        branches:
+        - master
+        template: Snowdrop
+      tracing-example:
+        branches:
+        - master
+        template: Snowdrop

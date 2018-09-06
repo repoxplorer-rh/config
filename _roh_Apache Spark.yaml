@@ -1,0 +1,14 @@
+project-templates:
+  Apache Spark:
+    branches:
+    - master
+    gitweb: https://github.com/apache/%(name)s/commit/%%(sha)s
+    uri: https://github.com/apache/%(name)s
+projects:
+  Apache Spark:
+    description: An analytics engine to run large-scale data processing
+    repos:
+      spark:
+        branches:
+        - master
+        template: Apache Spark

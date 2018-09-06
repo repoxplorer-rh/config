@@ -1,0 +1,71 @@
+project-templates:
+  JBeret:
+    branches:
+    - master
+    gitweb: https://github.com/jberet/%(name)s/commit/%%(sha)s
+    uri: https://github.com/jberet/%(name)s
+projects:
+  JBeret:
+    description: A standard-based, lightweight and scalable Java batch processing
+      framework
+    repos:
+      intro-jberet:
+        branches:
+        - master
+        template: JBeret
+      jberet-camel:
+        branches:
+        - master
+        template: JBeret
+      jberet-jpa-repository:
+        branches:
+        - master
+        template: JBeret
+      jberet-rest:
+        branches:
+        - master
+        template: JBeret
+      jberet-schedule:
+        branches:
+        - master
+        template: JBeret
+      jberet-simple:
+        branches:
+        - master
+        template: JBeret
+      jberet-support:
+        branches:
+        - master
+        template: JBeret
+      jberet-tck-porting:
+        branches:
+        - master
+        template: JBeret
+      jberet-ui:
+        branches:
+        - master
+        template: JBeret
+      jberet-user-guide:
+        branches:
+        - master
+        template: JBeret
+      jberet-vertx:
+        branches:
+        - master
+        template: JBeret
+      jberet-wildfly:
+        branches:
+        - master
+        template: JBeret
+      jberet-wildfly-samples:
+        branches:
+        - master
+        template: JBeret
+      jsr352:
+        branches:
+        - master
+        template: JBeret
+      numbers-chunk:
+        branches:
+        - master
+        template: JBeret

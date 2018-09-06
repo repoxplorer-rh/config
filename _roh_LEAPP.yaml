@@ -1,0 +1,70 @@
+project-templates:
+  LEAPP:
+    branches:
+    - master
+    gitweb: https://github.com/leapp-to/%(name)s/commit/%%(sha)s
+    uri: https://github.com/leapp-to/%(name)s
+projects:
+  LEAPP:
+    description: In-place upgrades RHEL 7 to future versions of RHEL
+    repos:
+      actor-browser:
+        branches:
+        - master
+        template: LEAPP
+      actor-sdk:
+        branches:
+        - master
+        template: LEAPP
+      analyzer-proto:
+        branches:
+        - master
+        template: LEAPP
+      ansible-devel-env:
+        branches:
+        - master
+        template: LEAPP
+      breakoscope:
+        branches:
+        - master
+        template: LEAPP
+      dnf-plugin-offline-upgrade:
+        branches:
+        - master
+        template: LEAPP
+      guidelines:
+        branches:
+        - master
+        template: LEAPP
+      housekeeping:
+        branches:
+        - master
+        template: LEAPP
+      leapp:
+        branches:
+        - master
+        template: LEAPP
+      leapp-actors:
+        branches:
+        - master
+        template: LEAPP
+      leapp-actors-stdlib:
+        branches:
+        - master
+        template: LEAPP
+      leapp-go:
+        branches:
+        - master
+        template: LEAPP
+      leapp-to.github.io:
+        branches:
+        - master
+        template: LEAPP
+      leappctl:
+        branches:
+        - master
+        template: LEAPP
+      snactor:
+        branches:
+        - master
+        template: LEAPP

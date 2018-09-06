@@ -1,0 +1,90 @@
+project-templates:
+  Candlepin:
+    branches:
+    - master
+    gitweb: https://github.com/candlepin/%(name)s/commit/%%(sha)s
+    uri: https://github.com/candlepin/%(name)s
+projects:
+  Candlepin:
+    description: Subscription and entitlement management
+    repos:
+      ansible-role-subman-devel:
+        branches:
+        - master
+        template: Candlepin
+      candlepin:
+        branches:
+        - master
+        template: Candlepin
+      candlepin-client-java:
+        branches:
+        - master
+        template: Candlepin
+      candlepin-deps:
+        branches:
+        - master
+        template: Candlepin
+      candlepin-jobs:
+        branches:
+        - master
+        template: Candlepin
+      candlepin-macros:
+        branches:
+        - master
+        template: Candlepin
+      candlepinproject.org:
+        branches:
+        - master
+        template: Candlepin
+      caracalla:
+        branches:
+        - master
+        template: Candlepin
+      initial-setup-port:
+        branches:
+        - master
+        template: Candlepin
+      intellij:
+        branches:
+        - master
+        template: Candlepin
+      pack-utils:
+        branches:
+        - master
+        template: Candlepin
+      packer:
+        branches:
+        - master
+        template: Candlepin
+      python-iniparse:
+        branches:
+        - master
+        template: Candlepin
+      python-rhsm:
+        branches:
+        - master
+        template: Candlepin
+      rho:
+        branches:
+        - master
+        template: Candlepin
+      sat5to6:
+        branches:
+        - master
+        template: Candlepin
+      subscription-manager:
+        branches:
+        - master
+        template: Candlepin
+      thumbslug:
+        branches:
+        - master
+        template: Candlepin
+      virt-who:
+        branches:
+        - master
+        template: Candlepin
+      virt-whom:
+        branches:
+        - master
+        template: Candlepin

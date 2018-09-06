@@ -1,0 +1,14 @@
+project-templates:
+  redhat-upgrade-tool:
+    branches:
+    - master
+    gitweb: https://github.com/upgrades-migrations/%(name)s/commit/%%(sha)s
+    uri: https://github.com/upgrades-migrations/%(name)s
+projects:
+  redhat-upgrade-tool:
+    description: In-place upgrades RHEL 6 to RHEL 7
+    repos:
+      redhat-upgrade-tool:
+        branches:
+        - rhel-6
+        template: redhat-upgrade-tool

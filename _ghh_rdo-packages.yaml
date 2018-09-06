@@ -1,0 +1,1408 @@
+project-templates:
+  rdo-packages:
+    branches:
+    - master
+    gitweb: http://github.com/rdo-packages/%(name)s/commit/%%(sha)s
+    uri: http://github.com/rdo-packages/%(name)s
+projects:
+  rdo-packages:
+    description: The rdo-packages Github organization
+    repos:
+      UcsSdk-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-pacemaker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-container-registry-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-redhat-subscription-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-tripleo-modify-image-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      aodh-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      aodhclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      app-catalog-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      automaton-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      barbican-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      barbican-tempest-plugin-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      barbicanclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      castellan-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ceilometer-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ceilometerclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ceilometermiddleware-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cinder-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cinder-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cinderclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cisco-ironic-contrib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cliff-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cloudkitty-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cloudkitty-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cloudkittyclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      collectd-ceilometer-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      collectd-gnocchi-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      congress-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      congress-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      congressclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cursive-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      debtcollector-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      designate-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      designate-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      designate-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      designateclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      dib-utils-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      diskimage-builder-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      django_openstack_auth-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      dracclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ec2-api-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ec2api-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      futurist-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      glance-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      glance_store-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      glanceclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      glare-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      glareclient-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      gnocchi-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      gnocchiclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      hacking-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      hardware-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-agents-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-templates-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heat-translator-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      heatclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      horizon-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      instack-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      instack-undercloud-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-inspector-client-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-inspector-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-python-agent-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-staging-drivers-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironicclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      k8sclient-distgit:
+        branches:
+        - liberty-rdo
+        template: rdo-packages
+      karbor-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      karbor-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      karborclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      keystone-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      keystone-tempest-plugin-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      keystoneauth1-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      keystoneclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      keystonemiddleware-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      kolla-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      kuryr-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      kuryr-kubernetes-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      kuryr-tempest-plugin-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      magnum-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      magnum-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      magnum-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      magnumclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      manila-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      manila-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      manila-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      manilaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      metalsmith-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      microversion-parse-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistral-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistral-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistral-extra-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistral-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistral-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mistralclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      monascaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      mox3-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      murano-agent-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      murano-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      murano-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      murano-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      muranoclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-ansible-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-arista-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-bagpipe-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-baremetal-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-bgpvpn-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-bigswitch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-cisco-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-fujitsu-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-generic-switch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-l2gw-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-l2gw-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-mlnx-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-odl-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-ovn-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-sfc-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      networking-vsphere-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-dynamic-routing-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-fwaas-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-lbaas-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-lbaas-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutron-vpnaas-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      neutronclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      nova-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      novaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      novajoin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      novajoin-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      octavia-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      octavia-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      octavia-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      octaviaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      openstack-macros-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      openstack-puppet-modules-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      openstack-selinux-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      openstackclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      openstacksdk-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-apply-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-brick-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-client-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-cloud-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-collect-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-faults-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-net-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-refresh-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-service-types-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-testr-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-traits-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-vif-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-win-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-xenapi-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      osc-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      osc-placement-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-cache-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-concurrency-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-context-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-db-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-i18n-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-log-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-messaging-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-middleware-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-policy-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-privsep-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-reports-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-rootwrap-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-serialization-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-service-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-sphinx-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-utils-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-versionedobjects-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslo-vmware-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oslotest-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      osops-tools-monitoring-oschecks-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      osprofiler-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      oswin-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ovsdbapp-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      packstack-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      panko-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      pankoclient-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      patrole-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      paunch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      proliantutils-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-aodh-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-apache-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-archive-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-auditd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-barbican-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-barometer-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-cassandra-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ceilometer-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ceph-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-certmonger-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-cinder-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-collectd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-concat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-congress-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-contrail-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-corosync-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-datacat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-designate-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-dns-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ec2api-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-elasticsearch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-etcd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-fdio-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-firewall-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-fluentd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-git-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-glance-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-gnocchi-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-haproxy-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-heat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-horizon-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-inifile-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ipaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ironic-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-java-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-kafka-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-keepalived-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-keystone-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-kibana3-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-kmod-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-lib-file_concat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-logstash-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-magnum-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-manila-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-memcached-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-midonet-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-midonet_openstack-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-mistral-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-module-data-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-mongodb-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-murano-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-mysql-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-n1k-vsm-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-neutron-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-nova-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-nssdb-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ntp-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-octavia-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-opendaylight-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-openstack_extras-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-openstacklib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-oslo-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ovn-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-pacemaker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-panko-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-powerdns-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-qdr-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-rabbitmq-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-redis-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-remote-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-rsync-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-sahara-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-sensu-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-snmp-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-ssh-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-staging-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-stdlib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-swift-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-sysctl-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-systemd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-tacker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-tempest-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-timezone-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-tomcat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-tripleo-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-trove-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-uchiwa-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-vcsrepo-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-veritas_hyperscale-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      puppet-vitrage-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-vlan-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-vswitch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-xinetd-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-zaqar-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-zookeeper-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      pycadf-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      rally-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      rally-openstack-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      reno-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      requestsexceptions-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      rsd-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      rsdclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-image-elements-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-tests-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      saharaclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      scciclient-distgit:
+        branches:
+        - pike-rdo
+        template: rdo-packages
+      senlin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      senlinclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      shade-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      shaker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      smaug-distgit:
+        template: rdo-packages
+      sphinx-feature-classification-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      stackviz-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      stevedore-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sushy-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      swift-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      swift3-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      swiftclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tacker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tackerclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tap-as-a-service-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      taskflow-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      telemetry-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tempest-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tempest-horizon-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tempest-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tempestconf-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tooz-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-common-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-common-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-heat-templates-compat-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-heat-templates-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-image-elements-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-incubator-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-ipsec-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-puppet-elements-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-repos-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-validations-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleoclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      trove-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      trove-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      trove-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      troveclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      virtualbmc-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vitrage-dashboard-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vitrage-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vitrage-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vitrageclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vmware-nsx-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vmware-nsx-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      vmware-nsxlib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      watcher-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      watcher-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      wsme-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      zaqar-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      zaqar-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      zaqarclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages

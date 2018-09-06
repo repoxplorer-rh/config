@@ -1,0 +1,482 @@
+project-templates:
+  ManageIQ:
+    branches:
+    - master
+    gitweb: https://github.com/ManageIQ/%(name)s/commit/%%(sha)s
+    uri: https://github.com/ManageIQ/%(name)s
+projects:
+  ManageIQ:
+    description: Management platform
+    repos:
+      active_bugzilla:
+        branches:
+        - master
+        template: ManageIQ
+      activerecord-id_regions:
+        branches:
+        - master
+        template: ManageIQ
+      amazon_ssa_support:
+        branches:
+        - master
+        template: ManageIQ
+      ansible-tower-pods:
+        branches:
+        - master
+        template: ManageIQ
+      awesome_spawn:
+        branches:
+        - master
+        template: ManageIQ
+      azure-armrest:
+        branches:
+        - master
+        template: ManageIQ
+      azure-signature:
+        branches:
+        - master
+        template: ManageIQ
+      binary_struct:
+        branches:
+        - master
+        template: ManageIQ
+      bugzilla_mirror:
+        branches:
+        - master
+        template: ManageIQ
+      bugzilla_mirror_client:
+        branches:
+        - master
+        template: ManageIQ
+      cc_monitor:
+        branches:
+        - master
+        template: ManageIQ
+      cfme_doc_public:
+        branches:
+        - master
+        template: ManageIQ
+      container-amazon-smartstate:
+        branches:
+        - master
+        template: ManageIQ
+      container-embedded-ansible:
+        branches:
+        - master
+        template: ManageIQ
+      container-httpd:
+        branches:
+        - master
+        template: ManageIQ
+      container-memcached:
+        branches:
+        - master
+        template: ManageIQ
+      container-postgresql:
+        branches:
+        - master
+        template: ManageIQ
+      container-redis:
+        branches:
+        - master
+        template: ManageIQ
+      container-ruby:
+        branches:
+        - master
+        template: ManageIQ
+      dbus_api_service:
+        branches:
+        - master
+        template: ManageIQ
+      depot.manageiq.org:
+        branches:
+        - master
+        template: ManageIQ
+      dhtmlx-rails:
+        branches:
+        - master
+        template: ManageIQ
+      ec2Extract:
+        branches:
+        - master
+        template: ManageIQ
+      ffi-vix_disk_lib:
+        branches:
+        - master
+        template: ManageIQ
+      font-fabulous:
+        branches:
+        - master
+        template: ManageIQ
+      foreman_api_client:
+        branches:
+        - master
+        template: ManageIQ
+      guides:
+        branches:
+        - master
+        template: ManageIQ
+      httpd_configmap_generator:
+        branches:
+        - master
+        template: ManageIQ
+      integration_tests:
+        branches:
+        - master
+        template: ManageIQ
+      inventory_refresh:
+        branches:
+        - master
+        template: ManageIQ
+      large_file_linux:
+        branches:
+        - master
+        template: ManageIQ
+      linux_admin:
+        branches:
+        - master
+        template: ManageIQ
+      linux_block_device:
+        branches:
+        - master
+        template: ManageIQ
+      log_decorator:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-api:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-api-client:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-api-client-python:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-api-mock:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-appliance:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-appliance-build:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-appliance-dev-setup:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-appliance_console:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-automation_engine:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-consumption:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-content:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-design:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-gems-pending:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-graphql:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-lxca-docs:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-messaging:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-network_discovery:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-nuage-docs:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-performance:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-pods:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-postgres_ha_admin:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-amazon:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-ansible_tower:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-azure:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-dummy_provider:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-foreman:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-google:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-hawkular:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-kubernetes:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-kubevirt:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-lenovo:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-nuage:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-openshift:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-openstack:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-ovirt:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-redfish:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-scvmm:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-providers-vmware:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-release:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-schema:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-smartstate:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-ui-admin:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-ui-classic:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-ui-scaffold:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-ui-service:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-v2v:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-vagrant-dev:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq-vcloud-docs:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq.org:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq.org_mailman_templates:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq_depot:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq_docs:
+        branches:
+        - master
+        template: ManageIQ
+      manageiq_vm_explorer:
+        branches:
+        - master
+        template: ManageIQ
+      memory_buffer:
+        branches:
+        - master
+        template: ManageIQ
+      miq_bot:
+        branches:
+        - master
+        template: ManageIQ
+      miq_tools_services:
+        branches:
+        - master
+        template: ManageIQ
+      more_core_extensions:
+        branches:
+        - master
+        template: ManageIQ
+      net_app_manageability:
+        branches:
+        - master
+        template: ManageIQ
+      optimist:
+        branches:
+        - master
+        template: ManageIQ
+      ovirt:
+        branches:
+        - master
+        template: ManageIQ
+      ovirt_metrics:
+        branches:
+        - master
+        template: ManageIQ
+      pg-dsn_parser:
+        branches:
+        - master
+        template: ManageIQ
+      pg-pglogical:
+        branches:
+        - master
+        template: ManageIQ
+      planet.manageiq.org:
+        branches:
+        - master
+        template: ManageIQ
+      polisher:
+        branches:
+        - master
+        template: ManageIQ
+      query_relation:
+        branches:
+        - master
+        template: ManageIQ
+      react-ui-components:
+        branches:
+        - master
+        template: ManageIQ
+      slp:
+        branches:
+        - master
+        template: ManageIQ
+      sneakernet_ca:
+        branches:
+        - master
+        template: ManageIQ
+      sprint_statistics:
+        branches:
+        - master
+        template: ManageIQ
+      srpms:
+        branches:
+        - master
+        template: ManageIQ
+      ui-components:
+        branches:
+        - master
+        template: ManageIQ
+      virt_disk:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-camcorderfs:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-ext3:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-ext4:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-fat32:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-iso9660:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-ntfs:
+        branches:
+        - master
+        template: ManageIQ
+      virtfs-xfs:
+        branches:
+        - master
+        template: ManageIQ
+      vmware_web_service:
+        branches:
+        - master
+        template: ManageIQ
+      wrapanapi:
+        branches:
+        - master
+        template: ManageIQ

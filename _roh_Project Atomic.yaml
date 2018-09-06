@@ -1,0 +1,287 @@
+project-templates:
+  Project Atomic:
+    branches:
+    - master
+    gitweb: https://github.com/projectatomic/%(name)s/commit/%%(sha)s
+    uri: https://github.com/projectatomic/%(name)s
+projects:
+  Project Atomic:
+    description: Use immutable infrastructure to deploy and scale your containerized
+      applications
+    repos:
+      ContainerApplicationGenericLabels:
+        branches:
+        - master
+        template: Project Atomic
+      adb-atomic-developer-bundle:
+        branches:
+        - master
+        template: Project Atomic
+      adb-tests:
+        branches:
+        - master
+        template: Project Atomic
+      adb-utils:
+        branches:
+        - master
+        template: Project Atomic
+      adb-vagrant-redhat-certification:
+        branches:
+        - master
+        template: Project Atomic
+      adb-vagrant-registration:
+        branches:
+        - master
+        template: Project Atomic
+      anaconda:
+        branches:
+        - rhel7-atomic
+        template: Project Atomic
+      ansible-osbs:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-osbs-dedicated:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-atomic-reactor:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-install-openshift:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-osbs-master:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-osbs-namespace:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-osbs-node:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-osbs-proxy:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-osbs-secret:
+        branches:
+        - master
+        template: Project Atomic
+      ansible-role-pulp-secret:
+        branches:
+        - master
+        template: Project Atomic
+      atomic:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-devmode:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-enterprise:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-enterprise-training:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-host-tests:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-reactor:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-site:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-site-new:
+        branches:
+        - master
+        template: Project Atomic
+      atomic-system-containers:
+        branches:
+        - master
+        template: Project Atomic
+      atomicapp:
+        branches:
+        - master
+        template: Project Atomic
+      bubblewrap:
+        branches:
+        - master
+        template: Project Atomic
+      buildah:
+        branches:
+        - master
+        template: Project Atomic
+      bwrap-oci:
+        branches:
+        - master
+        template: Project Atomic
+      centos-release-atomic-host-devel:
+        branches:
+        - master
+        template: Project Atomic
+      commctl:
+        branches:
+        - master
+        template: Project Atomic
+      commissaire:
+        branches:
+        - master
+        template: Project Atomic
+      commissaire-http:
+        branches:
+        - master
+        template: Project Atomic
+      commissaire-mvp:
+        branches:
+        - master
+        template: Project Atomic
+      commissaire-service:
+        branches:
+        - master
+        template: Project Atomic
+      container-best-practices:
+        branches:
+        - master
+        template: Project Atomic
+      container-storage-setup:
+        branches:
+        - master
+        template: Project Atomic
+      containerd:
+        branches:
+        - master
+        template: Project Atomic
+      docker-image-examples:
+        branches:
+        - master
+        template: Project Atomic
+      docker-lvm-plugin:
+        branches:
+        - master
+        template: Project Atomic
+      dockerfile_lint:
+        branches:
+        - master
+        template: Project Atomic
+      docs-httpd:
+        branches:
+        - master
+        template: Project Atomic
+      docs-projectatomic:
+        branches:
+        - master
+        template: Project Atomic
+      fedora-productimg-atomic:
+        branches:
+        - master
+        template: Project Atomic
+      forward-journald:
+        branches:
+        - master
+        template: Project Atomic
+      heat-atomic:
+        branches:
+        - master
+        template: Project Atomic
+      nulecule:
+        branches:
+        - master
+        template: Project Atomic
+      nulecule-library:
+        branches:
+        - master
+        template: Project Atomic
+      oci-umount:
+        branches:
+        - master
+        template: Project Atomic
+      openshift2nulecule:
+        branches:
+        - master
+        template: Project Atomic
+      os-command:
+        branches:
+        - master
+        template: Project Atomic
+      osbs-client:
+        branches:
+        - master
+        template: Project Atomic
+      osbs-docs:
+        branches:
+        - master
+        template: Project Atomic
+      osbs-metrics:
+        branches:
+        - master
+        template: Project Atomic
+      paci:
+        branches:
+        - master
+        template: Project Atomic
+      papr:
+        branches:
+        - master
+        template: Project Atomic
+      planet.projectatomic.io:
+        branches:
+        - master
+        template: Project Atomic
+      registries:
+        branches:
+        - master
+        template: Project Atomic
+      rhci-docker:
+        branches:
+        - master
+        template: Project Atomic
+      rhel-push-plugin:
+        branches:
+        - master
+        template: Project Atomic
+      rpm-ostree:
+        branches:
+        - master
+        template: Project Atomic
+      rpm-ostree-toolbox:
+        branches:
+        - master
+        template: Project Atomic
+      rpmdistro-gitoverlay:
+        branches:
+        - master
+        template: Project Atomic
+      runc:
+        branches:
+        - master
+        template: Project Atomic
+      system-buildah:
+        branches:
+        - master
+        template: Project Atomic
+      vagrant-adbinfo:
+        branches:
+        - master
+        template: Project Atomic
+      vagrant-atomic:
+        branches:
+        - master
+        template: Project Atomic
+      vagrant-service-manager:
+        branches:
+        - master
+        template: Project Atomic

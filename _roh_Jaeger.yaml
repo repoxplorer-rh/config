@@ -1,0 +1,94 @@
+project-templates:
+  Jaeger:
+    branches:
+    - master
+    gitweb: https://github.com/jaegertracing/%(name)s/commit/%%(sha)s
+    uri: https://github.com/jaegertracing/%(name)s
+projects:
+  Jaeger:
+    description: CNCF OpenTracing compliant distributed tracing system
+    repos:
+      artwork:
+        branches:
+        - master
+        template: Jaeger
+      documentation:
+        branches:
+        - master
+        template: Jaeger
+      jaeger:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-analytics:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-cpp:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-csharp:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-go:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-java:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-javascript:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-node:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-client-python:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-idl:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-kubernetes:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-lib:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-openshift:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-operator:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-performance:
+        branches:
+        - master
+        template: Jaeger
+      jaeger-ui:
+        branches:
+        - master
+        template: Jaeger
+      legacy-client-java:
+        branches:
+        - master
+        template: Jaeger
+      spark-dependencies:
+        branches:
+        - master
+        template: Jaeger
+      xdock-zipkin-brave:
+        branches:
+        - master
+        template: Jaeger

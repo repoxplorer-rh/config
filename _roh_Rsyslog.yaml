@@ -1,0 +1,90 @@
+project-templates:
+  Rsyslog:
+    branches:
+    - master
+    gitweb: https://github.com/rsyslog/%(name)s/commit/%%(sha)s
+    uri: https://github.com/rsyslog/%(name)s
+projects:
+  Rsyslog:
+    description: a Rocket-fast SYStem for LOG processing
+    repos:
+      buildbot-config:
+        branches:
+        - master
+        template: Rsyslog
+      codestyle:
+        branches:
+        - master
+        template: Rsyslog
+      libee:
+        branches:
+        - master-jsonc
+        template: Rsyslog
+      libestr:
+        branches:
+        - master
+        template: Rsyslog
+      libfastjson:
+        branches:
+        - master
+        template: Rsyslog
+      libgt:
+        branches:
+        - master
+        template: Rsyslog
+      liblogging:
+        branches:
+        - master
+        template: Rsyslog
+      liblognorm:
+        branches:
+        - master
+        template: Rsyslog
+      liblognorm-rulebases:
+        branches:
+        - master
+        template: Rsyslog
+      librelp:
+        branches:
+        - master
+        template: Rsyslog
+      loganalyzer:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-doc:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-docker:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-infrastructure:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-pkg-alpine:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-pkg-debian:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-pkg-rhel-centos:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-pkg-ubuntu:
+        branches:
+        - master
+        template: Rsyslog
+      rsyslog-website:
+        branches:
+        - master
+        template: Rsyslog

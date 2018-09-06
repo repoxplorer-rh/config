@@ -1,0 +1,90 @@
+project-templates:
+  latchset:
+    branches:
+    - master
+    gitweb: https://github.com/latchset/%(name)s/commit/%%(sha)s
+    uri: https://github.com/latchset/%(name)s
+projects:
+  latchset:
+    description: Encryption framework tools
+    repos:
+      clevis:
+        branches:
+        - master
+        template: latchset
+      custodia:
+        branches:
+        - master
+        template: latchset
+      custodia-jca-provider:
+        branches:
+        - master
+        template: latchset
+      custodia-selinux:
+        branches:
+        - master
+        template: latchset
+      custodia.ipa:
+        branches:
+        - master
+        template: latchset
+      custodia.kubernetes:
+        branches:
+        - master
+        template: latchset
+      custodia.openshift:
+        branches:
+        - master
+        template: latchset
+      docker-credential-custodia:
+        branches:
+        - master
+        template: latchset
+      docker-credential-custodia-demo:
+        branches:
+        - master
+        template: latchset
+      ipa-custodia-selinux:
+        branches:
+        - master
+        template: latchset
+      jose:
+        branches:
+        - master
+        template: latchset
+      jwcrypto:
+        branches:
+        - master
+        template: latchset
+      kdcproxy:
+        branches:
+        - master
+        template: latchset
+      latchset.github.io:
+        branches:
+        - master
+        template: latchset
+      libverto:
+        branches:
+        - master
+        template: latchset
+      luksmeta:
+        branches:
+        - master
+        template: latchset
+      nagios-tang:
+        branches:
+        - master
+        template: latchset
+      pyjose:
+        branches:
+        - master
+        template: latchset
+      python-rubenesque:
+        branches:
+        - master
+        template: latchset
+      tang:
+        branches:
+        - master
+        template: latchset

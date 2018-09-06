@@ -1,0 +1,90 @@
+project-templates:
+  Red Hat Open Innovation Labs:
+    branches:
+    - master
+    gitweb: https://github.com/rht-labs/%(name)s/commit/%%(sha)s
+    uri: https://github.com/rht-labs/%(name)s
+projects:
+  Red Hat Open Innovation Labs:
+    description: Red Hat Open Innovation Labs Team
+    repos:
+      ansible-stacks:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      api-design:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      automation-api:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      cab-it:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      coolstore-microservice-demo:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      demo-sonarqube:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      enablement-ci-cd:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      enablement-docs:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      examples:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      infographic:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      labs-ci-cd:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      labs-demo:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      openshift-sonarqube:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      owasp-zap-openshift:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      practice-library:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      residency-tools:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      rht-labs-library:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      slides-template:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      sonar-auth-openshift:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs
+      tools:
+        branches:
+        - master
+        template: Red Hat Open Innovation Labs

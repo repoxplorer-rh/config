@@ -1,0 +1,134 @@
+project-templates:
+  Theia:
+    branches:
+    - master
+    gitweb: https://github.com/theia-ide/%(name)s/commit/%%(sha)s
+    uri: https://github.com/theia-ide/%(name)s
+projects:
+  Theia:
+    description: Cloud & Desktop IDE
+    repos:
+      dugite-extra:
+        branches:
+        - master
+        template: Theia
+      generator-theia-extension:
+        branches:
+        - master
+        template: Theia
+      racket-language-server:
+        branches:
+        - master
+        template: Theia
+      sprotty:
+        branches:
+        - master
+        template: Theia
+      theia:
+        branches:
+        - master
+        template: Theia
+      theia-apps:
+        branches:
+        - master
+        template: Theia
+      theia-callhierarchy-extension:
+        branches:
+        - master
+        template: Theia
+      theia-csharp-extension:
+        branches:
+        - master
+        template: Theia
+      theia-docker-extension:
+        branches:
+        - master
+        template: Theia
+      theia-electron-app-example:
+        branches:
+        - master
+        template: Theia
+      theia-extension-example:
+        branches:
+        - master
+        template: Theia
+      theia-go-extension:
+        branches:
+        - master
+        template: Theia
+      theia-json-extension:
+        branches:
+        - master
+        template: Theia
+      theia-php-extension:
+        branches:
+        - master
+        template: Theia
+      theia-plantuml-extension:
+        branches:
+        - master
+        template: Theia
+      theia-racket-extension:
+        branches:
+        - master
+        template: Theia
+      theia-ruby-extension:
+        branches:
+        - master
+        template: Theia
+      theia-rust-extension:
+        branches:
+        - master
+        template: Theia
+      theia-sprotty:
+        branches:
+        - master
+        template: Theia
+      theia-sprotty-example:
+        branches:
+        - master
+        template: Theia
+      theia-website:
+        branches:
+        - master
+        template: Theia
+      theia-xtext:
+        branches:
+        - master
+        template: Theia
+      trace-server-protocol:
+        branches:
+        - master
+        template: Theia
+      tracing_codegen:
+        branches:
+        - master
+        template: Theia
+      typescript-language-server:
+        branches:
+        - master
+        template: Theia
+      yang-eclipse:
+        branches:
+        - master
+        template: Theia
+      yang-lsp:
+        branches:
+        - master
+        template: Theia
+      yang-sprotty:
+        branches:
+        - master
+        template: Theia
+      yang-vscode:
+        branches:
+        - master
+        template: Theia
+      yangster:
+        branches:
+        - master
+        template: Theia
+      yangster-electron:
+        branches:
+        - master
+        template: Theia

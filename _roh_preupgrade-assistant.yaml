@@ -1,0 +1,14 @@
+project-templates:
+  preupgrade-assistant:
+    branches:
+    - master
+    gitweb: https://github.com/upgrades-migrations/%(name)s/commit/%%(sha)s
+    uri: https://github.com/upgrades-migrations/%(name)s
+projects:
+  preupgrade-assistant:
+    description: Assists with in-place upgrading RHEL 6 to RHEL 7
+    repos:
+      preupgrade-assistant:
+        branches:
+        - master
+        template: preupgrade-assistant

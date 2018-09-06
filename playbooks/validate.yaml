@@ -2,7 +2,6 @@
   tasks:
     - set_fact:
          workspace: "{{ ansible_user_dir }}/{{ zuul.project.src_dir }}/../"
-         # workspace: "/home/fabien/git/repoxplorer-rh/"
     - name: Fetch repoxplorer from github
       git:
         repo: "https://github.com/morucci/repoxplorer"

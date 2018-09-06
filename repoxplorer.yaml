@@ -1,0 +1,13 @@
+project-templates:
+  repoXplorer:
+    branches:
+    - master
+    gitweb: http://github.com/morucci/%(name)s/commit/%%(sha)s
+    uri: http://github.com/morucci/%(name)s
+projects:
+  repoXplorer:
+    description: The repoXplorer project
+    repos:
+      repoxplorer:
+        template: repoXplorer
+

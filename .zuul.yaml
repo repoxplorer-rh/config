@@ -1,0 +1,12 @@
+- job:
+    name: validate
+    description: Run config validation
+    run: playbooks/validate.yaml
+
+- project:
+    check:
+      jobs:
+        - validate
+    gate:
+      jobs:
+        - validate

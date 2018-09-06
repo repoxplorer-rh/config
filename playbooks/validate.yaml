@@ -1,0 +1,22 @@
+- hosts: all
+  tasks:
+    - set_fact:
+         workspace: "{{ ansible_user_dir }}/{{ zuul.project.src_dir }}/../"
+         # workspace: "/home/fabien/git/repoxplorer-rh/"
+    - name: Fetch repoxplorer from github
+      git:
+        repo: "https://github.com/morucci/repoxplorer"
+        dest: "{{ workspace }}/repoxplorer"
+    - name: Install repoxplorer
+      pip:
+        name: "git+https://github.com/morucci/repoxplorer"
+        virtualenv: "{{ workspace }}/repoxplorer-venv"
+    - name: Install repoxplorer requirement
+      pip:
+        virtualenv: "{{ workspace }}/repoxplorer-venv"
+        requirements: "{{ workspace }}/repoxplorer/requirements.txt"
+    - name: Create fake config file
+      shell: "echo 'db_path=\"{{ zuul.project.src_dir }}/repoxplorer-config/\"' > {{ workspace }}/config.py"
+    - name: Run validation
+      shell:
+        cmd: "{{ workspace }}/repoxplorer-venv/bin/repoxplorer-config-validate --config {{ workspace }}/config.py"

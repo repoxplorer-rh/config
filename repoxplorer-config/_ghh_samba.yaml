@@ -1,0 +1,12 @@
+project-templates:
+  samba-team:
+    branches:
+    - master
+    gitweb: http://github.com/samba-team/%(name)s/commit/%%(sha)s
+    uri: http://github.com/samba-team/%(name)s
+projects:
+  samba-team:
+    description: The samba-team Github organization
+    repos:
+      samba:
+        template: samba-team

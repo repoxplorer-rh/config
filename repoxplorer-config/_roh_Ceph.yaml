@@ -452,10 +452,10 @@ projects:
         branches:
         - master
         template: Ceph
-      samba:
-        branches:
-        - ceph
-        template: Ceph
+#      samba:
+#        branches:
+#        - ceph
+#        template: Ceph
       sepia:
         branches:
         - master

@@ -1,0 +1,24 @@
+project-templates:
+  fedora-ruby:
+    branches:
+    - master
+    gitweb: http://github.com/fedora-ruby/%(name)s/commit/%%(sha)s
+    uri: http://github.com/fedora-ruby/%(name)s
+projects:
+  fedora-ruby:
+    description: The fedora-ruby Github organization
+    repos:
+      fermig:
+        template: fedora-ruby
+      gem-compare:
+        template: fedora-ruby
+      gem-patch:
+        template: fedora-ruby
+      gem2rpm:
+        template: fedora-ruby
+      isitfedoraruby:
+        template: fedora-ruby
+      railsbuild:
+        template: fedora-ruby
+      rubypick:
+        template: fedora-ruby

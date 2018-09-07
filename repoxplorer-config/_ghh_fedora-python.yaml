@@ -1,0 +1,96 @@
+project-templates:
+  fedora-python:
+    branches:
+    - master
+    gitweb: http://github.com/fedora-python/%(name)s/commit/%%(sha)s
+    uri: http://github.com/fedora-python/%(name)s
+projects:
+  fedora-python:
+    description: The fedora-python Github organization
+    repos:
+      Rebuild-Beaker-Recipe:
+        template: fedora-python
+      brp-mangle-shebangs:
+        template: fedora-python
+      fedora-kickstarts-python-classroom:
+        branches:
+        - python-classroom
+        template: fedora-python
+      fedora-livecd-python3:
+        template: fedora-python
+      fedora-loves-python:
+        template: fedora-python
+      fedora-loves-python-staffs:
+        template: fedora-python
+      fedora-python:
+        template: fedora-python
+      fedora-python.github.io:
+        template: fedora-python
+      fedoralovespython.org:
+        template: fedora-python
+      ipython:
+        branches:
+        - ipython6
+        template: fedora-python
+      kojistatus:
+        template: fedora-python
+      packaging-guidelines:
+        template: fedora-python
+      pep-drafts:
+        template: fedora-python
+      platform-python-sources:
+        template: fedora-python
+      portingdb:
+        template: fedora-python
+      portingguide:
+        template: fedora-python
+      pyconcz-challenge:
+        template: fedora-python
+      pyp2rpm:
+        template: fedora-python
+      pypackages-tools:
+        template: fedora-python
+      pypy3:
+        branches:
+        - pypy33
+        template: fedora-python
+      python-docs:
+        template: fedora-python
+      python-ethtool:
+        template: fedora-python
+      python-pip:
+        branches:
+        - nightly
+        template: fedora-python
+      python-rpm-porting:
+        template: fedora-python
+      python-setuptools:
+        branches:
+        - nightly
+        template: fedora-python
+      python-wheel:
+        branches:
+        - nightly
+        template: fedora-python
+      python2-spec:
+        template: fedora-python
+      python26:
+        template: fedora-python
+      python3:
+        template: fedora-python
+      python33:
+        template: fedora-python
+      python34:
+        template: fedora-python
+      python35:
+        template: fedora-python
+      python36:
+        template: fedora-python
+      rewheel:
+        template: fedora-python
+      scl-python35:
+        template: fedora-python
+      taskotron-python-versions:
+        branches:
+        - develop
+        template: fedora-python

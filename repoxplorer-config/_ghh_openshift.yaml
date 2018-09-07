@@ -1,0 +1,294 @@
+project-templates:
+  openshift:
+    branches:
+    - master
+    gitweb: http://github.com/openshift/%(name)s/commit/%%(sha)s
+    uri: http://github.com/openshift/%(name)s
+projects:
+  openshift:
+    description: The openshift Github organization
+    repos:
+      angular-extension-registry:
+        template: openshift
+      angular-key-value-editor:
+        template: openshift
+      ansible-service-broker:
+        template: openshift
+      aos-cd-jobs:
+        template: openshift
+      api:
+        template: openshift
+      art-tools:
+        template: openshift
+      auth-config-operator:
+        template: openshift
+      autoheal:
+        template: openshift
+      azure-misc:
+        template: openshift
+      basic-authentication-provider-example:
+        template: openshift
+      cephfs-provisioner-operator:
+        template: openshift
+      ci-ns-ttl-controller:
+        template: openshift
+      ci-operator:
+        template: openshift
+      ci-operator-prowgen:
+        template: openshift
+      ci-vm-operator:
+        template: openshift
+      client-go:
+        template: openshift
+      cloud-costs:
+        template: openshift
+      cluster-api:
+        template: openshift
+      cluster-api-provider-libvirt:
+        template: openshift
+      cluster-dns-operator:
+        template: openshift
+      cluster-image-registry-operator:
+        template: openshift
+      cluster-ingress-operator:
+        template: openshift
+      cluster-kube-apiserver-operator:
+        template: openshift
+      cluster-logging-operator:
+        template: openshift
+      cluster-monitoring-operator:
+        template: openshift
+      cluster-operator:
+        template: openshift
+      cluster-samples-operator:
+        template: openshift
+      cluster-storage-operator:
+        template: openshift
+      cluster-version-operator:
+        template: openshift
+      console:
+        template: openshift
+      container-snapshot:
+        template: openshift
+      content-mirror:
+        template: openshift
+      contra-env-sample-project:
+        template: openshift
+      contra-env-setup:
+        template: openshift
+      contra-hdsl:
+        template: openshift
+      contra-lib:
+        template: openshift
+      csi-operator:
+        template: openshift
+      docker-registry-extensions:
+        template: openshift
+      dockerexec:
+        template: openshift
+      efs-provisioner-operator:
+        template: openshift
+      geard:
+        template: openshift
+      genapidocs:
+        template: openshift
+      generic-admission-server:
+        template: openshift
+      golang-ex:
+        template: openshift
+      image-build-daemon:
+        template: openshift
+      image-registry:
+        template: openshift
+      imagebuilder:
+        template: openshift
+      incremental-app:
+        template: openshift
+      installer:
+        template: openshift
+      istio-ea:
+        template: openshift
+      jboss-as7-modules:
+        template: openshift
+      jboss-eap6-modules:
+        template: openshift
+      jee-ex:
+        template: openshift
+      jenkins:
+        template: openshift
+      jenkins-client-plugin:
+        template: openshift
+      jenkins-cloud-plugin:
+        template: openshift
+      jenkins-openshift-login-plugin:
+        template: openshift
+      jenkins-plugin:
+        template: openshift
+      kube-projects:
+        template: openshift
+      kubernetes-drain:
+        template: openshift
+      kubernetes-namespace-reservation:
+        template: openshift
+      library:
+        template: openshift
+      library-go:
+        template: openshift
+      local-storage-operator:
+        template: openshift
+      machine-api-operator:
+        template: openshift
+      machine-config-operator:
+        template: openshift
+      manilla-provisioner-operator:
+        template: openshift
+      monitor-project-lifecycle:
+        template: openshift
+      monitor-sample-app:
+        template: openshift
+      new-hire-tools:
+        template: openshift
+      object-describer:
+        template: openshift
+      online-analytics:
+        template: openshift
+      online-archivist:
+        template: openshift
+      online-console-extensions:
+        template: openshift
+      online-gluster-subvol:
+        template: openshift
+      online-hibernation:
+        template: openshift
+      oo:
+        template: openshift
+      oo-index:
+        template: openshift
+      open-service-broker-sdk:
+        template: openshift
+      openldap:
+        template: openshift
+      openshift-ansible:
+        template: openshift
+      openshift-ansible-contrib:
+        template: openshift
+      openshift-azure:
+        template: openshift
+      openshift-cns-testdrive:
+        template: openshift
+      openshift-docs:
+        template: openshift
+      openshift-extras:
+        template: openshift
+      openshift-heat-templates:
+        template: openshift
+      openshift-java-client:
+        template: openshift
+      openshift-jee-sample:
+        template: openshift
+      openshift-logos-icon:
+        template: openshift
+      openshift-network-operator:
+        template: openshift
+      openshift-origin-design:
+        template: openshift
+      openshift-pep:
+        template: openshift
+      openshift-restclient-java:
+        template: openshift
+      openshift-restclient-python:
+        template: openshift
+      openshift-sdn:
+        template: openshift
+      openshift-tools:
+        branches:
+        - prod
+        template: openshift
+      openshift-windows:
+        template: openshift
+      openshift.github.com:
+        template: openshift
+      openshift_zabbix:
+        template: openshift
+      origin:
+        template: openshift
+      origin-aggregated-logging:
+        template: openshift
+      origin-apiman:
+        template: openshift
+      origin-ci-tool:
+        template: openshift
+      origin-gce:
+        template: openshift
+      origin-integration-common:
+        template: openshift
+      origin-kibana:
+        template: openshift
+      origin-metrics:
+        template: openshift
+      origin-server:
+        template: openshift
+      origin-web-catalog:
+        template: openshift
+      origin-web-common:
+        template: openshift
+      origin-web-console:
+        template: openshift
+      origin-web-console-server:
+        template: openshift
+      origin-web-console-smoke-test:
+        template: openshift
+      os:
+        template: openshift
+      outreachy:
+        template: openshift
+      php-ex:
+        template: openshift
+      prometheus-alert-buffer-client-ruby:
+        template: openshift
+      python-interface:
+        template: openshift
+      redhat-release-coreos:
+        template: openshift
+      registry-image-widgets:
+        template: openshift
+      release:
+        template: openshift
+      release-library:
+        template: openshift
+      request-header-saml-service-provider:
+        template: openshift
+      rhc:
+        template: openshift
+      ruby-20-centos:
+        template: openshift
+      ruby-hello-world:
+        template: openshift
+      service-idler:
+        template: openshift
+      service-serving-cert-signer:
+        template: openshift
+      simple-openshift-sinatra-sti:
+        template: openshift
+      snapshot-operator:
+        template: openshift
+      source-to-image:
+        template: openshift
+      sprint_tools:
+        template: openshift
+      svt:
+        template: openshift
+      telemeter:
+        template: openshift
+      test-maven-app:
+        template: openshift
+      test-multicast:
+        template: openshift
+      test-pull-requests:
+        template: openshift
+      test-pull-requests-redshirt:
+        template: openshift
+      training:
+        template: openshift
+      vagrant-openshift:
+        template: openshift

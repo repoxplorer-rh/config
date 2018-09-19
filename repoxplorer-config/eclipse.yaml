@@ -1,0 +1,54 @@
+project-templates:
+  eclipse:
+    branches:
+    - master
+    gitweb: http://github.com/eclipse/%(name)s/commit/%%(sha)s
+    uri: http://github.com/eclipse/%(name)s
+projects:
+  eclipse:
+    description: The eclipse Github organization
+    repos:
+      microprofile-bom:
+        template: eclipse
+      microprofile-concurrency:
+        template: eclipse
+      microprofile-conference:
+        template: eclipse
+      microprofile-config:
+        template: eclipse
+      microprofile-evolution-process:
+        template: eclipse
+      microprofile-fault-tolerance:
+        template: eclipse
+      microprofile-health:
+        template: eclipse
+      microprofile-jwt-auth:
+        template: eclipse
+      microprofile-lra:
+        template: eclipse
+      microprofile-metrics:
+        template: eclipse
+      microprofile-open-api:
+        template: eclipse
+      microprofile-opentracing:
+        template: eclipse
+      microprofile-parent:
+        template: eclipse
+      microprofile-reactive-messaging:
+        template: eclipse
+      microprofile-reactive-streams:
+        template: eclipse
+      microprofile-rest-client:
+        template: eclipse
+      microprofile-samples:
+        template: eclipse
+      microprofile-sandbox:
+        template: eclipse
+      microprofile-service-mesh:
+        template: eclipse
+      microprofile-service-mesh-service-a:
+        template: eclipse
+      microprofile-service-mesh-service-b:
+        template: eclipse
+      microprofile-starter:
+        template: eclipse

@@ -1,54 +1,54 @@
 project-templates:
-  eclipse:
+  Eclipse Microprofile:
     branches:
     - master
     gitweb: http://github.com/eclipse/%(name)s/commit/%%(sha)s
     uri: http://github.com/eclipse/%(name)s
 projects:
-  eclipse:
-    description: The eclipse Github organization
+  Eclipse Microprofile:
+    description: The Microprofile repositories from the Eclipse Github organization
     repos:
       microprofile-bom:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-concurrency:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-conference:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-config:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-evolution-process:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-fault-tolerance:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-health:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-jwt-auth:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-lra:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-metrics:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-open-api:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-opentracing:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-parent:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-reactive-messaging:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-reactive-streams:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-rest-client:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-samples:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-sandbox:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-service-mesh:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-service-mesh-service-a:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-service-mesh-service-b:
-        template: eclipse
+        template: Eclipse Microprofile
       microprofile-starter:
-        template: eclipse
+        template: Eclipse Microprofile

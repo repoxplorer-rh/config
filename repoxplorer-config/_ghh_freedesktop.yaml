@@ -160,10 +160,6 @@ projects:
         template: freedesktop
       drm-amd:
         template: freedesktop
-      drm-intel:
-        branches:
-        - drm-intel-fixes
-        template: freedesktop
       drm-maintainer-tools:
         template: freedesktop
       drm-misc:
@@ -858,8 +854,6 @@ projects:
         template: freedesktop
       lightdm:
         template: freedesktop
-      linux:
-        template: freedesktop
       listres:
         template: freedesktop
       lndir:
@@ -903,8 +897,6 @@ projects:
       mkfontdir:
         template: freedesktop
       mpris-spec:
-        template: freedesktop
-      nouveau-linux-2.6:
         template: freedesktop
       nouveau-xf86-video-nouveau:
         template: freedesktop

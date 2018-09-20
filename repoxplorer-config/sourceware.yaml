@@ -1,0 +1,49 @@
+---
+project-templates:
+  sourceware.org:
+    uri: git://sourceware.org/git/%(name)s.git
+    branches:
+    - master
+    gitweb: https://sourceware.org/git/?p=%(name)s.git;a=commitdiff;h=%%(sha)s
+
+projects:
+  Annobin:
+    description: The Annobin project
+    repos:
+      annobin:
+        template: sourceware.org
+  Binutils-gdb:
+    repos:
+      binutils-gdb:
+        template: sourceware.org
+  dwz:
+    repos:
+      dwz:
+        template: sourceware.org
+  elfutils:
+    repos:
+      elfutils:
+        template: sourceware.org
+      elfutils-htdocs:
+        template: sourceware.org
+  Glibc:
+    repos:
+      glibc:
+        template: sourceware.org
+      glibc-ports:
+        template: sourceware.org
+      glibc-buildbot:
+        template: sourceware.org
+  Libabigail:
+    repos:
+      libabigail:
+        template: sourceware.org
+  Systemtap:
+    repos:
+      systemtap:
+        template: sourceware.org
+  Valgrind:
+    repos:
+      valgrind:
+        template: sourceware.org
+

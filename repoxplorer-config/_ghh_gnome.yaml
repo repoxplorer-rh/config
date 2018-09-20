@@ -1,0 +1,1412 @@
+project-templates:
+  gnome:
+    branches:
+    - master
+    gitweb: http://github.com/gnome/%(name)s/commit/%%(sha)s
+    uri: http://github.com/gnome/%(name)s
+projects:
+  gnome:
+    description: The gnome Github organization
+    repos:
+      Initiatives:
+        template: gnome
+      NetworkManager-fortisslvpn:
+        template: gnome
+      NetworkManager-libreswan:
+        template: gnome
+      NetworkManager-openconnect:
+        template: gnome
+      NetworkManager-openvpn:
+        template: gnome
+      NetworkManager-pptp:
+        template: gnome
+      NetworkManager-vpnc:
+        template: gnome
+      ORBit2:
+        template: gnome
+      PolicyKit-gnome:
+        template: gnome
+      accerciser:
+        template: gnome
+      adwaita-icon-theme:
+        template: gnome
+      aisleriot:
+        template: gnome
+      alacarte:
+        template: gnome
+      alleyoop:
+        template: gnome
+      almanah:
+        template: gnome
+      amtk:
+        template: gnome
+      anjuta:
+        template: gnome
+      anjuta-extras:
+        template: gnome
+      annum:
+        template: gnome
+      api-web:
+        template: gnome
+      art-web:
+        template: gnome
+      asbestos:
+        template: gnome
+      at-poke:
+        template: gnome
+      at-spi:
+        template: gnome
+      at-spi2-atk:
+        template: gnome
+      at-spi2-core:
+        template: gnome
+      atk:
+        template: gnome
+      atkmm:
+        template: gnome
+      atomato:
+        template: gnome
+      atomix:
+        template: gnome
+      babl:
+        template: gnome
+      bakery:
+        template: gnome
+      balsa:
+        template: gnome
+      banshee:
+        template: gnome
+      banter:
+        template: gnome
+      baobab:
+        template: gnome
+      beagle:
+        template: gnome
+      beast:
+        template: gnome
+      bijiben:
+        template: gnome
+      billreminder:
+        template: gnome
+      blam:
+        template: gnome
+      bprobe:
+        template: gnome
+      bprof:
+        template: gnome
+      brasero:
+        template: gnome
+      bug-buddy:
+        template: gnome
+      bugzilla-gnome-org-customizations:
+        template: gnome
+      bugzilla-gnome-org-extensions:
+        template: gnome
+      bugzilla-gnome-org-upstream:
+        template: gnome
+      bugzilla.gnome.org:
+        template: gnome
+      buildj:
+        template: gnome
+      buoh:
+        template: gnome
+      byzanz:
+        template: gnome
+      california:
+        template: gnome
+      cantarell-fonts:
+        template: gnome
+      capuchin:
+        template: gnome
+      caribou:
+        template: gnome
+      cheese:
+        template: gnome
+      chrome-gnome-shell:
+        template: gnome
+      chronojump:
+        template: gnome
+      chronojump-docs:
+        template: gnome
+      chronojump-server:
+        template: gnome
+      chronojump-web:
+        template: gnome
+      clocks:
+        template: gnome
+      clutter:
+        template: gnome
+      clutter-box2d:
+        template: gnome
+      clutter-box2dmm:
+        template: gnome
+      clutter-cairomm:
+        template: gnome
+      clutter-gst:
+        template: gnome
+      clutter-gtk:
+        template: gnome
+      clutter-gtkmm:
+        template: gnome
+      clutter-tutorial:
+        template: gnome
+      cluttermm:
+        template: gnome
+      cluttermm_tutorial:
+        template: gnome
+      cogl:
+        template: gnome
+      conduit:
+        template: gnome
+      conglomerate:
+        template: gnome
+      contacts:
+        template: gnome
+      couchdb-glib:
+        template: gnome
+      d-feet:
+        template: gnome
+      damned-lies:
+        template: gnome
+      dasher:
+        template: gnome
+      dates:
+        template: gnome
+      dbus-inspector:
+        template: gnome
+      dconf:
+        template: gnome
+      dconf-editor:
+        template: gnome
+      devhelp:
+        template: gnome
+      devilspie:
+        template: gnome
+      dia:
+        template: gnome
+      discident-glib:
+        template: gnome
+      dots:
+        template: gnome
+      drwright:
+        template: gnome
+      ease:
+        template: gnome
+      easytag:
+        template: gnome
+      egg-list-box:
+        template: gnome
+      ekiga:
+        template: gnome
+      emerillon:
+        template: gnome
+      emerillon-plugins:
+        template: gnome
+      empathy:
+        template: gnome
+      eog:
+        template: gnome
+      eog-plugins:
+        template: gnome
+      epiphany:
+        template: gnome
+      epiphany-extensions:
+        template: gnome
+      evince:
+        template: gnome
+      evolution:
+        template: gnome
+      evolution-activesync:
+        template: gnome
+      evolution-couchdb:
+        template: gnome
+      evolution-data-server:
+        template: gnome
+      evolution-ews:
+        template: gnome
+      evolution-exchange:
+        template: gnome
+      evolution-groupwise:
+        template: gnome
+      evolution-jescs:
+        template: gnome
+      evolution-kolab:
+        template: gnome
+      evolution-mapi:
+        template: gnome
+      evolution-rss:
+        template: gnome
+      evolution-scalix:
+        template: gnome
+      extensions-web:
+        template: gnome
+      f-spot:
+        template: gnome
+      fantasdic:
+        template: gnome
+      file-roller:
+        template: gnome
+      filemanager-actions:
+        template: gnome
+      five-or-more:
+        template: gnome
+      folks:
+        template: gnome
+      four-in-a-row:
+        template: gnome
+      freedesktop-sdk-base:
+        template: gnome
+      frogr:
+        template: gnome
+      gade:
+        template: gnome
+      galeon:
+        template: gnome
+      gamin:
+        template: gnome
+      gbrainy:
+        template: gnome
+      gcab:
+        template: gnome
+      gcompris:
+        template: gnome
+      gconf:
+        template: gnome
+      gconf-editor:
+        template: gnome
+      gconfmm:
+        template: gnome
+      gcr:
+        template: gnome
+      gdk-pixbuf:
+        template: gnome
+      gdl:
+        template: gnome
+      gdlmm:
+        template: gnome
+      gdm:
+        template: gnome
+      geary:
+        template: gnome
+      gedit:
+        template: gnome
+      gedit-code-assistance:
+        template: gnome
+      gedit-collaboration:
+        template: gnome
+      gedit-cossa:
+        template: gnome
+      gedit-latex:
+        template: gnome
+      gedit-plugins:
+        template: gnome
+      gegl:
+        template: gnome
+      gegl-clutter:
+        template: gnome
+      gegl-gtk:
+        template: gnome
+      gegl-qt:
+        template: gnome
+      geglmm:
+        template: gnome
+      genius:
+        template: gnome
+      geoclue-properties:
+        template: gnome
+      geocode-glib:
+        template: gnome
+      gevice:
+        template: gnome
+      gexiv2:
+        template: gnome
+      gftp:
+        template: gnome
+      ghex:
+        template: gnome
+      giggle:
+        template: gnome
+      gimp:
+        template: gnome
+      gimp-book-painting:
+        template: gnome
+      gimp-data-extras:
+        template: gnome
+      gimp-freetype:
+        template: gnome
+      gimp-gap:
+        template: gnome
+      gimp-help:
+        template: gnome
+      gimp-help-2:
+        template: gnome
+      gimp-perl:
+        template: gnome
+      gimp-pspi:
+        template: gnome
+      gimp-ruby:
+        template: gnome
+      gimp-tiny-fu:
+        template: gnome
+      gimp-web:
+        template: gnome
+      gimp-web-devel:
+        template: gnome
+      girl:
+        template: gnome
+      gitg:
+        template: gnome
+      giv:
+        template: gnome
+      gjs:
+        template: gnome
+      gjs-documentation:
+        template: gnome
+      glabels:
+        template: gnome
+      glade:
+        template: gnome
+      glade-web:
+        template: gnome
+      glib:
+        template: gnome
+      glib-controller:
+        template: gnome
+      glib-networking:
+        template: gnome
+      glib-openssl:
+        template: gnome
+      glibmm:
+        template: gnome
+      glick2:
+        template: gnome
+      glide:
+        template: gnome
+      glom:
+        template: gnome
+      glom-postgresql-setup:
+        template: gnome
+      gmime:
+        template: gnome
+      gnac:
+        template: gnome
+      gnet:
+        template: gnome
+      gnio:
+        template: gnome
+      gnode:
+        template: gnome
+      gnoduino:
+        template: gnome
+      gnome-2048:
+        template: gnome
+      gnome-alsamixer:
+        template: gnome
+      gnome-applets:
+        template: gnome
+      gnome-apps-nightly:
+        template: gnome
+      gnome-autoar:
+        template: gnome
+      gnome-backgrounds:
+        template: gnome
+      gnome-battery-bench:
+        template: gnome
+      gnome-blog:
+        template: gnome
+      gnome-bluetooth:
+        template: gnome
+      gnome-boxes:
+        template: gnome
+      gnome-boxes-logos:
+        template: gnome
+      gnome-break-timer:
+        template: gnome
+      gnome-build-meta:
+        template: gnome
+      gnome-builder:
+        template: gnome
+      gnome-calculator:
+        template: gnome
+      gnome-calendar:
+        template: gnome
+      gnome-characters:
+        template: gnome
+      gnome-chat:
+        template: gnome
+      gnome-chess:
+        template: gnome
+      gnome-clocks:
+        template: gnome
+      gnome-code-assistance:
+        template: gnome
+      gnome-color-manager:
+        template: gnome
+      gnome-commander:
+        template: gnome
+      gnome-common:
+        template: gnome
+      gnome-contacts:
+        template: gnome
+      gnome-continuous:
+        template: gnome
+      gnome-continuous-kernel:
+        template: gnome
+      gnome-continuous-yocto:
+        template: gnome
+      gnome-control-center:
+        template: gnome
+      gnome-credentials:
+        template: gnome
+      gnome-desktop:
+        template: gnome
+      gnome-desktop-testing:
+        template: gnome
+      gnome-devel-docs:
+        template: gnome
+      gnome-dictionary:
+        template: gnome
+      gnome-directory-thumbnailer:
+        template: gnome
+      gnome-disk-utility:
+        template: gnome
+      gnome-doc-utils:
+        template: gnome
+      gnome-documents:
+        template: gnome
+      gnome-dvb-daemon:
+        template: gnome
+      gnome-edu:
+        template: gnome
+      gnome-epub-thumbnailer:
+        template: gnome
+      gnome-flashback:
+        template: gnome
+      gnome-font-viewer:
+        template: gnome
+      gnome-games:
+        template: gnome
+      gnome-games-extra-data:
+        template: gnome
+      gnome-getting-started-docs:
+        template: gnome
+      gnome-globalmenu:
+        template: gnome
+      gnome-hello:
+        template: gnome
+      gnome-hwtest:
+        template: gnome
+      gnome-hwtest-simulator:
+        template: gnome
+      gnome-i18n:
+        template: gnome
+      gnome-icon-theme:
+        template: gnome
+      gnome-icon-theme-extras:
+        template: gnome
+      gnome-icon-theme-symbolic:
+        template: gnome
+      gnome-initial-setup:
+        template: gnome
+      gnome-internet-radio-locator:
+        template: gnome
+      gnome-js-common:
+        template: gnome
+      gnome-keyring:
+        template: gnome
+      gnome-keysign:
+        template: gnome
+      gnome-klotski:
+        template: gnome
+      gnome-kra-ora-thumbnailer:
+        template: gnome
+      gnome-latex:
+        template: gnome
+      gnome-lirc-properties:
+        template: gnome
+      gnome-logs:
+        template: gnome
+      gnome-mahjongg:
+        template: gnome
+      gnome-main-menu:
+        template: gnome
+      gnome-maps:
+        template: gnome
+      gnome-mastermind:
+        template: gnome
+      gnome-media:
+        template: gnome
+      gnome-menus:
+        template: gnome
+      gnome-mines:
+        template: gnome
+      gnome-modulesets:
+        template: gnome
+      gnome-mud:
+        template: gnome
+      gnome-multi-writer:
+        template: gnome
+      gnome-music:
+        template: gnome
+      gnome-nds-thumbnailer:
+        template: gnome
+      gnome-nettool:
+        template: gnome
+      gnome-news:
+        template: gnome
+      gnome-nibbles:
+        template: gnome
+      gnome-nightly-oci:
+        template: gnome
+      gnome-notes:
+        template: gnome
+      gnome-online-accounts:
+        template: gnome
+      gnome-online-miners:
+        template: gnome
+      gnome-ostree:
+        template: gnome
+      gnome-ostree-integration:
+        template: gnome
+      gnome-packagekit:
+        template: gnome
+      gnome-panel:
+        template: gnome
+      gnome-photos:
+        template: gnome
+      gnome-pilot:
+        template: gnome
+      gnome-pilot-conduits:
+        template: gnome
+      gnome-pocket:
+        template: gnome
+      gnome-power-manager:
+        template: gnome
+      gnome-python:
+        template: gnome
+      gnome-raw-thumbnailer:
+        template: gnome
+      gnome-robots:
+        template: gnome
+      gnome-runtime-images:
+        template: gnome
+      gnome-scan:
+        template: gnome
+      gnome-schedule:
+        template: gnome
+      gnome-screensaver:
+        template: gnome
+      gnome-screenshot:
+        template: gnome
+      gnome-sdk-images:
+        template: gnome
+      gnome-search-tool:
+        template: gnome
+      gnome-session:
+        template: gnome
+      gnome-settings-daemon:
+        template: gnome
+      gnome-shell:
+        template: gnome
+      gnome-shell-design:
+        template: gnome
+      gnome-shell-extensions:
+        template: gnome
+      gnome-shell-sass:
+        template: gnome
+      gnome-software:
+        template: gnome
+      gnome-sound-recorder:
+        template: gnome
+      gnome-sound-theme:
+        template: gnome
+      gnome-subtitles:
+        template: gnome
+      gnome-sudoku:
+        template: gnome
+      gnome-system-log:
+        template: gnome
+      gnome-system-monitor:
+        template: gnome
+      gnome-system-tools:
+        template: gnome
+      gnome-talos:
+        template: gnome
+      gnome-taquin:
+        template: gnome
+      gnome-terminal:
+        template: gnome
+      gnome-tetravex:
+        template: gnome
+      gnome-themes:
+        template: gnome
+      gnome-themes-extra:
+        template: gnome
+      gnome-themes-extras:
+        template: gnome
+      gnome-todo:
+        template: gnome
+      gnome-tv:
+        template: gnome
+      gnome-tweaks:
+        template: gnome
+      gnome-usage:
+        template: gnome
+      gnome-user-docs:
+        template: gnome
+      gnome-user-share:
+        template: gnome
+      gnome-utils:
+        template: gnome
+      gnome-video-arcade:
+        template: gnome
+      gnome-video-effects:
+        template: gnome
+      gnome-weather:
+        template: gnome
+      gnome-web-photo:
+        template: gnome
+      gnome-web-wppo:
+        template: gnome
+      gnome-web-www:
+        template: gnome
+      gnome3-web:
+        template: gnome
+      gnomefr-web:
+        template: gnome
+      gnomemm-website:
+        template: gnome
+      gnomeradio:
+        template: gnome
+      gnomeweb-src:
+        template: gnome
+      gnote:
+        template: gnome
+      gnumeric:
+        template: gnome
+      gnumeric-web:
+        template: gnome
+      gob:
+        template: gnome
+      gobject-introspection:
+        template: gnome
+      goffice:
+        template: gnome
+      gom:
+        template: gnome
+      goobox:
+        template: gnome
+      goocanvas:
+        template: gnome
+      goocanvasmm:
+        template: gnome
+      gparted:
+        template: gnome
+      gpointing-device-settings:
+        template: gnome
+      graph-gtk:
+        template: gnome
+      grappe:
+        template: gnome
+      grilo:
+        template: gnome
+      grilo-mediaserver2:
+        template: gnome
+      grilo-plugins:
+        template: gnome
+      grits:
+        template: gnome
+      gromit:
+        template: gnome
+      gsettings-desktop-schemas:
+        template: gnome
+      gsound:
+        template: gnome
+      gspell:
+        template: gnome
+      gssdp:
+        template: gnome
+      gst-debugger:
+        template: gnome
+      gstreamermm:
+        template: gnome
+      gswitchit_plugins:
+        template: gnome
+      gtef:
+        template: gnome
+      gtetrinet:
+        template: gnome
+      gthumb:
+        template: gnome
+      gtk:
+        template: gnome
+      gtk-builder-win:
+        template: gnome
+      gtk-doc:
+        template: gnome
+      gtk-doc-stub:
+        template: gnome
+      gtk-engines:
+        template: gnome
+      gtk-frdp:
+        template: gnome
+      gtk-internet-radio-locator:
+        template: gnome
+      gtk-mac-bundler:
+        template: gnome
+      gtk-mac-integration:
+        template: gnome
+      gtk-osx:
+        template: gnome
+      gtk-quartz-engine:
+        template: gnome
+      gtk-theme-engine-clearlooks:
+        template: gnome
+      gtk-vnc:
+        template: gnome
+      gtk-web:
+        template: gnome
+      gtk3-build-system:
+        template: gnome
+      gtkglarea:
+        template: gnome
+      gtkglext:
+        template: gnome
+      gtkglext-sharp:
+        template: gnome
+      gtkglextmm:
+        template: gnome
+      gtkhtml:
+        template: gnome
+      gtkimageview:
+        template: gnome
+      gtkmathview:
+        template: gnome
+      gtkmm:
+        template: gnome
+      gtkmm-documentation:
+        template: gnome
+      gtkparasite:
+        template: gnome
+      gtksourceview:
+        template: gnome
+      gtksourceviewmm:
+        template: gnome
+      gtranslator:
+        template: gnome
+      gturing:
+        template: gnome
+      guadec-web:
+        template: gnome
+      guadec-web-regcfp:
+        template: gnome
+      guadec2010-web:
+        template: gnome
+      gucharmap:
+        template: gnome
+      gupnp:
+        template: gnome
+      gupnp-av:
+        template: gnome
+      gupnp-dlna:
+        template: gnome
+      gupnp-dlna-media:
+        template: gnome
+      gupnp-igd:
+        template: gnome
+      gupnp-tools:
+        template: gnome
+      gupnp-ui:
+        template: gnome
+      gupnp-vala:
+        template: gnome
+      gvdb:
+        template: gnome
+      gvfs:
+        template: gnome
+      gwget:
+        template: gnome
+      gxml:
+        template: gnome
+      gyrus:
+        template: gnome
+      hamster-applet:
+        template: gnome
+      hardware-device-themes:
+        template: gnome
+      hardware-monitor:
+        template: gnome
+      hippo-canvas:
+        template: gnome
+      hitori:
+        template: gnome
+      horizon:
+        template: gnome
+      hotssh:
+        template: gnome
+      hyena:
+        template: gnome
+      iagno:
+        template: gnome
+      identica-glib:
+        template: gnome
+      introspection-doc-generator:
+        template: gnome
+      ipsilon-web:
+        template: gnome
+      istanbul:
+        template: gnome
+      j5tester:
+        template: gnome
+      java-atk-wrapper:
+        template: gnome
+      java-libglom:
+        template: gnome
+      jhbuild:
+        template: gnome
+      json-glib:
+        template: gnome
+      jsonrpc-glib:
+        template: gnome
+      krb5-auth-dialog:
+        template: gnome
+      kupfer:
+        template: gnome
+      lasem:
+        template: gnome
+      last-exit:
+        template: gnome
+      libIDL:
+        template: gnome
+      libbonobo:
+        template: gnome
+      libbonoboui:
+        template: gnome
+      libchamplain:
+        template: gnome
+      libchamplainmm:
+        template: gnome
+      libcroco:
+        template: gnome
+      libcryptui:
+        template: gnome
+      libdazzle:
+        template: gnome
+      libdmapsharing:
+        template: gnome
+      libegg:
+        template: gnome
+      libepc:
+        template: gnome
+      libgames-scores:
+        template: gnome
+      libgames-support:
+        template: gnome
+      libgconf-bridge:
+        template: gnome
+      libgd:
+        template: gnome
+      libgda:
+        template: gnome
+      libgda-uimm:
+        template: gnome
+      libgdamm:
+        template: gnome
+      libgdata:
+        template: gnome
+      libgee:
+        template: gnome
+      libgeexml:
+        template: gnome
+      libgepub:
+        template: gnome
+      libgfbgraph:
+        template: gnome
+      libgit2-glib:
+        template: gnome
+      libglademm:
+        template: gnome
+      libglnx:
+        template: gnome
+      libgnome:
+        template: gnome
+      libgnome-games-support:
+        template: gnome
+      libgnome-keyring:
+        template: gnome
+      libgnome-media-profiles:
+        template: gnome
+      libgnome-volume-control:
+        template: gnome
+      libgnomecanvasmm:
+        template: gnome
+      libgnomekbd:
+        template: gnome
+      libgnomeprint:
+        template: gnome
+      libgnomeui:
+        template: gnome
+      libgovirt:
+        template: gnome
+      libgrss:
+        template: gnome
+      libgsf:
+        template: gnome
+      libgssh:
+        template: gnome
+      libgsystem:
+        template: gnome
+      libgtkmusic:
+        template: gnome
+      libgtop:
+        template: gnome
+      libgudev:
+        template: gnome
+      libgweather:
+        template: gnome
+      libgxps:
+        template: gnome
+      libhttpseverywhere:
+        template: gnome
+      libical-glib:
+        template: gnome
+      libmediaart:
+        template: gnome
+      libnotify:
+        template: gnome
+      libnotifymm:
+        template: gnome
+      liboobs:
+        template: gnome
+      libpeas:
+        template: gnome
+      librest:
+        template: gnome
+      librsvg:
+        template: gnome
+      librsvg-oci-images:
+        template: gnome
+      librsvgmm:
+        template: gnome
+      libsecret:
+        template: gnome
+      libsigcplusplus:
+        template: gnome
+      libslab:
+        template: gnome
+      libsocialweb:
+        template: gnome
+      libsoup:
+        template: gnome
+      libsoupmm:
+        template: gnome
+      libvtemm:
+        template: gnome
+      libwnck:
+        template: gnome
+      libxml2:
+        template: gnome
+      libxmlplusplus:
+        template: gnome
+      libxslt:
+        template: gnome
+      libzapojit:
+        template: gnome
+      lightsoff:
+        template: gnome
+      linux-user-chroot:
+        template: gnome
+      longomatch:
+        template: gnome
+      m4-common:
+        template: gnome
+      mail-web:
+        template: gnome
+      meld:
+        template: gnome
+      memprof:
+        template: gnome
+      mess-desktop-entries:
+        template: gnome
+      messagingmenu-sharp:
+        template: gnome
+      metacity:
+        template: gnome
+      mhonarc:
+        template: gnome
+      mistelix:
+        template: gnome
+      mm-common:
+        template: gnome
+      mobile-broadband-provider-info:
+        template: gnome
+      model:
+        template: gnome
+      model-examples:
+        template: gnome
+      monet:
+        template: gnome
+      monkey-bubble:
+        template: gnome
+      monster-masher:
+        template: gnome
+      mortadelo:
+        template: gnome
+      moserial:
+        template: gnome
+      mousetrap:
+        template: gnome
+      mousetweaks:
+        template: gnome
+      msitools:
+        template: gnome
+      murrine:
+        template: gnome
+      mutter:
+        template: gnome
+      nanny:
+        template: gnome
+      nautilus:
+        template: gnome
+      nautilus-actions:
+        template: gnome
+      nautilus-ideviceinfo:
+        template: gnome
+      nautilus-image-converter:
+        template: gnome
+      nautilus-open-terminal:
+        template: gnome
+      nautilus-python:
+        template: gnome
+      nautilus-sendto:
+        template: gnome
+      nautilus-share:
+        template: gnome
+      nautilus-sound-converter:
+        template: gnome
+      nemiver:
+        template: gnome
+      nemo:
+        template: gnome
+      netspeed:
+        template: gnome
+      network-manager-applet:
+        template: gnome
+      network-manager-fortisslvpn:
+        template: gnome
+      network-manager-iodine:
+        template: gnome
+      network-manager-libreswan:
+        template: gnome
+      network-manager-netbook:
+        template: gnome
+      network-manager-openconnect:
+        template: gnome
+      network-manager-openswan:
+        template: gnome
+      network-manager-openvpn:
+        template: gnome
+      network-manager-pptp:
+        template: gnome
+      network-manager-vpnc:
+        template: gnome
+      news-test-www:
+        template: gnome
+      niepce:
+        template: gnome
+      notification-daemon:
+        template: gnome
+      notify-sharp:
+        template: gnome
+      ocrfeeder:
+        template: gnome
+      odrs-web:
+        template: gnome
+      office-runner:
+        template: gnome
+      ontv:
+        template: gnome
+      opengl-glib:
+        template: gnome
+      orca:
+        template: gnome
+      ostree-init:
+        template: gnome
+      pan:
+        template: gnome
+      pango:
+        template: gnome
+      pangomm:
+        template: gnome
+      pangox-compat:
+        template: gnome
+      paperbox:
+        template: gnome
+      passepartout:
+        template: gnome
+      pdfmod:
+        template: gnome
+      perf-web:
+        template: gnome
+      perl-Cairo:
+        template: gnome
+      perl-Cairo-GObject:
+        template: gnome
+      perl-Champlain:
+        template: gnome
+      perl-Clutter:
+        template: gnome
+      perl-ExtUtils-Depends:
+        template: gnome
+      perl-ExtUtils-PkgConfig:
+        template: gnome
+      perl-GStreamer:
+        template: gnome
+      perl-GStreamer-GConf:
+        template: gnome
+      perl-GStreamer-Interfaces:
+        template: gnome
+      perl-Glib-IO:
+        template: gnome
+      perl-Gnome2:
+        template: gnome
+      perl-Gnome2-Canvas:
+        template: gnome
+      perl-Gnome2-Dia:
+        template: gnome
+      perl-Gnome2-PanelApplet:
+        template: gnome
+      perl-Gnome2-Rsvg:
+        template: gnome
+      perl-Gnome2-VFS:
+        template: gnome
+      perl-Gnome2-Vte:
+        template: gnome
+      perl-Goo-Canvas:
+        template: gnome
+      perl-Gtk2:
+        template: gnome
+      perl-Gtk2-Champlain:
+        template: gnome
+      perl-Gtk2-MozEmbed:
+        template: gnome
+      perl-Gtk2-SourceView2:
+        template: gnome
+      perl-Gtk2-Spell:
+        template: gnome
+      perl-Gtk2-Unique:
+        template: gnome
+      perl-Gtk3:
+        template: gnome
+      perl-Pango:
+        template: gnome
+      perl-glib:
+        template: gnome
+      perl-glib-object-introspection:
+        template: gnome
+      pessulus:
+        template: gnome
+      phodav:
+        template: gnome
+      phonemgr:
+        template: gnome
+      pinpoint:
+        template: gnome
+      pitivi:
+        template: gnome
+      planet-web:
+        template: gnome
+      planner:
+        template: gnome
+      plgtkimageview:
+        template: gnome
+      polari:
+        template: gnome
+      postr:
+        template: gnome
+      previous-guadec-websites:
+        template: gnome
+      pyatspi2:
+        template: gnome
+      pybliographer:
+        template: gnome
+      pyclutter:
+        template: gnome
+      pygda:
+        template: gnome
+      pygio:
+        template: gnome
+      pygobject:
+        template: gnome
+      pygoocanvas:
+        template: gnome
+      pygtk:
+        template: gnome
+      pygtk-docs:
+        template: gnome
+      pygtk-web:
+        template: gnome
+      pygtkglext:
+        template: gnome
+      pygtkimageview:
+        template: gnome
+      pyorbit:
+        template: gnome
+      quadrapassel:
+        template: gnome
+      recipes:
+        template: gnome
+      regexxer:
+        template: gnome
+      release-notes:
+        template: gnome
+      releng:
+        template: gnome
+      retro-gtk:
+        template: gnome
+      retro-plugins:
+        template: gnome
+      rhythmbox:
+        template: gnome
+      rygel:
+        template: gnome
+      rygel-gst-0-10-fullscreen-renderer:
+        template: gnome
+      rygel-gst-0-10-media-engine:
+        template: gnome
+      rygel-gst-0-10-plugins:
+        template: gnome
+      sabayon:
+        template: gnome
+      sapwood:
+        template: gnome
+      seahorse:
+        template: gnome
+      seahorse-nautilus:
+        template: gnome
+      seahorse-plugins:
+        template: gnome
+      seahorse-sharing:
+        template: gnome
+      seed:
+        template: gnome
+      seed-examples:
+        template: gnome
+      shell-perf-web:
+        template: gnome
+      shotwell:
+        template: gnome
+      simple-scan:
+        template: gnome
+      smuxi:
+        template: gnome
+      snappy:
+        template: gnome
+      snowy:
+        template: gnome
+      solang:
+        template: gnome
+      sound-juicer:
+        template: gnome
+      sourcerank:
+        template: gnome
+      splinter:
+        template: gnome
+      strongwind:
+        template: gnome
+      sushi:
+        template: gnome
+      svn-web:
+        template: gnome
+      swell-foop:
+        template: gnome
+      sysadmin-bin:
+        template: gnome
+      sysprof:
+        template: gnome
+      tali:
+        template: gnome
+      tasks:
+        template: gnome
+      tasque:
+        template: gnome
+      tbo:
+        template: gnome
+      telegnome:
+        template: gnome
+      telepathy-account-widgets:
+        template: gnome
+      template-glib:
+        template: gnome
+      tempo:
+        template: gnome
+      tepl:
+        template: gnome
+      testinggtk:
+        template: gnome
+      the-board:
+        template: gnome
+      tomboy:
+        template: gnome
+      totem:
+        template: gnome
+      totem-pl-parser:
+        template: gnome
+      tracker:
+        template: gnome
+      tracker-miner-chatlog:
+        template: gnome
+      tracker-miner-media:
+        template: gnome
+      tracker-miners:
+        template: gnome
+      transmageddon:
+        template: gnome
+      turbine:
+        template: gnome
+      twenty-years:
+        template: gnome
+      uchardet:
+        template: gnome
+      unique:
+        template: gnome
+      uniquemm:
+        template: gnome
+      usability-lab:
+        template: gnome
+      vala:
+        template: gnome
+      vala-extra-vapis:
+        template: gnome
+      valadoc:
+        template: gnome
+      valencia:
+        template: gnome
+      vicious-extensions:
+        template: gnome
+      video-subtitles:
+        template: gnome
+      vinagre:
+        template: gnome
+      vino:
+        template: gnome
+      vte:
+        template: gnome
+      wiican:
+        template: gnome
+      wing:
+        template: gnome
+      xchat-gnome:
+        template: gnome
+      xdg-user-dirs-gtk:
+        template: gnome
+      xmlsec:
+        template: gnome
+      yelp:
+        template: gnome
+      yelp-tools:
+        template: gnome
+      yelp-xsl:
+        template: gnome
+      zenity:
+        template: gnome

@@ -28,8 +28,6 @@ projects:
         template: freedesktop
       alias:
         template: freedesktop
-      amd-drm-amd:
-        template: freedesktop
       amd-hsakmt:
         template: freedesktop
       amd-umr:
@@ -161,14 +159,6 @@ projects:
       drm-amd:
         template: freedesktop
       drm-maintainer-tools:
-        template: freedesktop
-      drm-misc:
-        branches:
-        - drm-misc-fixes
-        template: freedesktop
-      drm-tip:
-        branches:
-        - drm-tip
         template: freedesktop
       drm_hwcomposer:
         template: freedesktop
@@ -905,8 +895,6 @@ projects:
       ohm:
         template: freedesktop
       ooeclipse:
-        template: freedesktop
-      openchrome-drm-openchrome:
         template: freedesktop
       openchrome-xf86-video-openchrome:
         template: freedesktop

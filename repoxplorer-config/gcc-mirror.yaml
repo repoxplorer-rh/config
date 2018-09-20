@@ -1,0 +1,12 @@
+project-templates:
+  GCC:
+    branches:
+    - master
+    gitweb: http://github.com/gcc-mirror/%(name)s/commit/%%(sha)s
+    uri: http://github.com/gcc-mirror/%(name)s
+projects:
+  GCC:
+    description: The gcc-mirror Github organization
+    repos:
+      gcc:
+        template: GCC

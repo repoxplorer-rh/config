@@ -156,8 +156,6 @@ projects:
         template: freedesktop
       dri3proto:
         template: freedesktop
-      drm-amd:
-        template: freedesktop
       drm-maintainer-tools:
         template: freedesktop
       drm_hwcomposer:

@@ -1,0 +1,2242 @@
+project-templates:
+  freedesktop:
+    branches:
+    - master
+    gitweb: http://github.com/freedesktop/%(name)s/commit/%%(sha)s
+    uri: http://github.com/freedesktop/%(name)s
+projects:
+  freedesktop:
+    description: The freedesktop Github organization
+    repos:
+      ConsoleKit:
+        template: freedesktop
+      ModemManager:
+        template: freedesktop
+      NetworkManager:
+        template: freedesktop
+      PackageKit:
+        template: freedesktop
+      PackageKit-Qt:
+        template: freedesktop
+      SyncEvolution-libsynthesis:
+        template: freedesktop
+      SyncEvolution-syncevolution:
+        template: freedesktop
+      a11y-test-suite:
+        template: freedesktop
+      accountsservice:
+        template: freedesktop
+      alias:
+        template: freedesktop
+      amd-drm-amd:
+        template: freedesktop
+      amd-hsakmt:
+        template: freedesktop
+      amd-umr:
+        template: freedesktop
+      androgenizer:
+        template: freedesktop
+      apoc-agent:
+        template: freedesktop
+      apoc-cli:
+        template: freedesktop
+      apoc-firefox-adapter:
+        template: freedesktop
+      apoc-manager:
+        template: freedesktop
+      apoc-profile-editor:
+        template: freedesktop
+      apoc-spi:
+        template: freedesktop
+      apoc-template-packages:
+        template: freedesktop
+      applewmproto:
+        template: freedesktop
+      appmap:
+        template: freedesktop
+      appres:
+        template: freedesktop
+      artwork:
+        template: freedesktop
+      at-spi2-atk:
+        template: freedesktop
+      at-spi2-core:
+        template: freedesktop
+      avivo-xf86-video-avivo:
+        template: freedesktop
+      base:
+        template: freedesktop
+      bdftopcf:
+        template: freedesktop
+      beforelight:
+        template: freedesktop
+      beignet:
+        template: freedesktop
+      bigreqsproto:
+        template: freedesktop
+      binfilter:
+        template: freedesktop
+      bitmap:
+        template: freedesktop
+      bitmaps:
+        template: freedesktop
+      bootstrap:
+        template: freedesktop
+      build:
+        template: freedesktop
+      bustle:
+        template: freedesktop
+      bylaws:
+        template: freedesktop
+      c2man:
+        template: freedesktop
+      cairo:
+        template: freedesktop
+      cairo-5c:
+        template: freedesktop
+      cairo-benchmarks:
+        template: freedesktop
+      cairo-ocaml:
+        template: freedesktop
+      cairo-traces:
+        template: freedesktop
+      cairomm:
+        template: freedesktop
+      calc:
+        template: freedesktop
+      calibrateproto:
+        template: freedesktop
+      ccss:
+        template: freedesktop
+      cf:
+        template: freedesktop
+      colord:
+        template: freedesktop
+      compiz:
+        template: freedesktop
+      components:
+        template: freedesktop
+      compositeproto:
+        template: freedesktop
+      constype:
+        template: freedesktop
+      cups-pk-helper:
+        template: freedesktop
+      cursors:
+        template: freedesktop
+      cvsps:
+        template: freedesktop
+      damageproto:
+        template: freedesktop
+      dapi:
+        template: freedesktop
+      dapi-dbus:
+        template: freedesktop
+      dbus:
+        template: freedesktop
+      dbus-doc:
+        template: freedesktop
+      dbus-glib:
+        template: freedesktop
+      dbus-java:
+        template: freedesktop
+      dbus-mono:
+        template: freedesktop
+      dbus-python:
+        template: freedesktop
+      dbus-qt:
+        template: freedesktop
+      dbus-qt3:
+        template: freedesktop
+      dbus-test:
+        template: freedesktop
+      dmxproto:
+        template: freedesktop
+      dolt:
+        template: freedesktop
+      dri2proto:
+        template: freedesktop
+      dri3proto:
+        template: freedesktop
+      drm-amd:
+        template: freedesktop
+      drm-intel:
+        branches:
+        - drm-intel-fixes
+        template: freedesktop
+      drm-maintainer-tools:
+        template: freedesktop
+      drm-misc:
+        branches:
+        - drm-misc-fixes
+        template: freedesktop
+      drm-tip:
+        branches:
+        - drm-tip
+        template: freedesktop
+      drm_hwcomposer:
+        template: freedesktop
+      editres:
+        template: freedesktop
+      encodings:
+        template: freedesktop
+      epoxy:
+        template: freedesktop
+      evemu:
+        template: freedesktop
+      evieproto:
+        template: freedesktop
+      evtest:
+        template: freedesktop
+      exempi:
+        template: freedesktop
+      extensions:
+        template: freedesktop
+      extras:
+        template: freedesktop
+      ezbench:
+        template: freedesktop
+      fdclock:
+        template: freedesktop
+      filters:
+        template: freedesktop
+      fixesproto:
+        template: freedesktop
+      fontcacheproto:
+        template: freedesktop
+      fontconfig:
+        template: freedesktop
+      fontsproto:
+        template: freedesktop
+      fonttosfnt:
+        template: freedesktop
+      freedesktop-cvsps:
+        template: freedesktop
+      freedesktop-sdk-base:
+        template: freedesktop
+      freedesktop-sdk-images:
+        template: freedesktop
+      freedesktop-ssh-bleach:
+        template: freedesktop
+      freetype-web:
+        template: freedesktop
+      fribidi:
+        template: freedesktop
+      fribidi-c2man:
+        template: freedesktop
+      fribidi-fribidi.old:
+        template: freedesktop
+      fribidi.old:
+        template: freedesktop
+      fslsfonts:
+        template: freedesktop
+      fstobdf:
+        template: freedesktop
+      gccmakedep:
+        template: freedesktop
+      geoclue:
+        template: freedesktop
+      git-phab:
+        template: freedesktop
+      github-mirror:
+        template: freedesktop
+      glamor:
+        template: freedesktop
+      glitz:
+        template: freedesktop
+      glproto:
+        template: freedesktop
+      glu3:
+        template: freedesktop
+      glvnd:
+        template: freedesktop
+      glxcompmgr:
+        template: freedesktop
+      grandr:
+        template: freedesktop
+      gst-android:
+        template: freedesktop
+      gst-openmax:
+        template: freedesktop
+      gstreamer:
+        template: freedesktop
+      gstreamer-attic-gst-plugins-gl:
+        template: freedesktop
+      gstreamer-cerbero:
+        template: freedesktop
+      gstreamer-common:
+        template: freedesktop
+      gstreamer-gnonlin:
+        template: freedesktop
+      gstreamer-gst-build:
+        template: freedesktop
+      gstreamer-gst-devtools:
+        template: freedesktop
+      gstreamer-gst-docs:
+        template: freedesktop
+      gstreamer-gst-editing-services:
+        template: freedesktop
+      gstreamer-gst-examples:
+        template: freedesktop
+      gstreamer-gst-integration-testsuites:
+        template: freedesktop
+      gstreamer-gst-libav:
+        template: freedesktop
+      gstreamer-gst-omx:
+        template: freedesktop
+      gstreamer-gst-openmax:
+        template: freedesktop
+      gstreamer-gst-plugins-bad:
+        template: freedesktop
+      gstreamer-gst-plugins-base:
+        template: freedesktop
+      gstreamer-gst-plugins-gl:
+        template: freedesktop
+      gstreamer-gst-plugins-good:
+        template: freedesktop
+      gstreamer-gst-plugins-ugly:
+        template: freedesktop
+      gstreamer-gst-python:
+        template: freedesktop
+      gstreamer-gst-rtsp-server:
+        template: freedesktop
+      gstreamer-gst-template:
+        template: freedesktop
+      gstreamer-gstreamer-vaapi:
+        template: freedesktop
+      gstreamer-insanity:
+        template: freedesktop
+      gstreamer-insanity-gst:
+        template: freedesktop
+      gstreamer-orc:
+        template: freedesktop
+      gstreamer-qt-gstreamer:
+        template: freedesktop
+      gstreamer-sdk-WildMIDI:
+        template: freedesktop
+      gstreamer-sdk-XML-Simple:
+        template: freedesktop
+      gstreamer-sdk-a52dec:
+        template: freedesktop
+      gstreamer-sdk-atk:
+        template: freedesktop
+      gstreamer-sdk-autoconf:
+        branches:
+        - sdk-2.68
+        template: freedesktop
+      gstreamer-sdk-automake:
+        template: freedesktop
+      gstreamer-sdk-binutils:
+        branches:
+        - sdk-2.22
+        template: freedesktop
+      gstreamer-sdk-buildbot-testing-repo:
+        template: freedesktop
+      gstreamer-sdk-bzip2:
+        template: freedesktop
+      gstreamer-sdk-cairo:
+        template: freedesktop
+      gstreamer-sdk-cdparanoia:
+        branches:
+        - sdk-10.3
+        template: freedesktop
+      gstreamer-sdk-cerbero:
+        template: freedesktop
+      gstreamer-sdk-clutter:
+        branches:
+        - sdk-1.8.4
+        template: freedesktop
+      gstreamer-sdk-clutter-gst:
+        branches:
+        - sdk-1.4.6
+        template: freedesktop
+      gstreamer-sdk-cogl:
+        template: freedesktop
+      gstreamer-sdk-dbus:
+        branches:
+        - sdk-1.4.16
+        template: freedesktop
+      gstreamer-sdk-dbus-glib:
+        branches:
+        - sdk-0.98
+        template: freedesktop
+      gstreamer-sdk-dbus-python:
+        template: freedesktop
+      gstreamer-sdk-docbook-xml:
+        template: freedesktop
+      gstreamer-sdk-docbook-xsl:
+        template: freedesktop
+      gstreamer-sdk-elfutils:
+        template: freedesktop
+      gstreamer-sdk-expat:
+        template: freedesktop
+      gstreamer-sdk-faad2:
+        branches:
+        - sdk-2.7
+        template: freedesktop
+      gstreamer-sdk-flac:
+        branches:
+        - sdk-1.2.1
+        template: freedesktop
+      gstreamer-sdk-fontconfig:
+        template: freedesktop
+      gstreamer-sdk-freetype:
+        branches:
+        - sdk-2.4.8
+        template: freedesktop
+      gstreamer-sdk-fribidi:
+        template: freedesktop
+      gstreamer-sdk-gcc:
+        branches:
+        - sdk-4.6.2
+        template: freedesktop
+      gstreamer-sdk-gdk-pixbuf:
+        template: freedesktop
+      gstreamer-sdk-gettext:
+        template: freedesktop
+      gstreamer-sdk-glib:
+        template: freedesktop
+      gstreamer-sdk-glib-networking:
+        branches:
+        - sdk-2.30.2
+        template: freedesktop
+      gstreamer-sdk-gmp:
+        template: freedesktop
+      gstreamer-sdk-gnonlin:
+        template: freedesktop
+      gstreamer-sdk-gnutls:
+        template: freedesktop
+      gstreamer-sdk-gst-editing-services:
+        template: freedesktop
+      gstreamer-sdk-gst-ffmpeg:
+        branches:
+        - sdk-0.10.13
+        template: freedesktop
+      gstreamer-sdk-gst-playback-test:
+        branches:
+        - sdk-0.0.1
+        template: freedesktop
+      gstreamer-sdk-gst-plugins-bad:
+        template: freedesktop
+      gstreamer-sdk-gst-plugins-base:
+        template: freedesktop
+      gstreamer-sdk-gst-plugins-good:
+        template: freedesktop
+      gstreamer-sdk-gst-plugins-ugly:
+        branches:
+        - sdk-0.10.19
+        template: freedesktop
+      gstreamer-sdk-gst-python:
+        template: freedesktop
+      gstreamer-sdk-gst-rtsp-server:
+        template: freedesktop
+      gstreamer-sdk-gst-sdk-insanity-tests:
+        template: freedesktop
+      gstreamer-sdk-gst-sdk-tutorials:
+        template: freedesktop
+      gstreamer-sdk-gst-sinks-tester:
+        template: freedesktop
+      gstreamer-sdk-gstreamer:
+        branches:
+        - sdk-0.10.36
+        template: freedesktop
+      gstreamer-sdk-gtk:
+        template: freedesktop
+      gstreamer-sdk-gtk-doc:
+        template: freedesktop
+      gstreamer-sdk-gtk-engines:
+        template: freedesktop
+      gstreamer-sdk-gtk-mac-integration:
+        template: freedesktop
+      gstreamer-sdk-icon-naming-utils:
+        template: freedesktop
+      gstreamer-sdk-insanity:
+        template: freedesktop
+      gstreamer-sdk-insanity-gst:
+        template: freedesktop
+      gstreamer-sdk-iso-codes:
+        template: freedesktop
+      gstreamer-sdk-jasper:
+        branches:
+        - sdk-1.900.1
+        template: freedesktop
+      gstreamer-sdk-jpeg:
+        template: freedesktop
+      gstreamer-sdk-json-c:
+        template: freedesktop
+      gstreamer-sdk-json-glib:
+        template: freedesktop
+      gstreamer-sdk-libXtst:
+        branches:
+        - sdk-1.1.0
+        template: freedesktop
+      gstreamer-sdk-libass:
+        template: freedesktop
+      gstreamer-sdk-libav:
+        branches:
+        - build
+        template: freedesktop
+      gstreamer-sdk-libcroco:
+        template: freedesktop
+      gstreamer-sdk-libdca:
+        template: freedesktop
+      gstreamer-sdk-libdv:
+        template: freedesktop
+      gstreamer-sdk-libdvdnav:
+        template: freedesktop
+      gstreamer-sdk-libdvdread:
+        template: freedesktop
+      gstreamer-sdk-libexif:
+        template: freedesktop
+      gstreamer-sdk-libffi:
+        branches:
+        - sdk-3.0.10
+        template: freedesktop
+      gstreamer-sdk-libgcrypt:
+        template: freedesktop
+      gstreamer-sdk-libgpg-error:
+        template: freedesktop
+      gstreamer-sdk-libiconv:
+        branches:
+        - sdk-1.14
+        template: freedesktop
+      gstreamer-sdk-libkate:
+        template: freedesktop
+      gstreamer-sdk-libmad:
+        template: freedesktop
+      gstreamer-sdk-libmms:
+        template: freedesktop
+      gstreamer-sdk-libmpeg2:
+        template: freedesktop
+      gstreamer-sdk-libogg:
+        branches:
+        - sdk-1.3.0
+        template: freedesktop
+      gstreamer-sdk-libpng:
+        template: freedesktop
+      gstreamer-sdk-librsvg:
+        template: freedesktop
+      gstreamer-sdk-libshout:
+        template: freedesktop
+      gstreamer-sdk-libsoup:
+        template: freedesktop
+      gstreamer-sdk-libtasn1:
+        template: freedesktop
+      gstreamer-sdk-libtheora:
+        template: freedesktop
+      gstreamer-sdk-libvisual:
+        template: freedesktop
+      gstreamer-sdk-libvorbis:
+        template: freedesktop
+      gstreamer-sdk-libvpx:
+        template: freedesktop
+      gstreamer-sdk-libxml2:
+        template: freedesktop
+      gstreamer-sdk-libxslt:
+        template: freedesktop
+      gstreamer-sdk-m4:
+        branches:
+        - sdk-1.4.16
+        template: freedesktop
+      gstreamer-sdk-mingw-w64:
+        branches:
+        - sdk-v2.0.1
+        template: freedesktop
+      gstreamer-sdk-mpc:
+        branches:
+        - sdk-0.8.2
+        template: freedesktop
+      gstreamer-sdk-mpfr:
+        template: freedesktop
+      gstreamer-sdk-nettle:
+        template: freedesktop
+      gstreamer-sdk-opencore-amr:
+        branches:
+        - sdk-0.1.3
+        template: freedesktop
+      gstreamer-sdk-openjpeg:
+        template: freedesktop
+      gstreamer-sdk-opus:
+        branches:
+        - sdk-0.9.14
+        template: freedesktop
+      gstreamer-sdk-orc:
+        template: freedesktop
+      gstreamer-sdk-pango:
+        branches:
+        - sdk-1.28.4
+        template: freedesktop
+      gstreamer-sdk-pixman:
+        template: freedesktop
+      gstreamer-sdk-pkg-config:
+        template: freedesktop
+      gstreamer-sdk-pthreads-win32:
+        template: freedesktop
+      gstreamer-sdk-pulseaudio:
+        template: freedesktop
+      gstreamer-sdk-py2cairo:
+        branches:
+        - sdk-1.10.0
+        template: freedesktop
+      gstreamer-sdk-pygobject:
+        branches:
+        - sdk-2.28.6
+        template: freedesktop
+      gstreamer-sdk-pygtk:
+        template: freedesktop
+      gstreamer-sdk-qt:
+        template: freedesktop
+      gstreamer-sdk-qt-gstreamer:
+        template: freedesktop
+      gstreamer-sdk-schroedinger:
+        template: freedesktop
+      gstreamer-sdk-snappy:
+        template: freedesktop
+      gstreamer-sdk-soundtouch:
+        template: freedesktop
+      gstreamer-sdk-speex:
+        template: freedesktop
+      gstreamer-sdk-taglib:
+        template: freedesktop
+      gstreamer-sdk-tango-icon-theme:
+        template: freedesktop
+      gstreamer-sdk-tiff:
+        branches:
+        - sdk-4.0.1
+        template: freedesktop
+      gstreamer-sdk-tremor:
+        template: freedesktop
+      gstreamer-sdk-wavpack:
+        template: freedesktop
+      gstreamer-sdk-windows-external-sdk:
+        template: freedesktop
+      gstreamer-sdk-zlib:
+        template: freedesktop
+      gstreamer-vaapi:
+        template: freedesktop
+      gstreamer-www:
+        template: freedesktop
+      gummiboot:
+        template: freedesktop
+      gypsy:
+        template: freedesktop
+      hal:
+        template: freedesktop
+      hal-info:
+        template: freedesktop
+      hal-quirks-site:
+        template: freedesktop
+      harfbuzz:
+        template: freedesktop
+      harfbuzz.old:
+        template: freedesktop
+      hieroglyph:
+        template: freedesktop
+      hsakmt:
+        template: freedesktop
+      iceauth:
+        template: freedesktop
+      ico:
+        template: freedesktop
+      imake:
+        template: freedesktop
+      impress:
+        template: freedesktop
+      inputproto:
+        template: freedesktop
+      install-check:
+        template: freedesktop
+      intel-gen4asm:
+        template: freedesktop
+      intel-hybrid-driver:
+        template: freedesktop
+      itstool:
+        template: freedesktop
+      jenkins-ci-jenkins-docker:
+        template: freedesktop
+      kbproto:
+        template: freedesktop
+      kmscon:
+        template: freedesktop
+      l10n:
+        template: freedesktop
+      lbxproxy:
+        template: freedesktop
+      ldtp:
+        template: freedesktop
+      ldtp2:
+        template: freedesktop
+      lg3dproto:
+        template: freedesktop
+      libAppleWM:
+        template: freedesktop
+      libFS:
+        template: freedesktop
+      libICE:
+        template: freedesktop
+      libSM:
+        template: freedesktop
+      libWindowsWM:
+        template: freedesktop
+      libXCalibrate:
+        template: freedesktop
+      libXRes:
+        template: freedesktop
+      libXScrnSaver:
+        template: freedesktop
+      libXTrap:
+        template: freedesktop
+      libXau:
+        template: freedesktop
+      libXcomposite:
+        template: freedesktop
+      libXcursor:
+        template: freedesktop
+      libXdamage:
+        template: freedesktop
+      libXdmcp:
+        template: freedesktop
+      libXevie:
+        template: freedesktop
+      libXext:
+        template: freedesktop
+      libXfont:
+        template: freedesktop
+      libXfontcache:
+        template: freedesktop
+      libXft:
+        template: freedesktop
+      libXinerama:
+        template: freedesktop
+      libXlg3d:
+        template: freedesktop
+      libXmu:
+        template: freedesktop
+      libXp:
+        template: freedesktop
+      libXpm:
+        template: freedesktop
+      libXpresent:
+        template: freedesktop
+      libXprintAppUtil:
+        template: freedesktop
+      libXprintUtil:
+        template: freedesktop
+      libXrandrUtils:
+        template: freedesktop
+      libXxf86dga:
+        template: freedesktop
+      libXxf86misc:
+        template: freedesktop
+      libXxf86rush:
+        template: freedesktop
+      libXxf86vm:
+        template: freedesktop
+      libabw:
+        template: freedesktop
+      libbacklight:
+        template: freedesktop
+      libbsd:
+        template: freedesktop
+      libdlo:
+        template: freedesktop
+      libdmx:
+        template: freedesktop
+      libevdev:
+        template: freedesktop
+      libexttextcat:
+        template: freedesktop
+      libfontenc:
+        template: freedesktop
+      libfprint:
+        template: freedesktop
+      libfprint-fprintd:
+        template: freedesktop
+      libfreehand:
+        template: freedesktop
+      libgltf:
+        template: freedesktop
+      libjpeg:
+        template: freedesktop
+      liblazy:
+        template: freedesktop
+      liblbxutil:
+        template: freedesktop
+      libmbim:
+        template: freedesktop
+      libminidump:
+        template: freedesktop
+      libmix:
+        template: freedesktop
+      libmspub:
+        template: freedesktop
+      libnice:
+        template: freedesktop
+      liboil:
+        template: freedesktop
+      liboldX:
+        template: freedesktop
+      libopenraw:
+        template: freedesktop
+      libqmi:
+        template: freedesktop
+      libreoffice-buildbot:
+        template: freedesktop
+      libreoffice-contrib-buildbot:
+        template: freedesktop
+      libreoffice-contrib-dev-tools:
+        template: freedesktop
+      libreoffice-contrib-gitdm-config:
+        template: freedesktop
+      libreoffice-contrib-mso-dumper:
+        template: freedesktop
+      libreoffice-contrib-svn-to-git:
+        template: freedesktop
+      libreoffice-contrib-test-files:
+        template: freedesktop
+      libreoffice-cppunit:
+        template: freedesktop
+      libreoffice-dev-tools:
+        template: freedesktop
+      libreoffice-dictionaries:
+        template: freedesktop
+      libreoffice-gitdm-config:
+        template: freedesktop
+      libreoffice-help:
+        template: freedesktop
+      libreoffice-impress_remote:
+        template: freedesktop
+      libreoffice-libabw:
+        template: freedesktop
+      libreoffice-libcdr:
+        template: freedesktop
+      libreoffice-libetonyek:
+        template: freedesktop
+      libreoffice-libfreehand:
+        template: freedesktop
+      libreoffice-libmspub:
+        template: freedesktop
+      libreoffice-libvisio:
+        template: freedesktop
+      libreoffice-lightproof:
+        template: freedesktop
+      libreoffice-mso-dumper:
+        template: freedesktop
+      libreoffice-svn-to-git:
+        template: freedesktop
+      libreoffice-test-files:
+        template: freedesktop
+      libs-core:
+        template: freedesktop
+      libs-extern:
+        template: freedesktop
+      libs-extern-sys:
+        template: freedesktop
+      libs-gui:
+        template: freedesktop
+      libspectre:
+        template: freedesktop
+      libva:
+        template: freedesktop
+      libva-sdk:
+        template: freedesktop
+      libvdpau:
+        template: freedesktop
+      libxcwm:
+        template: freedesktop
+      libxdg-vfs:
+        template: freedesktop
+      libxkbcommon:
+        template: freedesktop
+      libxkbfile:
+        template: freedesktop
+      libxkbui:
+        template: freedesktop
+      libxklavier:
+        template: freedesktop
+      libxshmfence:
+        template: freedesktop
+      lightdm:
+        template: freedesktop
+      linux:
+        template: freedesktop
+      listres:
+        template: freedesktop
+      lndir:
+        template: freedesktop
+      loudmouth:
+        template: freedesktop
+      luit:
+        template: freedesktop
+      macros:
+        template: freedesktop
+      makedepend:
+        template: freedesktop
+      makepsres:
+        template: freedesktop
+      mdm:
+        template: freedesktop
+      media-player-info:
+        template: freedesktop
+      mesa-crucible:
+        template: freedesktop
+      mesa-demos:
+        template: freedesktop
+      mesa-drm:
+        template: freedesktop
+      mesa-kmscube:
+        template: freedesktop
+      mesa-openchrome:
+        template: freedesktop
+      mesa-rbug-gui:
+        template: freedesktop
+      mesa-shader-db:
+        template: freedesktop
+      mesa-tasks:
+        template: freedesktop
+      mesa-vmwgfx:
+        template: freedesktop
+      mkcfm:
+        template: freedesktop
+      mkcomposecache:
+        template: freedesktop
+      mkfontdir:
+        template: freedesktop
+      mpris-spec:
+        template: freedesktop
+      nouveau-linux-2.6:
+        template: freedesktop
+      nouveau-xf86-video-nouveau:
+        template: freedesktop
+      oclock:
+        template: freedesktop
+      ohm:
+        template: freedesktop
+      ooeclipse:
+        template: freedesktop
+      openchrome-drm-openchrome:
+        template: freedesktop
+      openchrome-xf86-video-openchrome:
+        template: freedesktop
+      original-artwork:
+        template: freedesktop
+      p11-glue:
+        template: freedesktop
+      p11-glue-p11-glue:
+        template: freedesktop
+      p11-glue-p11-kit:
+        template: freedesktop
+      p11-glue-pkcs11-trust-assertions:
+        template: freedesktop
+      panoramixproto:
+        template: freedesktop
+      papyon:
+        template: freedesktop
+      pclcomp:
+        template: freedesktop
+      pig:
+        template: freedesktop
+      pixman:
+        template: freedesktop
+      pkg-config:
+        template: freedesktop
+      plymouth:
+        template: freedesktop
+      pm-utils:
+        template: freedesktop
+      pmproto:
+        template: freedesktop
+      polkit:
+        template: freedesktop
+      poppler:
+        template: freedesktop
+      poppler-data:
+        template: freedesktop
+      poppler-glibmm:
+        template: freedesktop
+      postprocess:
+        template: freedesktop
+      printproto:
+        template: freedesktop
+      protocol:
+        template: freedesktop
+      proxymngr:
+        template: freedesktop
+      pulseaudio:
+        template: freedesktop
+      pulseaudio-paprefs:
+        template: freedesktop
+      pulseaudio-pavucontrol:
+        template: freedesktop
+      pulseaudio-pavucontrol.git.bup:
+        template: freedesktop
+      pulseaudio-pulseaudio.git.backup:
+        template: freedesktop
+      pulseaudio-webrtc-audio-processing:
+        template: freedesktop
+      pvr-driver:
+        template: freedesktop
+      py2cairo:
+        template: freedesktop
+      pyautosuite:
+        template: freedesktop
+      pycairo:
+        template: freedesktop
+      python-geoclue:
+        template: freedesktop
+      pyxdg:
+        template: freedesktop
+      qxl:
+        template: freedesktop
+      randrproto:
+        template: freedesktop
+      razor:
+        template: freedesktop
+      realmd:
+        template: freedesktop
+      realmd-adcli:
+        template: freedesktop
+      recordproto:
+        template: freedesktop
+      renderproto:
+        template: freedesktop
+      resourceproto:
+        template: freedesktop
+      rgb:
+        template: freedesktop
+      roadster:
+        template: freedesktop
+      rstart:
+        template: freedesktop
+      sbox2:
+        template: freedesktop
+      scripts:
+        template: freedesktop
+      scrnsaverproto:
+        template: freedesktop
+      sessreg:
+        template: freedesktop
+      setxkbmap:
+        template: freedesktop
+      shared-desktop-ontologies:
+        template: freedesktop
+      shave:
+        template: freedesktop
+      showfont:
+        template: freedesktop
+      slirp:
+        template: freedesktop
+      smproxy:
+        template: freedesktop
+      sound-theme-freedesktop:
+        template: freedesktop
+      spice:
+        template: freedesktop
+      spice-common:
+        template: freedesktop
+      spice-gtk:
+        template: freedesktop
+      spice-html5:
+        template: freedesktop
+      spice-jhbuild:
+        template: freedesktop
+      spice-libcacard:
+        template: freedesktop
+      spice-linux-vd_agent:
+        template: freedesktop
+      spice-nsis:
+        template: freedesktop
+      spice-protocol:
+        template: freedesktop
+      spice-qemu:
+        template: freedesktop
+      spice-qxl-wddm-dod:
+        template: freedesktop
+      spice-server:
+        template: freedesktop
+      spice-usbdk:
+        template: freedesktop
+      spice-usbredir:
+        template: freedesktop
+      spice-vd_agent:
+        template: freedesktop
+      spice-win32-qxl-wddm-dod:
+        template: freedesktop
+      spice-win32-usbdk:
+        template: freedesktop
+      spice-win32-vd_agent:
+        template: freedesktop
+      spice-xpi:
+        template: freedesktop
+      spicec:
+        template: freedesktop
+      ssh-bleach:
+        template: freedesktop
+      startup-notification:
+        template: freedesktop
+      swfdec:
+        template: freedesktop
+      swfdec-directfb:
+        template: freedesktop
+      swfdec-gnome:
+        template: freedesktop
+      swfdec-konqueror:
+        template: freedesktop
+      swfdec-mozilla:
+        template: freedesktop
+      system-tools-backends:
+        template: freedesktop
+      system-tools-backends-old:
+        template: freedesktop
+      systemd:
+        template: freedesktop
+      systemd-stable:
+        branches:
+        - v208-stable
+        template: freedesktop
+      systemd-ui:
+        template: freedesktop
+      tango-icon-library:
+        template: freedesktop
+      tartan:
+        template: freedesktop
+      telepathy-butterfly:
+        template: freedesktop
+      telepathy-doc:
+        template: freedesktop
+      telepathy-farsight:
+        template: freedesktop
+      telepathy-farstream:
+        template: freedesktop
+      telepathy-gabble:
+        template: freedesktop
+      telepathy-glib:
+        template: freedesktop
+      telepathy-haze:
+        template: freedesktop
+      telepathy-idle:
+        template: freedesktop
+      telepathy-logger:
+        template: freedesktop
+      telepathy-mission-control:
+        template: freedesktop
+      telepathy-origami:
+        template: freedesktop
+      telepathy-phoenix:
+        template: freedesktop
+      telepathy-python:
+        template: freedesktop
+      telepathy-qt:
+        template: freedesktop
+      telepathy-qt-farstream:
+        template: freedesktop
+      telepathy-qt4-yell:
+        template: freedesktop
+      telepathy-rakia:
+        template: freedesktop
+      telepathy-ring:
+        template: freedesktop
+      telepathy-salut:
+        template: freedesktop
+      telepathy-spec:
+        template: freedesktop
+      telepathy-ssh-contact:
+        template: freedesktop
+      telepathy-sunshine:
+        template: freedesktop
+      telepathy-yell:
+        template: freedesktop
+      telepathy-ytstenut:
+        template: freedesktop
+      templates:
+        template: freedesktop
+      transset:
+        template: freedesktop
+      trapproto:
+        template: freedesktop
+      twm:
+        template: freedesktop
+      uchardet:
+        template: freedesktop
+      udisks:
+        template: freedesktop
+      ugly:
+        template: freedesktop
+      upower:
+        template: freedesktop
+      ure:
+        template: freedesktop
+      usbclerk:
+        template: freedesktop
+      vaapi-intel-driver:
+        template: freedesktop
+      vdesktop:
+        template: freedesktop
+      vdi_port:
+        template: freedesktop
+      vdpau-driver:
+        template: freedesktop
+      vdpauinfo:
+        template: freedesktop
+      videoproto:
+        template: freedesktop
+      viewres:
+        template: freedesktop
+      virglrenderer:
+        template: freedesktop
+      voting:
+        template: freedesktop
+      wayland:
+        template: freedesktop
+      wayland-build-tools:
+        template: freedesktop
+      wayland-java:
+        template: freedesktop
+      wayland-libinput:
+        template: freedesktop
+      wayland-protocols:
+        template: freedesktop
+      wayland-web:
+        template: freedesktop
+      wayland-weston:
+        template: freedesktop
+      website:
+        template: freedesktop
+      windowswmproto:
+        template: freedesktop
+      wocky:
+        template: freedesktop
+      writer:
+        template: freedesktop
+      x11perf:
+        template: freedesktop
+      xauth:
+        template: freedesktop
+      xbacklight:
+        template: freedesktop
+      xbiff:
+        template: freedesktop
+      xcalc:
+        template: freedesktop
+      xcb-libxcb:
+        template: freedesktop
+      xcb-proto:
+        template: freedesktop
+      xcb-pthread-stubs:
+        template: freedesktop
+      xclipboard:
+        template: freedesktop
+      xclock:
+        template: freedesktop
+      xcmiscproto:
+        template: freedesktop
+      xcmsdb:
+        template: freedesktop
+      xcompmgr:
+        template: freedesktop
+      xconsole:
+        template: freedesktop
+      xcursorgen:
+        template: freedesktop
+      xdbedizzy:
+        template: freedesktop
+      xdg-app:
+        template: freedesktop
+      xdg-default-icon-theme:
+        template: freedesktop
+      xdg-desktop-file-utils:
+        template: freedesktop
+      xdg-shared-mime-info:
+        template: freedesktop
+      xdg-specs:
+        template: freedesktop
+      xdg-user-dirs:
+        template: freedesktop
+      xdg-utils:
+        template: freedesktop
+      xdgmime:
+        template: freedesktop
+      xditview:
+        template: freedesktop
+      xdm:
+        template: freedesktop
+      xdpyinfo:
+        template: freedesktop
+      xdriinfo:
+        template: freedesktop
+      xedit:
+        template: freedesktop
+      xesam:
+        template: freedesktop
+      xev:
+        template: freedesktop
+      xextproto:
+        template: freedesktop
+      xeyes:
+        template: freedesktop
+      xf86-input-acecad:
+        template: freedesktop
+      xf86-input-aiptek:
+        template: freedesktop
+      xf86-input-calcomp:
+        template: freedesktop
+      xf86-input-citron:
+        template: freedesktop
+      xf86-input-digitaledge:
+        template: freedesktop
+      xf86-input-dmc:
+        template: freedesktop
+      xf86-input-dynapro:
+        template: freedesktop
+      xf86-input-elo2300:
+        template: freedesktop
+      xf86-input-elographics:
+        template: freedesktop
+      xf86-input-fpit:
+        template: freedesktop
+      xf86-input-hyperpen:
+        template: freedesktop
+      xf86-input-jamstudio:
+        template: freedesktop
+      xf86-input-magellan:
+        template: freedesktop
+      xf86-input-magictouch:
+        template: freedesktop
+      xf86-input-microtouch:
+        template: freedesktop
+      xf86-input-mutouch:
+        template: freedesktop
+      xf86-input-palmax:
+        template: freedesktop
+      xf86-input-penmount:
+        template: freedesktop
+      xf86-input-sample:
+        template: freedesktop
+      xf86-input-spaceorb:
+        template: freedesktop
+      xf86-input-summa:
+        template: freedesktop
+      xf86-input-tek4957:
+        template: freedesktop
+      xf86-input-ur98:
+        template: freedesktop
+      xf86-input-vmmouse:
+        template: freedesktop
+      xf86-input-void:
+        template: freedesktop
+      xf86-input-wacom:
+        template: freedesktop
+      xf86-video-apm:
+        template: freedesktop
+      xf86-video-ark:
+        template: freedesktop
+      xf86-video-ast:
+        template: freedesktop
+      xf86-video-avivo:
+        template: freedesktop
+      xf86-video-cirrus:
+        template: freedesktop
+      xf86-video-cyrix:
+        template: freedesktop
+      xf86-video-fbdev:
+        template: freedesktop
+      xf86-video-glide:
+        template: freedesktop
+      xf86-video-i128:
+        template: freedesktop
+      xf86-video-impact:
+        template: freedesktop
+      xf86-video-imstt:
+        template: freedesktop
+      xf86-video-mach64:
+        template: freedesktop
+      xf86-video-modesetting:
+        template: freedesktop
+      xf86-video-neomagic:
+        template: freedesktop
+      xf86-video-newport:
+        template: freedesktop
+      xf86-video-nsc:
+        template: freedesktop
+      xf86-video-opentegra:
+        template: freedesktop
+      xf86-video-p690:
+        template: freedesktop
+      xf86-video-radeonhd:
+        template: freedesktop
+      xf86-video-rendition:
+        template: freedesktop
+      xf86-video-s3:
+        template: freedesktop
+      xf86-video-s3virge:
+        template: freedesktop
+      xf86-video-sisusb:
+        template: freedesktop
+      xf86-video-sunbw2:
+        template: freedesktop
+      xf86-video-suncg14:
+        template: freedesktop
+      xf86-video-suncg3:
+        template: freedesktop
+      xf86-video-suncg6:
+        template: freedesktop
+      xf86-video-sunffb:
+        template: freedesktop
+      xf86-video-sunleo:
+        template: freedesktop
+      xf86-video-suntcx:
+        template: freedesktop
+      xf86-video-tga:
+        template: freedesktop
+      xf86-video-tseng:
+        template: freedesktop
+      xf86-video-v4l:
+        template: freedesktop
+      xf86-video-vermilion:
+        template: freedesktop
+      xf86-video-vesa:
+        template: freedesktop
+      xf86-video-vga:
+        template: freedesktop
+      xf86-video-via:
+        template: freedesktop
+      xf86-video-voodoo:
+        template: freedesktop
+      xf86-video-wayland:
+        template: freedesktop
+      xf86-video-wsfb:
+        template: freedesktop
+      xf86bigfontproto:
+        template: freedesktop
+      xf86dgaproto:
+        template: freedesktop
+      xf86driproto:
+        template: freedesktop
+      xf86miscproto:
+        template: freedesktop
+      xf86rushproto:
+        template: freedesktop
+      xf86vidmodeproto:
+        template: freedesktop
+      xfd:
+        template: freedesktop
+      xfindproxy:
+        template: freedesktop
+      xfontsel:
+        template: freedesktop
+      xfs:
+        template: freedesktop
+      xfsinfo:
+        template: freedesktop
+      xfwp:
+        template: freedesktop
+      xgamma:
+        template: freedesktop
+      xgc:
+        template: freedesktop
+      xhiv:
+        template: freedesktop
+      xhost:
+        template: freedesktop
+      xineramaproto:
+        template: freedesktop
+      xinit:
+        template: freedesktop
+      xkbcomp:
+        template: freedesktop
+      xkbevd:
+        template: freedesktop
+      xkbprint:
+        template: freedesktop
+      xkbutils:
+        template: freedesktop
+      xkeyboard-config:
+        template: freedesktop
+      xkill:
+        template: freedesktop
+      xload:
+        template: freedesktop
+      xlogo:
+        template: freedesktop
+      xlsatoms:
+        template: freedesktop
+      xlsclients:
+        template: freedesktop
+      xlsfonts:
+        template: freedesktop
+      xmag:
+        template: freedesktop
+      xman:
+        template: freedesktop
+      xmessage:
+        template: freedesktop
+      xmh:
+        template: freedesktop
+      xmkmf:
+        template: freedesktop
+      xmodmap:
+        template: freedesktop
+      xmore:
+        template: freedesktop
+      xoo:
+        template: freedesktop
+      xorg-adobe-100dpi:
+        template: freedesktop
+      xorg-adobe-75dpi:
+        template: freedesktop
+      xorg-adobe-utopia-100dpi:
+        template: freedesktop
+      xorg-adobe-utopia-75dpi:
+        template: freedesktop
+      xorg-adobe-utopia-type1:
+        template: freedesktop
+      xorg-alias:
+        template: freedesktop
+      xorg-app-edid-decode:
+        template: freedesktop
+      xorg-app-intel-gpu-tools:
+        template: freedesktop
+      xorg-app-mkfontscale:
+        template: freedesktop
+      xorg-app-xinput:
+        template: freedesktop
+      xorg-appres:
+        template: freedesktop
+      xorg-arabic-misc:
+        template: freedesktop
+      xorg-bdftopcf:
+        template: freedesktop
+      xorg-beforelight:
+        template: freedesktop
+      xorg-bh-100dpi:
+        template: freedesktop
+      xorg-bh-75dpi:
+        template: freedesktop
+      xorg-bh-lucidatypewriter-100dpi:
+        template: freedesktop
+      xorg-bh-lucidatypewriter-75dpi:
+        template: freedesktop
+      xorg-bh-ttf:
+        template: freedesktop
+      xorg-bh-type1:
+        template: freedesktop
+      xorg-bigreqsproto:
+        template: freedesktop
+      xorg-bitmap:
+        template: freedesktop
+      xorg-bitmaps:
+        template: freedesktop
+      xorg-bitstream-100dpi:
+        template: freedesktop
+      xorg-bitstream-75dpi:
+        template: freedesktop
+      xorg-bitstream-speedo:
+        template: freedesktop
+      xorg-bitstream-type1:
+        template: freedesktop
+      xorg-bylaws:
+        template: freedesktop
+      xorg-cf:
+        template: freedesktop
+      xorg-compositeproto:
+        template: freedesktop
+      xorg-cronyx-cyrillic:
+        template: freedesktop
+      xorg-cursor-misc:
+        template: freedesktop
+      xorg-cursors:
+        template: freedesktop
+      xorg-daewoo-misc:
+        template: freedesktop
+      xorg-damageproto:
+        template: freedesktop
+      xorg-dec-misc:
+        template: freedesktop
+      xorg-dmxproto:
+        template: freedesktop
+      xorg-docs:
+        template: freedesktop
+      xorg-dri3proto:
+        template: freedesktop
+      xorg-driver-xf86-input-evdev:
+        template: freedesktop
+      xorg-driver-xf86-input-joystick:
+        template: freedesktop
+      xorg-driver-xf86-input-keyboard:
+        template: freedesktop
+      xorg-driver-xf86-input-libinput:
+        template: freedesktop
+      xorg-driver-xf86-input-mouse:
+        template: freedesktop
+      xorg-driver-xf86-input-synaptics:
+        template: freedesktop
+      xorg-driver-xf86-video-amdgpu:
+        template: freedesktop
+      xorg-driver-xf86-video-armsoc:
+        template: freedesktop
+      xorg-driver-xf86-video-ati:
+        template: freedesktop
+      xorg-driver-xf86-video-chips:
+        template: freedesktop
+      xorg-driver-xf86-video-dummy:
+        template: freedesktop
+      xorg-driver-xf86-video-freedreno:
+        template: freedesktop
+      xorg-driver-xf86-video-geode:
+        template: freedesktop
+      xorg-driver-xf86-video-glint:
+        template: freedesktop
+      xorg-driver-xf86-video-i740:
+        template: freedesktop
+      xorg-driver-xf86-video-intel:
+        template: freedesktop
+      xorg-driver-xf86-video-mga:
+        template: freedesktop
+      xorg-driver-xf86-video-nested:
+        template: freedesktop
+      xorg-driver-xf86-video-nv:
+        template: freedesktop
+      xorg-driver-xf86-video-omap:
+        template: freedesktop
+      xorg-driver-xf86-video-qxl:
+        template: freedesktop
+      xorg-driver-xf86-video-r128:
+        template: freedesktop
+      xorg-driver-xf86-video-savage:
+        template: freedesktop
+      xorg-driver-xf86-video-siliconmotion:
+        template: freedesktop
+      xorg-driver-xf86-video-sis:
+        template: freedesktop
+      xorg-driver-xf86-video-tdfx:
+        template: freedesktop
+      xorg-driver-xf86-video-trident:
+        template: freedesktop
+      xorg-driver-xf86-video-vmware:
+        template: freedesktop
+      xorg-driver-xf86-video-xgi:
+        template: freedesktop
+      xorg-driver-xf86-video-xgixp:
+        template: freedesktop
+      xorg-edid-decode:
+        template: freedesktop
+      xorg-editres:
+        template: freedesktop
+      xorg-encodings:
+        template: freedesktop
+      xorg-fixesproto:
+        template: freedesktop
+      xorg-font-adobe-100dpi:
+        template: freedesktop
+      xorg-font-adobe-75dpi:
+        template: freedesktop
+      xorg-font-adobe-utopia-100dpi:
+        template: freedesktop
+      xorg-font-adobe-utopia-75dpi:
+        template: freedesktop
+      xorg-font-adobe-utopia-type1:
+        template: freedesktop
+      xorg-font-arabic-misc:
+        template: freedesktop
+      xorg-font-bh-100dpi:
+        template: freedesktop
+      xorg-font-bh-75dpi:
+        template: freedesktop
+      xorg-font-bh-lucidatypewriter-100dpi:
+        template: freedesktop
+      xorg-font-bh-lucidatypewriter-75dpi:
+        template: freedesktop
+      xorg-font-bh-ttf:
+        template: freedesktop
+      xorg-font-bh-type1:
+        template: freedesktop
+      xorg-font-bitstream-100dpi:
+        template: freedesktop
+      xorg-font-bitstream-75dpi:
+        template: freedesktop
+      xorg-font-bitstream-speedo:
+        template: freedesktop
+      xorg-font-bitstream-type1:
+        template: freedesktop
+      xorg-font-cronyx-cyrillic:
+        template: freedesktop
+      xorg-font-cursor-misc:
+        template: freedesktop
+      xorg-font-daewoo-misc:
+        template: freedesktop
+      xorg-font-dec-misc:
+        template: freedesktop
+      xorg-font-ibm-type1:
+        template: freedesktop
+      xorg-font-isas-misc:
+        template: freedesktop
+      xorg-font-jis-misc:
+        template: freedesktop
+      xorg-font-micro-misc:
+        template: freedesktop
+      xorg-font-misc-cyrillic:
+        template: freedesktop
+      xorg-font-misc-ethiopic:
+        template: freedesktop
+      xorg-font-misc-meltho:
+        template: freedesktop
+      xorg-font-misc-misc:
+        template: freedesktop
+      xorg-font-mutt-misc:
+        template: freedesktop
+      xorg-font-schumacher-misc:
+        template: freedesktop
+      xorg-font-screen-cyrillic:
+        template: freedesktop
+      xorg-font-sony-misc:
+        template: freedesktop
+      xorg-font-sun-misc:
+        template: freedesktop
+      xorg-font-winitzki-cyrillic:
+        template: freedesktop
+      xorg-font-xfree86-type1:
+        template: freedesktop
+      xorg-fontsproto:
+        template: freedesktop
+      xorg-fonttosfnt:
+        template: freedesktop
+      xorg-fslsfonts:
+        template: freedesktop
+      xorg-fstobdf:
+        template: freedesktop
+      xorg-gccmakedep:
+        template: freedesktop
+      xorg-glproto:
+        template: freedesktop
+      xorg-gtest:
+        template: freedesktop
+      xorg-ibm-type1:
+        template: freedesktop
+      xorg-iceauth:
+        template: freedesktop
+      xorg-ico:
+        template: freedesktop
+      xorg-imake:
+        template: freedesktop
+      xorg-inputproto:
+        template: freedesktop
+      xorg-integration-tests:
+        template: freedesktop
+      xorg-intel-gpu-tools:
+        template: freedesktop
+      xorg-isas-misc:
+        template: freedesktop
+      xorg-jis-misc:
+        template: freedesktop
+      xorg-kbproto:
+        template: freedesktop
+      xorg-lib-libX11:
+        template: freedesktop
+      xorg-lib-libXaw:
+        template: freedesktop
+      xorg-lib-libXaw3d:
+        template: freedesktop
+      xorg-lib-libXfixes:
+        template: freedesktop
+      xorg-lib-libXi:
+        template: freedesktop
+      xorg-lib-libXrandr:
+        template: freedesktop
+      xorg-lib-libXrender:
+        template: freedesktop
+      xorg-lib-libXt:
+        template: freedesktop
+      xorg-lib-libXtst:
+        template: freedesktop
+      xorg-lib-libXv:
+        template: freedesktop
+      xorg-lib-libXvMC:
+        template: freedesktop
+      xorg-lib-libpciaccess:
+        template: freedesktop
+      xorg-lib-libxtrans:
+        template: freedesktop
+      xorg-libFS:
+        template: freedesktop
+      xorg-libICE:
+        template: freedesktop
+      xorg-libSM:
+        template: freedesktop
+      xorg-libX11:
+        template: freedesktop
+      xorg-libXRes:
+        template: freedesktop
+      xorg-libXScrnSaver:
+        template: freedesktop
+      xorg-libXau:
+        template: freedesktop
+      xorg-libXaw:
+        template: freedesktop
+      xorg-libXaw3d:
+        template: freedesktop
+      xorg-libXcomposite:
+        template: freedesktop
+      xorg-libXcursor:
+        template: freedesktop
+      xorg-libXdamage:
+        template: freedesktop
+      xorg-libXdmcp:
+        template: freedesktop
+      xorg-libXext:
+        template: freedesktop
+      xorg-libXfixes:
+        template: freedesktop
+      xorg-libXfont:
+        template: freedesktop
+      xorg-libXft:
+        template: freedesktop
+      xorg-libXi:
+        template: freedesktop
+      xorg-libXinerama:
+        template: freedesktop
+      xorg-libXmu:
+        template: freedesktop
+      xorg-libXpm:
+        template: freedesktop
+      xorg-libXrandr:
+        template: freedesktop
+      xorg-libXrender:
+        template: freedesktop
+      xorg-libXt:
+        template: freedesktop
+      xorg-libXtst:
+        template: freedesktop
+      xorg-libXv:
+        template: freedesktop
+      xorg-libXvMC:
+        template: freedesktop
+      xorg-libXxf86dga:
+        template: freedesktop
+      xorg-libXxf86vm:
+        template: freedesktop
+      xorg-libdmx:
+        template: freedesktop
+      xorg-libfontenc:
+        template: freedesktop
+      xorg-libpciaccess:
+        template: freedesktop
+      xorg-libxkbfile:
+        template: freedesktop
+      xorg-libxshmfence:
+        template: freedesktop
+      xorg-libxtrans:
+        template: freedesktop
+      xorg-listres:
+        template: freedesktop
+      xorg-lndir:
+        template: freedesktop
+      xorg-luit:
+        template: freedesktop
+      xorg-macros:
+        template: freedesktop
+      xorg-makedepend:
+        template: freedesktop
+      xorg-micro-misc:
+        template: freedesktop
+      xorg-misc-cyrillic:
+        template: freedesktop
+      xorg-misc-ethiopic:
+        template: freedesktop
+      xorg-misc-meltho:
+        template: freedesktop
+      xorg-misc-misc:
+        template: freedesktop
+      xorg-mkcomposecache:
+        template: freedesktop
+      xorg-mkfontdir:
+        template: freedesktop
+      xorg-mkfontscale:
+        template: freedesktop
+      xorg-modular:
+        template: freedesktop
+      xorg-mutt-misc:
+        template: freedesktop
+      xorg-oclock:
+        template: freedesktop
+      xorg-presentproto:
+        template: freedesktop
+      xorg-proto-applewmproto:
+        template: freedesktop
+      xorg-proto-presentproto:
+        template: freedesktop
+      xorg-proto-x11proto:
+        template: freedesktop
+      xorg-randrproto:
+        template: freedesktop
+      xorg-recordproto:
+        template: freedesktop
+      xorg-rendercheck:
+        template: freedesktop
+      xorg-renderproto:
+        template: freedesktop
+      xorg-resourceproto:
+        template: freedesktop
+      xorg-rgb:
+        template: freedesktop
+      xorg-rstart:
+        template: freedesktop
+      xorg-schumacher-misc:
+        template: freedesktop
+      xorg-screen-cyrillic:
+        template: freedesktop
+      xorg-scripts:
+        template: freedesktop
+      xorg-scrnsaverproto:
+        template: freedesktop
+      xorg-sessreg:
+        template: freedesktop
+      xorg-setxkbmap:
+        template: freedesktop
+      xorg-sgml-doctools:
+        template: freedesktop
+      xorg-showfont:
+        template: freedesktop
+      xorg-smproxy:
+        template: freedesktop
+      xorg-sony-misc:
+        template: freedesktop
+      xorg-sun-misc:
+        template: freedesktop
+      xorg-test-xts:
+        template: freedesktop
+      xorg-twm:
+        template: freedesktop
+      xorg-util:
+        template: freedesktop
+      xorg-util-modular:
+        template: freedesktop
+      xorg-videoproto:
+        template: freedesktop
+      xorg-viewres:
+        template: freedesktop
+      xorg-winitzki-cyrillic:
+        template: freedesktop
+      xorg-x11perf:
+        template: freedesktop
+      xorg-x11proto:
+        template: freedesktop
+      xorg-xauth:
+        template: freedesktop
+      xorg-xbacklight:
+        template: freedesktop
+      xorg-xbiff:
+        template: freedesktop
+      xorg-xcalc:
+        template: freedesktop
+      xorg-xclipboard:
+        template: freedesktop
+      xorg-xclock:
+        template: freedesktop
+      xorg-xcmiscproto:
+        template: freedesktop
+      xorg-xcmsdb:
+        template: freedesktop
+      xorg-xconsole:
+        template: freedesktop
+      xorg-xcursorgen:
+        template: freedesktop
+      xorg-xdbedizzy:
+        template: freedesktop
+      xorg-xditview:
+        template: freedesktop
+      xorg-xdm:
+        template: freedesktop
+      xorg-xdpyinfo:
+        template: freedesktop
+      xorg-xdriinfo:
+        template: freedesktop
+      xorg-xedit:
+        template: freedesktop
+      xorg-xev:
+        template: freedesktop
+      xorg-xextproto:
+        template: freedesktop
+      xorg-xeyes:
+        template: freedesktop
+      xorg-xf86-input-evdev:
+        template: freedesktop
+      xorg-xf86-input-joystick:
+        template: freedesktop
+      xorg-xf86-input-keyboard:
+        template: freedesktop
+      xorg-xf86-input-libinput:
+        template: freedesktop
+      xorg-xf86-input-mouse:
+        template: freedesktop
+      xorg-xf86-input-synaptics:
+        template: freedesktop
+      xorg-xf86-input-vmmouse:
+        template: freedesktop
+      xorg-xf86-input-void:
+        template: freedesktop
+      xorg-xf86-video-amdgpu:
+        template: freedesktop
+      xorg-xf86-video-apm:
+        template: freedesktop
+      xorg-xf86-video-ark:
+        template: freedesktop
+      xorg-xf86-video-armsoc:
+        template: freedesktop
+      xorg-xf86-video-ast:
+        template: freedesktop
+      xorg-xf86-video-ati:
+        template: freedesktop
+      xorg-xf86-video-chips:
+        template: freedesktop
+      xorg-xf86-video-cirrus:
+        template: freedesktop
+      xorg-xf86-video-dummy:
+        template: freedesktop
+      xorg-xf86-video-fbdev:
+        template: freedesktop
+      xorg-xf86-video-freedreno:
+        template: freedesktop
+      xorg-xf86-video-geode:
+        template: freedesktop
+      xorg-xf86-video-glint:
+        template: freedesktop
+      xorg-xf86-video-i128:
+        template: freedesktop
+      xorg-xf86-video-i740:
+        template: freedesktop
+      xorg-xf86-video-intel:
+        template: freedesktop
+      xorg-xf86-video-mach64:
+        template: freedesktop
+      xorg-xf86-video-mga:
+        template: freedesktop
+      xorg-xf86-video-neomagic:
+        template: freedesktop
+      xorg-xf86-video-nested:
+        template: freedesktop
+      xorg-xf86-video-nv:
+        template: freedesktop
+      xorg-xf86-video-omap:
+        template: freedesktop
+      xorg-xf86-video-qxl:
+        template: freedesktop
+      xorg-xf86-video-r128:
+        template: freedesktop
+      xorg-xf86-video-rendition:
+        template: freedesktop
+      xorg-xf86-video-s3:
+        template: freedesktop
+      xorg-xf86-video-s3virge:
+        template: freedesktop
+      xorg-xf86-video-savage:
+        template: freedesktop
+      xorg-xf86-video-siliconmotion:
+        template: freedesktop
+      xorg-xf86-video-sis:
+        template: freedesktop
+      xorg-xf86-video-sisusb:
+        template: freedesktop
+      xorg-xf86-video-sunffb:
+        template: freedesktop
+      xorg-xf86-video-sunleo:
+        template: freedesktop
+      xorg-xf86-video-tdfx:
+        template: freedesktop
+      xorg-xf86-video-tga:
+        template: freedesktop
+      xorg-xf86-video-trident:
+        template: freedesktop
+      xorg-xf86-video-tseng:
+        template: freedesktop
+      xorg-xf86-video-v4l:
+        template: freedesktop
+      xorg-xf86-video-vesa:
+        template: freedesktop
+      xorg-xf86-video-vmware:
+        template: freedesktop
+      xorg-xf86-video-voodoo:
+        template: freedesktop
+      xorg-xf86-video-wsfb:
+        template: freedesktop
+      xorg-xf86-video-xgi:
+        template: freedesktop
+      xorg-xf86-video-xgixp:
+        template: freedesktop
+      xorg-xf86bigfontproto:
+        template: freedesktop
+      xorg-xf86dga:
+        template: freedesktop
+      xorg-xf86dgaproto:
+        template: freedesktop
+      xorg-xf86driproto:
+        template: freedesktop
+      xorg-xf86vidmodeproto:
+        template: freedesktop
+      xorg-xfd:
+        template: freedesktop
+      xorg-xfontsel:
+        template: freedesktop
+      xorg-xfree86-type1:
+        template: freedesktop
+      xorg-xfs:
+        template: freedesktop
+      xorg-xfsinfo:
+        template: freedesktop
+      xorg-xgamma:
+        template: freedesktop
+      xorg-xgc:
+        template: freedesktop
+      xorg-xhost:
+        template: freedesktop
+      xorg-xineramaproto:
+        template: freedesktop
+      xorg-xinit:
+        template: freedesktop
+      xorg-xinput:
+        template: freedesktop
+      xorg-xkbcomp:
+        template: freedesktop
+      xorg-xkbevd:
+        template: freedesktop
+      xorg-xkbprint:
+        template: freedesktop
+      xorg-xkbutils:
+        template: freedesktop
+      xorg-xkill:
+        template: freedesktop
+      xorg-xload:
+        template: freedesktop
+      xorg-xlogo:
+        template: freedesktop
+      xorg-xlsatoms:
+        template: freedesktop
+      xorg-xlsclients:
+        template: freedesktop
+      xorg-xlsfonts:
+        template: freedesktop
+      xorg-xmag:
+        template: freedesktop
+      xorg-xman:
+        template: freedesktop
+      xorg-xmessage:
+        template: freedesktop
+      xorg-xmh:
+        template: freedesktop
+      xorg-xmodmap:
+        template: freedesktop
+      xorg-xmore:
+        template: freedesktop
+      xorg-xorg-docs:
+        template: freedesktop
+      xorg-xorg-sgml-doctools:
+        template: freedesktop
+      xorg-xorgproto:
+        template: freedesktop
+      xorg-xpr:
+        template: freedesktop
+      xorg-xprop:
+        template: freedesktop
+      xorg-xrandr:
+        template: freedesktop
+      xorg-xrdb:
+        template: freedesktop
+      xorg-xrefresh:
+        template: freedesktop
+      xorg-xscope:
+        template: freedesktop
+      xorg-xserver:
+        template: freedesktop
+      xorg-xset:
+        template: freedesktop
+      xorg-xsetmode:
+        template: freedesktop
+      xorg-xsetroot:
+        template: freedesktop
+      xorg-xsm:
+        template: freedesktop
+      xorg-xstdcmap:
+        template: freedesktop
+      xorg-xts:
+        template: freedesktop
+      xorg-xvidtune:
+        template: freedesktop
+      xorg-xvinfo:
+        template: freedesktop
+      xorg-xwd:
+        template: freedesktop
+      xorg-xwininfo:
+        template: freedesktop
+      xorg-xwud:
+        template: freedesktop
+      xphelloworld:
+        template: freedesktop
+      xplsprinters:
+        template: freedesktop
+      xpr:
+        template: freedesktop
+      xprehashprinterlist:
+        template: freedesktop
+      xprop:
+        template: freedesktop
+      xqproxy:
+        template: freedesktop
+      xrandr:
+        template: freedesktop
+      xrdb:
+        template: freedesktop
+      xrefresh:
+        template: freedesktop
+      xresponse:
+        template: freedesktop
+      xrestop:
+        template: freedesktop
+      xrx:
+        template: freedesktop
+      xscope:
+        template: freedesktop
+      xset:
+        template: freedesktop
+      xsetmode:
+        template: freedesktop
+      xsetpointer:
+        template: freedesktop
+      xsetroot:
+        template: freedesktop
+      xshowdamage:
+        template: freedesktop
+      xsm:
+        template: freedesktop
+      xstdcmap:
+        template: freedesktop
+      xtrap:
+        template: freedesktop
+      xtsttopng:
+        template: freedesktop
+      xvba-driver:
+        template: freedesktop
+      xvidtune:
+        template: freedesktop
+      xvinfo:
+        template: freedesktop
+      xwd:
+        template: freedesktop
+      xwininfo:
+        template: freedesktop
+      xwud:
+        template: freedesktop
+      ytstenut-glib:
+        template: freedesktop
+      ytstenut-plugins:
+        template: freedesktop
+      ytstenut-protocol:
+        template: freedesktop
+      zeitgeist:
+        template: freedesktop
+      zeitgeist-datahub:
+        template: freedesktop
+      zeitgeist-datasources:
+        template: freedesktop
+      zeitgeist-extensions:
+        template: freedesktop
+      zeitgeist-sharp:
+        template: freedesktop

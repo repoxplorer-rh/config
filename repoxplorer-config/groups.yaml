@@ -46,3 +46,10 @@ groups:
     emails: {}
     domains:
       - intel.com
+  IBM:
+    description: Contributions from IBM
+    emails: {}
+    domains:
+      - ibm.com
+      - linux.vnet.ibm.com
+      - softlayer.com

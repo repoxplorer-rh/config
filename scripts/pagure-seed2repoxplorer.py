@@ -50,12 +50,24 @@ if __name__ == "__main__":
     repos = {}
 
     struct = {
+        'groups': {
+            'Fedora-bots': {
+                 'description': 'Bots used by the Fedora project',
+                 'emails': {
+                     'releng@fedoraproject.org': {},
+                     'rel-eng@lists.fedoraproject.org': {},
+                 }
+            }
+        },
         'project-templates': {
             'Fedora Distgits template': {
                 'uri': 'file://' + repos_path + '/%(name)s',
                 'branches': ['master'],
                 'gitweb': 'https://src.fedoraproject.org/rpms/%(name)s/c/%%(sha)s',
                 'releases': [
+                    {'name': 'Fedora 31', 'date': '2019-10-22'},
+                    {'name': 'Fedora 30', 'date': '2019-04-30'},
+                    {'name': 'Fedora 29', 'date': '2018-10-30'},
                     {'name': 'Fedora 28', 'date': '2018-05-01'},
                     {'name': 'Fedora 27', 'date': '2017-11-14'},
                     {'name': 'Fedora 26', 'date': '2017-07-11'},
@@ -73,6 +85,7 @@ if __name__ == "__main__":
             'Fedora Distgits': {
                 'description': 'The Fedora project - Distgit repositories',
                 'meta-ref': True,
+                'bots-group': 'Fedora-bots',
                 'repos': repos
             }
         }

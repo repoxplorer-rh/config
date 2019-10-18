@@ -1,0 +1,50 @@
+project-templates:
+  operator-framework:
+    branches:
+    - master
+    gitweb: http://github.com/operator-framework/%(name)s/commit/%%(sha)s
+    uri: http://github.com/operator-framework/%(name)s
+projects:
+  operator-framework:
+    description: The operator-framework Github organization
+    repos:
+      api:
+        template: operator-framework
+      awesome-operators:
+        template: operator-framework
+      community:
+        template: operator-framework
+      community-operators:
+        template: operator-framework
+      getting-started:
+        template: operator-framework
+      go-appr:
+        template: operator-framework
+      helm-app-operator-kit:
+        template: operator-framework
+      mock-extension-apiserver:
+        template: operator-framework
+      olm-book:
+        template: operator-framework
+      olm-broker:
+        template: operator-framework
+      operator-courier:
+        template: operator-framework
+      operator-lifecycle-manager:
+        template: operator-framework
+      operator-manifests:
+        template: operator-framework
+      operator-marketplace:
+        template: operator-framework
+      operator-metering:
+        template: operator-framework
+      operator-registry:
+        template: operator-framework
+      operator-sdk:
+        template: operator-framework
+      operator-sdk-samples:
+        template: operator-framework
+      operatorhub-docs:
+        template: operator-framework
+      operatorhub.io:
+        template: operator-framework

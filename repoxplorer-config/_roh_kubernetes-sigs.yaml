@@ -1,0 +1,152 @@
+project-templates:
+  kubernetes-sigs:
+    branches:
+    - master
+    gitweb: http://github.com/kubernetes-sigs/%(name)s/commit/%%(sha)s
+    uri: http://github.com/kubernetes-sigs/%(name)s
+projects:
+  kubernetes-sigs:
+    description: The kubernetes-sigs Github organization
+    repos:
+      addon-operators:
+        template: kubernetes-sigs
+      alibaba-cloud-csi-driver:
+        template: kubernetes-sigs
+      apiserver-builder-alpha:
+        template: kubernetes-sigs
+      apiserver-network-proxy:
+        template: kubernetes-sigs
+      application:
+        template: kubernetes-sigs
+      aws-alb-ingress-controller:
+        template: kubernetes-sigs
+      aws-ebs-csi-driver:
+        template: kubernetes-sigs
+      aws-efs-csi-driver:
+        template: kubernetes-sigs
+      aws-encryption-provider:
+        template: kubernetes-sigs
+      aws-fsx-csi-driver:
+        template: kubernetes-sigs
+      aws-iam-authenticator:
+        template: kubernetes-sigs
+      azuredisk-csi-driver:
+        template: kubernetes-sigs
+      azurefile-csi-driver:
+        template: kubernetes-sigs
+      cli-experimental:
+        template: kubernetes-sigs
+      cli-utils:
+        template: kubernetes-sigs
+      cluster-api:
+        template: kubernetes-sigs
+      cluster-api-bootstrap-provider-kubeadm:
+        template: kubernetes-sigs
+      cluster-api-provider-aws:
+        template: kubernetes-sigs
+      cluster-api-provider-azure:
+        template: kubernetes-sigs
+      cluster-api-provider-digitalocean:
+        template: kubernetes-sigs
+      cluster-api-provider-docker:
+        template: kubernetes-sigs
+      cluster-api-provider-gcp:
+        template: kubernetes-sigs
+      cluster-api-provider-ibmcloud:
+        template: kubernetes-sigs
+      cluster-api-provider-openstack:
+        template: kubernetes-sigs
+      cluster-api-provider-vsphere:
+        template: kubernetes-sigs
+      contributor-playground:
+        template: kubernetes-sigs
+      contributor-site:
+        template: kubernetes-sigs
+      controller-runtime:
+        template: kubernetes-sigs
+      controller-tools:
+        template: kubernetes-sigs
+      cri-tools:
+        template: kubernetes-sigs
+      dashboard-metrics-scraper:
+        template: kubernetes-sigs
+      descheduler:
+        template: kubernetes-sigs
+      discuss-theme:
+        template: kubernetes-sigs
+      etcdadm:
+        template: kubernetes-sigs
+      execution-hook:
+        template: kubernetes-sigs
+      gcp-compute-persistent-disk-csi-driver:
+        template: kubernetes-sigs
+      gcp-filestore-csi-driver:
+        template: kubernetes-sigs
+      go-open-service-broker-client:
+        template: kubernetes-sigs
+      image-builder:
+        template: kubernetes-sigs
+      ip-masq-agent:
+        template: kubernetes-sigs
+      k8s-container-image-promoter:
+        template: kubernetes-sigs
+      kind:
+        template: kubernetes-sigs
+      krew:
+        template: kubernetes-sigs
+      krew-index:
+        template: kubernetes-sigs
+      kube-batch:
+        template: kubernetes-sigs
+      kube-storage-version-migrator:
+        template: kubernetes-sigs
+      kubebuilder:
+        template: kubernetes-sigs
+      kubebuilder-declarative-pattern:
+        template: kubernetes-sigs
+      kubefed:
+        template: kubernetes-sigs
+      kubespray:
+        template: kubernetes-sigs
+      kustomize:
+        template: kubernetes-sigs
+      legacyflag:
+        template: kubernetes-sigs
+      minibroker:
+        template: kubernetes-sigs
+      multi-tenancy:
+        template: kubernetes-sigs
+      mutating-trace-admission-controller:
+        template: kubernetes-sigs
+      node-feature-discovery:
+        template: kubernetes-sigs
+      node-feature-discovery-operator:
+        template: kubernetes-sigs
+      poseidon:
+        template: kubernetes-sigs
+      reference-docs:
+        template: kubernetes-sigs
+      release-notes:
+        template: kubernetes-sigs
+      service-catalog:
+        template: kubernetes-sigs
+      sig-storage-lib-external-provisioner:
+        template: kubernetes-sigs
+      sig-storage-local-static-provisioner:
+        template: kubernetes-sigs
+      sig-usability:
+        template: kubernetes-sigs
+      sig-windows-tools:
+        template: kubernetes-sigs
+      slack-infra:
+        template: kubernetes-sigs
+      structured-merge-diff:
+        template: kubernetes-sigs
+      testing_frameworks:
+        template: kubernetes-sigs
+      vsphere-csi-driver:
+        template: kubernetes-sigs
+      windows-gmsa:
+        template: kubernetes-sigs
+      windows-testing:
+        template: kubernetes-sigs

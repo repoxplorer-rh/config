@@ -1,5 +1,10 @@
 ---
 groups:
+  Amazon:
+    description: Contributions from Amazon
+    emails: {}
+    domains:
+      - amazon.com
   Red Hat:
     description: Contributions from Red Hat
     emails: {}

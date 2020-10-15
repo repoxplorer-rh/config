@@ -12,7 +12,23 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      ansible-collections-openstack-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-config_template-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       ansible-pacemaker-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-atos-hsm-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-chrony-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -20,11 +36,31 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      ansible-role-lunasa-hsm-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-openstack-operations-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       ansible-role-redhat-subscription-distgit:
         branches:
         - rpm-master
         template: rdo-packages
+      ansible-role-thales-hsm-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-role-tripleo-keystone-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       ansible-role-tripleo-modify-image-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ansible-tripleo-ipa-server-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -50,7 +86,7 @@ projects:
         template: rdo-packages
       barbican-tempest-plugin-distgit:
         branches:
-        - pike-rdo
+        - rpm-master
         template: rdo-packages
       barbicanclient-distgit:
         branches:
@@ -81,6 +117,10 @@ projects:
         - rpm-master
         template: rdo-packages
       cinderclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      cinderlib-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -194,7 +234,7 @@ projects:
         template: rdo-packages
       glareclient-distgit:
         branches:
-        - pike-rdo
+        - rpm-master
         template: rdo-packages
       gnocchi-distgit:
         branches:
@@ -244,6 +284,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      ibmcclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       instack-distgit:
         branches:
         - rpm-master
@@ -265,6 +309,14 @@ projects:
         - rpm-master
         template: rdo-packages
       ironic-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-prometheus-exporter-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      ironic-python-agent-builder-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -484,6 +536,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      networking-omnipath-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       networking-ovn-distgit:
         branches:
         - rpm-master
@@ -556,6 +612,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      octavia-lib-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       octavia-tempest-plugin-distgit:
         branches:
         - rpm-master
@@ -584,6 +644,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      openvswitch-distgit:
+        branches:
+        - master
+        template: rdo-packages
       os-apply-config-distgit:
         branches:
         - rpm-master
@@ -608,11 +672,19 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      os-ken-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       os-net-config-distgit:
         branches:
         - rpm-master
         template: rdo-packages
       os-refresh-config-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      os-resource-classes-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -712,6 +784,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      oslo-upgradecheck-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       oslo-utils-distgit:
         branches:
         - rpm-master
@@ -740,6 +816,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      ovn-octavia-provider-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       ovsdbapp-distgit:
         branches:
         - rpm-master
@@ -754,13 +834,17 @@ projects:
         template: rdo-packages
       pankoclient-distgit:
         branches:
-        - pike-rdo
+        - rpm-master
         template: rdo-packages
       patrole-distgit:
         branches:
         - rpm-master
         template: rdo-packages
       paunch-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      placement-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -829,6 +913,10 @@ projects:
         - rpm-master
         template: rdo-packages
       puppet-corosync-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-crane-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1028,6 +1116,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      puppet-placement-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       puppet-powerdns-distgit:
         branches:
         - rpm-master
@@ -1049,6 +1141,10 @@ projects:
         - rpm-master
         template: rdo-packages
       puppet-rsync-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      puppet-rsyslog-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1136,6 +1232,10 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      puppet-watcher-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       puppet-xinetd-distgit:
         branches:
         - rpm-master
@@ -1188,6 +1288,30 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      sahara-plugin-ambari-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-plugin-cdh-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-plugin-mapr-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-plugin-spark-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-plugin-storm-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sahara-plugin-vanilla-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       sahara-tests-distgit:
         branches:
         - rpm-master
@@ -1198,7 +1322,7 @@ projects:
         template: rdo-packages
       scciclient-distgit:
         branches:
-        - pike-rdo
+        - rpm-master
         template: rdo-packages
       senlin-distgit:
         branches:
@@ -1217,6 +1341,8 @@ projects:
         - rpm-master
         template: rdo-packages
       smaug-distgit:
+        branches:
+        - master
         template: rdo-packages
       sphinx-feature-classification-distgit:
         branches:
@@ -1231,6 +1357,10 @@ projects:
         - rpm-master
         template: rdo-packages
       sushy-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      sushy-oem-idrac-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1278,11 +1408,23 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      tempest-tripleo-ui-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       tempestconf-distgit:
         branches:
         - rpm-master
         template: rdo-packages
+      tobiko-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       tooz-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-ansible-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1310,7 +1452,19 @@ projects:
         branches:
         - rpm-master
         template: rdo-packages
+      tripleo-ipa-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
       tripleo-ipsec-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-operator-ansible-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      tripleo-powerflex-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1347,6 +1501,14 @@ projects:
         - rpm-master
         template: rdo-packages
       troveclient-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      validations-common-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      validations-libs-distgit:
         branches:
         - rpm-master
         template: rdo-packages
@@ -1387,6 +1549,10 @@ projects:
         - rpm-master
         template: rdo-packages
       watcher-tempest-plugin-distgit:
+        branches:
+        - rpm-master
+        template: rdo-packages
+      whitebox-tempest-plugin-distgit:
         branches:
         - rpm-master
         template: rdo-packages
